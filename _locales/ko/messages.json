@@ -1,0 +1,422 @@
+{
+	"lcl_larger_than":{
+         "message":"벨로우즈보다 큼"
+   },
+   "lcl_smaller_than":{
+         "message":"벨로우즈보다 작음"
+   },
+	"lcl_followers_count":{
+         "message":"팔로워"
+   },
+   "lcl_following_count":{
+         "message":"팔로잉"
+   },
+   "lcl_medias_count":{
+         "message":"게시물"
+   },
+   "lcl_filter_public":{
+         "message":"공개 계정 만 수행하십시오."
+   },
+   "lcl_filter_private":{
+         "message":"개인 계정 만 따르기"
+   },
+   "lcl_filter_private_public":{
+         "message":"개인 계정과 공개 계정을 모두 따르십시오."
+   },
+   "lcl_filter_external_link":{
+         "message":"www.website.com과 같은 외부 링크가있는 사람들을 따르지 마십시오."
+   },
+   "lcl_filter_desciription_black":{
+         "message":"전기 블랙리스트 단어 (영어 쉼표로 구분 된 여러 단어 쓰기)"
+   },
+	"lcl_user_filters":{
+         "message":"팔로우 할 때의 사용자 필터"
+   },
+	"lcl_collect_followers_new":{
+			"message":"마지막 팔로워 10 명을 확인하고 수집하십시오."
+	},
+	"lcl_collect_followers_all":{
+			"message":"모든 팔로워 수집"
+	},
+	"lcl_declare_sleep_times_comments":{
+			"message":"댓글 달기를위한 수면 시간"
+	},
+	"lcl_comments_sleep_times":{
+			"message":"댓글 수면 시간"
+	},
+	"lcl_comments_medias_job":{
+			"message":"댓글 달기 작업"
+	},
+	"lcl_remove_comments_media_job":{
+			"message":"댓글 작성 후 작업 삭제"
+	},
+	"lcl_max_comments_limit": {
+      "message": "24 시간 내에 최대 댓글 제한"
+   },
+	"lcl_error_comments_interval_time": {
+      "message": "주석의 시간 간격 오류 (초)"
+   },
+	"lcl_comments_interval_time": {
+      "message": "주석의 시간 간격 (초)"
+   },
+	"lcl_comments_status": {
+      "message": "댓글 상태"
+   },
+	"lcl_comments": {
+      "message": "댓글"
+   },
+	"lcl_auto_comments": {
+      "message": "자동으로 코멘트"
+   },
+	"lcl_lates_comments": {
+      "message": "최신 댓글"
+   },
+	"lcl_delete_white_list_likes_comments": {
+      "message": "허용 목록 및 주석 작성자를 허용 목록에서 삭제하십시오."
+   },
+   "lcl_clear_white_list": {
+      "message": "허용 된 화이트리스트"
+   },
+	"lcl_collect_comments": {
+      "message": "메모 작성"
+   },
+	"lcl_collect_likes": {
+      "message": "좋아하는 사람 모으기"
+   },
+	 "lcl_collect_title": {
+      "message": "내 소식을 좋아하고 댓글을 달았던 허용 된 사용자 목록"
+   },
+	"lcl_stop_collect_current_follows": {
+      "message": "수집 중지"
+   },
+	"lcl_auto_unfollow": {
+      "message": "오토매틱 팔로우 취소"
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "자동 팔로우 취소 사용"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "마지막 팔로우 취소 시간이 지나면 자동으로 팔로우 취소 사용하도록 설정 ..."
+   },
+   "lcl_day_1": {
+      "message": "1 일"
+   },
+   "lcl_day_2": {
+      "message": "2 일"
+   },
+   "lcl_day_3": {
+      "message": "3 일"
+   },
+	"lcl_collect_current_follows": {
+      "message": "현재 다음 수집"
+   },
+	"lcl_ext_name":{
+			"message":"Autoinsta | 인스 타 그램 봇 버틀러 🤖"
+	},
+	"lcl_ext_desc":{
+			"message":"Instagram 봇 스크립트: 맞춤 설정할 수있는 자동 좋아요, 팔로잉 및 팔로우 취소,; 안전하고 사용하기 쉽다.."
+	},
+	"lcl_pool_jobs":{
+			"message":"풀 채용"
+	},
+	"lcl_settings":{
+			"message":"설정"
+	},
+	"lcl_statistics":{
+			"message":"통계"
+	},
+	"lcl_create_unfollow_job":{
+			"message":"언 폴로 작업 만들기"
+	},
+	"lcl_auto_likes":{
+			"message":"자동 좋아요"
+	},
+	"lcl_sleep_times":{
+			"message":"수면 시간"
+	},
+	"lcl_white_list":{
+			"message":"화이트리스트"
+	},
+	"lcl_white_list_for":{
+			"message":"팔로우 해제를 허용 된 사이트 목록"
+	},
+	"lcl_pool":{
+			"message":"풀"
+	},
+	"lcl_unfollow_status":{
+			"message":"팔로우 해제 상태"
+	},
+	"lcl_scanned_users":{
+			"message":"스캔 한 사용자 :"
+	},
+	"lcl_stop_scan":{
+			"message":"스캔 중지"
+	},
+	"lcl_remove_unfollow_job":{
+			"message":"빈 풀림 풀"
+	},
+	"lcl_follow_status":{
+			"message":"팔로우 상태"
+	},
+	"lcl_latest_follows":{
+			"message":"최근 팔로잉"
+	},
+	"lcl_user_name":{
+			"message":"사용자 이름"
+	},
+	"lcl_follow_time":{
+			"message":"팔로잉 시각"
+	},
+	"lcl_latest_likes":{
+			"message":"최근 좋아요"
+	},
+	"lcl_media":{
+			"message":"게시물"
+	},
+	"lcl_time":{
+			"message":"시각"
+	},
+	"lcl_latest_unfollows":{
+			"message":"최근 팔로우 취소"
+	},
+	"lcl_unfollow_time":{
+			"message":"팔로우 취소 시각"
+	},
+	"lcl_error_log":{
+			"message":"오류 로그"
+	},
+	"lcl_action":{
+			"message":"동작"
+	},
+	"lcl_next_action_time":{
+			"message":"다음 작업 시간"
+	},
+	"lcl_item":{
+			"message":"기준"
+	},
+	"lcl_error_type":{
+			"message":"오류 유형"
+	},
+	"lcl_user_names_desc":{
+			"message":"사용자 이름 (여러 사용자 이름을 영어 쉼표로 구분하여 작성)"
+	},
+	"lcl_close":{
+			"message":"닫기"
+	},
+	"lcl_follow_sleep_times":{
+			"message":"팔로잉 수면 시간"
+	},
+	"lcl_unfollow_sleep_times":{
+			"message":"팔로우 취소 수면 시간"
+	},
+	"lcl_like_sleep_times":{
+			"message":"수면 시간"
+	},
+	"lcl_declare_sleep_times_follow":{
+			"message":"팔로잉 수면 시간"
+	},
+	"lcl_declare_sleep_times_unfollow":{
+			"message":"팔로우 취소 수면 시간"
+	},
+	"lcl_declare_sleep_times_like":{
+			"message":"수면 시간"
+	},
+	"lcl_start_time":{
+			"message":"시작 시간"
+	},
+	"lcl_end_time":{
+			"message":"종료 시간"
+	},
+	"lcl_add":{
+			"message":"더하다"
+	},
+	"lcl_delete":{
+			"message":"빈 풀"
+	},
+	"lcl_tags_to_collect_media":{
+			"message":"마음에 드는 해시 태그"
+	},
+	"lcl_like_status":{
+			"message":"비슷한 상태"
+	},
+	"lcl_collect_medias_from_home_timeline_to_like":{
+			"message":"마음에 드는 홈 피드의 소식 수집"
+	},
+	"lcl_collect_medias_from_tags_to_like":{
+			"message":"좋아하는 태그를 수집하십시오."
+	},
+	"lcl_like_interval_time":{
+			"message":"좋아요 (초)의 시간 간격"
+	},
+	"lcl_error_like_interval_time":{
+			"message":"같은 시간 간격 오류 (초)"
+	},
+	"lcl_max_like_limit":{
+			"message":"최대 24 시간 제한"
+	},
+	"lcl_followers":{
+			"message":"팔로워"
+	},
+	"lcl_comments_likes":{
+			"message":"댓글 작성자 / 좋아요"
+	},
+	"lcl_searches":{
+			"message":"태그"
+	},
+	"lcl_locations":{
+			"message":"위치"
+	},
+	"lcl_from_followers":{
+			"message":"팔로워 에서"
+	},
+	"lcl_from_comments_likes":{
+			"message":"댓글 및 좋아요에서"
+	},
+	"lcl_from_searches":{
+			"message":"검색에서"
+	},
+	"lcl_from_locations":{
+			"message":"위치에서"
+	},
+	"lcl_pool_settings":{
+			"message":"풀 설정"
+	},
+	"lcl_job_interval_times":{
+			"message":"작업 시간 간격"
+	},
+	"lcl_others":{
+			"message":"기타"
+	},
+	"lcl_pool_limit":{
+			"message":"풀 한도"
+	},
+	"lcl_delete_pool":{
+			"message":"빈 풀"
+	},
+	"lcl_delete_pool_history":{
+			"message":"풀 기록 삭제"
+	},
+	"lcl_jobs":{
+			"message":"채용 정보"
+	},
+	"lcl_interval_time":{
+			"message":"시간 간격 (초)"
+	},
+	"lcl_after_rate_limit_error":{
+			"message":"속도 제한에 도달 한 후 대기 시간 (초)"
+	},
+	"lcl_follow":{
+			"message":"팔로우"
+	},
+	"lcl_unfollow":{
+			"message":"팔로우 취소"
+	},
+	"lcl_pool_collect_followers":{
+			"message":"수집 팔로워"
+	},
+	"lcl_pool_collect_commenters":{
+			"message":"수집 댓글 작성자"
+	},
+	"lcl_pool_collect_searches":{
+			"message":"수집 검색"
+	},
+	"lcl_pool_collect_locations":{
+			"message":"수집 위치"
+	},
+	"lcl_limits":{
+			"message":"제한"
+	},
+	"lcl_follow_limit":{
+			"message":"팔로잉 제한 24 시간 후"
+	},
+	"lcl_unfollow_limit":{
+			"message":"팔로우 취소 제한 24 시간 후"
+	},
+	"lcl_follows":{ 
+			"message":"팔로잉"
+	},
+	"lcl_unfollows":{
+			"message":"팔로우 취소"
+	},
+	"lcl_likes":{
+			"message":"좋아요"
+	},
+	"lcl_dont_unfollow_that_you_follow":{
+			"message":"사용자를 팔로우 해제하지 마세요 ..."
+	},
+	"lcl_until_1":{
+			"message":"1 일"
+	},
+	"lcl_until_2":{
+			"message":"2 일"
+	},
+	"lcl_until_3":{
+			"message":"3 일"
+	},
+	"lcl_dont_unfollow_followers":{
+			"message":"팔로워를 팔로우하지 않음"
+	},
+	"lcl_cancel":{
+			"message":"취소"
+	},
+	"lcl_start":{
+			"message":"스타트"
+	},
+	"lcl_licence":{
+			"message":"특허"
+	},
+	"lcl_buy_licence":{
+			"message":"특허"
+	},
+	"lcl_buy_now":{
+			"message":"지금 구입"
+	},
+	"lcl_how_to_use":{
+			"message":"사용하는 방법?"
+	},
+	"lcl_check_licence":{
+			"message":"수표 면허"
+	},
+	"lcl_prices":{
+			"message":"물가"
+	},
+	"lcl_collect_media_owners":{
+			"message":"게시물 소유자 수집"
+	},
+	"lcl_collect_who_likes_media":{
+			"message":"게시물을 좋아하는 사용자 수집"
+	},
+	"lcl_collect_comments_on_media":{
+			"message":"소식 댓글 작성자 수집"
+	},
+	"lcl_remove_location_job":{
+			"message":"위치 작업 제거"
+	},
+	"lcl_collect_from_location":{
+			"message":"위치에서 수집"
+	},
+	"lcl_remove_tag_job":{
+			"message":"태그 작업 제거"
+	},
+	"lcl_collect_from_tag":{
+			"message":"이 태그에서 수집"
+	},
+	"lcl_remove_like_media_job":{
+			"message":"취향에 맞는 작업 삭제"
+	},
+	"lcl_like_medias_job":{
+			"message":"이 태그가있는 소식처럼"
+	},
+	"lcl_remove_followers_collect_job":{
+			"message":"팔로어 수집 작업 삭제"
+	},
+	"lcl_collect_from_followers":{
+			"message":"팔로어 수집"
+	},
+	"lcl_remove_comments_likes_collect_job":{
+			"message":"댓글 작성자 및 작성자 삭제 작업 삭제"
+	},
+	"lcl_collect_from_comments_likes":{
+			"message":"댓글 작성자 및 추천자 수집"
+	}	
+}

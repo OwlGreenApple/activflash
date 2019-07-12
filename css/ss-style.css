@@ -1,0 +1,452 @@
+/*
+ * Base structure
+ */
+
+
+/* Move down content because we have a fixed navbar that is 64px tall */
+
+body {
+	padding-top: 64px;
+}
+
+
+/*
+ * Global add-ons
+ */
+
+.sub-header {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+}
+
+
+/*
+ * Top navigation
+ * Hide default border to remove 1px line.
+ */
+
+.navbar-fixed-top {
+	border: 0;
+}
+
+
+/*
+ * Sidebar
+ */
+
+
+/* Hide for mobile, show later */
+
+.sidebar {
+	display: none;
+}
+
+@media (min-width: 768px) {
+	.sidebar {
+		position: fixed;
+		top: 51px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display: block;
+		padding: 20px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		/* Scrollable contents if viewport is shorter than content. */
+		background-color: #f5f5f5;
+		border-right: 1px solid #eee;
+	}
+}
+
+
+/* Sidebar navigation */
+
+.nav-sidebar {
+	margin-right: -21px;
+	/* 20px padding + 1px border */
+	margin-bottom: 20px;
+	margin-left: -20px;
+}
+
+.nav-sidebar>li>a {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.nav-sidebar>.active>a,
+.nav-sidebar>.active>a:hover,
+.nav-sidebar>.active>a:focus {
+	color: #fff;
+	background-color: #428bca;
+}
+
+
+/*
+ * Main content
+ */
+
+.main {
+	padding: 20px;
+}
+
+@media (min-width: 768px) {
+	.main {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
+
+.main .page-header {
+	margin-top: 0;
+}
+
+
+/*
+ * Placeholder dashboard ideas
+ */
+
+.placeholders {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.placeholders h4 {
+	margin-bottom: 0;
+}
+
+.placeholder {
+	margin-bottom: 20px;
+}
+
+.placeholder img {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.func_head_title {
+	margin-bottom: 0px;
+}
+
+.alignTbtm {
+	vertical-align: text-bottom;
+}
+
+.cog {
+	vertical-align: text-bottom;
+	display: -webkit-inline-box;
+	color: #444444 !important
+}
+
+.func_head_number_section {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+.action_type_name {
+	font-weight: 600;
+	font-size: 54px;
+	color: #444444;
+}
+
+.action_stats_num {
+	font-size: 16px;
+	margin-right: 40px;
+	display: -webkit-inline-box;
+}
+
+.action_stats_num:first-child {
+	margin-left: 0;
+}
+
+.number_1 {
+	font-weight: 600;
+	color: #262626;
+}
+
+.number_1_text {
+	color: #262626;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+ul {
+	padding: 0;
+}
+
+.switch {
+	margin-left: 25px;
+}
+
+.cog {
+	font-size: 20px;
+	padding-left:10px;
+}
+
+@media (min-width: 768px) {
+	.main-body {
+		max-width: 1200px;
+		padding-top: 30px;
+		margin: 0 auto;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+}
+
+/*ss-add*/
+@media (min-width: 768px) {
+	.message-board {
+		max-width: 1200px;
+		padding-top: 20px;
+		margin: 0 auto;
+		margin-top: 0px;
+		margin-right: auto;
+		margin-bottom: 0px;
+		margin-left: auto;
+	}
+}
+
+
+@media (min-width: 768px) {
+	#logo {
+		background-image: url("/assets/logo(558x96).png");
+		background-repeat: no-repeat;
+		height: 60px;
+		width: 350px;
+		display: -webkit-inline-box;
+		overflow: hidden;
+		text-indent: 110%;
+		white-space: nowrap;
+		zoom:0.6;
+		margin-top:30px
+	}
+}
+
+#logo {
+	background-image: url("/assets/logo(558x96).png");
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 350px;
+	display: -webkit-inline-box;
+	overflow: hidden;
+	text-indent: 110%;
+	white-space: nowrap;
+	zoom:0.4;
+	margin-top:50px;
+	margin-left:40px;
+}
+
+
+/*navbar not inversed but not transparent either*/
+.navbar-white {
+  background-color: #ffffff;
+  border-color: transparent;
+}
+
+.navbar-white .navbar-toggle .icon-bar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/*overlay*/
+.overlay .overlay-text {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.overlay {
+	display: block;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: rgba(255, 255, 255, 0.9);
+	z-index: 2;
+	cursor:pointer;
+}
+
+/* loading dots*/
+.loading span {
+  font-size: 50px;
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation-duration: 1.4s;
+          animation-duration: 1.4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.loading span:nth-child(2) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+.loading span:nth-child(3) {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+
+/*Refresh All Button*/
+/* .refresh-all-button {
+	color: #666666 !important;
+}
+
+.hide-show {
+	color: #666666 !important;
+} */
+
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  vertical-align: text-bottom;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+a:hover {
+	cursor:pointer !important
+}
+
+.error {
+    color: #ff5722;
+}
+
+
+.coming-soon-image {
+	display:block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+/* for faqs */
+.faq_answer_text {
+	width: 375x
+}
+
+@media (min-width: 768px) {
+	.faq_answer_text {
+		width: 750px 
+	}
+}
+
+
+.answer {
+	padding-bottom: 20px
+}
+
+
+  /* end of faqs */
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#notice_box{
+	background-color: #428bca
+}

@@ -1,0 +1,677 @@
+{
+      "lcl_ext_name": {
+          "message": "Autoinsta | الخادم الآلي لإنستقرام"
+      },
+      "lcl_ext_desc": {
+          "message": "النص لخادم إنستقرام | الإعجاب الآلي، المتابعة، إلغاء المتابعة حسب الطلب. آمن وسهل الإستعمال"
+      },
+      "lcl_follow": {
+          "message": "المتابعة"
+      },
+      "lcl_follows": {
+          "message": "المتابعات"
+      },
+      "lcl_unfollow": {
+          "message": "إلغاء المتابعة"
+      },
+      "lcl_unfollows": {
+          "message": "إلغاء المتابعات"
+      },
+      "lcl_like": {
+          "message": "الإعجاب"
+      },
+      "lcl_likes": {
+          "message": "الإعجابات"
+      },
+      "lcl_until_1": {
+          "message": "يوم واحد"
+      },
+      "lcl_until_2": {
+          "message": "يومان"
+      },
+      "lcl_until_3": {
+          "message": "ثلاثة أيام"
+      },
+      "lcl_advanced": {
+          "message": "متقدم"
+      },
+      "lcl_sleep_times_advanced_desc": {
+          "message": "نام خلال الدقائق x من الساعة"
+      },
+      "lcl_settings": {
+          "message": "الإعدادات"
+      },
+      "lcl_sleep_times": {
+          "message": "أوقات النوم"
+      },
+      "lcl_pool": {
+          "message": "لائحة التجميع"
+      },
+      "lcl_in_pool": {
+          "message": "في لائحة التجميع"
+      },
+      "lcl_refresh_all": {
+          "message": "تحديث الكل"
+      },
+      "hide_show": {
+          "message": "إخفاء/كشف"
+      },
+      "lcl_start_time": {
+          "message": "وقت البداية"
+      },
+      "lcl_end_time": {
+          "message": "وقت النهاية"
+      },
+      "lcl_add": {
+          "message": "إضافة"
+      },
+      "lcl_delete": {
+          "message": "إلغاء"
+      },
+      "lcl_delete_pool": {
+          "message": "إفراغ لائحة التجميع"
+      },
+      "lcl_jobs": {
+          "message": "الأعمال"
+      },
+      "lcl_interval_time": {
+          "message": "الفاصل الزمني (ثوانٍ"
+      },
+      "lcl_after_rate_limit_error": {
+          "message": "وقت الإنتظار بعد رسالة الخطأ (ثوانٍ"
+      },
+      "lcl_instructions": {
+          "message": "التعليمات"
+      },
+      "lcl_chart": {
+          "message": "الخريطة"
+      },
+      "lcl_no_data_available": {
+          "message": "لا يوجد معلومات"
+      },
+      "lcl_log": {
+          "message": "سجِل"
+      },
+      "lcl_user_name": {
+          "message": "إسم المستخدم"
+      },
+      "lcl_followed_time": {
+          "message": "وقت المتابعة"
+      },
+      "lcl_license_about_to_expire_msg": {
+          "message": "شكراً لإستعمال Autoinsta. تذكير بسيط أن صلاحية الرخصة تنتهي قريباً. لإستخدام خاصية الملاحقة، يرجى التجديد."
+      },
+      "lcl_license_expired_msg": {
+          "message": "يا للأسف! لقد إنتهت رخصتكم. الرجاء التجديد الآن"
+      },
+      "lcl_loading": {
+          "message": "جاري التحميل"
+      },
+      "lcl_keep_login": {
+          "message": "الرجاء الولوج إلى  <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a> وإبقاؤه مفتوحاً"
+      },
+      "lcl_email_promo": {
+          "message": "أدخل الإيميل على صفحة الحساب للحصول على تجديد ل 7 أيام"
+      },
+      "lcl_waiting": {
+          "message": "جاري الإنتظار"
+      },
+      "lcl_request_reopen": {
+          "message": "الرجاء إعادة الفتح <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a>."
+      },
+      "lcl_following": {
+          "message": "من تتابع"
+      },
+      "lcl_followed": {
+          "message": "من يتابعك"
+      },
+      "lcl_insrct_follow_1": {
+          "message": "الخطوة الأولى، إقامة فلتر في <span class=\"glyphicon glyphicon-cog inline\"></span> إذا يلزم"
+      },
+      "lcl_insrct_follow_2": {
+          "message": "الخطوة الثانية، تجميع المستخدمين في اللائحة من صفحة المستخدم، الهاشتاق، أو موقع معيّن <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a>."
+      },
+      "lcl_insrct_follow_3": {
+          "message": "الخطوة الثالثة، غضغط زر التشغيل وسيقوم البرنامج بمتابعتهم وفقاً لخياراتك"
+      },
+      "lcl_insrct_call_to_action_follow_videos": {
+          "message": "شاهد <a href=\"https://youtu.be/j67JhKDRRqs?t=19s\" target=\"_blank\">tutorial video</a>"
+      },
+      "lcl_follow_time": {
+          "message": "وقت المتابعة"
+      },
+      "lcl_time_intervals": {
+          "message": "الفواصل الزمنية"
+      },
+      "lcl_pool_collect_intervals": {
+          "message": "فواصل وقت التجميع"
+      },
+      "lcl_filters": {
+          "message": "الفلاتر"
+      },
+      "lcl_pool_size_limit": {
+          "message": "حدود سعة لائحة الإنتظار"
+      },
+      "lcl_pool_size_limit_desc": {
+          "message": "تعيين الحد الأقصى لعدد المستخدمين يمكن أن يكون تجمع."
+      },
+      "lcl_pool_collect_followers": {
+          "message": "تجميع المتابعين"
+      },
+      "lcl_pool_collect_commenters": {
+          "message": "تجميع المعلقين"
+      },
+      "lcl_pool_collect_searches": {
+          "message": "تجميع البحوث"
+      },
+      "lcl_pool_collect_locations": {
+          "message": "تجميع المواقع"
+      },
+      "lcl_sources": {
+          "message": "المصادر"
+      },
+      "lcl_followers": {
+          "message": "المتابعين"
+      },
+      "lcl_comments_likes": {
+          "message": "المعلقين/المعجبين"
+      },
+      "lcl_searches": {
+          "message": "الهاشتاق"
+      },
+      "lcl_locations": {
+          "message": "المواقع"
+      },
+      "lcl_from_followers": {
+          "message": "من المتابعين"
+      },
+      "lcl_from_comments_likes": {
+          "message": "من التعليقات و الإعجابات"
+      },
+      "lcl_from_searches": {
+          "message": "من البحوث"
+      },
+      "lcl_from_locations": {
+          "message": "من المواقع"
+      },
+      "lcl_follow_limit_24h": {
+          "message": "حدود الملاحقة في 24 ساعة"
+      },
+      "lcl_follow_limit_24h_desc": {
+          "message": "تعيين الحد الأقصى لعدد المستخدمين المطلوب اتباعه في فترة 24 ساعة. إنستاغرام لا يسمح لأي حساب لمتابعة أكثر من 7500 المستخدمين بشكل عام."
+      },
+      "lcl_limit24h": {
+          "message": "الحدود/24 ساعة"
+      },
+      "lcl_follow_time_interval": {
+          "message": "الفاصل الزمني للمتابعة (ثوانٍ)"
+      },
+      "lcl_follow_time_interval_desc": {
+          "message": "الإستخدام العشوائي للفواصل الزمنية لتجنب حظر الحساب من إنستقرام"
+      },
+      "lcl_between": {
+          "message": "بين"
+      },
+      "lcl_and": {
+          "message": "و"
+      },
+      "lcl_lpdt_follow": {
+          "message": "هذا يترجم إلى هذا العدد من المتابعين في 24 ساعة"
+      },
+      "lcl_error_waittime": {
+          "message": "وقت الإنتظار بعد رسالة الخطأ (ثوانٍ)"
+      },
+      "lcl_follow_error_waittime_desc": {
+          "message": "تعيين وقت الانتظار للبدء بعد مرة أخرى بعد أن كنت قد وصلت إلى حد المعدل."
+      },
+      "lcl_wait": {
+          "message": "الإنتظار"
+      },
+      "lcl_follows_filters_desc": {
+          "message": "اتبع المستخدمين بهذه المعايير. اتركها فارغة إذا لم تكن مطلوبة."
+      },
+      "lcl_larger_than": {
+          "message": "أكبر من الأسفل"
+      },
+      "lcl_smaller_than": {
+          "message": "أقل من الأسفل"
+      },
+      "lcl_followers_count": {
+          "message": "عدد المتابعين"
+      },
+      "lcl_following_count": {
+          "message": "عدد من تتابعهم"
+      },
+      "lcl_medias_count": {
+          "message": "عدد المنشورات"
+      },
+      "lcl_filter_public": {
+          "message": "تابع الحسابات العامة فقط"
+      },
+      "lcl_filter_private": {
+          "message": "تابع الحسابات الخاصة فقط"
+      },
+      "lcl_filter_private_public": {
+          "message": "تابع الحسابات العامة والخاصة"
+      },
+      "lcl_filter_external_link": {
+          "message": "لا تتابع من لديهم رابط خارجي مثل www.website.com"
+      },
+      "lcl_filter_desciription_black": {
+          "message": "كلمات للتفادي في السيرة الذاتية (إستعمل أكثر من كلمة مفصولة بفاصلة)"
+      },
+      "lcl_declare_sleep_times_follow": {
+          "message": "أوقات النوم للمتابعة"
+      },
+      "lcl_scanned": {
+          "message": "ممسوحة"
+      },
+      "lcl_unfollowed": {
+          "message": "ملغي المتابعة"
+      },
+      "lcl_insrct_unfollow_1": {
+          "message": "الخطوة الأولى، ضع الرقم الأقصى للمتابعة في اليوم، والفترة الزمنية، واللائحة المسموحة في <span class=\"glyphicon glyphicon-cog inline\"></span>."
+      },
+      "lcl_insrct_unfollow_2": {
+          "message": "الخطوة الثانية، إضغط زر التشغيل. سيقوم البرنامج بإلغاء متابعة من لا يتابع حسابك"
+      },
+      "lcl_insrct_call_to_action_unfollow_videos": {
+          "message": "شاهد <a href=\"https://youtu.be/4uNBaOtJpTk?t=18s\" target=\"_blank\">tutorial video</a>"
+      },
+      "lcl_unfollow_time": {
+          "message": "وقت إلغاء المتابعة"
+      },
+      "lcl_restricted_unfollow": {
+          "message": "إلغاء متابعة محدود"
+      },
+      "lcl_restricted_unfollow_desc": {
+          "message": "إختر هذا الصندوق إن كنت لا تود إلغاء متابعة من تابعتهم يدوياً. ينبغي الذكر أن إلغاء البرنامج سيلغي سجل هذه اللائحة"
+      },
+      "lcl_restricted_unfollow_checkbox": {
+          "message": "إلغاء الذين تابعهم البرنامج فقط"
+      },
+      "lcl_grace_period": {
+          "message": "الوقت الماضي قبل إلغاء المتابعة"
+      },
+      "lcl_grace_period_desc": {
+          "message": "تفادي إلغاء متابعة الذين تابعتهم في الأيام المعينة الماضية"
+      },
+      "lcl_dont_unfollow_followers": {
+          "message": "لا تلغي من يرد المتابعة"
+      },
+      "lcl_auto_unfollow": {
+          "message": "إلغاء المتابعة التلقائي"
+      },
+      "lcl_auto_unfollow_enable": {
+          "message": "تفعيل إلغاء المتابعة التلقائي"
+      },
+      "lcl_auto_unfollow_day": {
+          "message": "تقعيل الإلغاء التلقائي بعد مرور الوقت المعين"
+      },
+      "lcl_day_1": {
+          "message": "يوم واحد"
+      },
+      "lcl_day_2": {
+          "message": "يومان"
+      },
+      "lcl_day_3": {
+          "message": "ثلاثة أيام"
+      },
+      "lcl_remove_unfollow_job": {
+          "message": "تقريغ لائحة الإنتظار لإلغاء المتاعة"
+      },
+      "lcl_unfollow_limit_24h": {
+          "message": "حدود إلغاء المتابعة كل 24 ساعة"
+      },
+      "lcl_unfollow_limit_24h_desc": {
+          "message": "إختر الحد الأقصى لإلغاء المتابعة في مدة 24 ساعة"
+      },
+      "lcl_unfollow_time_interval": {
+          "message": "الفترة الزمنية لإلغاء المتابعة"
+      },
+      "lcl_unfollow_time_interval_desc": {
+          "message": "وضع فترة زمنية عشوائية بين عمليات إلغاء المتابعة لمنع الحظر من إنستقرام"
+      },
+      "lcl_unfollow_error_waittime": {
+          "message": "إختر وقت الإنتظار قبل إكمال عملية إلغاء المتابعة بعد تخطي الحد المسموح من إنستقرام"
+      },
+      "lcl_white_list": {
+          "message": "اللائحة المسموحة"
+      },
+      "lcl_user_names_desc": {
+          "message": "إسم المستخدم (إكتب أكثر من إسم مفصول بفاصلة)"
+      },
+      "lcl_total": {
+          "message": "المجموع:"
+      },
+      "lcl_collect_title": {
+          "message": "أضف المعجبين والمعلقين إلى اللائحة المسموحة"
+      },
+      "lcl_collect_likes": {
+          "message": "إجمع المعجبين"
+      },
+      "lcl_collect_comments": {
+          "message": "إجمع المعلّقين"
+      },
+      "lcl_whitelist_current_follows": {
+          "message": "أضف المتابعين الحاليين إلى اللائحة المسموحة"
+      },
+      "lcl_whitelist_current_follows_desc": {
+          "message": "أضف المتابعين الذين تتابعهم حالياً إلى اللائحة المسموحة"
+      },
+      "lcl_collect_current_follows": {
+          "message": "إجمع المتابعين الحاليين"
+      },
+      "lcl_stop_collect_current_follows": {
+          "message": "أوقف التجميع"
+      },
+      "lcl_removals": {
+          "message": "إلغاءات"
+      },
+      "lcl_delete_white_list_likes_comments": {
+          "message": "إلغاء المعجبين والمعلقين من اللائحة المسموحة"
+      },
+      "lcl_clear_white_list": {
+          "message": "تفريغ اللائحة المسموحة"
+      },
+      "lcl_declare_sleep_times_unfollow": {
+          "message": "أوقات النوم لإلغاء المتابعة"
+      },
+      "lcl_hashtags": {
+          "message": "الهاشتاق"
+      },
+      "lcl_liked": {
+          "message": "تم الإعجاب به"
+      },
+      "lcl_insrct_like_1": {
+          "message": "الخطوة الأولى، إختر الحد الأقصى للإعجاب في اليوم والفترة الزمنية في <span class=\"glyphicon glyphicon-cog inline\"></span>."
+      },
+      "lcl_insrct_like_2": {
+          "message": "الخطوة الثانية، إجمع المنشورات من المستخدم، الهاشتاق، والموقع من <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a> وضعهم في لائحة الإنتظار للإعجاب"
+      },
+      "lcl_insrct_like_3": {
+          "message": "الخطوة الثالثة، إضغط زر التشغيل"
+      },
+      "lcl_insrct_call_to_action_like_videos": {
+          "message": "شاهد <a href=\"https://youtu.be/VRHZaQYCXOI?t=19s\" target=\"_blank\">tutorial video</a>"
+      },
+      "lcl_media": {
+          "message": "المنشورات"
+      },
+      "lcl_liked_time": {
+          "message": "وقت الإعجاب"
+      },
+      "lcl_tags_to_collect_media": {
+          "message": "الهاشتاق للإعجاب"
+      },
+      "lcl_collect_medias_from_home_timeline_to_like": {
+          "message": "إجمع المنشورات من الصفحة الرئيسية للإعجاب"
+      },
+      "lcl_collect_medias_from_tags_to_like": {
+          "message": "إجمع المنشورات من الهاشتاق للإعجاب"
+      },
+      "lcl_like_interval_time": {
+          "message": "الفترة الزمنية بين الإعجابات (بالثواني)"
+      },
+      "lcl_error_like_interval_time": {
+          "message": "وقت الإنتظار بعد التحذير (بالثواني)"
+      },
+      "lcl_max_like_limit": {
+          "message": "الحد الأقصى للإعجاب في 24 ساعة"
+      },
+      "lcl_tags": {
+          "message": "التاق"
+      },
+      "lcl_declare_sleep_times_like": {
+          "message": "أوقات النوم للإعجاب"
+      },
+      "lcl_error_log": {
+          "message": "سجل الأخطاء"
+      },
+      "lcl_error_log_desc": {
+          "message": "عدّل الإعدادات أو توقّف عندما ترى أخطاء في الإعجاب/المتابعة/إلغاء المتابعة."
+      },
+      "lcl_action": {
+          "message": "عمل"
+      },
+      "lcl_item": {
+          "message": "المعايير"
+      },
+      "lcl_error_type": {
+          "message": "نوع الخطأ"
+      },
+      "lcl_time": {
+          "message": "الوقت"
+      },
+      "lcl_next_action_time": {
+          "message": "الوقت التالي للعمل"
+      },
+      "lcl_account_desc": {
+          "message": "قم بإدارة حسابك هنا."
+      },
+      "lcl_profile": {
+          "message": "الملف"
+      },
+      "lcl_license": {
+          "message": "الرخصة"
+      },
+      "lcl_license_remaining": {
+          "message": "الوقت المتبقي للرخصة"
+      },
+      "lcl_renew": {
+          "message": "جدّد"
+      },
+      "lcl_email": {
+          "message": "بريد الكتروني"
+      },
+      "lcl_email_desc": {
+          "message": "أدخل بريدك الإلكتروني وإحصل على تمديد 7 أيام للرخصة فور تأكيد البريد."
+      },
+      "lcl_save": {
+          "message": "حفظ"
+      },
+      "lcl_settings_transfer": {
+          "message": "نقل الإعدادات"
+      },
+      "lcl_export": {
+          "message": "تصدير"
+      },
+      "lcl_import": {
+          "message": "إستيراد"
+      },
+      "lcl_export_instruction": {
+          "message": "إنسخ إعدادات المتابعة من هذا الحساب وأدخلها في قائمة \"الإستيراد\" في حساب آخر."
+      },
+      "lcl_export_caution": {
+          "message": "تعديل قيم الإعدادات قد يكون خطيراً. يرجى التقدّم بحذر."
+      },
+      "lcl_copy": {
+          "message": "إنسخ"
+      },
+      "lcl_import_instruction": {
+          "message": "ألصق الإعدادات هنا:"
+      },
+      "lcl_data_management": {
+          "message": "إدارة المعلومات"
+      },
+      "lcl_backup_desc": {
+          "message": "إصنح ملف إحتاطي لحسابك كله. أعد كل شيء منه لاحقاً"
+      },
+      "lcl_backup_title": {
+          "message": "الإحتياط"
+      },
+      "lcl_backup_export_desc": {
+          "message": "الضغط على هذا الزر سينزل المعلومات والإعدادات للحساب، بما فيه مصادر الإعجاب/المتابعة، الإعدادات، وسجل المتابعة/إلغاء المتابعة"
+      },
+      "lcl_export_data_btn": {
+          "message": "أنزل ملف الإحتياط"
+      },
+      "lcl_backup_recover_title": {
+          "message": "إستعادة"
+      },
+      "lcl_backup_recover_desc": {
+          "message": "إستيراد ملف الإحتياط سيلغي المعلومات الحالية للحساب. إن لم تشأ خسارتهم، الرجاء تنزيل ملف إحتياط الحساب قبل الإستعادة من ملف آخر."
+      },
+      "lcl_collect_followers_new": {
+          "message": "إفحص و إجمع آخر 10 متابعات"
+      },
+      "lcl_collect_followers_all": {
+          "message": "إجمع جميع المتابعين"
+      },
+      "lcl_collect_media_owners": {
+          "message": "إجمع أصحاب المنشورات"
+      },
+      "lcl_collect_who_likes_media": {
+          "message": "إجمع المستخدمين الذين أعجبوا بالمنشور"
+      },
+      "lcl_collect_comments_on_media": {
+          "message": "إجمع المعلقين على المنشور"
+      },
+      "lcl_remove_location_job": {
+          "message": "إلغاء العمل على الموقع"
+      },
+      "lcl_collect_from_location": {
+          "message": "إجمع من الموقع"
+      },
+      "lcl_remove_tag_job": {
+          "message": "إلغاء العمل على الهاشتاق"
+      },
+      "lcl_collect_from_tag": {
+          "message": "إجمع من الهاشتاق"
+      },
+      "lcl_remove_like_media_job": {
+          "message": "إلغاء العمل على الإعجاب"
+      },
+      "lcl_like_medias_job": {
+          "message": "الإعجاب بالمنشورات من هذا الهاشتاق"
+      },
+      "lcl_remove_followers_collect_job": {
+          "message": "إلغاء تجميع المتابعين"
+      },
+      "lcl_collect_from_followers": {
+          "message": "إجمع المتابعين"
+      },
+      "lcl_remove_comments_likes_collect_job": {
+          "message": "إلغاء عملية التعليق والإعجاب"
+      },
+      "lcl_collect_from_comments_likes": {
+          "message": "إجمع المعلقين والمعجبين"
+      },
+      "lcl_faq_pool_q1": {
+          "message": "ما هي لائحة الإنتظار؟"
+      },
+      "lcl_faq_pool_q2": {
+          "message": "لائحة الإنتظار للإعجاب/المتابعة/إلغاء المتابعة توقفت عن التعبئة."
+      },
+      "lcl_faq_pool_q3": {
+          "message": "أريد تغيير سعة لائحة الإنتظار لكن لا أستطيع."
+      },
+      "lcl_about_speed": {
+          "message": "عن السرعة"
+      },
+      "lcl_faq_speed_q1": {
+          "message": "ما هي الإستراتيجية التي أسمع عنها دائماً؟"
+      },
+      "lcl_faq_speed_q2": {
+          "message": "البرنامج بطيء للغاية. ماذا يجري؟"
+      },
+      "lcl_faq_speed_q3": {
+          "message": "البرنامج توقف عن المتابعة."
+      },
+      "lcl_about_accounts": {
+          "message": "عن الحسابات"
+      },
+      "lcl_faq_accounts_q1": {
+          "message": "إشتريت رخصة لكنها ليست في صندوق الرخصة."
+      },
+      "lcl_faq_accounts_q2": {
+          "message": "كيف أستطيع إدارة أكثر من حساب إنستقرام على Autoinsta؟"
+      },
+      "lcl_faq_accounts_q3": {
+          "message": "أدخلت البريد الإلكتروني الخاطئ لذل لم أحصل على تمديد الرخصة."
+      },
+      "lcl_about_settings": {
+          "message": "عن الإعدادات"
+      },
+      "lcl_faq_settings_q1": {
+          "message": "ما هي الإعدادات المثلى؟"
+      },
+      "lcl_faq_settings_q2": {
+          "message": "ما هي الفترة الزمنية التي أحتاج فيها لإعادة تعديل الإعدادات؟"
+      },
+      "lcl_faq_settings_q3": {
+          "message": "أوقات النوم لا تعمل."
+      },
+      "lcl_faq_settings_q4": {
+          "message": "كيف أنقل الإعدادات من حساب إلى آخر؟"
+      },
+      "lcl_about_other_questions": {
+          "message": "أسئلة أخرى"
+      },
+      "lcl_faq_other_q1": {
+          "message": "هل لديكم برامج لمواقع أخرى؟"
+      },
+      "lcl_faq_other_q2": {
+          "message": "هل لديكم نصائح عامة عن إستعمال Autoinsta؟"
+      },
+      "lcl_faq_other_q3": {
+          "message": "سيساعدني لو أن البرنامج يمتلك هذه الميزة..."
+      },
+      "lcl_faq_pool_a1": {
+          "message": "كل من الإعجاب/المتابعة/إلغاء المتابعة لديه لائحة إنتظار، لكن الفكرة ذاتها. اللائحة عبارة عن لائحة إنتظار للمستخدمين/المنشورات الذين ينبغي الإعجاب بهم/متابعتهم/إلغاء متابعتهم. أو كما نسميها \"التنفيذ\"."
+      },
+      "lcl_faq_pool_a2_1": {
+          "message": "هناك سببين محتملين. الأول هو أن البرنامج واجه بعض المشاكل وتوقّف عن التجميع. قم بإطفاء زر التشغيل وإعادة تشغيله. هذا سيجبره على المسح/إعادة التجميع للمستخدمين و/أو المنشورات."
+      },
+      "lcl_faq_pool_a2_2": {
+          "message": "السبب المحتمل الثاني هو أن البرنامج قام بالعمل لمدة طويلة على إنستقرام وتعرّض للحظر المؤقت. يتم رفع الحظر بعد 20 دقيقة في العادة. في هذا الوقت، ننصح بالقيام بالإعجاب والمتابعة فقط، التقليل من عدد مصادر الإعجاب/المتابعة التي تجمع منها."
+      },
+      "lcl_faq_pool_a3": {
+          "message": "الحد الأقصى للائحة الإنتظار هو 1000. ننصح بوضع رقم أصغر للحفاظ على الإختيارات \"الطازجة\"، إذ أن الأشياء قد تتغيّر بين وقت إضافتها للائحة ووقت \"التنفيذ\"."
+      },
+      "lcl_faq_speed_a1": {
+          "message" : "الإستراتيجية هي سلسلة من الأعمال التي تتأكد من حصولك على أفضل نتيجة في الوضع الحالي. تتضمن البحث، وإيجاد أفضل الهاشتاق والمستخدمين للمتابعة. كما تتضمن معرفة كم يثق إنستقرام بحسابك. فكر بالبرنامج كآلة غير ذكية تقوم بتنفيذ إستراتيجيتك. هي تقوم بتنفيذ مطالبك، لكنها تحتاج إلى تعليمات ذكية وانتباه منك."
+      },
+      "lcl_faq_speed_a2_1": {
+          "message": "الجواب التالي يفترض أن هناك الكافي من المستخدمين/المنشورات في اللائحة فلا ينتظر البرنامج التعبئة. في الحالة الطبيعية، يعمل البرنامج بالسرعة التي تحدّدها في صفحة الإعدادات. لا تقوم بالإبطاء إلا عندما تتعرض للتحذير. أكثر التحذيرات هي علامة أن إنستقرام لا يعجبه ما يفعله البرنامج ويقوم بحظره. الحصول على الكثير من التحذيرات قد يدفع إنستقرام إلى تجميد أو حتى حذف الحساب."
+      },
+      "lcl_faq_speed_a2_2": {
+          "message": "إذا لاحظت أن البرنامج يعمل ببطء، تأكد من سجل التحذيرات في صفحة الصيحات، وزد من الفترة الزمنية وأوقات النوم."
+      },
+      "lcl_faq_speed_a2_3": {
+          "message": "يحدث هذا أحياناً بعد عمل Autoinsta بشكل جيد لأيام. في هذه الحالة، من المحتمل أن إنستقرام يشك بأن حسابك يديره برنامج خارجي."
+      },
+      "lcl_faq_speed_a3": {
+          "message": "مثل جميع التقنيين الجيدين، سأخبرك أن تطفئ وتدير زر التشغيل أولاً. هذا يحل المشكلة في العادة. أحياناً يساعد إفراغ لائحة الإنتظار. في حال إكمال المشكلة، يكون هذا علامة على وجود خطورة. تأكد من سجل الأخطاء. إذا وجدت العديد من الأخطاء في المتابعة/إلغاء المتابعة، أنصحك بإيقاف البرنامج لمدة يوم كامل. في هذا الوقت، قم بتعديل الإعدادات للعمل على الأمان قبل السرعة."
+      },
+      "lcl_faq_accounts_a1": {
+          "message": "هذه مشكلة ظاهرية في العادة. لا تخف، طالما أن رخصتك في لائحة البيانات لدينا ستتمكن من استعمال خاصية المتابعة بشكل طبيعي."
+      },
+      "lcl_faq_accounts_a2": {
+          "message": "عليك إستعمال خاصية كروم لإدارة أكثر من حساب. يمكن أن يكون لكل حساب مجموعة من مفاتيح الولوج والملحقات. إضغط على هذا الرابط للمزيد من المعلومات."
+      },
+      "lcl_faq_accounts_a3": {
+          "message": "أرسل بريداً إلكترونياً بإسم المستخدم على إنستقرام وسنلغي البريد الحالي لتتمك من إدخال البريد الصحيح."
+      },
+      "lcl_faq_settings_a1": {
+          "message": "الإعدادات المثلى مبرمجة من أجل الثقة بحسابك وأهدافك معاً. الثقة بحسابك يعود إلى إنستقرام. لا نعلم كيف يعمل بالضبط لكن الحسابات القديمة هي مصدر ثقة أكثر من الحسابات الجديدة. بشكل عام، تريد برمجة الإعدادات للتوفيق بين الأمان والسرعة. ليس هناك إعداد واحد للجميع."
+      },
+      "lcl_faq_settings_a2": {
+          "message": "كلما إعتقدت أن البرنامج معرض للحظر وكلما أصبح لديك إستراتيجية جديدة."
+      },
+      "lcl_faq_settings_a3": {
+          "message": "ممكن أن يكون السبب أنك لا تدير البرنامج على كروم أو حاسوب أو كمبيوتر من نوع Mac"
+      },
+      "lcl_faq_settings_a4": {
+          "message": "إستخدم خاصية نقل الإعدادات في صفحة الحساب."
+      },
+      "lcl_faq_other_a1": {
+          "message": "كلا. أرجو إعلامنا إن كان لديك بعض الإقتراحات."
+      },
+      "lcl_faq_other_a2": {
+          "message": "الأمان فوق السرعة. البرنامج مجرد إمتداد لإستراتيجيتك. حاول ألا تعتمد على البرنامج حصرياً. البرنامج سيستدرج المستخدمين إلى حسابك، أما بقاؤهم فيعتمد على محتوياتك."
+      },
+      "lcl_faq_other_a3": {
+          "message": "نقوم بتسجيل إقتراحات الخاصيات الجديدة ودرسها. أحياناً تكون الإقراحات جيدة جداً ونقوم بالعمل عليها الواحدة تلو الأخرى."
+      }
+}

@@ -1,0 +1,689 @@
+{
+    "lcl_ext_name": {
+        "message": "Autoinsta - Robô do Instagram, ao seu dispor"
+    },
+    "lcl_ext_desc": {
+        "message": "Script Robô para Instagram - Auto like, auto seguir e auto deixar de seguir configuráveis; seguro e fácil de usar"
+    },
+    "lcl_follow": {
+        "message": "Seguir"
+    },
+    "lcl_follows": {
+        "message": "Seguidas"
+    },
+    "lcl_unfollow": {
+        "message": "Deixar de seguir"
+    },
+    "lcl_unfollows": {
+        "message": "Deixados de seguir"
+    },
+    "lcl_like": {
+        "message": "Like"
+    },
+    "lcl_likes": {
+        "message": "Dados Like"
+    },
+    "lcl_until_1": {
+        "message": "1 dia"
+    },
+    "lcl_until_2": {
+        "message": "2 dias"
+    },
+    "lcl_until_3": {
+        "message": "3 dias"
+    },
+    "lcl_advanced": {
+        "message": "Avançado"
+    },
+    "lcl_sleep_times_advanced_desc": {
+        "message": "Descansar os primeiros X minutos de cada hora:"
+    },
+    "lcl_settings": {
+        "message": "Ajustes"
+    },
+    "lcl_sleep_times": {
+        "message": "Horas de descanso"
+    },
+    "lcl_pool": {
+        "message": "Fila"
+    },
+    "lcl_in_pool": {
+        "message": "na fila"
+    },
+    "lcl_refresh_all": {
+        "message": "Atualizar contador"
+    },
+    "hide_show": {
+        "message": "Esconder/Mostrar"
+    },
+    "lcl_start_time": {
+        "message": "Horário inicial"
+    },
+    "lcl_end_time": {
+        "message": "Horário final"
+    },
+    "lcl_add": {
+        "message": "Adicionar"
+    },
+    "lcl_delete": {
+        "message": "Apagar"
+    },
+    "lcl_delete_pool": {
+        "message": "Esvaziar fila"
+    },
+    "lcl_jobs": {
+        "message": "Trabalhos"
+    },
+    "lcl_interval_time": {
+        "message": "Intervalo de tempo (segundos)"
+    },
+    "lcl_after_rate_limit_error": {
+        "message": "Tempo de espera depois de um erro (segundos)"
+    },
+    "lcl_instructions": {
+        "message": "Instruções"
+    },
+    "lcl_chart": {
+        "message": "Tabela"
+    },
+    "lcl_no_data_available": {
+        "message": "Sem dados disponíveis"
+    },
+    "lcl_log": {
+        "message": "Registro"
+    },
+    "lcl_user_name": {
+        "message": "Nome de usuário"
+    },
+    "lcl_followed_time": {
+        "message": "Horário que foi seguido"
+    },
+    "lcl_license_about_to_expire_msg": {
+        "message": "Obrigado por usar o Autoinsta. Só para te lembrar que a sua licença está prestes a vencer. Para continuar a usar a função SEGUIR, lembre-se de renovar."
+    },
+    "lcl_license_expired_msg": {
+        "message": "Ah não! A sua licença venceu. Renove agora!"
+    },
+    "lcl_loading": {
+        "message": "Carregando"
+    },
+    "lcl_keep_login": {
+        "message": "Por favor, faça seu login no <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a> e deixe a janela aberta."
+    },
+    "lcl_email_promo": {
+        "message": "🎉 Insira o seu email na página de Conta para receber mais 7 dias na sua licença."
+    },
+    "lcl_invite_promo" : {
+		"message" : "🎁 Convide amigos na Página da Conta e ganhe recompensas."
+	},
+    "lcl_waiting": {
+        "message": "Aguardando"
+    },
+    "lcl_request_reopen": {
+        "message": "Por favor abra novamente <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a>."
+    },
+    "lcl_following": {
+        "message": "Estou seguindo"
+    },
+    "lcl_followed": {
+        "message": "Foram seguidos hoje"
+    },
+    "lcl_insrct_follow_1": {
+        "message": "Passo 1,ajuste o filtro em <span class=\"glyphicon glyphicon-cog inline\"></span> caso seja necessário."
+    },
+    "lcl_insrct_follow_2": {
+        "message": "Passo 2, colete usuários para a fila da página de um usuário, de uma hashtag, ou de uma localização em <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a>."
+    },
+    "lcl_insrct_follow_3": {
+        "message": "Passo 3, ligue a chavinha acima e o sistema irá seguir usuários automaticamente baseado nas suas escolhas."
+    },
+    "lcl_insrct_call_to_action_follow_videos": {
+        "message": "Assista o <a href=\"https://youtu.be/j67JhKDRRqs?t=19s\" target=\"_blank\"> video de tutorial</a>"
+    },
+    "lcl_follow_time": {
+        "message": "Horário que segui"
+    },
+    "lcl_time_intervals": {
+        "message": "Tempo de intervalo"
+    },
+    "lcl_pool_collect_intervals": {
+        "message": "Intervalo para coletar para fila"
+    },
+    "lcl_filters": {
+        "message": "Filtros"
+    },
+    "lcl_pool_size_limit": {
+        "message": "Limite do tamanho da fila"
+    },
+    "lcl_pool_size_limit_desc": {
+        "message": "Ajuste o máximo de usuários que a fila pode ter."
+    },
+    "lcl_pool_collect_followers": {
+        "message": "Coleta de seguidores"
+    },
+    "lcl_pool_collect_commenters": {
+        "message": "Coleta de quem comentou em publicações"
+    },
+    "lcl_pool_collect_searches": {
+        "message": "Coleta das buscas"
+    },
+    "lcl_pool_collect_locations": {
+        "message": "Coleta de Localidades"
+    },
+    "lcl_sources": {
+        "message": "Fontes"
+    },
+    "lcl_followers": {
+        "message": "Seguidores"
+    },
+    "lcl_comments_likes": {
+        "message": "Comentadores/Quem deu like"
+    },
+    "lcl_searches": {
+        "message": "Hashtags"
+    },
+    "lcl_locations": {
+        "message": "Localizações"
+    },
+    "lcl_from_followers": {
+        "message": "Dos seguidores"
+    },
+    "lcl_from_comments_likes": {
+        "message": "De quem comentou ou deu like"
+    },
+    "lcl_from_searches": {
+        "message": "Das buscas"
+    },
+    "lcl_from_locations": {
+        "message": "Das localidades"
+    },
+    "lcl_follow_limit_24h": {
+        "message": "Limite de \"seguir\" a cada 24 horas"
+    },
+    "lcl_follow_limit_24h_desc": {
+        "message": "Ajuste o número máximo de usuários para seguir a cada 24 horas. O Instagram não permite que uma conta siga mais de 7500 pessoas no total."
+    },
+    "lcl_limit24h": {
+        "message": "Limite/24h"
+    },
+    "lcl_follow_time_interval": {
+        "message": "Intervalo de tempo entre seguidas (segundos)"
+    },
+    "lcl_follow_time_interval_desc": {
+        "message": "Deixe o intervalo de tempo entre cada seguida ser aleatório para evitar banimento pelo Instagram."
+    },
+    "lcl_between": {
+        "message": "Entre"
+    },
+    "lcl_and": {
+        "message": "e"
+    },
+    "lcl_lpdt_follow": {
+        "message": "Isso significa que você acabará seguindo em 24 horas essa quantidade: <span id=\"lpdt\"></span>"
+    },
+    "lcl_error_waittime": {
+        "message": "Tempo de espera depois de erro de limite de uso (segundos)"
+    },
+    "lcl_follow_error_waittime_desc": {
+        "message": "Ajuste o tempo de espera para começar a seguir de novo depois de atingir o limite de uso."
+    },
+    "lcl_wait": {
+        "message": "Aguarde"
+    },
+    "lcl_follows_filters_desc": {
+        "message": "Siga usuários com esses critérios. Deixe-os em branco se não for necessário."
+    },
+    "lcl_larger_than": {
+        "message": "Maior do que abaixo"
+    },
+    "lcl_smaller_than": {
+        "message": "Menor do que abaixo"
+    },
+    "lcl_followers_count": {
+        "message": "Quantidade de seguidores"
+    },
+    "lcl_following_count": {
+        "message": "Quantidade que ele segue"
+    },
+    "lcl_medias_count": {
+        "message": "Quantidade de postagens"
+    },
+    "lcl_filter_public": {
+        "message": "Siga apenas contas PÚBLICAS"
+    },
+    "lcl_filter_private": {
+        "message": "Siga apenas contas PRIVADAS"
+    },
+    "lcl_filter_private_public": {
+        "message": "Siga contas tanto privadas quando públicas"
+    },
+    "lcl_filter_external_link": {
+        "message": "Não siga quem tenha um link externo para www.website.com"
+    },
+    "lcl_filter_desciription_black": {
+        "message": "Lista negra para palavras na Bio (escreva várias palavras separadas por vírgulas)"
+    },
+    "lcl_declare_sleep_times_follow": {
+        "message": "Horários de descanso para SEGUIR"
+    },
+    "lcl_scanned": {
+        "message": "já triado"
+    },
+    "lcl_unfollowed": {
+        "message": "deixados de seguir"
+    },
+    "lcl_insrct_unfollow_1": {
+        "message": "Passo 1, ajuste o número máximo de \"deixar de seguir\" por dia, a frequência e a lista protegida de usuários, \"whitelist\" em <span class=\"glyphicon glyphicon-cog inline\"></span>."
+    },
+    "lcl_insrct_unfollow_2": {
+        "message": "Passo 2, ligue o interruptor. O robô irá deixar de seguir aquelas pessoas que não estão te seguindo de volta."
+    },
+    "lcl_insrct_call_to_action_unfollow_videos": {
+        "message": "Assista <a href=\"https://youtu.be/4uNBaOtJpTk?t=18s\" target=\"_blank\"> video de tutorial</a>"
+    },
+    "lcl_unfollow_time": {
+        "message": "Horário que deixou de seguir"
+    },
+    "lcl_restricted_unfollow": {
+        "message": "Restrições para Deixar de Seguir"
+    },
+    "lcl_restricted_unfollow_desc": {
+        "message": "Marque nesse quadrado caso você não queira deixar de seguir automaticamente usuários que você mesmo seguiu diretamente no Instagram. Fique atento que caso você desintale a extensão, você perderá o registro de quem o robô seguiu."
+    },
+    "lcl_restricted_unfollow_checkbox": {
+        "message": "Deixe de seguir apenas os usuários que o robô seguiu"
+    },
+    "lcl_grace_period": {
+        "message": "Período de espera para deixar de seguir"
+    },
+    "lcl_grace_period_desc": {
+        "message": "Evite deixar de seguir usuários que foram seguidos nos últimos X dias."
+    },
+    "lcl_dont_unfollow_followers": {
+        "message": "Não deixe de seguir quem te segue"
+    },
+    "lcl_auto_unfollow": {
+        "message": "Deixar de seguir automaticamente"
+    },
+    "lcl_auto_unfollow_enable": {
+        "message": "Permitir \"deixar de seguir\" automaticamente"
+    },
+    "lcl_auto_unfollow_day": {
+        "message": "Permita automaticamente DEIXAR DE SEGUIR depois que tenha passado o último horário de deixar de seguir"
+    },
+    "lcl_day_1": {
+        "message": "1 dia"
+    },
+    "lcl_day_2": {
+        "message": "2 dias"
+    },
+    "lcl_day_3": {
+        "message": "3 dias"
+    },
+    "lcl_remove_unfollow_job": {
+        "message": "Esvaziar a fila de \"deixar de seguir"
+    },
+    "lcl_unfollow_limit_24h": {
+        "message": "Limite de \"deixar de seguir\" a cada 24 horas"
+    },
+    "lcl_unfollow_limit_24h_desc": {
+        "message": "Ajuste o número máximo de usuários para deixar de seguir a cada 24 horas."
+    },
+    "lcl_unfollow_time_interval": {
+        "message": "Intervalo entre cada \"deixar de seguir"
+    },
+    "lcl_unfollow_time_interval_desc": {
+        "message": "Deixe o intervalo de tempo entre cada \"deixar de seguir\" ser aleatório para evitar banimento pelo Instagram."
+    },
+    "lcl_unfollow_error_waittime": {
+        "message": "Ajuste o tempo de espera para deixar de seguir novamente após atingir o limite de uso imposto pelo Instagram"
+    },
+    "lcl_white_list": {
+        "message": "Lista de usuários protegidos"
+    },
+    "lcl_user_names_desc": {
+        "message": "Usernames (escreva os usernames separados por vírgulas)"
+    },
+    "lcl_total": {
+        "message": "Total:"
+    },
+    "lcl_collect_title": {
+        "message": "Coloque na lista de usuários protegidos aqueles que deram like ou comentaram nas suas publicações"
+    },
+    "lcl_collect_likes": {
+        "message": "Colete quem deu like"
+    },
+    "lcl_collect_comments": {
+        "message": "Colete os que comentaram"
+    },
+    "lcl_whitelist_current_follows": {
+        "message": "Proteger quem sigo atualmente"
+    },
+    "lcl_whitelist_current_follows_desc": {
+        "message": "Coloque na lista de usuários protegidos quem você segue atualmente"
+    },
+    "lcl_collect_current_follows": {
+        "message": "Colete quem sigo agora"
+    },
+    "lcl_stop_collect_current_follows": {
+        "message": "Pare de coletar"
+    },
+    "lcl_removals": {
+        "message": "Remover"
+    },
+    "lcl_delete_white_list_likes_comments": {
+        "message": "Remova aqueles que deram like ou comentaram"
+    },
+    "lcl_clear_white_list": {
+        "message": "Apague a lista de protegidos"
+    },
+    "lcl_declare_sleep_times_unfollow": {
+        "message": "Horários de descanso para DEIXAR DE SEGUIR"
+    },
+    "lcl_hashtags": {
+        "message": "hashtags"
+    },
+    "lcl_liked": {
+        "message": "like dados"
+    },
+    "lcl_insrct_like_1": {
+        "message": "Passo 1, ajuste o numero máximo de likes por dia e a frequência dos likes em <span class=\"glyphicon glyphicon-cog inline\"></span>."
+    },
+    "lcl_insrct_like_2": {
+        "message": "Passo 2, colete postagens por usuários, hashtags e localidades em <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a> para a fila de LIKE."
+    },
+    "lcl_insrct_like_3": {
+        "message": "Passo 3, ligue o interruptor"
+    },
+    "lcl_insrct_call_to_action_like_videos": {
+        "message": "Assista <a href=\"https://youtu.be/VRHZaQYCXOI?t=19s\" target=\"_blank\"> video tutorial</a>"
+    },
+    "lcl_media": {
+        "message": "Postagens"
+    },
+    "lcl_liked_time": {
+        "message": "Hora do Like"
+    },
+    "lcl_tags_to_collect_media": {
+        "message": "Hashtags para dar Like"
+    },
+    "lcl_collect_medias_from_home_timeline_to_like": {
+        "message": "Colete as postagens da sua linha do tempo para dar Like"
+    },
+    "lcl_collect_medias_from_tags_to_like": {
+        "message": "Colete as postagens das Hashtags para dar Like"
+    },
+    "lcl_like_interval_time": {
+        "message": "Intervalo de tempo entre os Likes (segundos)"
+    },
+    "lcl_error_like_interval_time": {
+        "message": "Tempo de espera depois de um erro (segundos)"
+    },
+    "lcl_max_like_limit": {
+        "message": "Limite máximo de likes em 24 horas"
+    },
+    "lcl_tags": {
+        "message": "Hashtags"
+    },
+    "lcl_declare_sleep_times_like": {
+        "message": "Tempo de descanso para o trabalho de LIKE"
+    },
+    "lcl_error_log": {
+        "message": "Relatório de erros"
+    },
+    "lcl_error_log_desc": {
+        "message": "Arrume os ajustes e tempo de descanso caso você esteja recebendo muito erros nos trabalhos de likes, seguir ou deixar de seguir"
+    },
+    "lcl_action": {
+        "message": "Ação"
+    },
+    "lcl_item": {
+        "message": "Critério"
+    },
+    "lcl_error_type": {
+        "message": "Tipo de Erro"
+    },
+    "lcl_time": {
+        "message": "Horário"
+    },
+    "lcl_next_action_time": {
+        "message": "Horário da próxima ação"
+    },
+    "lcl_account_desc": {
+        "message": "Gerencie sua conta aqui."
+    },
+    "lcl_profile": {
+        "message": "Perfil"
+    },
+    "lcl_license": {
+        "message": "Licença"
+    },
+    "lcl_license_remaining": {
+        "message": "Tempo restante de licença"
+    },
+    "lcl_renew": {
+        "message": "Renove"
+    },
+    "lcl_email": {
+        "message": "Email"
+    },
+    "lcl_email_desc": {
+        "message": "Coloque seu email e ganhe mais 7 dias de licença quando você confirmar"
+    },
+    "lcl_save": {
+        "message": "Gravar"
+    },
+    "lcl_settings_transfer": {
+        "message": "Transferência de ajustes"
+    },
+    "lcl_export": {
+        "message": "Esportar"
+    },
+    "lcl_import": {
+        "message": "Importar"
+    },
+    "lcl_export_instruction": {
+        "message": "Copie os ajustes seguintes desta conta e cole-os na seção Importar\" da outra conta"
+    },
+    "lcl_export_caution": {
+        "message": "Mudar os valores de ajuste pode ter risco. Vá com cuidado."
+    },
+    "lcl_copy": {
+        "message": "Copiar"
+    },
+    "lcl_import_instruction": {
+        "message": "Colar os ajuste aqui:"
+    },
+    "lcl_data_management": {
+        "message": "Gerenciamento de dados"
+    },
+    "lcl_backup_desc": {
+        "message": "Faça um Backup completo da sua conta em um arquivo. Restaure dele mais tarde."
+    },
+    "lcl_backup_title": {
+        "message": "Backup"
+    },
+    "lcl_backup_export_desc": {
+        "message": "Apertando neste botão você baixará os dados operacionais desta conta e suas configurações, incluindo as fontes de Like e Seguir, os ajustes, bem como os relatórios de \"Seguir\" e \"Deixar de seguir\"."
+    },
+    "lcl_export_data_btn": {
+        "message": "Baixar o arquivo de Backup"
+    },
+    "lcl_backup_recover_title": {
+        "message": "Recuperar"
+    },
+    "lcl_backup_recover_desc": {
+        "message": "Importar o arquivo de recuperação apagará os dados atuais desta conta. Se você não quiser perdê-los, faça um backup da conta antes de recuperá-la de um arquivo mais recente."
+    },
+    "lcl_share" : {
+		"message": "Convide"
+	},
+	"lcl_share_desc" : {
+		"message": "Compartilhe Autoinsta com seus amigos. Assim que eles instalarem a extensão pelo seu link personalizado e ligarem a chave de 'Seguir' pela primeira vez, você ganhará mais 5 dias de licença. Não há limite de convites para ser premiado."
+	},
+	"lcl_share_url" : {
+		"message" : "Link Personalizado"
+	},
+    "lcl_collect_followers_new": {
+        "message": "Verifique e colete os últimos 10 seguidores dele"
+    },
+    "lcl_collect_followers_all": {
+        "message": "Colete todos os seguidores dele"
+    },
+    "lcl_collect_media_owners": {
+        "message": "Colete quem postou"
+    },
+    "lcl_collect_who_likes_media": {
+        "message": "Colete aqueles que deram like nas postagens"
+    },
+    "lcl_collect_comments_on_media": {
+        "message": "Colete quem comentou"
+    },
+    "lcl_remove_location_job": {
+        "message": "Remova a localização do serviço"
+    },
+    "lcl_collect_from_location": {
+        "message": "Colete desta localização"
+    },
+    "lcl_remove_tag_job": {
+        "message": "Remova esta hashtag do serviço"
+    },
+    "lcl_collect_from_tag": {
+        "message": "Colete desta hashtag"
+    },
+    "lcl_remove_like_media_job": {
+        "message": "Remova do serviço de like"
+    },
+    "lcl_like_medias_job": {
+        "message": "Dê like nesta hashtag"
+    },
+    "lcl_remove_followers_collect_job": {
+        "message": "Remova do serviço de coletar seguidores"
+    },
+    "lcl_collect_from_followers": {
+        "message": "Colete seguidores dele"
+    },
+    "lcl_remove_comments_likes_collect_job": {
+        "message": "Remova do serviço de coletar comentadores e quem deu like"
+    },
+    "lcl_collect_from_comments_likes": {
+        "message": "Colete quem comentou e deu like"
+    },
+    "lcl_faq_pool_q1": {
+        "message": "Que fila é essa afinal"
+    },
+    "lcl_faq_pool_q2": {
+        "message": "Minha fila de Like/Seguir/Deixar de seguir não está sendo renovada mais."
+    },
+    "lcl_faq_pool_q3": {
+        "message": "Eu gostaria de mudar o tamanho da fila, mas não consigo."
+    },
+    "lcl_about_speed": {
+        "message": "Sobre velocidade"
+    },
+    "lcl_faq_speed_q1": {
+        "message": "O que significa essa estratégia de que tanto ouço?"
+    },
+    "lcl_faq_speed_q2": {
+        "message": "O robô é realmente lento. Qual o problema disso?"
+    },
+    "lcl_faq_speed_q3": {
+        "message": "O robô não está seguindo mais ninguém."
+    },
+    "lcl_about_accounts": {
+        "message": "Sobre contas"
+    },
+    "lcl_faq_accounts_q1": {
+        "message": "Eu comprei a licença mas não aparece no Quadro de Licença"
+    },
+    "lcl_faq_accounts_q2": {
+        "message": "Como eu posso usar o robô em mais de uma conta ao mesmo tempo?"
+    },
+    "lcl_faq_accounts_q3": {
+        "message": "Eu coloquei errado o meu email, então não ganhei a licença extra."
+    },
+    "lcl_about_settings": {
+        "message": "Sobre Ajustes"
+    },
+    "lcl_faq_settings_q1": {
+        "message": "Quais são os melhores ajustes?"
+    },
+    "lcl_faq_settings_q2": {
+        "message": "Com que frequência devo alterar os ajustes?"
+    },
+    "lcl_faq_settings_q3": {
+        "message": "Os tempos de descanso não funcionam"
+    },
+    "lcl_faq_settings_q4": {
+        "message": "Como eu copio os ajustes de uma conta para outra?"
+    },
+    "lcl_about_other_questions": {
+        "message": "Outras dúvidas"
+    },
+    "lcl_faq_other_q1": {
+        "message": "Vocês possuem robôs para outras plataformas?"
+    },
+    "lcl_faq_other_q2": {
+        "message": "Vocês possuem algum conselho de como usar o Autoinsta?"
+    },
+    "lcl_faq_other_q3": {
+        "message": "Iria me ajudar bastante se o robô tivesse a seguinte função…"
+    },
+    "lcl_faq_pool_a1": {
+        "message": "Dar Like, Seguir e Deixar de Seguir têm a sua própria fila, mas o conceito é o mesmo. A fila é o grupo de perfis ou postagens que estão esperando para ser seguidos, deixados de serem seguidos ou dados like. Ou como gostamos de dizer… \"serem executados"
+    },
+    "lcl_faq_pool_a2_1": {
+        "message": "Existem duas causas mais comuns. A primeira é que o robô encalhou com alguns erros e parou de coletar. Dê uma acordada nele desligando e ligando de novo. Isso o forçará a iniciar o processo novamente e coletar os perfis ou postagens."
+    },
+    "lcl_faq_pool_a2_2": {
+        "message": "A segunda é que o robô está acessando o Insta muito frequentemente e foi temporariamente bloqueado. Esse bloqueio de acesso é liberado normalmente em uns 20 minutos. Nesse caso, você deve considerar deixar funcionar só o Dar Like ou Seguir funcionando, ou então reduzir o número de fontes para a coleta."
+    },
+    "lcl_faq_pool_a3": {
+        "message": "O tamanho da fila é travado em 1000. É realmente melhor ajustar uma fila não muito grande, assim ela fica \"fresca\", o que significa que haverá menos chance de alterações entre o momento em que foi incluído na fila e o momento em que haverá a execução."
+    },
+    "lcl_faq_speed_a1": {
+        "message": "A estratégia é um conjunto planejado de ações que fazem com que você obtenha os melhores resultados na sua situação atual. Isso envolve pesquisa, busca pelas melhores hashtags para usar e os melhores perfis para seguir. Também envolve saber o quanto o Instagram acredita na sua conta. Pense no robô como uma máquina cega que põe em prática a sua estratégia. Ele só toca em frente o seu plano de ações, mas requer instruções inteligentes e atenção."
+    },
+    "lcl_faq_speed_a2_1": {
+        "message": "A resposta a seguir pressupõe que as filas para seguir ou dar like estão cheias e, então, o robô não está esperando para enchê-las. Em circunstâncias normais, o robô roda na velocidade que você especifica nas páginas de ajustes. Ele só diminui a velocidade quando encontra um erro. Muitos erros são sinais de que o Instagram não está gostando do que a sua conta está fazendo e então temporariamente dá uma bloqueada (chamamos isso de \"estrangulamento\". E ficar recebendo erros continuamente vai alertar o Instagram para congelar ou mesmo apagar a sua conta."
+    },
+    "lcl_faq_speed_a2_2": {
+        "message": "Se você perceber que o robô está ficando lento, por favor olhe o Relatório de Erros na página de estatísticas e dê um passo atrás aumentando os intervalos entra as ações e acrescentando mais períodos de descanso."
+    },
+    "lcl_faq_speed_a2_3": {
+        "message": "As vezes isso acontece mesmo depois do Autoinsta estar rodando perfeitamente por vários dias. Neste caso, é meio que como se o Instagram tivesse aprendendo que as atividades de sua conta parecem com o comportamento de um robô."
+    },
+    "lcl_faq_speed_a3": {
+        "message": "Como em todos os bons suportes técnicos, a primeira coisa que eu te perguntaria era se você já desligou e ligou o programa. Normalmente isso resolve o problema. Outras vezes, esvaziando a fila também ajuda. Caso o problema persista, normalmente é uma indicação de alguma coisa mais séria. Verifique o Relatório de Erros. Caso haja muitos erros no trabalho de Seguir ou no de Deixar de Seguir, eu sugiro que você dê uma pausa no robô por um dia e ajuste o sistema para um modo mais seguro ao invés de grande performance."
+    },
+    "lcl_faq_accounts_a1": {
+        "message": "Isso normalmente é um problema de aparência apenas. Não se preocupe, nosso banco de dados tem a sua licença, então você está habilitado a usar a função de Seguir perfeitamente."
+    },
+    "lcl_faq_accounts_a2": {
+        "message": "Você precisará usar a funcionalidade do Chrome em gerenciar multiplos perfis. Cada perfil poderá ter o seu próprio grupo de logins e extensões. Dê uma olhada neste link para mais informações."
+    },
+    "lcl_faq_accounts_a3": {
+        "message": "Envie um email para nós com o seu username do Instagram e nós apagaremos o email do arquivo e você poderá colocar o correto."
+    },
+    "lcl_faq_settings_a1": {
+        "message": "Os melhores ajustes estão intimamente ligados com a credibilidade de sua conta e os seus objetivos. A credibilidade de sua conta é algo que o Instagram determina lá dentro. Não sabemos exatamente como isso é calculado, mas geralmente contas mais antigas são mais legítimas que as novas. Idealmente, você deve desejar configurar sua conta para balancear segurança e performance. Não existe uma fórmula que sirva para todos os tipos de perfil."
+    },
+    "lcl_faq_settings_a2": {
+        "message": "Todas as vezes que você achar que o robô foi estrangulado ou quando você atualizou suas estratégias de ação."
+    },
+    "lcl_faq_settings_a3": {
+        "message": "É provável que você não esteja usando essa extensão no Chrome ou em um PC ou no Mac."
+    },
+    "lcl_faq_settings_a4": {
+        "message": "Use a opção de Transferência de Ajustes na página da Conta"
+    },
+    "lcl_faq_other_a1": {
+        "message": "Não. Mas nos avise se tiver sugestões."
+    },
+    "lcl_faq_other_a2": {
+        "message": "Segurança sobre performance. O robô é apenas uma extensão da sua estratégia. Tente não deixar só na mão dele. Isso vai gerar apenas tráfego na sua conta, mas atingir o alvo depende mais do seu direcionamento."
+    },
+    "lcl_faq_other_a3": {
+        "message": "Nós apreciamos todos os pedidos de funções e os analisamos. Muitas vezes as sugestões são muito boas e nós iremos chegar nelas uma por uma."
+    }
+}

@@ -1,0 +1,371 @@
+{
+	"lcl_larger_than":{
+         "message":"Más grande que el bajo"
+   },
+   "lcl_smaller_than":{
+         "message":"Más pequeño que el bajo"
+   },
+	"lcl_followers_count":{
+         "message":"Cuenta de seguidores"
+   },
+   "lcl_following_count":{
+         "message":"Cuenta de Seguidos"
+   },
+   "lcl_medias_count":{
+         "message":"Cuenta de publicaciones"
+   },
+   "lcl_filter_public":{
+         "message":"Solo sigue cuentas PÚBLICAS"
+   },
+   "lcl_filter_private":{
+         "message":"Solo sigue cuentas PRIVADAS"
+   },
+   "lcl_filter_private_public":{
+         "message":"Seguir cuentas públicas y privadas"
+   },
+   "lcl_filter_external_link":{
+         "message":"No siga quién tiene enlace externo como www.website.com"
+   },
+   "lcl_filter_desciription_black":{
+         "message":"Biografía de las palabras de la lista negra (escribe varias palabras separadas por comas)"
+   },
+	"lcl_user_filters":{
+         "message":"Filtros de usuario para seguimiento"
+   },
+	"lcl_collect_followers_new":{
+			"message":"Filtros de usuario para seguidores"
+	},
+	"lcl_collect_followers_all":{
+			"message":"Recopilar todos los seguidores"
+	},
+	"lcl_lates_comments": {
+      "message": "últimos comentarios"
+   },
+	"lcl_delete_white_list_likes_comments": {
+      "message": "Eliminar usuarios y comentaristas de la lista blanca"
+   },
+   "lcl_clear_white_list": {
+      "message": "Eliminar lista blanca"
+   },
+	"lcl_collect_comments": {
+      "message": "Recoger comentarios"
+   },
+	"lcl_collect_likes": {
+      "message": "Recoger los gustos"
+   },
+	 "lcl_collect_title": {
+      "message": "Usuarios de la lista blanca que te han gustado y comentado tus publicaciones"
+   },
+	"lcl_stop_collect_current_follows": {
+      "message": "Deja de recoger"
+   },
+	"lcl_auto_unfollow": {
+      "message": "Sin seguir automática"
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "Habilitar la sin seguir automática"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "Activar automáticamente la desconexión después de que haya transcurrido el último tiempo de inactividad ..."
+   },
+   "lcl_day_1": {
+      "message": "1 día"
+   },
+   "lcl_day_2": {
+      "message": "2 días"
+   },
+   "lcl_day_3": {
+      "message": "3 días"
+   },
+	"lcl_collect_current_follows": {
+      "message": "Recoger corriente seguidos"
+   },
+	"lcl_ext_name":{
+			"message":"Autoinsta | Instagram Mayordomo de robots 🤖"
+	},
+	"lcl_ext_desc":{
+			"message":"Instagram Bot: Personalizar automático como, seguir, no seguir. No requiere contraseña."
+	},
+	"lcl_pool_jobs":{
+			"message":"Pool Jobs"
+	},
+	"lcl_settings":{
+			"message":"Ajustes"
+	},
+	"lcl_statistics":{
+			"message":"Estadística"
+	},
+	"lcl_create_unfollow_job":{
+			"message":"Crear trabajo sin seguir"
+	},
+	"lcl_auto_likes":{
+			"message":"Gustos automáticoss"
+	},
+	"lcl_sleep_times":{
+			"message":"Tiempos de sueño"
+	},
+	"lcl_white_list":{
+			"message":"Lista blanca"
+	},
+	"lcl_white_list_for":{
+			"message":"Lista blanca para no seguir"
+	},
+	"lcl_pool":{
+			"message":"Piscina"
+	},
+	"lcl_remove_unfollow_job":{
+			"message":"Eliminar seguimiento piscina"
+	},
+	"lcl_latest_follows":{
+			"message":"Lo más reciente"
+	},
+	"lcl_user_name":{
+			"message":"Nombre de usuario"
+	},
+	"lcl_follow_time":{
+			"message":"Sigue el tiempo"
+	},
+	"lcl_latest_likes":{
+			"message":"Últimos gustos"
+	},
+	"lcl_media":{
+			"message":"Publicaciones"
+	},
+	"lcl_time":{
+			"message":"Hora"
+	},
+	"lcl_latest_unfollows":{
+			"message":"Últimos sin seguir"
+	},
+	"lcl_unfollow_time":{
+			"message":"Tiempo sin seguir"
+	},
+	"lcl_error_log":{
+			"message":"Registro de errores"
+	},
+	"lcl_action":{
+			"message":"Acción"
+	},
+	"lcl_next_action_time":{
+			"message":"Siguiente tiempo de acción"
+	},
+	"lcl_item":{
+			"message":"Criterios"
+	},
+	"lcl_error_type":{
+			"message":"Tipo de error"
+	},
+	"lcl_user_names_desc":{
+			"message":"Nombres de usuario (escriba varios nombres de usuario separados por comas)"
+	},
+	"lcl_close":{
+			"message":"Cerca"
+	},
+	"lcl_follow_sleep_times":{
+			"message":"Sigue los tiempos de sueño"
+	},
+	"lcl_unfollow_sleep_times":{
+			"message":"No seguir los tiempos de sueño"
+	},
+	"lcl_like_sleep_times":{
+			"message":"Tiempos de sueño"
+	},
+	"lcl_declare_sleep_times_follow":{
+			"message":"Tiempos de sueño para seguir"
+	},
+	"lcl_declare_sleep_times_unfollow":{
+			"message":"Tiempos de sueño para sin seguir"
+	},
+	"lcl_declare_sleep_times_like":{
+			"message":"Tiempos de sueño para gusta"
+	},
+	"lcl_start_time":{
+			"message":"Hora de inicio"
+	},
+	"lcl_end_time":{
+			"message":"Hora de finalización"
+	},
+	"lcl_add":{
+			"message":"Añadir"
+	},
+	"lcl_delete":{
+			"message":"Piscina Vacía"
+	},
+	"lcl_action":{
+			"message":"Acción"
+	},
+	"lcl_tags_to_collect_media":{
+			"message":"Etiquetas para gustar"
+	},
+	"lcl_like_status":{
+			"message":"Gusta estado"
+	},
+	"lcl_collect_medias_from_home_timeline_to_like":{
+			"message":"Gusta publicaciones en la página principal"
+	},
+	"lcl_collect_medias_from_tags_to_like":{
+			"message":"Recoger publicaciones con etiquetas"
+	},
+	"lcl_like_interval_time":{
+			"message":"Intervalo de tiempo para gusta (segundos)"
+	},
+	"lcl_error_like_interval_time":{
+			"message":"Error de intervalo de tiempo para gusta (segundos)"
+	},
+	"lcl_max_like_limit":{
+			"message":"Máximo gusta límite en 24 horas"
+	},
+	"lcl_followers":{
+			"message":"Seguidores"
+	},
+	"lcl_comments_likes":{
+			"message":"Comentaristas / Likers"
+	},
+	"lcl_searches":{
+			"message":"Etiquetas"
+	},
+	"lcl_locations":{
+			"message":"Ubicaciones"
+	},
+	"lcl_from_followers":{
+			"message":"De los seguidores"
+	},
+	"lcl_from_comments_likes":{
+			"message":"De comentarios y gustos"
+	},
+	"lcl_from_searches":{
+			"message":"De las búsquedas"
+	},
+	"lcl_from_locations":{
+			"message":"Desde ubicaciones"
+	},
+	"lcl_job_interval_times":{
+			"message":"Intervalo de tiempo para los trabajos"
+	},
+	"lcl_others":{
+			"message":"Otros"
+	},
+	"lcl_pool_limit":{
+			"message":"Límite de la piscina"
+	},
+	"lcl_delete_pool":{
+			"message":"Eliminar la piscina"
+	},
+	"lcl_jobs":{
+			"message":"Tareas"
+	},
+	"lcl_interval_time":{
+			"message":"Intervalo de tiempo (segundos)"
+	},
+	"lcl_after_rate_limit_error":{
+			"message":"Después del tiempo de espera del error de límite de velocidad (segundos)"
+	},
+	"lcl_follow":{
+			"message":"Seguir"
+	},
+	"lcl_unfollow":{
+			"message":"Dejar de suguir"
+	},
+	"lcl_pool_collect_followers":{
+			"message":"Recopilar a los seguidores"
+	},
+	"lcl_pool_collect_commenters":{
+			"message":"Recopilar comentarios"
+	},
+	"lcl_pool_collect_searches":{
+			"message":"Recopilar búsquedas"
+	},
+	"lcl_pool_collect_locations":{
+			"message":"Recopilar ubicaciones"
+	},
+	"lcl_limits":{
+			"message":"Límites"
+	},
+	"lcl_follow_limit":{
+			"message":"Siga el límite en 24 horas"
+	},
+	"lcl_unfollow_limit":{
+			"message":"Dejar de seguir el límite en 24 horas"
+	},
+	"lcl_follows":{ 
+			"message":"Seguidos"
+	},
+	"lcl_unfollows":{
+			"message":"Dejar de seguir"
+	},
+	"lcl_likes":{
+			"message":"Gusta"
+	},
+	"lcl_dont_unfollow_that_you_follow":{
+			"message":"Evita que sigas a los usuarios que siguió en el último ..."
+	},
+	"lcl_until_1":{
+			"message":"1 día"
+	},
+	"lcl_until_2":{
+			"message":"2 días"
+	},
+	"lcl_until_3":{
+			"message":"3 días"
+	},
+	"lcl_dont_unfollow_followers":{
+			"message":"No dejar de seguir seguidores"
+	},
+	"lcl_cancel":{
+			"message":"Cancelar"
+	},
+	"lcl_start":{
+			"message":"Comienzo"
+	},
+	"lcl_licence":{
+			"message":"Licencia"
+	},
+	"lcl_check_licence":{
+			"message":"Comprobar licencia"
+	},
+	"lcl_prices":{
+			"message":"Precios"
+	},
+	"lcl_options":{
+			"message":"Opciones"
+	},
+	"lcl_collect_media_owners":{
+			"message":"Recopilar propietarios de publicaciones"
+	},
+	"lcl_collect_who_likes_media":{
+			"message":"Recopilar a los usuarios que les gustaron los publicaciones"
+	},
+	"lcl_collect_comments_on_media":{
+			"message":"Recopilar comentarios de publicación"
+	},
+	"lcl_remove_location_job":{
+			"message":"Eliminar las tareas de ubicación"
+	},
+	"lcl_collect_from_location":{
+			"message":"Recoger de la ubicación"
+	},
+	"lcl_remove_tag_job":{
+			"message":"Eliminar tareas de etiqueta"
+	},
+	"lcl_collect_from_tag":{
+			"message":"Recoger esta etiqueta"
+	},
+	"lcl_remove_like_media_job":{
+			"message":"Quitar el trabajo de publicación gusta"
+	},
+	"lcl_like_medias_job":{
+			"message":"Me gusta publicación con esta etiqueta"
+	},
+	"lcl_remove_followers_collect_job":{
+			"message":"Quitar Seguidores-trabajo de recolección"
+	},
+	"lcl_collect_from_followers":{
+			"message":"Recopilar seguidores"
+	},
+	"lcl_remove_comments_likes_collect_job":{
+			"message":"Deje de recopilar comentarios y comentarios"
+	},
+	"lcl_collect_from_comments_likes":{
+			"message":"Recopilar comentarios y comentarios"
+	}	
+}

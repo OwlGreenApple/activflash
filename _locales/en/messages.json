@@ -1,0 +1,720 @@
+{
+	"lcl_ext_name": {
+		"message": "Autoinsta.me"
+	},
+	"lcl_ext_desc": {
+		"message": "IG Robot Butler"
+	},
+	"lcl_follow": {
+		"message": "Follow"
+	},
+	"lcl_follows": {
+		"message": "Follows"
+	},
+	"lcl_unfollow": {
+		"message": "Unfollow"
+	},
+	"lcl_unfollows": {
+		"message": "Unfollows"
+	},
+	"lcl_like": {
+		"message": "Like"
+	},
+	"lcl_likes": {
+		"message": "Likes"
+	},
+	"lcl_until_1": {
+		"message": "1 day"
+	},
+	"lcl_until_2": {
+		"message": "2 days"
+	},
+	"lcl_until_3": {
+		"message": "3 days"
+	},
+	"lcl_until_4": {
+		"message": "4 day"
+	},
+	"lcl_until_5": {
+		"message": "5 days"
+	},
+	"lcl_until_6": {
+		"message": "6 days"
+	},
+	"lcl_until_7": {
+		"message": "7 days"
+	},
+	"lcl_advanced": {
+		"message": "Advanced"
+	},
+	"lcl_sleep_times_advanced_desc": {
+		"message": "Sleep the first X minutes of the hour:"
+	},
+	"lcl_settings": {
+		"message": "Settings"
+	},
+	"lcl_sleep_times": {
+		"message": "Sleep Times"
+	},
+	"lcl_pool": {
+		"message": "Pool"
+	},
+	"lcl_in_pool": {
+		"message": "in pool"
+	},
+	"lcl_refresh_all": {
+		"message": "Refresh All"
+	},
+	"hide_show": {
+		"message": "Hide/Show"
+	},
+	"lcl_start_time": {
+		"message": "Start time"
+	},
+	"lcl_end_time": {
+		"message": "End time"
+	},
+	"lcl_add": {
+		"message": "Add"
+	},
+	"lcl_delete": {
+		"message": "Delete"
+	},
+	"lcl_delete_pool": {
+		"message": "Empty Pool"
+	},
+	"lcl_jobs": {
+		"message": "Jobs"
+	},
+	"lcl_interval_time": {
+		"message": "Time interval (seconds)"
+	},
+	"lcl_after_rate_limit_error": {
+		"message": "After Rate Limit Error Wait Time (seconds)"
+	},
+	"lcl_instructions": {
+		"message": "Instructions"
+	},
+
+	"lcl_chart": {
+		"message": "Chart"
+	},
+	"lcl_no_data_available": {
+		"message": "No data available"
+	},
+	"lcl_log": {
+		"message": "Log"
+	},
+	"lcl_user_name": {
+		"message": "Username"
+	},
+	"lcl_followed_time": {
+		"message": "Followed Time"
+	},
+	"lcl_license_about_to_expire_msg": {
+		"message": "Thank you for using Autoinsta. Just a friendly reminder that your license expires soon. In order to continue using the FOLLOW feature, please remember to renew. 😘"
+	},
+	"lcl_license_expired_msg": {
+		"message": "😱 Oh no... The license has expired. Please renew now!"
+	},
+	"lcl_loading" : {
+		"message" : "Loading"
+	},
+	"lcl_keep_login" : {
+		"message" : "Please login to <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a> and keep it open."
+	},
+	"lcl_email_promo" : {
+		"message" : "🎉  Enter email in Account page to receive a 7-day license extension."
+	},
+	"lcl_invite_promo" : {
+		"message" : "🎁  Invite friends in Account page to get rewarded."
+	},
+	"lcl_waiting" : {
+		"message" : "Waiting"
+	},
+	"lcl_request_reopen" : {
+		"message" : "Please reopen <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a>."
+	},
+	"lcl_get" : {
+		"message" : "Get"
+	},
+	"lcl_error" : {
+		"message" : "Error"
+	},
+	"lcl_cancel" : {
+		"message" : "Cancel"
+	},
+	"lcl_following": {
+		"message": "following"
+	},
+	"lcl_followed": {
+		"message": "followed"
+	},
+	"lcl_insrct_follow_1": {
+		"message": "Step 1, set up filter in <span class=\"glyphicon glyphicon-cog inline\"></span> if necessary. "
+	},
+	"lcl_insrct_follow_2": {
+		"message": "Step 2, collect users into pool from a user's page, a tag, or a location in <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a>."
+	},
+	"lcl_insrct_follow_3": {
+		"message": "Step 3, turn on the switch above and the system will automatically follow them based on your specifications."
+	},
+	"lcl_insrct_call_to_action_follow_videos": {
+		"message": "Watch the <a href=\"https://youtu.be/j67JhKDRRqs?t=19s\" target=\"_blank\">tutorial video</a>"
+	},
+	"lcl_follow_time": {
+		"message": "Follow Time"
+	},
+	"lcl_time_intervals": {
+		"message": "Time Intervals"
+	},
+	"lcl_pool_collect_intervals": {
+		"message": "Pool Collect Intervals"
+	},
+	"lcl_filters": {
+		"message": "Filters"
+	},
+	"lcl_pool_size_limit": {
+		"message": "Pool Size Limit"
+	},
+	"lcl_pool_size_limit_desc": {
+		"message": "Set the maximum number of users the pool can have. "
+	},
+	"lcl_pool_collect_followers": {
+		"message": "Collect Followers"
+	},
+	"lcl_pool_collect_commenters": {
+		"message": "Collect Commenters & Likers"
+	},
+	"lcl_pool_collect_searches": {
+		"message": "Collect Tags"
+	},
+	"lcl_pool_collect_locations": {
+		"message": "Collect Locations"
+	},
+	"lcl_sources": {
+		"message": "Sources"
+	},
+	"lcl_followers": {
+		"message": "Followers"
+	},
+	"lcl_comments_likes": {
+		"message": "Commenters/Likers"
+	},
+	"lcl_searches": {
+		"message": "Tags"
+	},
+	"lcl_locations": {
+		"message": "Locations"
+	},
+	"lcl_from_followers": {
+		"message": "From Followers"
+	},
+	"lcl_from_comments_likes": {
+		"message": "From Comments & Likes"
+	},
+	"lcl_from_searches": {
+		"message": "From Tags"
+	},
+	"lcl_from_locations": {
+		"message": "From Locations"
+	},
+	"lcl_follow_limit_24h": {
+		"message": "Follow Limit Per 24 Hours"
+	},
+	"lcl_follow_limit_24h_desc": {
+		"message": "Set the maximum number of users to follow in a 24-hour span. Instagram doesn't allow any account to follow more than 7500 users overall."
+	},
+	"lcl_limit24h": {
+		"message": "Limit/24h"
+	},
+	"lcl_follow_time_interval": {
+		"message": "Follow Time Interval (seconds)"
+	},
+	"lcl_follow_time_interval_desc": {
+		"message": "Randomize the time interval between each follow to avoid instagram account ban."
+	},
+	"lcl_between": {
+		"message": "Between"
+	},
+	"lcl_and": {
+		"message": "And"
+	},
+	"lcl_lpdt_follow": {
+		"message": "That translates to this many follows in 24 hours at most: <span id=\"lpdt\"></span>"
+	},
+	"lcl_error_waittime": {
+		"message": "Wait Time After Rate Limit (seconds)"
+	},
+	"lcl_follow_error_waittime_desc": {
+		"message": "Set wait time to start following again after you have hit the rate limit."
+	},
+	"lcl_wait": {
+		"message": "Wait"
+	},
+	"lcl_follows_filters_desc": {
+		"message": "Follow users with these criteria. Leave them blank if not required."
+	},
+	"lcl_larger_than": {
+		"message": "Larger than below"
+	},
+	"lcl_smaller_than": {
+		"message": "Smaller than below"
+	},
+	"lcl_followers_count": {
+		"message": "Followers Count"
+	},
+	"lcl_following_count": {
+		"message": "Following Count"
+	},
+	"lcl_medias_count": {
+		"message": "Posts Count"
+	},
+	"lcl_filter_public": {
+		"message": "Only follow PUBLIC accounts"
+	},
+	"lcl_filter_private": {
+		"message": "Only follow PRIVATE accounts"
+	},
+	"lcl_filter_private_public": {
+		"message": "Follow both private and public accounts"
+	},
+	"lcl_filter_external_link": {
+		"message": "Do not follow who has external link like www.website.com"
+	},
+	"lcl_filter_desciription_black": {
+		"message": "Biography blacklist words (write multiple words separated with comma)"
+	},
+	"lcl_declare_sleep_times_follow": {
+		"message": "Sleep times for FOLLOW"
+	},
+	"lcl_scanned": {
+		"message": "scanned"
+	},
+	"lcl_unfollowed": {
+		"message": "unfollowed"
+	},
+	"lcl_insrct_unfollow_1": {
+		"message": "Step 1, set the maximum number of unfollows per day, frequency, and whitelist in <span class=\"glyphicon glyphicon-cog inline\"></span>."
+	},
+	"lcl_insrct_unfollow_2": {
+		"message": "Step 2, turn on switch. Bot will automatically unfollow users who are not following you back."
+	},
+	"lcl_insrct_call_to_action_unfollow_videos": {
+		"message": "Watch <a href=\"https://youtu.be/4uNBaOtJpTk?t=18s\" target=\"_blank\">tutorial video</a>"
+	},
+	"lcl_unfollow_time": {
+		"message": "Unfollow Time"
+	},
+	"lcl_restricted_unfollow": {
+		"message": "Restricted Unfollow"
+	},
+	"lcl_restricted_unfollow_desc": {
+		"message": "Check this box if you don't wish to auto unfollow users you manually followed on Instagram. Please note uninstalling the extension will lose the record of whom the bot has followed."
+	},
+	"lcl_restricted_unfollow_checkbox": {
+		"message": "Only unfollow users followed by bot"
+	},
+	"lcl_grace_period": {
+		"message": "Unfollow Grace Period"
+	},
+	"lcl_grace_period_desc": {
+		"message": "Avoid unfollowing users you have followed in the last X days"
+	},
+	"lcl_dont_unfollow_followers": {
+		"message": "Do not unfollow followers"
+	},
+	"lcl_auto_unfollow": {
+		"message": "Auto Unfollows"
+	},
+	"lcl_auto_unfollow_enable": {
+		"message": "Enable auto unfollows"
+	},
+	"lcl_auto_unfollow_day": {
+		"message": "Automatically enable UNFOLLOW after the last unfollow time has passed..."
+	},
+	"lcl_day_1": {
+		"message": "1 day"
+	},
+	"lcl_day_2": {
+		"message": "2 days"
+	},
+	"lcl_day_3": {
+		"message": "3 days"
+	},
+	"lcl_remove_unfollow_job": {
+		"message": "Empty Unfollow Pool"
+	},
+	"lcl_unfollow_limit_24h": {
+		"message": "Unfollow Limit per 24 Hours"
+	},
+	"lcl_unfollow_limit_24h_desc": {
+		"message": "Set the maximum number of users to unfollow in a 24-hour span."
+	},
+	"lcl_unfollow_time_interval": {
+		"message": "Unfollow Time Interval"
+	},
+	"lcl_unfollow_time_interval_desc": {
+		"message": "Randomize the time interval between each unfollow to avoid Instagram account ban."
+	},
+	"lcl_unfollow_error_waittime": {
+		"message": "Set wait time to start unfollowing again after you have hit the rate limit imposed by Instagram."
+	},
+	"lcl_white_list": {
+		"message": "Whitelist"
+	},
+	"lcl_user_names_desc": {
+		"message": "Usernames (write multiple usernames separated with comma)"
+	},
+	"lcl_total": {
+		"message": "Total:"
+	},
+	"lcl_collect_title": {
+		"message": "Whitelist users who liked and commented on your posts"
+	},
+	"lcl_collect_likes": {
+		"message": "Collect Likers"
+	},
+	"lcl_collect_comments": {
+		"message": "Collect Commenters"
+	},
+	"lcl_whitelist_current_follows": {
+		"message": "Whitelist Current Follows"
+	},
+	"lcl_whitelist_current_follows_desc": {
+		"message": "Add the users who you are currently following to the whitelist"
+	},
+	"lcl_collect_current_follows": {
+		"message": "Collect Current Follows"
+	},
+	"lcl_stop_collect_current_follows": {
+		"message": "Stop Collecting"
+	},
+	"lcl_removals": {
+		"message": "Removals"
+	},
+	"lcl_delete_white_list_likes_comments": {
+		"message": "Remove likers and commenters from whitelist"
+	},
+	"lcl_clear_white_list": {
+		"message": "Clear whitelist"
+	},
+	"lcl_declare_sleep_times_unfollow": {
+		"message": "Sleep times for UNFOLLOW"
+	},
+	"lcl_hashtags": {
+		"message": "hashtags"
+	},
+	"lcl_liked": {
+		"message": "liked"
+	},
+	"lcl_insrct_like_1": {
+		"message": "Step 1, set the maximum number of likes per day and the frequency of likes in <span class=\"glyphicon glyphicon-cog inline\"></span>."
+	},
+	"lcl_insrct_like_2": {
+		"message": "Step 2, collect posts by users, hashtags, and locations from <a href=\"https://www.instagram.com\" target=\"_blank\">instagram.com</a> into the LIKE pool."
+	},
+	"lcl_insrct_like_3": {
+		"message": "Step 3, turn switch on."
+	},
+	"lcl_insrct_call_to_action_like_videos": {
+		"message": "Watch <a href=\"https://youtu.be/VRHZaQYCXOI?t=19s\" target=\"_blank\">tutorial video</a>"
+	},
+	"lcl_media": {
+		"message": "Posts"
+	},
+	"lcl_liked_time": {
+		"message": "Liked Time"
+	},
+	"lcl_tags_to_collect_media": {
+		"message": "Hashtags to Like"
+	},
+	"lcl_collect_medias_from_home_timeline_to_like": {
+		"message": "Collect posts from Home Feed to like"
+	},
+	"lcl_collect_medias_from_tags_to_like": {
+		"message": "Collect posts from Tags to like"
+	},
+	"lcl_like_interval_time": {
+		"message": "Time interval between Likes (seconds)"
+	},
+	"lcl_error_like_interval_time": {
+		"message": "Wait time after error (seconds)"
+	},
+	"lcl_max_like_limit": {
+		"message": "Max. like limit in 24 hours"
+	},
+	"lcl_tags": {
+		"message": "Tags"
+	},
+	"lcl_declare_sleep_times_like": {
+		"message": "Sleep times for LIKE"
+	},
+	"lcl_error_log" : {
+		"message" : "Error Log"
+	},
+	"lcl_error_log_desc": {
+		"message": "Adjust the respective settings or pause when you see like/follow/unfollow errors."
+	},
+	"lcl_action": {
+		"message": "Action"
+	},
+	"lcl_item": {
+		"message": "Criteria"
+	},
+	"lcl_error_type": {
+		"message": "Error Type"
+	},
+	"lcl_time": {
+		"message": "Time"
+	},
+	"lcl_next_action_time": {
+		"message": "Next Action Time"
+	},
+	"lcl_account_desc": {
+		"message": "Manage your account here."
+	},
+	"lcl_profile": {
+		"message": "Profile"
+	},
+	"lcl_license": {
+		"message": "License"
+	},
+	"lcl_license_remaining": {
+		"message": "License remaining"
+	},
+	"lcl_renew": {
+		"message": "Renew"
+	},
+	"lcl_email": {
+		"message": "Email"
+	},
+	"lcl_email_desc": {
+		"message": "Please enter your email and get a free 7-day license extension once email is confirmed."
+	},
+	"lcl_save": {
+		"message": "Save"
+	},
+	"lcl_settings_transfer": {
+		"message": "Settings Transfer"
+	},
+	"lcl_export": {
+		"message": "Export"
+	},
+	"lcl_import": {
+		"message": "Import"
+	},
+	"lcl_export_instruction": {
+		"message": "Copy the follow settings from this account and paste them into the \"Import\" section of another account."
+	},
+	"lcl_export_caution": {
+		"message": "Modifying setting values can be risky. Please proceed with caution."
+	},
+	"lcl_copy": {
+		"message": "Copy"
+	},
+	"lcl_copied": {
+		"message": "Copied"
+	},
+	"lcl_import_instruction": {
+		"message": "Paste the settings here:"
+	},
+	"lcl_data_management": {
+		"message": "Data Management"
+	},
+	"lcl_backup_desc": {
+		"message": "Backup your entire account into one file. Recover from it later."
+	},
+	"lcl_backup_title": {
+		"message": "Backup"
+	},
+	"lcl_backup_export_desc": {
+		"message": "Clicking this button will download this account's operational data and configurations, including Like/Follow sources, varies settings, as well as follow/unfollow records."
+	},
+	"lcl_export_data_btn": {
+		"message": "Download backup file"
+	},
+	"lcl_backup_recover_title": {
+		"message": "Recover"
+	},
+	"lcl_backup_recover_desc": {
+		"message": "Importing a recover file will clear all data currenlty stored for this account. If you do not wish to lose them, please back-up this account before restoring it from an earlier file."
+	},
+	"lcl_share" : {
+		"message": "Share"
+	},
+	"lcl_share_desc" : {
+		"message": "Share Autoinsta with your friends. Once they have installed through your personalized link and switched on Follow for the first time, you get rewarded with a 5-day license extension. There's no upper limit."
+	},
+	"lcl_share_url" : {
+		"message" : "Personalized Link"
+	},
+	"lcl_collect_followers_new": {
+		"message": "Check & Collect latest 10 new followers"
+	},
+	"lcl_collect_followers_all": {
+		"message": "Collect all followers"
+	},
+	"lcl_collect_media_owners": {
+		"message": "Collect post owners"
+	},
+	"lcl_collect_who_likes_media": {
+		"message": "Collect users who liked the posts"
+	},
+	"lcl_collect_comments_on_media": {
+		"message": "Collect post commenters"
+	},
+	"lcl_remove_location_job": {
+		"message": "Remove Location job"
+	},
+	"lcl_collect_from_location": {
+		"message": "Collect from Location"
+	},
+	"lcl_remove_tag_job": {
+		"message": "Remove Tag job"
+	},
+	"lcl_collect_from_tag": {
+		"message": "Collect from this tag"
+	},
+	"lcl_remove_like_media_job": {
+		"message": "Remove post-liking job"
+	},
+	"lcl_like_medias_job": {
+		"message": "Like Posts with this tag"
+	},
+	"lcl_remove_followers_collect_job": {
+		"message": "Remove Followers-collecting job"
+	},
+	"lcl_collect_from_followers": {
+		"message": "Collect followers"
+	},
+	"lcl_remove_comments_likes_collect_job": {
+		"message": "Remove Commenters & Likers collect job"
+	},
+	"lcl_collect_from_comments_likes": {
+		"message": "Collect commenters & likers"
+	},
+    "lcl_frequently_asked_questions" : {
+        "message" : "Frequently Asked Questions"
+    },
+	"lcl_about_pools" : {
+		"message" : "About Pools"
+	},
+	"lcl_faq_pool_q1": {
+		"message": "What is the pool anyway"
+	},
+	"lcl_faq_pool_q2": {
+		"message": "My Like/Follow/Unfollow pool isn't filling up anymore."
+	},
+	"lcl_faq_pool_q3": {
+		"message": "I want to change the pool size but can't."
+	},
+	"lcl_about_speed": {
+		"message": "About Speed"
+	},
+	"lcl_faq_speed_q1": {
+		"message": "What is this strategy thing I keep hearing?"
+	},
+	"lcl_faq_speed_q2": {
+		"message": "The bot is really slow. What's the matter?"
+	},
+	"lcl_faq_speed_q3": {
+		"message": "The bot isn't following anyone anymore."
+	},
+	"lcl_about_accounts": {
+		"message": "About Accounts"
+	},
+	"lcl_faq_accounts_q1": {
+		"message": "I bought a license but it is not showing in the License box."
+	},
+	"lcl_faq_accounts_q2": {
+		"message": "How can I run multiple Instagram x Autoinsta pairs?"
+	},
+	"lcl_faq_accounts_q3": {
+		"message": "I entered the wrong email so I didn't get the license extension."
+	},
+	"lcl_about_settings": {
+		"message": "About Settings"
+	},
+	"lcl_faq_settings_q1": {
+		"message": "What are the best settings?"
+	},
+	"lcl_faq_settings_q2": {
+		"message": "How often should I adjust the settings?"
+	},
+	"lcl_faq_settings_q3": {
+		"message": "Sleep times don't work."
+	},
+	"lcl_faq_settings_q4": {
+		"message": "How do I copy the settings from one account to another?"
+	},
+	"lcl_about_other_questions": {
+		"message": "Other Questions"
+	},
+	"lcl_faq_other_q1": {
+		"message": "Do you have bots for other platforms?"
+	},
+	"lcl_faq_other_q2": {
+		"message": "Do you have a general advice on how to use Autoinsta?"
+	},
+	"lcl_faq_other_q3": {
+		"message": "It would help me the most if the bot had this feature..."
+	},
+	"lcl_faq_pool_a1": {
+		"message": "Like, Follow, and Unfollow each has a pool, but the concept is the same. The pool is a queue of people/posts waiting to be followed/unfollowed/liked. Or as we'd like to call it...\"executed.\""
+	},
+	"lcl_faq_pool_a2_1": {
+		"message": "There are two most likely causes. The first is that the bot has run into some errors and stopped collecting. Give it a kick by turning the switch off and back on. This will force the bot to rescan/recollect people and/or posts."
+	},
+	"lcl_faq_pool_a2_2": {
+		"message": "The second is that the bot has been querying instagram.com too frequently and was temporarily blocked by Instagram. This querying blockage is usually lifted after 20 minutes. By then, you should consider either only letting Like or Follow to run, or reducing the number of sources for Like/Follow to collect from."
+	},
+	"lcl_faq_pool_a3": {
+		"message": "The pool size is capped at 1000. It is actually better to set a smaller pool size so whatever is in the pool is \"fresh,\" meaning things are less likely to change between the time when they are added to the pool and when they are \"executed.\""
+	},
+	"lcl_faq_speed_a1": {
+		"message": "The strategy is an ever-evolving plan of actions that makes sure you get the best results under your current situation. It involves doing research, finding out the best hashtags to use and the users to follow. It also involves knowing how much Instagram trusts your account. Think of the bot as an unintelligent machine that carries out your strategy. It only carries out your plan of actions at scale, but it still requires your smart inputs and attention."
+	},
+	"lcl_faq_speed_a2_1": {
+		"message": "The following answer assumes that there are plenty of people/posts in the pool so the bot isn't waiting on it to fill up. Under normal circumstances the bot runs at the speed you specify in the setting pages. It only slows down when it encounters an error. Most errors are signs that Instagram doesn't like what the account is doing and therefore temporarily blocks that action (we call this throttling). Continuously getting errors will most likely prompt Instagram to freeze or even delete the account."
+	},
+	"lcl_faq_speed_a2_2": {
+		"message": "If you notice that your bot is getting slower, please check the Error Log in Trends page, and scale back by increasing time intervals and adding sleep times."
+	},
+	"lcl_faq_speed_a2_3": {
+		"message": "Sometimes this happens after Autoinsta has been running perfectly for several days. In this case, it's likely that Instagram has learned your account activities and thinks it has bot-esque behaviors."
+	},
+	"lcl_faq_speed_a3": {
+		"message": "Like all good tech supports, I would first tell you to turn the switch off and back on again. Usually it resolves the issue. Sometimes emptying the pool helps. If the problem persists, it usually indicates something more serious is going on. Check the Error Log. If you see many errors from Follow or Unfollow, I suggest that you pause the bot for a day, and meanwhile adjust the settings to favor safety over performance"
+	},
+	"lcl_faq_accounts_a1": {
+		"message": "This is usually a frond-end issue. Don't worry, as long as our database has your license, you should be able to use the Follow feature just fine."
+	},
+	"lcl_faq_accounts_a2": {
+		"message": "You will need to use Chrome's ability to manage multiple profiles. Each profile can have its own set of logins and extensions. Please refer to this link for more information."
+	},
+	"lcl_faq_accounts_a3": {
+		"message": "Email us with the Instagram username and we will delete the email on file so you can enter the correct one."
+	},
+	"lcl_faq_settings_a1": {
+		"message": "The best settings are tweaked to your account's trustworthiness and to your goals. Your account trustworthiness is something Instagram assigns. We do not know how exactly it is calculated but generally an older account is more trusted and a newer one. Ideally, you want to configure the settings to balance account safety and performance. There are no one-size-fits-all settings."
+	},
+	"lcl_faq_settings_a2": {
+		"message": "Whenever you think the bot is been throttled and whenever you have an updated strategy."
+	},
+	"lcl_faq_settings_a3": {
+		"message": "Chances are that you are not running this extension on Chrome or on a PC or Mac."
+	},
+	"lcl_faq_settings_a4": {
+		"message": "Use the Settings Transfer feature in Account page."
+	},
+	"lcl_faq_other_a1": {
+		"message": "No. Let us know if you have some suggestions."
+	},
+	"lcl_faq_other_a2": {
+		"message": "Safety over performance. The bot is only an extension of your strategy. Try not to rely just on the bot. It will drive traffic to your account, but whether people stay largely depends on your content."
+	},
+	"lcl_faq_other_a3": {
+		"message": "We document all feature requests and study them. Sometimes the suggestions are really good, and we will get to them one by one."
+	}
+}

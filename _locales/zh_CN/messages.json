@@ -1,0 +1,404 @@
+{
+	"lcl_larger_than":{
+         "message":"大于如下"
+   },
+   "lcl_smaller_than":{
+         "message":"小于如下"
+   },
+	"lcl_followers_count":{
+         "message":"粉丝数"
+   },
+   "lcl_following_count":{
+         "message":"关注数"
+   },
+   "lcl_medias_count":{
+         "message":"发帖数"
+   },
+   "lcl_filter_public":{
+         "message":"只关注公开账户"
+   },
+   "lcl_filter_private":{
+         "message":"只关注私密账户"
+   },
+   "lcl_filter_private_public":{
+         "message":"关注公开账号和私密账户"
+   },
+   "lcl_filter_external_link":{
+         "message":"不关注任何简介中有类似这样网址的账户 www.website.com"
+   },
+   "lcl_filter_desciription_black":{
+         "message":"过滤简介中带有这些文字的 (每个文字间用英文逗号隔开)"
+   },
+	"lcl_user_filters":{
+         "message":"使用关注账户过滤器"
+   },
+	"lcl_collect_followers_new":{
+			"message":"查询并收集他最新的10个粉丝"
+	},
+	"lcl_collect_followers_all":{
+			"message":"收集他所有的粉丝"
+	},
+	"lcl_delete_white_list_likes_comments": {
+      "message": "将点赞者和评论者从白名单中移除"
+   },
+   "lcl_clear_white_list": {
+      "message": "清除白名单"
+   },
+	"lcl_collect_comments": {
+      "message": "收集评论者"
+   },
+	"lcl_collect_likes": {
+      "message": "收集点赞者"
+   },
+	 "lcl_collect_title": {
+      "message": "将在你帖子上点赞和评论的人加入白名单"
+   },
+	"lcl_stop_collect_current_follows": {
+      "message": "停止收集"
+   },
+	"lcl_auto_unfollow": {
+      "message": "自动取关"
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "开启自动取关"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "在上次取关时间过了多少天后自动开启自动取关..."
+   },
+   "lcl_day_1": {
+      "message": "1 天"
+   },
+   "lcl_day_2": {
+      "message": "2 天"
+   },
+   "lcl_day_3": {
+      "message": "3 天"
+   },
+	"lcl_collect_current_follows": {
+      "message": "收集现在关注的账户"
+   },
+	"lcl_ext_name":{
+			"message":"Autoinsta | Instagram 机器人管家 🤖"
+	},
+	"lcl_ext_desc":{
+			"message":"Instagram 机器人: 自动点赞,自动关注,自动取关. 不托管,无封号风险."
+	},
+	"lcl_pool_jobs":{
+			"message":"收集账户任务"
+	},
+	"lcl_settings":{
+			"message":"设置"
+	},
+	"lcl_statistics":{
+			"message":"统计"
+	},
+	"lcl_create_unfollow_job":{
+			"message":"创建取关任务"
+	},
+	"lcl_auto_likes":{
+			"message":"自动点赞"
+	},
+	"lcl_sleep_times":{
+			"message":"休眠时间"
+	},
+	"lcl_white_list":{
+			"message":"白名单"
+	},
+	"lcl_white_list_for":{
+			"message":"取关白名单"
+	},
+	"lcl_rate":{
+			"message":"请给我们评分"
+	},
+	"lcl_pool":{
+			"message":"收集池"
+	},
+	"lcl_unfollow_status":{
+			"message":"取关状态"
+	},
+	"lcl_scanned_users":{
+			"message":"扫描了的账户:"
+	},
+	"lcl_stop_scan":{
+			"message":"停止扫描"
+	},
+	"lcl_remove_unfollow_job":{
+			"message":"清楚取关账户池"
+	},
+	"lcl_follow_status":{
+			"message":"关注状态"
+	},
+	"lcl_latest_follows":{
+			"message":"最新关注"
+	},
+	"lcl_user_name":{
+			"message":"用户名"
+	},
+	"lcl_follow_time":{
+			"message":"关注时间"
+	},
+	"lcl_latest_likes":{
+			"message":"最新点赞"
+	},
+	"lcl_media":{
+			"message":"帖子"
+	},
+	"lcl_time":{
+			"message":"时间"
+	},
+	"lcl_latest_unfollows":{
+			"message":"最新取关"
+	},
+	"lcl_unfollow_time":{
+			"message":"取关时间"
+	},
+	"lcl_error_log":{
+			"message":"报错日志"
+	},
+	"lcl_action":{
+			"message":"操作"
+	},
+	"lcl_next_action_time":{
+			"message":"下一次操作时间"
+	},
+	"lcl_item":{
+			"message":"标准"
+	},
+	"lcl_error_type":{
+			"message":"报错类型"
+	},
+	"lcl_close":{
+			"message":"关闭"
+	},
+	"lcl_follow_sleep_times":{
+			"message":"关注休眠时间"
+	},
+	"lcl_unfollow_sleep_times":{
+			"message":"取关休眠时间"
+	},
+	"lcl_like_sleep_times":{
+			"message":"休眠时间"
+	},
+	"lcl_declare_sleep_times_follow":{
+			"message":"关注休眠时间"
+	},
+	"lcl_declare_sleep_times_unfollow":{
+			"message":"取关休眠时间"
+	},
+	"lcl_declare_sleep_times_like":{
+			"message":"点赞休眠时间"
+	},
+	"lcl_start_time":{
+			"message":"开始时间"
+	},
+	"lcl_end_time":{
+			"message":"结束时间"
+	},
+	"lcl_add":{
+			"message":"添加"
+	},
+	"lcl_delete":{
+			"message":"清除池子"
+	},
+	"lcl_tags_to_collect_media":{
+			"message":"标签点赞"
+	},
+	"lcl_like_status":{
+			"message":"点赞状态"
+	},
+	"lcl_collect_medias_from_home_timeline_to_like":{
+			"message":"收集主页上的帖子进行点赞"
+	},
+	"lcl_collect_medias_from_tags_to_like":{
+			"message":"收集带标签的帖子点赞"
+	},
+	"lcl_like_interval_time":{
+			"message":"点赞时间间隔(秒)"
+	},
+	"lcl_error_like_interval_time":{
+			"message":"点赞报错后休眠时间(秒)"
+	},
+	"lcl_max_like_limit":{
+			"message":"24小时做多点赞次数"
+	},
+	"lcl_followers":{
+			"message":"粉丝"
+	},
+	"lcl_comments_likes":{
+			"message":"评论者/点赞者"
+	},
+	"lcl_searches":{
+			"message":"标签"
+	},
+	"lcl_locations":{
+			"message":"位置"
+	},
+	"lcl_from_followers":{
+			"message":"来自粉丝"
+	},
+	"lcl_from_comments_likes":{
+			"message":"来自评论者/点赞者"
+	},
+	"lcl_from_searches":{
+			"message":"来自搜索关键字"
+	},
+	"lcl_from_locations":{
+			"message":"来自地理位置"
+	},
+	"lcl_pool_settings":{
+			"message":"收集池设置"
+	},
+	"lcl_job_interval_times":{
+			"message":"任务时间间隔"
+	},
+	"lcl_others":{
+			"message":"其他"
+	},
+	"lcl_pool_limit":{
+			"message":"池子限制"
+	},
+	"lcl_delete_pool":{
+			"message":"清空池子"
+	},
+	"lcl_delete_pool_history":{
+			"message":"清空池子记录"
+	},
+	"lcl_jobs":{
+			"message":"任务"
+	},
+	"lcl_interval_time":{
+			"message":"时间间隔(秒)"
+	},
+	"lcl_after_rate_limit_error":{
+			"message":"遇到硬性指标报错后休眠时间(秒)"
+	},
+	"lcl_follow":{
+			"message":"关注"
+	},
+	"lcl_unfollow":{
+			"message":"取关"
+	},
+	"lcl_pool_collect_followers":{
+			"message":"收集粉丝"
+	},
+	"lcl_pool_collect_commenters":{
+			"message":"收集评论者"
+	},
+	"lcl_pool_collect_searches":{
+			"message":"收集搜索关键字"
+	},
+	"lcl_pool_collect_locations":{
+			"message":"收集地理位置"
+	},
+	"lcl_limits":{
+			"message":"限制"
+	},
+	"lcl_follow_limit":{
+			"message":"24小时关注数上限"
+	},
+	"lcl_unfollow_limit":{
+			"message":"24小时取关数上限"
+	},
+	"lcl_follows":{ 
+			"message":"关注"
+	},
+	"lcl_unfollows":{
+			"message":"取关"
+	},
+	"lcl_likes":{
+			"message":"点赞"
+	},
+	"lcl_dont_unfollow_that_you_follow":{
+			"message":"不取关过去多少天内关注的账户..."
+	},
+	"lcl_until_1":{
+			"message":"1 天"
+	},
+	"lcl_until_2":{
+			"message":"2 天"
+	},
+	"lcl_until_3":{
+			"message":"3 天"
+	},
+	"lcl_dont_unfollow_followers":{
+			"message":"不取关自己的粉丝"
+	},
+	"lcl_cancel":{
+			"message":"取消"
+	},
+	"lcl_start":{
+			"message":"开始"
+	},
+	"lcl_licence":{
+			"message":"许可证"
+	},
+	"lcl_buy_licence":{
+			"message":"购买许可证"
+	},
+	"lcl_buy_now":{
+			"message":"购买"
+	},
+	"lcl_how_to_use":{
+			"message":"如何使用"
+	},
+	"lcl_check_licence":{
+			"message":"检查许可证"
+	},
+	"lcl_prices":{
+			"message":"价格"
+	},
+	"lcl_tos":{
+			"message": "服务条款"
+	},
+	"lcl_privacy_policy":{
+			"message":"隐私策略"
+	},
+	"lcl_contact":{
+			"message":"联系我们"
+	},
+	"lcl_save":{
+			"message":"保存"
+	},
+	"lcl_options":{
+			"message":"选项"
+	},
+	"lcl_collect_media_owners":{
+			"message":"收集发帖人"
+	},
+	"lcl_collect_who_likes_media":{
+			"message":"收集帖子点赞人"
+	},
+	"lcl_collect_comments_on_media":{
+			"message":"收集帖子评论人"
+	},
+	"lcl_remove_location_job":{
+			"message":"清除地理位置收集任务"
+	},
+	"lcl_collect_from_location":{
+			"message":"从地理位置收集"
+	},
+	"lcl_remove_tag_job":{
+			"message":"清除标签收集任务"
+	},
+	"lcl_collect_from_tag":{
+			"message":"从此标签收集"
+	},
+	"lcl_remove_like_media_job":{
+			"message":"清除点赞任务"
+	},
+	"lcl_like_medias_job":{
+			"message":"给带有这标签的帖子点赞"
+	},
+	"lcl_remove_followers_collect_job":{
+			"message":"清除粉丝收集任务"
+	},
+	"lcl_collect_from_followers":{
+			"message":"收集粉丝"
+	},
+	"lcl_remove_comments_likes_collect_job":{
+			"message":"清除评论者/点赞着收集任务"
+	},
+	"lcl_collect_from_comments_likes":{
+			"message":"从评论者/点赞者收集"
+	}	
+}
