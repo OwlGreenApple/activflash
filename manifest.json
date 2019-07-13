@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "__MSG_lcl_ext_name__",
   "description": "__MSG_lcl_ext_desc__",
-  "short_name": "Autoinsta.ME",
+  "short_name": "Activflash",
   "default_locale": "en",
   "version": "5.9.2",
   "icons": {
@@ -14,7 +14,7 @@
     "256": "img/256.png"
   },
   "browser_action": {
-    "default_title": "Autoinsta.me",
+    "default_title": "Activflash",
     "default_icon": "img/48.png"
   },
   "content_security_policy": "script-src 'self' 'sha256-nHmyK+ZNuFooAXm2NRvn4AuZiaFe2HzFWO16MuWH53w=' https://www.paypal.com/ https://www.paypalobjects.com/  https://www.google-analytics.com/analytics.js; object-src 'self'",
@@ -27,7 +27,7 @@
     "unlimitedStorage",
     "background",
     "identity",
-    "*://*.autoinsta.me/*",
+    "*://*.activflash.com/*",
     "*://*.instagram.com/*"
   ],
   "background": {

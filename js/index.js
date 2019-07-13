@@ -937,7 +937,7 @@ function count_unfollowed(e) {
 $("#license-tab").click(function() {
     var e = my_cookie2("genel", "user_id"),
         t = my_cookie2(e, "username");
-    $.ajax({
+    /*$.ajax({
         url: "https://autoinsta.me/func/check",
         data: {
             userid: e,
@@ -947,7 +947,8 @@ $("#license-tab").click(function() {
         dataType: "json"
     }).done(function(t) {
         $("#client_username").val(my_cookie2("genel", "username")), "success" == t.result ? (my_cookie2(e, "left_time", t.left_time), $("#time_left").val(moment.duration(parseInt(t.left_time)).humanize()), $("#license_modal").modal(), $("#license-expired-msg").addClass("hide")) : (my_cookie2(e, "left_time", 0), $("#time_left").val("Expired, please renew."), $("#license_modal").modal(), $("#license-expired-msg").removeClass("hide"))
-    })
+    })*/
+    console.log("a")
 }), $("#account-tab").click(function() {
     var e = my_cookie2("genel", "user_id"),
         t = my_cookie2(e, "username");
@@ -972,6 +973,7 @@ $("#email_save_btn").click(function() {
     var e = my_cookie2("genel", "user_id"),
         t = $("#inputEmail").val(),
         l = validateEmail(t);
+        /*
     l ? $.ajax({
         url: "https://autoinsta.me/func/setMail?userid=" + e + "&mail=" + t,
         method: "GET"
@@ -980,6 +982,8 @@ $("#email_save_btn").click(function() {
     }).fail(function(e) {
         console.log("DEBUG_fk24 | data: ", e)
     }) : alert("Please enter a valid email address.")
+    */
+    console.log("b")
 }), $(function() {
     var e = 0,
         t = 0;
@@ -1211,7 +1215,7 @@ $("#whatsnew-tab").click(function() {
     getWhatsnew(), $("#update-info-modal").modal("show")
 }), $("#share_btn").click(function() {
     var e = my_cookie2("genel", "user_id");
-    $.ajax({
+    /*$.ajax({
         url: "https://autoinsta.me/func/getShareUrl?userid=" + e,
         method: "GET"
     }).done(function(e) {
@@ -1228,8 +1232,11 @@ $("#whatsnew-tab").click(function() {
                 console.log("Oops, unable to copy"), $("#share_btn").text(chrome.i18n.getMessage("lcl_error"))
             }
         }
-    })
-}), $.ajax({
+    })*/
+    console.log("c");
+}); 
+/*
+$.ajax({
     url: "http://autoinsta.me/func/notice",
     method: "GET"
 }).done(function(e) {
@@ -1238,3 +1245,5 @@ $("#whatsnew-tab").click(function() {
         e == t ? $("#notice_box").addClass("hide") : (localStorage.setItem("notice_str", e), $("#notice_box").removeClass("hide"), $("#notice-text").html(e))
     } else $("#notice_box").addClass("hide")
 });
+*/
+console.log("D");
