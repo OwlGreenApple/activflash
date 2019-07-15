@@ -13,7 +13,7 @@
 
 {
     "lcl_ext_name": {
-        "message": "Autoinsta | Bot per Instagram"
+        "message": "Activflash | Bot per Instagram"
     },
     "lcl_ext_desc": {
         "message": "Testo Bot Instagram: auto-like, follow e unfollow personalizzabili; sicuro e facile da usare"
@@ -112,7 +112,7 @@
         "message": "Istante in cui è stato seguito"
     },
     "lcl_license_about_to_expire_msg": {
-        "message": "Grazie per aver usato Autoinsta. Vorrei gentilmente ricordarti che la tua licenza scadrà tra poco. Per continuare a usare le funzioni di FOLLOW, ricordati di rinnovare."
+        "message": "Grazie per aver usato Activflash. Vorrei gentilmente ricordarti che la tua licenza scadrà tra poco. Per continuare a usare le funzioni di FOLLOW, ricordati di rinnovare."
     },
     "lcl_license_expired_msg": {
         "message": "Oh no… La licenza è scaduta. Rinnova ora!"
@@ -532,7 +532,7 @@
 		"message": "Condividi"
 	},
 	"lcl_share_desc" : {
-		"message": "Condividi Autoinsta con i tuoi amici. Una volta che avranno installato Autoinsta grazie al tuo link   personalizzato e avranno attivato l’interruttore del Follow per la prima volta, sarai ricompensato con un’estensione della licenza di 5 giorni. Non c’è un limite."
+		"message": "Condividi Activflash con i tuoi amici. Una volta che avranno installato Activflash grazie al tuo link   personalizzato e avranno attivato l’interruttore del Follow per la prima volta, sarai ricompensato con un’estensione della licenza di 5 giorni. Non c’è un limite."
 	},
 	"lcl_share_url" : {
 		"message" : "Link personalizzato"
@@ -616,7 +616,7 @@
         "message": "Ho comprato una licenza ma non è mostrato nel box della licenza"
     },
     "lcl_faq_accounts_q2": {
-        "message": "Come posso eseguire  Autoinsta per più di un account Instagram alla volta?"
+        "message": "Come posso eseguire  Activflash per più di un account Instagram alla volta?"
     },
     "lcl_faq_accounts_q3": {
         "message": "Ho inseritto l'email sbagliata e quindi non posso ottenere il prolungamento della licenza."
@@ -643,7 +643,7 @@
         "message": "Avete bot anche per altre piattaforme?"
     },
     "lcl_faq_other_q2": {
-        "message": "Avete un consiglio generale su come usare Autoinsta?"
+        "message": "Avete un consiglio generale su come usare Activflash?"
     },
     "lcl_faq_other_q3": {
         "message": "Mi aiuterebbe di più se il bot avesse queste funzioni…"
@@ -670,7 +670,7 @@
         "message": "Se noti che il tuo bot sta rallentando, controlla il Registro Errori nella pagina Andamento, e ridimensiona le impostazioni aumentando gli intervalli di tempo e aggiungendo tempi di inattività."
     },
     "lcl_faq_speed_a2_3": {
-        "message": "A volte questo accade dopo che Autoinsta ha funzionato alla perfezione per diversi giorni. In questo caso, è probabile che Instagram abbia appreso le attività del tuo account e pensi che ci sia un bot dietro ad eseguirle."
+        "message": "A volte questo accade dopo che Activflash ha funzionato alla perfezione per diversi giorni. In questo caso, è probabile che Instagram abbia appreso le attività del tuo account e pensi che ci sia un bot dietro ad eseguirle."
     },
     "lcl_faq_speed_a3": {
         "message": "Come tutti i buoni supporti tecnici, per prima cosa ti consiglierei di spegnere e riaccendere l'interruttore. Di solito questo risolve il problema. Qualche volta svuotare la pool aiuta. Se il problema persiste, questo indica che sta accadendo qualcosa di più serio. Controlla il Registro Errori. Se vedi molti errori di Follow e Unfollow, ti suggerisco di mettere in pausa il bot per qualche giorno, e nel frattempo aggiustare le impostazioni per mettere al primo posto la sicurezza anzichè le performance."

@@ -1,6 +1,6 @@
 {
     "lcl_ext_name": {
-        "message": "Autoinsta - Robô do Instagram, ao seu dispor"
+        "message": "activflash - Robô do Instagram, ao seu dispor"
     },
     "lcl_ext_desc": {
         "message": "Script Robô para Instagram - Auto like, auto seguir e auto deixar de seguir configuráveis; seguro e fácil de usar"
@@ -99,7 +99,7 @@
         "message": "Horário que foi seguido"
     },
     "lcl_license_about_to_expire_msg": {
-        "message": "Obrigado por usar o Autoinsta. Só para te lembrar que a sua licença está prestes a vencer. Para continuar a usar a função SEGUIR, lembre-se de renovar."
+        "message": "Obrigado por usar o activflash. Só para te lembrar que a sua licença está prestes a vencer. Para continuar a usar a função SEGUIR, lembre-se de renovar."
     },
     "lcl_license_expired_msg": {
         "message": "Ah não! A sua licença venceu. Renove agora!"
@@ -519,7 +519,7 @@
 		"message": "Convide"
 	},
 	"lcl_share_desc" : {
-		"message": "Compartilhe Autoinsta com seus amigos. Assim que eles instalarem a extensão pelo seu link personalizado e ligarem a chave de 'Seguir' pela primeira vez, você ganhará mais 5 dias de licença. Não há limite de convites para ser premiado."
+		"message": "Compartilhe activflash com seus amigos. Assim que eles instalarem a extensão pelo seu link personalizado e ligarem a chave de 'Seguir' pela primeira vez, você ganhará mais 5 dias de licença. Não há limite de convites para ser premiado."
 	},
 	"lcl_share_url" : {
 		"message" : "Link Personalizado"
@@ -624,7 +624,7 @@
         "message": "Vocês possuem robôs para outras plataformas?"
     },
     "lcl_faq_other_q2": {
-        "message": "Vocês possuem algum conselho de como usar o Autoinsta?"
+        "message": "Vocês possuem algum conselho de como usar o activflash?"
     },
     "lcl_faq_other_q3": {
         "message": "Iria me ajudar bastante se o robô tivesse a seguinte função…"
@@ -651,7 +651,7 @@
         "message": "Se você perceber que o robô está ficando lento, por favor olhe o Relatório de Erros na página de estatísticas e dê um passo atrás aumentando os intervalos entra as ações e acrescentando mais períodos de descanso."
     },
     "lcl_faq_speed_a2_3": {
-        "message": "As vezes isso acontece mesmo depois do Autoinsta estar rodando perfeitamente por vários dias. Neste caso, é meio que como se o Instagram tivesse aprendendo que as atividades de sua conta parecem com o comportamento de um robô."
+        "message": "As vezes isso acontece mesmo depois do activflash estar rodando perfeitamente por vários dias. Neste caso, é meio que como se o Instagram tivesse aprendendo que as atividades de sua conta parecem com o comportamento de um robô."
     },
     "lcl_faq_speed_a3": {
         "message": "Como em todos os bons suportes técnicos, a primeira coisa que eu te perguntaria era se você já desligou e ligou o programa. Normalmente isso resolve o problema. Outras vezes, esvaziando a fila também ajuda. Caso o problema persista, normalmente é uma indicação de alguma coisa mais séria. Verifique o Relatório de Erros. Caso haja muitos erros no trabalho de Seguir ou no de Deixar de Seguir, eu sugiro que você dê uma pausa no robô por um dia e ajuste o sistema para um modo mais seguro ao invés de grande performance."

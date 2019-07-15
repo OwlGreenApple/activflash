@@ -1,0 +1,845 @@
+{
+   "hide_show": {
+      "message": "Hide/Show"
+   },
+   "lcl_about_accounts": {
+      "message": ""
+   },
+   "lcl_about_pools": {
+      "message": "About Pools"
+   },
+   "lcl_about_settings": {
+      "message": ""
+   },
+   "lcl_account_desc": {
+      "message": "Manage your account here."
+   },
+   "lcl_action": {
+      "message": "Action"
+   },
+   "lcl_add": {
+      "message": "Add"
+   },
+   "lcl_advanced": {
+      "message": "Advanced"
+   },
+   "lcl_affilate": {
+      "message": ""
+   },
+   "lcl_after_rate_limit_error": {
+      "message": "After Rate Limit Error Wait Time (seconds)"
+   },
+   "lcl_and": {
+      "message": "And"
+   },
+   "lcl_auto_comments": {
+      "message": "Auto Comments"
+   },
+   "lcl_auto_unfollow": {
+      "message": "Auto Unfollows"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "Automatically enable UNFOLLOW after the last unfollow time has passed..."
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "Enable auto unfollows"
+   },
+   "lcl_backup_desc": {
+      "message": "Backup your entire account into one file. Recover from it later."
+   },
+   "lcl_backup_export_desc": {
+      "message": "Clicking this button will download this account's operational data and configurations, including Like/Follow sources, varies settings, as well as follow/unfollow records."
+   },
+   "lcl_backup_recover_desc": {
+      "message": "Importing a recover file will clear all data currenlty stored for this account. If you do not wish to lose them, please back-up this account before restoring it from an earlier file."
+   },
+   "lcl_backup_recover_title": {
+      "message": "Recover"
+   },
+   "lcl_backup_title": {
+      "message": "Backup"
+   },
+   "lcl_between": {
+      "message": "Between"
+   },
+   "lcl_buy_licence": {
+      "message": "Buy a licence"
+   },
+   "lcl_buy_now": {
+      "message": "Buy NOW"
+   },
+   "lcl_cancel": {
+      "message": "Cancel"
+   },
+   "lcl_chart": {
+      "message": "Chart"
+   },
+   "lcl_check_licence": {
+      "message": "Check Licence"
+   },
+   "lcl_clear_white_list": {
+      "message": "Clear whitelist"
+   },
+   "lcl_close": {
+      "message": "Close"
+   },
+   "lcl_collect_comments": {
+      "message": "Collect Commenters"
+   },
+   "lcl_collect_comments_on_media": {
+      "message": "Collect post commenters"
+   },
+   "lcl_collect_current_follows": {
+      "message": "Collect Current Follows"
+   },
+   "lcl_collect_followers_all": {
+      "message": "Collect all followers"
+   },
+   "lcl_collect_followers_new": {
+      "message": "Check & Collect latest 10 new followers"
+   },
+   "lcl_collect_from_comments_likes": {
+      "message": "Collect commenters & likers"
+   },
+   "lcl_collect_from_followers": {
+      "message": "Collect followers"
+   },
+   "lcl_collect_from_location": {
+      "message": "Collect from Location"
+   },
+   "lcl_collect_from_tag": {
+      "message": "Collect from this tag"
+   },
+   "lcl_collect_likes": {
+      "message": "Collect Likers"
+   },
+   "lcl_collect_media_owners": {
+      "message": "Collect media owners"
+   },
+   "lcl_collect_medias_from_home_timeline_to_like": {
+      "message": "Collect posts from Home Feed to like"
+   },
+   "lcl_collect_medias_from_tags_to_like": {
+      "message": "Collect posts from Tags to like"
+   },
+   "lcl_collect_title": {
+      "message": "Whitelist users who liked and commented on your posts"
+   },
+   "lcl_collect_who_likes_media": {
+      "message": "Collect who liked the media"
+   },
+   "lcl_comment_placeholder": {
+      "message": "[hi,hello,hey] [how are you?,how is going?] please visit my page i have [funny,fun,interesting,good] pictures. Please follow me"
+   },
+   "lcl_comments": {
+      "message": "Comments"
+   },
+   "lcl_comments_interval_time": {
+      "message": "Time interval for Comments (seconds)"
+   },
+   "lcl_comments_likes": {
+      "message": "Commenters/Likers"
+   },
+   "lcl_comments_medias_job": {
+      "message": "Media-commenting job"
+   },
+   "lcl_comments_sleep_times": {
+      "message": "Comments Sleep Times"
+   },
+   "lcl_comments_status": {
+      "message": "Comment Status"
+   },
+   "lcl_contact": {
+      "message": "Contact"
+   },
+   "lcl_copied": {
+      "message": "Copied"
+   },
+   "lcl_copy": {
+      "message": "Copy"
+   },
+   "lcl_create_unfollow_job": {
+      "message": "Create Unfollow Job"
+   },
+   "lcl_data_management": {
+      "message": "Data Management"
+   },
+   "lcl_day_1": {
+      "message": "1 day"
+   },
+   "lcl_day_2": {
+      "message": "2 days"
+   },
+   "lcl_day_3": {
+      "message": "3 days"
+   },
+   "lcl_declare_sleep_times_comments": {
+      "message": "Notify Sleep times for Comments"
+   },
+   "lcl_declare_sleep_times_follow": {
+      "message": "Sleep times for FOLLOW"
+   },
+   "lcl_declare_sleep_times_like": {
+      "message": "Sleep times for LIKE"
+   },
+   "lcl_declare_sleep_times_unfollow": {
+      "message": "Sleep times for UNFOLLOW"
+   },
+   "lcl_delete": {
+      "message": "Delete"
+   },
+   "lcl_delete_pool": {
+      "message": "Empty Pool"
+   },
+   "lcl_delete_pool_history": {
+      "message": "Delete Pool History"
+   },
+   "lcl_delete_white_list_likes_comments": {
+      "message": "Remove likers and commenters from whitelist"
+   },
+   "lcl_desc": {
+      "message": "* gender filter finds gender by name and works in 89 languges and 216286 names. if your pool not collects please do not use gender filter"
+   },
+   "lcl_dont_unfollow_followers": {
+      "message": "Do not unfollow followers"
+   },
+   "lcl_dont_unfollow_that_you_follow": {
+      "message": "Do not UnFollow that you follow :"
+   },
+   "lcl_email": {
+      "message": "Email"
+   },
+   "lcl_email_promo": {
+      "message": ""
+   },
+   "lcl_end_time": {
+      "message": "End time"
+   },
+   "lcl_error": {
+      "message": "Error"
+   },
+   "lcl_error_comments_interval_time": {
+      "message": "Time interval error for Comments (seconds)"
+   },
+   "lcl_error_like_interval_time": {
+      "message": "Wait time after error (seconds)"
+   },
+   "lcl_error_log": {
+      "message": "Error Log"
+   },
+   "lcl_error_log_desc": {
+      "message": "Adjust the respective settings or pause when you see like/follow/unfollow errors."
+   },
+   "lcl_error_type": {
+      "message": "Error Type"
+   },
+   "lcl_error_waittime": {
+      "message": "Wait Time After Rate Limit (seconds)"
+   },
+   "lcl_export": {
+      "message": "Export"
+   },
+   "lcl_export_caution": {
+      "message": "Modifying setting values can be risky. Please proceed with caution."
+   },
+   "lcl_export_data_btn": {
+      "message": "Download backup file"
+   },
+   "lcl_export_instruction": {
+      "message": "Copy the follow settings from this account and paste them into the \"Import\" section of another account."
+   },
+   "lcl_ext_desc": {
+      "message": "App"
+   },
+   "lcl_ext_name": {
+      "message": "Instavibe"
+   },
+   "lcl_filter_all_gender": {
+      "message": "Follow all Genders"
+   },
+   "lcl_filter_desciription_black": {
+      "message": "Biography blacklist words (write multiple words separated with comma)"
+   },
+   "lcl_filter_external_link": {
+      "message": "Do not follow who has external link like www.website.com"
+   },
+   "lcl_filter_females": {
+      "message": "Just follow FEMALES"
+   },
+   "lcl_filter_females_unknown": {
+      "message": "Follow FEMALES and unknown genders"
+   },
+   "lcl_filter_males": {
+      "message": "Just follow MALES"
+   },
+   "lcl_filter_males_unknown": {
+      "message": "Follow MALES and unknown genders"
+   },
+   "lcl_filter_private": {
+      "message": "Only follow PRIVATE accounts"
+   },
+   "lcl_filter_private_public": {
+      "message": "Follow both private and public accounts"
+   },
+   "lcl_filter_public": {
+      "message": "Only follow PUBLIC accounts"
+   },
+   "lcl_filters": {
+      "message": "Filters"
+   },
+   "lcl_follow": {
+      "message": "Follow"
+   },
+   "lcl_follow_error_waittime_desc": {
+      "message": "Set wait time to start following again after you have hit the rate limit."
+   },
+   "lcl_follow_limit": {
+      "message": "Follow limit in 24 hours"
+   },
+   "lcl_follow_limit_24h": {
+      "message": "Follow Limit Per 24 Hours"
+   },
+   "lcl_follow_limit_24h_desc": {
+      "message": "Set the maximum number of users to follow in a 24-hour span. Instagram doesn't allow any account to follow more than 7500 users overall."
+   },
+   "lcl_follow_sleep_times": {
+      "message": "Follow Sleep Times"
+   },
+   "lcl_follow_status": {
+      "message": "Follow Status"
+   },
+   "lcl_follow_time": {
+      "message": "Follow Time"
+   },
+   "lcl_follow_time_interval": {
+      "message": "Follow Time Interval (seconds)"
+   },
+   "lcl_follow_time_interval_desc": {
+      "message": "Randomize the time interval between each follow to avoid instagram account ban."
+   },
+   "lcl_followed": {
+      "message": "followed"
+   },
+   "lcl_followed_time": {
+      "message": "Followed Time"
+   },
+   "lcl_followers": {
+      "message": "Followers"
+   },
+   "lcl_followers_count": {
+      "message": "Followers Count"
+   },
+   "lcl_following": {
+      "message": "following"
+   },
+   "lcl_following_count": {
+      "message": "Following Count"
+   },
+   "lcl_follows": {
+      "message": "Follows"
+   },
+   "lcl_follows_filters_desc": {
+      "message": "Follow users with these criteria. Leave them blank if not required."
+   },
+   "lcl_frequently_asked_questions": {
+      "message": "Frequently Asked Questions"
+   },
+   "lcl_from": {
+      "message": "From:"
+   },
+   "lcl_from_comments_likes": {
+      "message": "From Comments & Likes"
+   },
+   "lcl_from_followers": {
+      "message": "From Followers"
+   },
+   "lcl_from_locations": {
+      "message": "From Locations"
+   },
+   "lcl_from_searches": {
+      "message": "From Tags"
+   },
+   "lcl_gender_filter": {
+      "message": "Gender Filter"
+   },
+   "lcl_get": {
+      "message": "Get"
+   },
+   "lcl_grace_period": {
+      "message": "Unfollow Grace Period"
+   },
+   "lcl_grace_period_desc": {
+      "message": "Avoid unfollowing users you have followed in the last X days"
+   },
+   "lcl_hashtags": {
+      "message": "hashtags"
+   },
+   "lcl_how_to_use": {
+      "message": "How to Use?"
+   },
+   "lcl_import": {
+      "message": "Import"
+   },
+   "lcl_import_instruction": {
+      "message": "Paste the settings here:"
+   },
+   "lcl_in_pool": {
+      "message": "in pool"
+   },
+   "lcl_insrct_call_to_action_follow_videos": {
+      "message": ""
+   },
+   "lcl_insrct_call_to_action_like_videos": {
+      "message": ""
+   },
+   "lcl_insrct_follow_1": {
+      "message": ""
+   },
+   "lcl_insrct_follow_2": {
+      "message": ""
+   },
+   "lcl_insrct_follow_3": {
+      "message": ""
+   },
+   "lcl_insrct_like_1": {
+      "message": ""
+   },
+   "lcl_insrct_like_2": {
+      "message": ""
+   },
+   "lcl_insrct_like_3": {
+      "message": ""
+   },
+   "lcl_instructions": {
+      "message": "Instructions"
+   },
+   "lcl_interval_time": {
+      "message": "Time interval (seconds)"
+   },
+   "lcl_invite_promo": {
+      "message": ""
+   },
+   "lcl_item": {
+      "message": "Criteria"
+   },
+   "lcl_job_interval_times": {
+      "message": "Time interval for Jobs"
+   },
+   "lcl_jobs": {
+      "message": "Jobs"
+   },
+   "lcl_keep_login": {
+      "message": "Please login to \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> and keep it open."
+   },
+   "lcl_larger_than": {
+      "message": "Larger than below"
+   },
+   "lcl_lates_comments": {
+      "message": "Latest Comments"
+   },
+   "lcl_latest_follows": {
+      "message": "Latest Follows"
+   },
+   "lcl_latest_likes": {
+      "message": "Latest Likes"
+   },
+   "lcl_latest_unfollows": {
+      "message": "Latest Unfollows"
+   },
+   "lcl_licence": {
+      "message": "Licence"
+   },
+   "lcl_license": {
+      "message": "License"
+   },
+   "lcl_license_about_to_expire_msg": {
+      "message": ""
+   },
+   "lcl_license_expired_msg": {
+      "message": ""
+   },
+   "lcl_license_remaining": {
+      "message": "License remaining"
+   },
+   "lcl_like": {
+      "message": "Like"
+   },
+   "lcl_like_interval_time": {
+      "message": "Time interval between Likes (seconds)"
+   },
+   "lcl_like_medias_job": {
+      "message": "Like Posts with this tag"
+   },
+   "lcl_like_sleep_times": {
+      "message": "Like Sleep Times"
+   },
+   "lcl_like_status": {
+      "message": "Like Status"
+   },
+   "lcl_liked": {
+      "message": "liked"
+   },
+   "lcl_liked_time": {
+      "message": "Liked Time"
+   },
+   "lcl_likes": {
+      "message": "Likes"
+   },
+   "lcl_limit24h": {
+      "message": "Limit/24h"
+   },
+   "lcl_limits": {
+      "message": "Limits"
+   },
+   "lcl_loading": {
+      "message": "Loading"
+   },
+   "lcl_locations": {
+      "message": "Locations"
+   },
+   "lcl_log": {
+      "message": "Log"
+   },
+   "lcl_lpdt_follow": {
+      "message": "That translates to this many follows in 24 hours at most: \u003Cspan id=\"lpdt\">\u003C/span>"
+   },
+   "lcl_max_comments_limit": {
+      "message": "Max comments limit in 24 hours"
+   },
+   "lcl_max_like_limit": {
+      "message": "Max. like limit in 24 hours"
+   },
+   "lcl_media": {
+      "message": "Posts"
+   },
+   "lcl_medias_count": {
+      "message": "Posts Count"
+   },
+   "lcl_next_action_time": {
+      "message": "Next Action Time"
+   },
+   "lcl_no_data_available": {
+      "message": "No data available"
+   },
+   "lcl_options": {
+      "message": "Options"
+   },
+   "lcl_others": {
+      "message": "Others"
+   },
+   "lcl_pool": {
+      "message": "Pool"
+   },
+   "lcl_pool_collect_commenters": {
+      "message": "Collect Commenters & Likers"
+   },
+   "lcl_pool_collect_followers": {
+      "message": "Collect Followers"
+   },
+   "lcl_pool_collect_intervals": {
+      "message": "Pool Collect Intervals"
+   },
+   "lcl_pool_collect_locations": {
+      "message": "Collect Locations"
+   },
+   "lcl_pool_collect_searches": {
+      "message": "Collect Tags"
+   },
+   "lcl_pool_jobs": {
+      "message": "Pool Jobs"
+   },
+   "lcl_pool_limit": {
+      "message": "Pool limit"
+   },
+   "lcl_pool_settings": {
+      "message": "Pool Settings"
+   },
+   "lcl_pool_size_limit": {
+      "message": "Pool Size Limit"
+   },
+   "lcl_pool_size_limit_desc": {
+      "message": "Set the maximum number of users the pool can have. "
+   },
+   "lcl_prices": {
+      "message": "Prices"
+   },
+   "lcl_privacy_policy": {
+      "message": "Privacy Policy"
+   },
+   "lcl_profile": {
+      "message": "Profile"
+   },
+   "lcl_random_time": {
+      "message": "Random Time"
+   },
+   "lcl_rate": {
+      "message": "Please RATE"
+   },
+   "lcl_refresh_all": {
+      "message": "Reset All Settings"
+   },
+   "lcl_removals": {
+      "message": "Removals"
+   },
+   "lcl_remove_comments_likes_collect_job": {
+      "message": "Remove Commenters & Likers collect job"
+   },
+   "lcl_remove_comments_media_job": {
+      "message": "Remove media-commenting job"
+   },
+   "lcl_remove_followers_collect_job": {
+      "message": "Remove Followers-collecting job"
+   },
+   "lcl_remove_like_media_job": {
+      "message": "Remove post-liking job"
+   },
+   "lcl_remove_location_job": {
+      "message": "Remove Location job"
+   },
+   "lcl_remove_tag_job": {
+      "message": "Remove Tag job"
+   },
+   "lcl_remove_unfollow_job": {
+      "message": "Empty Unfollow Pool"
+   },
+   "lcl_renew": {
+      "message": "Renew"
+   },
+   "lcl_request_reopen": {
+      "message": "Please reopen \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a>."
+   },
+   "lcl_restricted_unfollow": {
+      "message": "Restricted Unfollow"
+   },
+   "lcl_restricted_unfollow_checkbox": {
+      "message": "Only unfollow users followed by bot"
+   },
+   "lcl_restricted_unfollow_desc": {
+      "message": "Check this box if you don't wish to auto unfollow users you manually followed on Instagram. Please note uninstalling the extension will lose the record of whom the bot has followed."
+   },
+   "lcl_save": {
+      "message": "Save"
+   },
+   "lcl_scanned": {
+      "message": "scanned"
+   },
+   "lcl_scanned_users": {
+      "message": "Scanned Users:"
+   },
+   "lcl_searches": {
+      "message": "Searches"
+   },
+   "lcl_secure_settings": {
+      "message": "What is Secure settings?"
+   },
+   "lcl_settings": {
+      "message": "Settings"
+   },
+   "lcl_settings_transfer": {
+      "message": "Settings Transfer"
+   },
+   "lcl_share_url": {
+      "message": "Personalized Link"
+   },
+   "lcl_sleep_times": {
+      "message": "Sleep Times"
+   },
+   "lcl_sleep_times_advanced_desc": {
+      "message": "Sleep the first X minutes of the hour:"
+   },
+   "lcl_smaller_than": {
+      "message": "Smaller than below"
+   },
+   "lcl_sources": {
+      "message": "Sources"
+   },
+   "lcl_start": {
+      "message": "Clear Queue & Start Again"
+   },
+   "lcl_start_time": {
+      "message": "Start time"
+   },
+   "lcl_statistics": {
+      "message": "Statistics"
+   },
+   "lcl_stop_collect_current_follows": {
+      "message": "Stop Collecting"
+   },
+   "lcl_stop_scan": {
+      "message": "Stop Scan"
+   },
+   "lcl_tables": {
+      "message": "Latest Data"
+   },
+   "lcl_tags": {
+      "message": "Tags"
+   },
+   "lcl_tags_to_collect_media": {
+      "message": "Hashtags to Like"
+   },
+   "lcl_time": {
+      "message": "Time"
+   },
+   "lcl_time_intervals": {
+      "message": "Time Intervals"
+   },
+   "lcl_to": {
+      "message": "To:"
+   },
+   "lcl_tos": {
+      "message": "TOS"
+   },
+   "lcl_total": {
+      "message": "Total:"
+   },
+   "lcl_unfollow": {
+      "message": "Unfollow"
+   },
+   "lcl_unfollow_error_waittime": {
+      "message": "Set wait time to start unfollowing again after you have hit the rate limit imposed by Instagram."
+   },
+   "lcl_unfollow_limit": {
+      "message": "UnFollow limit in 24 hours"
+   },
+   "lcl_unfollow_limit_24h": {
+      "message": "Unfollow Limit per 24 Hours"
+   },
+   "lcl_unfollow_limit_24h_desc": {
+      "message": "Set the maximum number of users to unfollow in a 24-hour span."
+   },
+   "lcl_unfollow_sleep_times": {
+      "message": "UnFollow Sleep Times"
+   },
+   "lcl_unfollow_status": {
+      "message": "Unfollow Status"
+   },
+   "lcl_unfollow_time": {
+      "message": "Unfollow Time"
+   },
+   "lcl_unfollow_time_interval": {
+      "message": "Unfollow Time Interval"
+   },
+   "lcl_unfollow_time_interval_desc": {
+      "message": "Randomize the time interval between each unfollow to avoid Instagram account ban."
+   },
+   "lcl_unfollowed": {
+      "message": "unfollowed"
+   },
+   "lcl_unfollows": {
+      "message": "Unfollows"
+   },
+   "lcl_until_1": {
+      "message": "1 day"
+   },
+   "lcl_until_2": {
+      "message": "2 days"
+   },
+   "lcl_until_3": {
+      "message": "3 days"
+   },
+   "lcl_until_4": {
+      "message": "4 day"
+   },
+   "lcl_until_5": {
+      "message": "5 days"
+   },
+   "lcl_until_6": {
+      "message": "6 days"
+   },
+   "lcl_until_7": {
+      "message": "7 days"
+   },
+   "lcl_user_filters": {
+      "message": "User Filters for Follows"
+   },
+   "lcl_user_name": {
+      "message": "Username"
+   },
+   "lcl_user_names_desc": {
+      "message": "Usernames (write multiple usernames separated with comma)"
+   },
+   "lcl_wait": {
+      "message": "Wait"
+   },
+   "lcl_waiting": {
+      "message": "Waiting"
+   },
+   "lcl_white_list": {
+      "message": "Whitelist"
+   },
+   "lcl_white_list_for": {
+      "message": "Whitelist for UnFollows"
+   },
+   "lcl_whitelist_current_follows": {
+      "message": "Whitelist Current Follows"
+   },
+   "lcl_whitelist_current_follows_desc": {
+      "message": "Add the users who you are currently following to the whitelist"
+   },
+   "trb_activate": {
+      "message": "ACTIVATE"
+   },
+   "trb_contact": {
+      "message": "CONTACT"
+   },
+   "trb_help": {
+      "message": "HELP"
+   },
+   "trb_instructions_p0": {
+      "message": "HELP"
+   },
+   "trb_instructions_p1": {
+      "message": "1. Open Social website"
+   },
+   "trb_instructions_p2": {
+      "message": "2. Go to a Competitor’s profile."
+   },
+   "trb_instructions_p3": {
+      "message": "3. A wild button 'Get the followers' will appear. Click it !!"
+   },
+   "trb_instructions_p4": {
+      "message": "4. Return to this page"
+   },
+   "trb_instructions_p5": {
+      "message": "5. Read Terms of Service on our Website \u003Cbr>and chat with us for further assistance."
+   },
+   "trb_make_money": {
+      "message": "MAKE MONEY"
+   },
+   "trb_make_money_p0": {
+      "message": "lets make money"
+   },
+   "trb_make_money_p1": {
+      "message": "1. Purchase any plan from our website"
+   },
+   "trb_make_money_p2": {
+      "message": "2. On order confirmation page you will be given an affiliator link"
+   },
+   "trb_make_money_p3": {
+      "message": "3. Send this link to your friends and you will receive 50% of what they pay"
+   },
+   "trb_make_money_p4": {
+      "message": "4. Good luck"
+   },
+   "trb_prices": {
+      "message": "PRICELIST"
+   },
+   "trb_status_label": {
+      "message": "STATUS:"
+   },
+   "trb_status_not_licence_expired": {
+      "message": "Licence expired"
+   },
+   "trb_status_not_working_insta": {
+      "message": "Social Website limit hit"
+   },
+   "trb_status_working": {
+      "message": "working"
+   },
+   "trb_tos": {
+      "message": "TERMS"
+   },
+   "xxxxxxxxxxxxxxxxxxxxxxxxxx": {
+      "message": "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+}

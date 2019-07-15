@@ -1,0 +1,31 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/48.png",
+      "default_title": "Activflash"
+   },
+   "content_scripts": [ {
+      "css": [ "css/bootstrap.css" ],
+      "js": [ "js/content.js" ],
+      "matches": [ "https://*.instagram.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "Instgrm Follows Bot Auto Follow Script: Instgrm Likes, Instgrm Unfollow.",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png",
+      "64": "img/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApNuU9QNprlgtAt0hSICEkVJJEHwREUe+dxuoN/YPICIUj+Jo/qrauEe1RrdI5Sg2tHKTGI+eh4YVv0crkZwXYlUQtGs2js5qjT0F0+T7kL/ujJZkOFItSvVt8aWvG2ApDnVwBr1RBqITOLxBfNGnNk0ND60kSZP3RFYYaJrOa755tCAQkzdCvIEqOs1jfQohsxtFiVgVJX3/96yKAEfI6wZSFbNX331E6rmRu+1P/YxUZGFnx15XwuKCropIi+Fl450eaGYw55PxjhmlBk/D4uyW6wOZ+6ZXO+Jgg6eOi8nMhBQUrO82ghxRVuR611hzl3AhT033PH4QSIgJUueYrQIDAQAB",
+   "manifest_version": 2,
+   "name": "Activflash Instgrm Engagement Tool",
+   "permissions": [ "storage", "tabs", "cookies", "browsingData", "unlimitedStorage", "background", "identity", "*://*.instagrowth.space/*", "*://*.instagram.com/*" ],
+   "short_name": "Activflash | Instgrm Engagement Tool",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1",
+   "web_accessible_resources": [ "img/*", "fonts/*", "js/*", "css/*" ]
+}

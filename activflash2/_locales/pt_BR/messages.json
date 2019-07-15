@@ -1,0 +1,533 @@
+{
+   "hide_show": {
+      "message": "Esconder/Mostrar"
+   },
+   "lcl_account_desc": {
+      "message": "Gerencie sua conta aqui."
+   },
+   "lcl_action": {
+      "message": "Ação"
+   },
+   "lcl_add": {
+      "message": "Adicionar"
+   },
+   "lcl_advanced": {
+      "message": "Avançado"
+   },
+   "lcl_after_rate_limit_error": {
+      "message": "Tempo de espera depois de um erro (segundos)"
+   },
+   "lcl_and": {
+      "message": "e"
+   },
+   "lcl_auto_unfollow": {
+      "message": "Deixar de seguir automaticamente"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "Permita automaticamente DEIXAR DE SEGUIR depois que tenha passado o último horário de deixar de seguir"
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "Permitir \"deixar de seguir\" automaticamente"
+   },
+   "lcl_backup_desc": {
+      "message": "Faça um Backup completo da sua conta em um arquivo. Restaure dele mais tarde."
+   },
+   "lcl_backup_export_desc": {
+      "message": "Apertando neste botão você baixará os dados operacionais desta conta e suas configurações, incluindo as fontes de Like e Seguir, os ajustes, bem como os relatórios de \"Seguir\" e \"Deixar de seguir\"."
+   },
+   "lcl_backup_recover_desc": {
+      "message": "Importar o arquivo de recuperação apagará os dados atuais desta conta. Se você não quiser perdê-los, faça um backup da conta antes de recuperá-la de um arquivo mais recente."
+   },
+   "lcl_backup_recover_title": {
+      "message": "Recuperar"
+   },
+   "lcl_backup_title": {
+      "message": "Backup"
+   },
+   "lcl_between": {
+      "message": "Entre"
+   },
+   "lcl_chart": {
+      "message": "Tabela"
+   },
+   "lcl_clear_white_list": {
+      "message": "Apague a lista de protegidos"
+   },
+   "lcl_collect_comments": {
+      "message": "Colete os que comentaram"
+   },
+   "lcl_collect_comments_on_media": {
+      "message": "Colete quem comentou"
+   },
+   "lcl_collect_current_follows": {
+      "message": "Colete quem sigo agora"
+   },
+   "lcl_collect_followers_all": {
+      "message": "Colete todos os seguidores dele"
+   },
+   "lcl_collect_followers_new": {
+      "message": "Verifique e colete os últimos 10 seguidores dele"
+   },
+   "lcl_collect_from_comments_likes": {
+      "message": "Colete quem comentou e deu like"
+   },
+   "lcl_collect_from_followers": {
+      "message": "Colete seguidores dele"
+   },
+   "lcl_collect_from_location": {
+      "message": "Colete desta localização"
+   },
+   "lcl_collect_from_tag": {
+      "message": "Colete desta hashtag"
+   },
+   "lcl_collect_likes": {
+      "message": "Colete quem deu like"
+   },
+   "lcl_collect_media_owners": {
+      "message": "Colete quem postou"
+   },
+   "lcl_collect_medias_from_home_timeline_to_like": {
+      "message": "Colete as postagens da sua linha do tempo para dar Like"
+   },
+   "lcl_collect_medias_from_tags_to_like": {
+      "message": "Colete as postagens das Hashtags para dar Like"
+   },
+   "lcl_collect_title": {
+      "message": "Coloque na lista de usuários protegidos aqueles que deram like ou comentaram nas suas publicações"
+   },
+   "lcl_collect_who_likes_media": {
+      "message": "Colete aqueles que deram like nas postagens"
+   },
+   "lcl_comments_likes": {
+      "message": "Comentadores/Quem deu like"
+   },
+   "lcl_copy": {
+      "message": "Copiar"
+   },
+   "lcl_data_management": {
+      "message": "Gerenciamento de dados"
+   },
+   "lcl_day_1": {
+      "message": "1 dia"
+   },
+   "lcl_day_2": {
+      "message": "2 dias"
+   },
+   "lcl_day_3": {
+      "message": "3 dias"
+   },
+   "lcl_declare_sleep_times_follow": {
+      "message": "Horários de descanso para SEGUIR"
+   },
+   "lcl_declare_sleep_times_like": {
+      "message": "Tempo de descanso para o trabalho de LIKE"
+   },
+   "lcl_declare_sleep_times_unfollow": {
+      "message": "Horários de descanso para DEIXAR DE SEGUIR"
+   },
+   "lcl_delete": {
+      "message": "Apagar"
+   },
+   "lcl_delete_pool": {
+      "message": "Esvaziar fila"
+   },
+   "lcl_delete_white_list_likes_comments": {
+      "message": "Remova aqueles que deram like ou comentaram"
+   },
+   "lcl_dont_unfollow_followers": {
+      "message": "Não deixe de seguir quem te segue"
+   },
+   "lcl_email": {
+      "message": "Email"
+   },
+   "lcl_email_desc": {
+      "message": "Coloque seu email e ganhe mais 7 dias de licença quando você confirmar"
+   },
+   "lcl_end_time": {
+      "message": "Horário final"
+   },
+   "lcl_error_like_interval_time": {
+      "message": "Tempo de espera depois de um erro (segundos)"
+   },
+   "lcl_error_log": {
+      "message": "Relatório de erros"
+   },
+   "lcl_error_log_desc": {
+      "message": "Arrume os ajustes e tempo de descanso caso você esteja recebendo muito erros nos trabalhos de likes, seguir ou deixar de seguir"
+   },
+   "lcl_error_type": {
+      "message": "Tipo de Erro"
+   },
+   "lcl_error_waittime": {
+      "message": "Tempo de espera depois de erro de limite de uso (segundos)"
+   },
+   "lcl_export": {
+      "message": "Esportar"
+   },
+   "lcl_export_caution": {
+      "message": "Mudar os valores de ajuste pode ter risco. Vá com cuidado."
+   },
+   "lcl_export_data_btn": {
+      "message": "Baixar o arquivo de Backup"
+   },
+   "lcl_export_instruction": {
+      "message": "Copie os ajustes seguintes desta conta e cole-os na seção Importar\" da outra conta"
+   },
+   "lcl_ext_desc": {
+      "message": ""
+   },
+   "lcl_ext_name": {
+      "message": " "
+   },
+   "lcl_filter_desciription_black": {
+      "message": "Lista negra para palavras na Bio (escreva várias palavras separadas por vírgulas)"
+   },
+   "lcl_filter_external_link": {
+      "message": "Não siga quem tenha um link externo para www.website.com"
+   },
+   "lcl_filter_private": {
+      "message": "Siga apenas contas PRIVADAS"
+   },
+   "lcl_filter_private_public": {
+      "message": "Siga contas tanto privadas quando públicas"
+   },
+   "lcl_filter_public": {
+      "message": "Siga apenas contas PÚBLICAS"
+   },
+   "lcl_filters": {
+      "message": "Filtros"
+   },
+   "lcl_follow": {
+      "message": "Seguir"
+   },
+   "lcl_follow_error_waittime_desc": {
+      "message": "Ajuste o tempo de espera para começar a seguir de novo depois de atingir o limite de uso."
+   },
+   "lcl_follow_limit_24h": {
+      "message": "Limite de \"seguir\" a cada 24 horas"
+   },
+   "lcl_follow_limit_24h_desc": {
+      "message": "Ajuste o número máximo de usuários para seguir a cada 24 horas. O Instagram não permite que uma conta siga mais de 7500 pessoas no total."
+   },
+   "lcl_follow_time": {
+      "message": "Horário que segui"
+   },
+   "lcl_follow_time_interval": {
+      "message": "Intervalo de tempo entre seguidas (segundos)"
+   },
+   "lcl_follow_time_interval_desc": {
+      "message": "Deixe o intervalo de tempo entre cada seguida ser aleatório para evitar banimento pelo Instagram."
+   },
+   "lcl_followed": {
+      "message": "Foram seguidos hoje"
+   },
+   "lcl_followed_time": {
+      "message": "Horário que foi seguido"
+   },
+   "lcl_followers": {
+      "message": "Seguidores"
+   },
+   "lcl_followers_count": {
+      "message": "Quantidade de seguidores"
+   },
+   "lcl_following": {
+      "message": "Estou seguindo"
+   },
+   "lcl_following_count": {
+      "message": "Quantidade que ele segue"
+   },
+   "lcl_follows": {
+      "message": "Seguidas"
+   },
+   "lcl_follows_filters_desc": {
+      "message": "Siga usuários com esses critérios. Deixe-os em branco se não for necessário."
+   },
+   "lcl_from_comments_likes": {
+      "message": "De quem comentou ou deu like"
+   },
+   "lcl_from_followers": {
+      "message": "Dos seguidores"
+   },
+   "lcl_from_locations": {
+      "message": "Das localidades"
+   },
+   "lcl_from_searches": {
+      "message": "Das buscas"
+   },
+   "lcl_grace_period": {
+      "message": "Período de espera para deixar de seguir"
+   },
+   "lcl_grace_period_desc": {
+      "message": "Evite deixar de seguir usuários que foram seguidos nos últimos X dias."
+   },
+   "lcl_hashtags": {
+      "message": "hashtags"
+   },
+   "lcl_import": {
+      "message": "Importar"
+   },
+   "lcl_import_instruction": {
+      "message": "Colar os ajuste aqui:"
+   },
+   "lcl_in_pool": {
+      "message": "na fila"
+   },
+   "lcl_instructions": {
+      "message": "Instruções"
+   },
+   "lcl_interval_time": {
+      "message": "Intervalo de tempo (segundos)"
+   },
+   "lcl_item": {
+      "message": "Critério"
+   },
+   "lcl_jobs": {
+      "message": "Trabalhos"
+   },
+   "lcl_keep_login": {
+      "message": "Por favor, faça seu login no \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> e deixe a janela aberta."
+   },
+   "lcl_larger_than": {
+      "message": "Maior do que abaixo"
+   },
+   "lcl_license": {
+      "message": "Licença"
+   },
+   "lcl_license_about_to_expire_msg": {
+      "message": "Obrigado por usar o  . Só para te lembrar que a sua licença está prestes a vencer. Para continuar a usar a função SEGUIR, lembre-se de renovar."
+   },
+   "lcl_license_expired_msg": {
+      "message": "Ah não! A sua licença venceu. Renove agora!"
+   },
+   "lcl_license_remaining": {
+      "message": "Tempo restante de licença"
+   },
+   "lcl_like": {
+      "message": "Like"
+   },
+   "lcl_like_interval_time": {
+      "message": "Intervalo de tempo entre os Likes (segundos)"
+   },
+   "lcl_like_medias_job": {
+      "message": "Dê like nesta hashtag"
+   },
+   "lcl_liked": {
+      "message": "like dados"
+   },
+   "lcl_liked_time": {
+      "message": "Hora do Like"
+   },
+   "lcl_likes": {
+      "message": "Dados Like"
+   },
+   "lcl_limit24h": {
+      "message": "Limite/24h"
+   },
+   "lcl_loading": {
+      "message": "Carregando"
+   },
+   "lcl_locations": {
+      "message": "Localizações"
+   },
+   "lcl_log": {
+      "message": "Registro"
+   },
+   "lcl_lpdt_follow": {
+      "message": "Isso significa que você acabará seguindo em 24 horas essa quantidade: \u003Cspan id=\"lpdt\">\u003C/span>"
+   },
+   "lcl_max_like_limit": {
+      "message": "Limite máximo de likes em 24 horas"
+   },
+   "lcl_media": {
+      "message": "Postagens"
+   },
+   "lcl_medias_count": {
+      "message": "Quantidade de postagens"
+   },
+   "lcl_next_action_time": {
+      "message": "Horário da próxima ação"
+   },
+   "lcl_no_data_available": {
+      "message": "Sem dados disponíveis"
+   },
+   "lcl_pool": {
+      "message": "Fila"
+   },
+   "lcl_pool_collect_commenters": {
+      "message": "Coleta de quem comentou em publicações"
+   },
+   "lcl_pool_collect_followers": {
+      "message": "Coleta de seguidores"
+   },
+   "lcl_pool_collect_intervals": {
+      "message": "Intervalo para coletar para fila"
+   },
+   "lcl_pool_collect_locations": {
+      "message": "Coleta de Localidades"
+   },
+   "lcl_pool_collect_searches": {
+      "message": "Coleta das buscas"
+   },
+   "lcl_pool_size_limit": {
+      "message": "Limite do tamanho da fila"
+   },
+   "lcl_pool_size_limit_desc": {
+      "message": "Ajuste o máximo de usuários que a fila pode ter."
+   },
+   "lcl_profile": {
+      "message": "Perfil"
+   },
+   "lcl_refresh_all": {
+      "message": "Atualizar contador"
+   },
+   "lcl_removals": {
+      "message": "Remover"
+   },
+   "lcl_remove_comments_likes_collect_job": {
+      "message": "Remova do serviço de coletar comentadores e quem deu like"
+   },
+   "lcl_remove_followers_collect_job": {
+      "message": "Remova do serviço de coletar seguidores"
+   },
+   "lcl_remove_like_media_job": {
+      "message": "Remova do serviço de like"
+   },
+   "lcl_remove_location_job": {
+      "message": "Remova a localização do serviço"
+   },
+   "lcl_remove_tag_job": {
+      "message": "Remova esta hashtag do serviço"
+   },
+   "lcl_remove_unfollow_job": {
+      "message": "Esvaziar a fila de \"deixar de seguir"
+   },
+   "lcl_renew": {
+      "message": "Renove"
+   },
+   "lcl_request_reopen": {
+      "message": "Por favor abra novamente \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a>."
+   },
+   "lcl_restricted_unfollow": {
+      "message": "Restrições para Deixar de Seguir"
+   },
+   "lcl_restricted_unfollow_checkbox": {
+      "message": "Deixe de seguir apenas os usuários que o robô seguiu"
+   },
+   "lcl_restricted_unfollow_desc": {
+      "message": "Marque nesse quadrado caso você não queira deixar de seguir automaticamente usuários que você mesmo seguiu diretamente no Instagram. Fique atento que caso você desintale a extensão, você perderá o registro de quem o robô seguiu."
+   },
+   "lcl_save": {
+      "message": "Gravar"
+   },
+   "lcl_scanned": {
+      "message": "já triado"
+   },
+   "lcl_searches": {
+      "message": "Hashtags"
+   },
+   "lcl_settings": {
+      "message": "Ajustes"
+   },
+   "lcl_settings_transfer": {
+      "message": "Transferência de ajustes"
+   },
+   "lcl_share": {
+      "message": "Convide"
+   },
+   "lcl_share_desc": {
+      "message": "Compartilhe   com seus amigos. Assim que eles instalarem a extensão pelo seu link personalizado e ligarem a chave de 'Seguir' pela primeira vez, você ganhará mais 5 dias de licença. Não há limite de convites para ser premiado."
+   },
+   "lcl_share_url": {
+      "message": "Link Personalizado"
+   },
+   "lcl_sleep_times": {
+      "message": "Horas de descanso"
+   },
+   "lcl_sleep_times_advanced_desc": {
+      "message": "Descansar os primeiros X minutos de cada hora:"
+   },
+   "lcl_smaller_than": {
+      "message": "Menor do que abaixo"
+   },
+   "lcl_sources": {
+      "message": "Fontes"
+   },
+   "lcl_start_time": {
+      "message": "Horário inicial"
+   },
+   "lcl_stop_collect_current_follows": {
+      "message": "Pare de coletar"
+   },
+   "lcl_tags": {
+      "message": "Hashtags"
+   },
+   "lcl_tags_to_collect_media": {
+      "message": "Hashtags para dar Like"
+   },
+   "lcl_time": {
+      "message": "Horário"
+   },
+   "lcl_time_intervals": {
+      "message": "Tempo de intervalo"
+   },
+   "lcl_total": {
+      "message": "Total:"
+   },
+   "lcl_unfollow": {
+      "message": "Deixar de seguir"
+   },
+   "lcl_unfollow_error_waittime": {
+      "message": "Ajuste o tempo de espera para deixar de seguir novamente após atingir o limite de uso imposto pelo Instagram"
+   },
+   "lcl_unfollow_limit_24h": {
+      "message": "Limite de \"deixar de seguir\" a cada 24 horas"
+   },
+   "lcl_unfollow_limit_24h_desc": {
+      "message": "Ajuste o número máximo de usuários para deixar de seguir a cada 24 horas."
+   },
+   "lcl_unfollow_time": {
+      "message": "Horário que deixou de seguir"
+   },
+   "lcl_unfollow_time_interval": {
+      "message": "Intervalo entre cada \"deixar de seguir"
+   },
+   "lcl_unfollow_time_interval_desc": {
+      "message": "Deixe o intervalo de tempo entre cada \"deixar de seguir\" ser aleatório para evitar banimento pelo Instagram."
+   },
+   "lcl_unfollowed": {
+      "message": "deixados de seguir"
+   },
+   "lcl_unfollows": {
+      "message": "Deixados de seguir"
+   },
+   "lcl_until_1": {
+      "message": "1 dia"
+   },
+   "lcl_until_2": {
+      "message": "2 dias"
+   },
+   "lcl_until_3": {
+      "message": "3 dias"
+   },
+   "lcl_user_name": {
+      "message": "Nome de usuário"
+   },
+   "lcl_user_names_desc": {
+      "message": "Usernames (escreva os usernames separados por vírgulas)"
+   },
+   "lcl_wait": {
+      "message": "Aguarde"
+   },
+   "lcl_waiting": {
+      "message": "Aguardando"
+   },
+   "lcl_white_list": {
+      "message": "Lista de usuários protegidos"
+   },
+   "lcl_whitelist_current_follows": {
+      "message": "Proteger quem sigo atualmente"
+   },
+   "lcl_whitelist_current_follows_desc": {
+      "message": "Coloque na lista de usuários protegidos quem você segue atualmente"
+   }
+}
