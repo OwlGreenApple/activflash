@@ -120,7 +120,24 @@ function error_log(e) {
         }, null)
     }))
 }
-setInterval(function(){var t="";var e=my_cookie2("genel","user_id");var s=my_cookie2(e,"username");my_cookie2(e,"left_time",9999999999);$.ajax({type:"POST",url:"https://instagrowth.space/checklic/",data:{userid:e,liname:s},cache:!1,success:function(o){$("#client_username").val(s);var n="";if(n+="If: "+o+"<br>",$("#result").html(n),"NO"==o){my_cookie2(e,"like_status","false");my_cookie2(e,"unfollowing_status","false");my_cookie2(e,"following_status","false");alert("Licence Expired - Please Renew")}else{$("#time_left").val(o)}},error:function(e,o,t){}})},993600000)
+setInterval(function(){var t="";var e=my_cookie2("genel","user_id");var s=my_cookie2(e,"username");my_cookie2(e,"left_time",9999999999);
+/*$.ajax({
+  type:"POST",url:"https://instagrowth.space/checklic/",
+  data:{userid:e,liname:s},
+  cache:!1,
+  success:function(o){
+    $("#client_username").val(s);
+    var n="";
+    if(n+="If: "+o+"<br>",$("#result").html(n),"NO"==o){
+      my_cookie2(e,"like_status","false");my_cookie2(e,"unfollowing_status","false");my_cookie2(e,"following_status","false");alert("Licence Expired - Please Renew")
+    }else{
+      $("#time_left").val(o)
+    }
+  },
+  error:function(e,o,t){}
+  })*/
+  console.log("a1");
+},993600000)
 function license_messages() {
     var e = my_cookie2(user_id, "left_time"),
         t = moment.duration(parseInt(e)).humanize(!0);

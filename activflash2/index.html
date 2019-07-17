@@ -25,62 +25,45 @@
 </head>
 
 <body>
-
-
-	<div class="app_container app_ui">
-		<div class="abs_notification"><span></span> </div> 
-
-					
-						 
-	   
-																																			 
-											   
-		 
-																																	 
-												
-		 
-																																		   
-				  
-																																 
+	<div class="main-wrapper-login" id="div-login" style="display:none;">
+		<div class="div-login-box1">
+			<a href="https://www.celebtools.co/likes2fans">
+				<div class="main-logo-login">
+				</div>
+			</a>
+			<h1 class="header-main-login">"Turn your likes into fans in 1 click"</h1>
+			
+			<form class="form-main">
+			
+				<div class="label-main">Email </div>
+				<input type="text" id="email" class="input-main">
 				
-																				
-		 
+				<div class="label-main title">Password  </div>
+				<input type="password" id="password" class="input-main">
 				
-																				   
-		 
-				
-																	 
-		
-		
-
-									   
-							  
-							  
-										  
-		  
-							   
-																			  
-		  
-   
-						   
-																																								   
-		  
-   
-						   
-																																																											   
-		  
+				<div class="buttons">
+					<input type="button" value="Login" id="button-login">
+				</div>
+				<div class="buttons">
+					<a href="https://www.celebtools.co/wp-login.php?action=lostpassword" style="text-decoration: none;">Forgot Password ?</a>
+				</div>
+			</form>
+		</div>
+		<div class="div-login-box2">
+			<h3 class="h3-login-banner">
+				Sudah mempunyai <br>akun activflash ?
+			</h3>
+			<div class="buttons div-buylike2fans">
+				<a href="https://activflash.com"><input type="button" value="Buy activflash" id="button-buyactivflash"></a>
+			</div>
+		</div>
+	</div>
 	
-						   
-																																																								  
-		  
- 
-						   
-																																																														
-		  
-		
-		  
-		   
-
+  
+  
+  
+	<div class="app_container <!--app_ui-->" id="div-setting" style="display:none;">
+		<div class="abs_notification"><span></span> </div> 
   
 	<!-- Container -->
 
@@ -130,39 +113,21 @@
 				</div>
 			
 		</div>
-
 	
-	
-	
-	
-	
-	
-	
-	
-				<div class="top_menu_icon_back">
-				<img src="img/back_arro.png" alt=""/>
-		
-			</div>
+    <div class="top_menu_icon_back">
+      <img src="img/back_arro.png" alt=""/>
+    </div>
 		
 		<div class="top_menu_icons">
-			
-		
 			<ul>
-				
-					
 				<li>
-					<a href="#statistics_modal" id="statistics_modal_btn" role="button" data-toggle="modal" > 	
+					<a href="#statistics_modal" id="statistics_modal_btn" role="button" data-toggle="modal" >
 						<div class="top_menu_icon_stats">
 							<img src="img/stats_Btn.png" alt=""/>
-							<p>Stats</p>					
+							<p>Stats</p>
 						</div>
-					</a>		
-								   
-										 
+					</a>
 				</li>
-			
-					
-				
 				<li>
 					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
 						<div class="top_menu_icon_tables">
@@ -171,23 +136,17 @@
 						</div>
 					</a>		
 				</li>
-				
-			
-					
 			</ul>
 			
 			<li class="isntatribe_thunder"><a target="_blank" href="https://instagrowth.space">
 					<img src="img/logothunder.png" alt=""/></a>
-				</li>
-			
+      </li>
 			
 			<div class="top_menu_icon_section_stats_name trb_statistics">
 				Statistics
-		
 			</div>
 			<div class="top_menu_icon_section_config_name trb_configuration">
 				Configuration
-		
 			</div>
 		
 		</div>
@@ -197,12 +156,8 @@
 		<!-- Container Inner Colored -->
 		<div class="app_container_colored">
 			<div class="app_container_inner_colored">
-			
-			
 			<!-- help Screen-->
-			
 			<div class="help_screen">
-			
 				<div class="instructions_header trb_instructions_header">
 					<span class="trb_instructions_p0">HELP</span>
 				</div>
@@ -1349,6 +1304,7 @@
 	<script src="/js/moment.js"></script>
 	<script src="/js/file-saver.js"></script> 
 	<script src="/js/index.js"></script>
+  <script src="/js/options.js"></script>
 	
 	
 

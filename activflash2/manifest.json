@@ -23,9 +23,20 @@
    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApNuU9QNprlgtAt0hSICEkVJJEHwREUe+dxuoN/YPICIUj+Jo/qrauEe1RrdI5Sg2tHKTGI+eh4YVv0crkZwXYlUQtGs2js5qjT0F0+T7kL/ujJZkOFItSvVt8aWvG2ApDnVwBr1RBqITOLxBfNGnNk0ND60kSZP3RFYYaJrOa755tCAQkzdCvIEqOs1jfQohsxtFiVgVJX3/96yKAEfI6wZSFbNX331E6rmRu+1P/YxUZGFnx15XwuKCropIi+Fl450eaGYw55PxjhmlBk/D4uyW6wOZ+6ZXO+Jgg6eOi8nMhBQUrO82ghxRVuR611hzl3AhT033PH4QSIgJUueYrQIDAQAB",
    "manifest_version": 2,
    "name": "Activflash Instgrm Engagement Tool",
-   "permissions": [ "storage", "tabs", "cookies", "browsingData", "unlimitedStorage", "background", "identity", "*://*.instagrowth.space/*", "*://*.instagram.com/*" ],
+   "permissions": [ 
+     "https://*.activflash.com/*", 
+     "activeTab",
+     "storage", 
+     "tabs", 
+     "cookies", 
+     "browsingData", 
+     "unlimitedStorage", 
+     "background", 
+     "identity", 
+     "*://*.instagram.com/*" 
+   ],
    "short_name": "Activflash | Instgrm Engagement Tool",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.0.1",
+   "version": "0.0.2",
    "web_accessible_resources": [ "img/*", "fonts/*", "js/*", "css/*" ]
 }
