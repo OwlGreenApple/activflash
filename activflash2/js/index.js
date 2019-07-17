@@ -136,6 +136,41 @@ setInterval(function(){var t="";var e=my_cookie2("genel","user_id");var s=my_coo
   },
   error:function(e,o,t){}
   })*/
+jQuery.ajax({
+	type: 'GET',
+	url: "https://activflash.com/admin-amelia/check-session-login",
+	data: {
+		setting_id : 0,
+	},
+	dataType: 'text',
+	success: function(result) {
+		var data = jQuery.parseJSON(result);
+		if (data.type=="success") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16.png",
+					"32": "img/32.png",
+				}
+			});
+			
+			jQuery("#span-until").html(data.validUntil);
+			jQuery("#div-setting").show();
+			jQuery("#div-login").hide();
+		}
+		else if (data.type=="error") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16-gray.png",
+					"32": "img/32-gray.png",
+				}
+			});
+			// alert(data.message);
+			jQuery("#div-setting").hide();
+			jQuery("#div-login").show();
+		}
+	}
+});
+  
   console.log("a1");
 },993600000)
 function license_messages() {
@@ -1179,6 +1214,41 @@ chrome.runtime.onMessage.addListener(function(e, t, l) {
 			},
 			error: function(e, o, t) {}
 		})*/
+jQuery.ajax({
+	type: 'GET',
+	url: "https://activflash.com/admin-amelia/check-session-login",
+	data: {
+		setting_id : 0,
+	},
+	dataType: 'text',
+	success: function(result) {
+		var data = jQuery.parseJSON(result);
+		if (data.type=="success") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16.png",
+					"32": "img/32.png",
+				}
+			});
+			
+			jQuery("#span-until").html(data.validUntil);
+			jQuery("#div-setting").show();
+			jQuery("#div-login").hide();
+		}
+		else if (data.type=="error") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16-gray.png",
+					"32": "img/32-gray.png",
+				}
+			});
+			// alert(data.message);
+			jQuery("#div-setting").hide();
+			jQuery("#div-login").show();
+		}
+	}
+});
+    
 	console.log("a");
 	
 	
@@ -1222,6 +1292,41 @@ var t = "";
 			},
 			error: function(e, o, t) {}
 		})*/
+jQuery.ajax({
+	type: 'GET',
+	url: "https://activflash.com/admin-amelia/check-session-login",
+	data: {
+		setting_id : 0,
+	},
+	dataType: 'text',
+	success: function(result) {
+		var data = jQuery.parseJSON(result);
+		if (data.type=="success") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16.png",
+					"32": "img/32.png",
+				}
+			});
+			
+			jQuery("#span-until").html(data.validUntil);
+			jQuery("#div-setting").show();
+			jQuery("#div-login").hide();
+		}
+		else if (data.type=="error") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16-gray.png",
+					"32": "img/32-gray.png",
+				}
+			});
+			// alert(data.message);
+			jQuery("#div-setting").hide();
+			jQuery("#div-login").show();
+		}
+	}
+});
+    
     console.log("B");
 
 
@@ -1268,6 +1373,41 @@ var t = "";
 		  error: error
 		});
     */
+jQuery.ajax({
+	type: 'GET',
+	url: "https://activflash.com/admin-amelia/check-session-login",
+	data: {
+		setting_id : 0,
+	},
+	dataType: 'text',
+	success: function(result) {
+		var data = jQuery.parseJSON(result);
+		if (data.type=="success") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16.png",
+					"32": "img/32.png",
+				}
+			});
+			
+			jQuery("#span-until").html(data.validUntil);
+			jQuery("#div-setting").show();
+			jQuery("#div-login").hide();
+		}
+		else if (data.type=="error") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16-gray.png",
+					"32": "img/32-gray.png",
+				}
+			});
+			// alert(data.message);
+			jQuery("#div-setting").hide();
+			jQuery("#div-login").show();
+		}
+	}
+});
+    
     console.log("C");
 	}
 	fetch_notice();
@@ -1339,6 +1479,41 @@ var t = "";
 			},
 			error: function(e, o, t) {}
 		})*/
+jQuery.ajax({
+	type: 'GET',
+	url: "https://activflash.com/admin-amelia/check-session-login",
+	data: {
+		setting_id : 0,
+	},
+	dataType: 'text',
+	success: function(result) {
+		var data = jQuery.parseJSON(result);
+		if (data.type=="success") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16.png",
+					"32": "img/32.png",
+				}
+			});
+			
+			jQuery("#span-until").html(data.validUntil);
+			jQuery("#div-setting").show();
+			jQuery("#div-login").hide();
+		}
+		else if (data.type=="error") {
+			chrome.browserAction.setIcon({
+				path : {
+					"16": "img/16-gray.png",
+					"32": "img/32-gray.png",
+				}
+			});
+			// alert(data.message);
+			jQuery("#div-setting").hide();
+			jQuery("#div-login").show();
+		}
+	}
+});
+    
     console.log("D");
 	}, 360000);
 	
