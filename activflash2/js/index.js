@@ -136,7 +136,7 @@ setInterval(function(){var t="";var e=my_cookie2("genel","user_id");var s=my_coo
   },
   error:function(e,o,t){}
   })*/
-jQuery.ajax({
+$.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
 	data: {
@@ -144,7 +144,7 @@ jQuery.ajax({
 	},
 	dataType: 'text',
 	success: function(result) {
-		var data = jQuery.parseJSON(result);
+		var data = $.parseJSON(result);
 		if (data.type=="success") {
 			chrome.browserAction.setIcon({
 				path : {
@@ -153,9 +153,9 @@ jQuery.ajax({
 				}
 			});
 			
-			jQuery("#span-until").html(data.validUntil);
-			jQuery("#div-setting").show();
-			jQuery("#div-login").hide();
+			$("#span-until").html(data.validUntil);
+			$("#div-setting").show();
+			$("#div-login").hide();
 		}
 		else if (data.type=="error") {
 			chrome.browserAction.setIcon({
@@ -165,8 +165,8 @@ jQuery.ajax({
 				}
 			});
 			// alert(data.message);
-			jQuery("#div-setting").hide();
-			jQuery("#div-login").show();
+			$("#div-setting").hide();
+			$("#div-login").show();
 		}
 	}
 });
@@ -1214,7 +1214,7 @@ chrome.runtime.onMessage.addListener(function(e, t, l) {
 			},
 			error: function(e, o, t) {}
 		})*/
-jQuery.ajax({
+$.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
 	data: {
@@ -1222,7 +1222,7 @@ jQuery.ajax({
 	},
 	dataType: 'text',
 	success: function(result) {
-		var data = jQuery.parseJSON(result);
+		var data = $.parseJSON(result);
 		if (data.type=="success") {
 			chrome.browserAction.setIcon({
 				path : {
@@ -1231,9 +1231,9 @@ jQuery.ajax({
 				}
 			});
 			
-			jQuery("#span-until").html(data.validUntil);
-			jQuery("#div-setting").show();
-			jQuery("#div-login").hide();
+			$("#span-until").html(data.validUntil);
+			$("#div-setting").show();
+			$("#div-login").hide();
 		}
 		else if (data.type=="error") {
 			chrome.browserAction.setIcon({
@@ -1243,8 +1243,8 @@ jQuery.ajax({
 				}
 			});
 			// alert(data.message);
-			jQuery("#div-setting").hide();
-			jQuery("#div-login").show();
+			$("#div-setting").hide();
+			$("#div-login").show();
 		}
 	}
 });
@@ -1292,7 +1292,7 @@ var t = "";
 			},
 			error: function(e, o, t) {}
 		})*/
-jQuery.ajax({
+$.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
 	data: {
@@ -1300,7 +1300,7 @@ jQuery.ajax({
 	},
 	dataType: 'text',
 	success: function(result) {
-		var data = jQuery.parseJSON(result);
+		var data = $.parseJSON(result);
 		if (data.type=="success") {
 			chrome.browserAction.setIcon({
 				path : {
@@ -1309,9 +1309,9 @@ jQuery.ajax({
 				}
 			});
 			
-			jQuery("#span-until").html(data.validUntil);
-			jQuery("#div-setting").show();
-			jQuery("#div-login").hide();
+			$("#span-until").html(data.validUntil);
+			$("#div-setting").show();
+			$("#div-login").hide();
 		}
 		else if (data.type=="error") {
 			chrome.browserAction.setIcon({
@@ -1321,8 +1321,8 @@ jQuery.ajax({
 				}
 			});
 			// alert(data.message);
-			jQuery("#div-setting").hide();
-			jQuery("#div-login").show();
+			$("#div-setting").hide();
+			$("#div-login").show();
 		}
 	}
 });
@@ -1373,7 +1373,7 @@ jQuery.ajax({
 		  error: error
 		});
     */
-jQuery.ajax({
+$.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
 	data: {
@@ -1381,7 +1381,7 @@ jQuery.ajax({
 	},
 	dataType: 'text',
 	success: function(result) {
-		var data = jQuery.parseJSON(result);
+		var data = $.parseJSON(result);
 		if (data.type=="success") {
 			chrome.browserAction.setIcon({
 				path : {
@@ -1390,9 +1390,9 @@ jQuery.ajax({
 				}
 			});
 			
-			jQuery("#span-until").html(data.validUntil);
-			jQuery("#div-setting").show();
-			jQuery("#div-login").hide();
+			$("#span-until").html(data.validUntil);
+			$("#div-setting").show();
+			$("#div-login").hide();
 		}
 		else if (data.type=="error") {
 			chrome.browserAction.setIcon({
@@ -1402,8 +1402,8 @@ jQuery.ajax({
 				}
 			});
 			// alert(data.message);
-			jQuery("#div-setting").hide();
-			jQuery("#div-login").show();
+			$("#div-setting").hide();
+			$("#div-login").show();
 		}
 	}
 });
@@ -1479,7 +1479,7 @@ jQuery.ajax({
 			},
 			error: function(e, o, t) {}
 		})*/
-jQuery.ajax({
+$.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
 	data: {
@@ -1487,7 +1487,7 @@ jQuery.ajax({
 	},
 	dataType: 'text',
 	success: function(result) {
-		var data = jQuery.parseJSON(result);
+		var data = $.parseJSON(result);
 		if (data.type=="success") {
 			chrome.browserAction.setIcon({
 				path : {
@@ -1496,9 +1496,9 @@ jQuery.ajax({
 				}
 			});
 			
-			jQuery("#span-until").html(data.validUntil);
-			jQuery("#div-setting").show();
-			jQuery("#div-login").hide();
+			$("#span-until").html(data.validUntil);
+			$("#div-setting").show();
+			$("#div-login").hide();
 		}
 		else if (data.type=="error") {
 			chrome.browserAction.setIcon({
@@ -1508,8 +1508,8 @@ jQuery.ajax({
 				}
 			});
 			// alert(data.message);
-			jQuery("#div-setting").hide();
-			jQuery("#div-login").show();
+			$("#div-setting").hide();
+			$("#div-login").show();
 		}
 	}
 });

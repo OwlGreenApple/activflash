@@ -11,12 +11,16 @@
 	<meta name="author" content="Social Growth">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-	<title>Social Growth</title>
+	<title>Activflash</title>
 
+  <link href="/css/app.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="/css/styles.css">
 	<link rel="stylesheet" type="text/css" href="/css/bootstrap-timepicker.css">
 	<link rel="stylesheet" type="text/css" href="/css/jquery.tag-editor.css">
+  
+  
+  
 	
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
@@ -25,56 +29,67 @@
 </head>
 
 <body>
-	<div class="main-wrapper-login" id="div-login" style="display:none;">
-		<div class="div-login-box1">
-			<a href="https://www.celebtools.co/likes2fans">
-				<div class="main-logo-login">
-				</div>
-			</a>
-			<h1 class="header-main-login">"Turn your likes into fans in 1 click"</h1>
-			
-			<form class="form-main">
-			
-				<div class="label-main">Email </div>
-				<input type="text" id="email" class="input-main">
-				
-				<div class="label-main title">Password  </div>
-				<input type="password" id="password" class="input-main">
-				
-				<div class="buttons">
-					<input type="button" value="Login" id="button-login">
-				</div>
-				<div class="buttons">
-					<a href="https://www.celebtools.co/wp-login.php?action=lostpassword" style="text-decoration: none;">Forgot Password ?</a>
-				</div>
-			</form>
-		</div>
-		<div class="div-login-box2">
-			<h3 class="h3-login-banner">
-				Sudah mempunyai <br>akun activflash ?
-			</h3>
-			<div class="buttons div-buylike2fans">
-				<a href="https://activflash.com"><input type="button" value="Buy activflash" id="button-buyactivflash"></a>
-			</div>
-		</div>
+	<div class="container" id="div-login" style="display:none;">
+    <div class="container2">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <img class="mx-auto d-block" src="/img/activflash-logo.png" width="240px;" height="auto" style="margin-bottom:10px;">
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="card-custom">
+            <div class="card cardpad">
+              <div class="card-body">
+                <form method="POST" action="{{ route('login') }}">
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <label for="email" class="text">
+                        Masukkan Username 
+                      </label>
+                      <input type="text" id="username" class="input-main col-md-12 col-12 form-control form-input" placeholder="username">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <label for="password" class="text">
+                        Masukkan Password
+                      </label>
+                      <input type="password" id="password" class="input-main col-md-12 col-12 form-control form-input" placeholder="password">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <input type="button" value="Login" id="button-login" class="col-md-12 col-12 btn btn-primary bsub ">
+                      <hr class="own">
+                      <h3 class="have">Belum punya akun? <a href="https://activflash.com">Daftar Disini!</a></h3>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 	</div>
 	
   
   
   
-	<div class="app_container <!--app_ui-->" id="div-setting" style="display:none;">
-		<div class="abs_notification"><span></span> </div> 
+	<div class="app_container " id="div-setting" style="display:none;">
+		<div class="abs_notification"><span></span> 
+    </div> 
   
 	<!-- Container -->
 
-    <div class="app_container_inner">
+  <div class="app_container_inner">
 	
 	
 		<!-- Top Links -->
 		<div class="top_links">
-			
-				<div class="isntatribe_top_link_logo"><a target="_blank" href="https://instagrowth.space">
-					<img src="img/instagrowth.png" alt=""/></a>
+				<div class="activflash_top_link_logo">
+          <a target="_blank" href="https://activflash.com">
+            <img src="img/activflash.png" alt=""/>
+          </a>
 				</div>
 				
 				<div class="status_text_top">
@@ -86,7 +101,7 @@
 					</div>	
 					<div class="status_text_val_container">
 						<div class="status_text_val_top trb_status_working">	
-							working
+							running
 						</div>	
 						<div class="status_text_val_top trb_status_not_working_app">	
 							App limit hit
@@ -102,13 +117,11 @@
 				
 				<div class="menu_right_top">
 					<ul>
-						<li><a target="_blank" href="https://instagrowth.space" class="trb_prices">PRICELIST</a></li>
+						<li><a target="_blank" href="https://instagrowth.space" class="trb_prices">ORDER</a></li>
 						<li>   | </li>
-						<li><a target="_blank" href="https://instagrowth.space" class="trb_tos">TERMS</a></li>
+						<li><a target="_blank" href="https://instagrowth.space" class="trb_tos">TUTORIAL</a></li>
 						<li>	| </li>
-						<li><a target="_blank" href="https://instagrowth.space/app-guide" class="">HOW TO USE</a></li>
-						<li>	| </li>
-						<li><a target="_blank" href="https://instagrowth.space/working-settings" class="">SAFE SETTINGS</a></li>
+						<li><a target="_blank" href="https://instagrowth.space/app-guide" class="">Logout</a></li>
 					</ul>
 				</div>
 			
@@ -120,6 +133,9 @@
 		
 		<div class="top_menu_icons">
 			<ul>
+        <li class="" style="padding:15px 20px;"><a target="_blank" href="https://activflash.com">
+          <img src="img/48.png" alt=""/></a>
+        </li>
 				<li>
 					<a href="#statistics_modal" id="statistics_modal_btn" role="button" data-toggle="modal" >
 						<div class="top_menu_icon_stats">
@@ -138,9 +154,6 @@
 				</li>
 			</ul>
 			
-			<li class="isntatribe_thunder"><a target="_blank" href="https://instagrowth.space">
-					<img src="img/logothunder.png" alt=""/></a>
-      </li>
 			
 			<div class="top_menu_icon_section_stats_name trb_statistics">
 				Statistics
@@ -233,21 +246,22 @@
 						<div class="top_view_box_inner">
 						
 						
-							<div class="top_view_title_nm">
+							<div class="top_view_title_nm follow-circle-div">
 								<h2 class="box_title_follow trb_follow_status">FOLLOWS</h2> 
 								
 								<p  id="last_follow_statistics">0</p>
-								<a href="#follow-modal" id="follow-settings-cog" role="button" data-toggle="modal" >
-									<div class="main_boxes_icon_config ">
-										<img src="img/config_Btn_white.png" alt=""/>
-									</div>
-								</a>
 								
 							</div>
 							<div class="activation_switch">
-							
-								<div class="activation_text trb_activate">
-									ACTIVATE
+                <label>
+                Settings
+                </label>
+								<div class="setting-button">
+                  <a href="#follow-modal" id="follow-settings-cog" role="button" data-toggle="modal" >
+                    <div class="main_boxes_icon_config ">
+                       <img src="img/config_Btn_white.png" alt=""/>
+                    </div>
+                  </a>
 								</div>
 								
 								<div class="onoffswitch_g">
@@ -265,21 +279,20 @@
 				  
 				   <!-- Like Box -->
 					<div class="like_box_view box_shadow_pink ">
-						<div class="top_view_box_inner like_box_view_inner">
+						<div class="top_view_box_inner">
 						
-						<div class="top_view_title_nm">
+						<div class="top_view_title_nm like-circle-div">
 							<h2 class="box_title_likes trb_follow_likes">LIKES</h2> 
 							<p id="last_likes_statistics">0</p>
-							<a href="#likes-modal" id="likes_btn" role="button" data-toggle="modal"  >
-								<div class="main_boxes_icon_config ">
-									<img src="img/config_Btn_white.png" alt=""/>
-								</div>
-							</a>
 						</div>
 						<div class="activation_switch">
-								<div class="activation_text trb_activate">
-									ACTIVATE
-								</div>
+								<div class="setting-button">
+                  <a href="#likes-modal" id="likes_btn" role="button" data-toggle="modal"  >
+                    <div class="main_boxes_icon_config ">
+                      <img src="img/config_Btn_white.png" alt=""/>
+                    </div>
+                  </a>
+                </div>
 								<div class="onoffswitch_g">
 									<input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="like_status" checked>
 									<label class="onoffswitch_g-label" for="like_status">
@@ -296,19 +309,18 @@
 					<!-- unfollow Box -->
 					<div class="unfollow_box_view three_view_boxes box_shadow_pink">
 						<div class="top_view_box_inner">
-							<div class="top_view_title_nm">
+							<div class="top_view_title_nm unfollow-circle-div">
 								<h2  class="box_title_unfollow"> <span class="trb_unfollow_status">UNFOLLOWS</span></h2> 
 								<p id="unfollow_pool_count">0</p>
-								<a href="#unfollow-modal" id="unfollow_btn" role="button" data-toggle="modal"  >
-									<div class="main_boxes_icon_config ">
-										<img src="img/config_Btn_white.png" alt=""/>
-									</div>
-								</a>
 							</div>
 							<div class="activation_switch">
-								<div class="activation_text trb_activate">
-									ACTIVATE
-								</div>
+								<div class="setting-button">
+                  <a href="#unfollow-modal" id="unfollow_btn" role="button" data-toggle="modal"  >
+                    <div class="main_boxes_icon_config ">
+                      <img src="img/config_Btn_white.png" alt=""/>
+                    </div>
+                  </a>
+                </div>
 								<div class="onoffswitch_g">
 								  <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="unfollowing_status_btn" checked>
 								  <label class="onoffswitch_g-label" for="unfollowing_status_btn">

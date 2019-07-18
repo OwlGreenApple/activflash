@@ -766,10 +766,7 @@ background: #191f34;}
 
 
 .main_boxes_icon_config {
-    width: 30px;
-    position: absolute;
-    right: 12px;
-    top: 17px;
+    width: 25px;
 }
 
 
@@ -990,34 +987,34 @@ a:hover, a:focus {
 
 .pool_box_view{}
 .unfollow_box_view {
-    background: rgba(0, 0, 0, 0) url("../img/unfollowers_box.png") no-repeat scroll 0 0 / cover ;
+    /*background: rgba(0, 0, 0, 0) url("../img/unfollowers_box.png") no-repeat scroll 0 0 / cover ;*/
     float: left;
     height: 429px;
   
     position: absolute;
-    right: 0;
-    top: 170px;
-    width: 377px;
+    right: -25px;
+    top: 25px;
+    width: 429px;
 }
 .follow_box_view {
-    background: rgba(0, 0, 0, 0) url("../img/followers_box.png") no-repeat scroll 0 0 / cover ;
+    /*background: rgba(0, 0, 0, 0) url("../img/followers_box.png") no-repeat scroll 0 0 / cover ;*/
     float: left;
     height: 429px;
     left: 0;
    
     position: absolute;
-    top: 170px;
-    width: 377px;
+    top: 25px;
+    width: 429px;
 }
 .like_box_view {
-    background: rgba(0, 0, 0, 0) url("../img/likes_box.png") no-repeat scroll 0 0 / cover ;
+    /*background: rgba(0, 0, 0, 0) url("../img/likes_box.png") no-repeat scroll 0 0 / cover ;*/
     float: left;
-    height: 422px;
+    height: 429px;
     left: 273px;
     
     position: absolute;
-    top: 159px;
-    width: 404px;
+    top: 25px;
+    width: 429px;
 }
 .cont_foll{}
 
@@ -1066,11 +1063,20 @@ a:hover, a:focus {
 .box_title_follow{color:#00c305}
 .box_title_likes{color:#d44c74}
 .top_view_title_nm {
+    border-radius: 50%;
     height: 240px;
     position: relative;
     width: 100%;
 }
-
+.follow-circle-div{
+  border:20px solid #0b75b4;
+}
+.unfollow-circle-div{
+  border:20px solid #2793d1;
+}
+.like-circle-div{
+  border:20px solid #159949;
+}
 
 .top_menu_icons {
     left: 149px;
@@ -1442,9 +1448,8 @@ border-top: none;}
 
 .instatribe_top_link_logo_name{}
 .instatribe_top_link_logo{}
-.isntatribe_top_link_logo {
+.activflash_top_link_logo{
     padding: 0 20px;
-   
 }
 
 .like_box_view_inner {
@@ -1505,9 +1510,6 @@ border-top: none;}
 
 
 
-.like_box_view .activation_switch {
-    margin-top: 36px;
-}
 
 .data_table{}
 .box_title_latest_likes {
@@ -2041,7 +2043,7 @@ height: 1013px;
 	
 	
 .app_container_inner_colored {
-    background: rgba(0, 0, 0, 0) url(../img/main_bg_box.png) no-repeat scroll 0 0 / cover;
+    /*background: rgba(0, 0, 0, 0) url(../img/main_bg_box.png) no-repeat scroll 0 0 / cover;*/
     height: 100%;
     position: relative;
     top: 100px;
@@ -3394,9 +3396,6 @@ background: #191f34;}
 
 .main_boxes_icon_config {
     width: 30px;
-    position: absolute;
-    right: 12px;
-    top: 17px;
 }
 
 
@@ -3569,34 +3568,34 @@ a:hover, a:focus {
 
 .pool_box_view{}
 .unfollow_box_view {
-    background: rgba(0, 0, 0, 0) url("../img/unfollowers_box.png") no-repeat scroll 0 0 / cover ;
+    /*background: rgba(0, 0, 0, 0) url("../img/unfollowers_box.png") no-repeat scroll 0 0 / cover ;*/
     float: left;
     height: 429px;
   
     position: absolute;
-    right: 0;
-    top: 170px;
-    width: 377px;
+    right: -25px;
+    top: 25px;
+    width: 429px;
 }
 .follow_box_view {
-    background: rgba(0, 0, 0, 0) url("../img/followers_box.png") no-repeat scroll 0 0 / cover ;
+    /*background: rgba(0, 0, 0, 0) url("../img/followers_box.png") no-repeat scroll 0 0 / cover ;*/
     float: left;
     height: 429px;
     left: 0;
    
     position: absolute;
-    top: 170px;
-    width: 377px;
+    top: 25px;
+    width: 429px;
 }
 .like_box_view {
-    background: rgba(0, 0, 0, 0) url("../img/likes_box.png") no-repeat scroll 0 0 / cover ;
+    /*background: rgba(0, 0, 0, 0) url("../img/likes_box.png") no-repeat scroll 0 0 / cover ;*/
     float: left;
-    height: 422px;
+    height: 429px;
     left: 273px;
     
     position: absolute;
-    top: 159px;
-    width: 404px;
+    top: 25px;
+    width: 429px;
 }
 .cont_foll{}
 
@@ -3645,6 +3644,7 @@ a:hover, a:focus {
 .box_title_follow{color:#00c305}
 .box_title_likes{color:#d44c74}
 .top_view_title_nm {
+    border-radius: 50%;
     height: 240px;
     position: relative;
     width: 100%;
@@ -4072,8 +4072,8 @@ border-top: none;}
 
 .instatribe_top_link_logo_name{}
 .instatribe_top_link_logo{}
-.isntatribe_top_link_logo {
-       padding: 0 20px;
+.activflash_top_link_logo{
+    padding: 0 20px;
     float: left;
     display: block;
     padding-top: 15px;
@@ -4138,9 +4138,6 @@ border-top: none;}
 
 
 
-.like_box_view .activation_switch {
-    margin-top: 53px;
-}
 
 .data_table{}
 .box_title_latest_likes {
@@ -4682,6 +4679,12 @@ span.robo-warning {
 }
 
 
+
+.setting-button{
+  float:left;
+  margin-top:15px;
+  margin-left:52px;
+}
 
 
 
