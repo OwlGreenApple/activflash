@@ -175,10 +175,8 @@ margin-top: 20px;}
 
 .pool_num{  
     padding: 8px 10px;
-    border: 1px solid #ddd;
-    border-radius: 50px;
     text-align: center;
-    margin: 3px;}
+    margin: 5px;}
 
 
 .pushmenu h3  {
@@ -3395,7 +3393,7 @@ background: #191f34;}
 
 
 .main_boxes_icon_config {
-    width: 30px;
+    width: 25px;
 }
 
 
@@ -3656,7 +3654,7 @@ a:hover, a:focus {
     position: absolute;
     top: 0;
     z-index: 99999;
-    width: 84px;
+    width: 125px;
     height: 100%;
     background: #e9eaec;
     box-shadow: 0 0 13px rgba(0,0,0,0.2);
@@ -3670,12 +3668,12 @@ a:hover, a:focus {
     float: left;
     height: 100%;}
 .top_menu_icons ul li{     list-style: none;
-    width: 84px;
-    height: 78px;    padding-top: 18px;
+    width: 125px;
+    height: 39px;    padding-top: 9px;padding-bottom: 9px;
     border-bottom: 1px solid #d0d0d0;}
 .top_menu_icons ul li a{    text-align: center;}
 .top_menu_icons ul li a div{}
-.top_menu_icons ul li a div p{    padding-top: 9px;
+.top_menu_icons ul li a div p{    padding-top: 3px;
     font-size: 12px;}
 .top_menu_icons ul li a div img{}
 
@@ -4682,10 +4680,9 @@ span.robo-warning {
 
 .setting-button{
   float:left;
-  margin-top:15px;
-  margin-left:52px;
+  margin-top: 18px;
+  margin-left: 33px;
 }
-
 
 
 

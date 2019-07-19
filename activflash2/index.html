@@ -91,9 +91,9 @@
             <img src="img/activflash.png" alt=""/>
           </a>
 				</div>
-				
 				<div class="status_text_top">
-					<div class="status_text_label_top trb_status_label">	
+          Hai <span id="account-username"></span>, sisa waktu anda <span id="time-left"></span> hari
+					<!--<div class="status_text_label_top trb_status_label">	
 						STATUS:
 					</div>	
 					<div class="status_text_circle_top">	
@@ -112,16 +112,16 @@
 						<div class="status_text_val_top trb_status_not_licence_error">	
 							Connection Error
 						</div>
-					</div>
+					</div>-->
 				</div>
 				
 				<div class="menu_right_top">
 					<ul>
-						<li><a target="_blank" href="https://instagrowth.space" class="trb_prices">ORDER</a></li>
+						<li><a target="_blank" href="https://instagrowth.space" class="trb_prices" style="font-family: Arial,Helvetics,sans-serif;">ORDER</a></li>
 						<li>   | </li>
-						<li><a target="_blank" href="https://instagrowth.space" class="trb_tos">TUTORIAL</a></li>
+						<li><a target="_blank" href="https://instagrowth.space" class="trb_tos" style="font-family: Arial,Helvetics,sans-serif;">TUTORIAL</a></li>
 						<li>	| </li>
-						<li><a target="_blank" href="https://instagrowth.space/app-guide" class="">Logout</a></li>
+						<li><a target="_blank" href="https://instagrowth.space/app-guide" class=""  style="font-family: Arial,Helvetics,sans-serif;">Logout</a></li>
 					</ul>
 				</div>
 			
@@ -133,22 +133,61 @@
 		
 		<div class="top_menu_icons">
 			<ul>
-        <li class="" style="padding:15px 20px;"><a target="_blank" href="https://activflash.com">
+        <li class="" style="padding: 15px 40px;height: 78px;"><a target="_blank" href="https://activflash.com">
           <img src="img/48.png" alt=""/></a>
         </li>
 				<li>
+					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+						<div class="top_menu_icon_tables">
+							<p>Dashboard</p>					
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Settings</p>					
+						</div>
+					</a>		
+				</li>
+				<li>
 					<a href="#statistics_modal" id="statistics_modal_btn" role="button" data-toggle="modal" >
 						<div class="top_menu_icon_stats">
-							<img src="img/stats_Btn.png" alt=""/>
-							<p>Stats</p>
+							<!--<img src="img/stats_Btn.png" alt=""/>-->
+							<p>Analytics</p>
 						</div>
 					</a>
 				</li>
 				<li>
 					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
 						<div class="top_menu_icon_tables">
-							<img src="img/tables_Btn.png" alt=""/>
-							<p>Latest Data</p>					
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Activities</p>					
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Buy More</p>
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Tutorial</p>
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Logout</p>					
 						</div>
 					</a>		
 				</li>
@@ -169,177 +208,166 @@
 		<!-- Container Inner Colored -->
 		<div class="app_container_colored">
 			<div class="app_container_inner_colored">
-			<!-- help Screen-->
-			<div class="help_screen">
-				<div class="instructions_header trb_instructions_header">
-					<span class="trb_instructions_p0">HELP</span>
-				</div>
-				<div class="instructions_p trb_instructions_p1 display_none">
-					1. Close all other similar apps that automate follows, likes and unfollows or do requests to insta.
-				</div>
-				<div class="instructions_p trb_instructions_p2">
-					2. Go to a Competitor's insta profile <br>or search for a specific tag ex. #cool
-				</div>
-				<div class="instructions_p trb_instructions_p3">
-					3. A wild button "Get the followers" <br>or "Get from Hastag" will appear. Click it !!
-				</div>
-				<div class="instructions_p trb_instructions_p4">
-					4. Return to this page
-				</div>
-				<div class="instructions_p trb_instructions_p5">
-					5. Read Terms of Service on our Website <br>and chat with us for further assistance.
-				</div>
-				<div class="instructions_p ">
-					Visit Instavibe <a target="_blank" style="color:#14f5e2" href="http://instavibe.me/app-guide/" alt=""> HOW TO HELP GUIDE</a> to get ALL the instructions and help for issues.
-				</div>
-			</div>
-			
-			
-			
-			<!-- make money Screen-->
-			
-			<div class="make_money_screen">
-			
-				<div class="instructions_header trb_make_money_header trb_make_money_p0">
-				</div>
-				<div class="instructions_p account_box_name">
-					Account Username: <span id="client_username"></span>
-				</div>
-				<div class="instructions_p account_box_lic_days">
-					Days Left: <span id="time_left"></span>
-				</div>
-			</div>
-			
-		
-			  
-			<!-- Dashboard  Screen-->
-			<div class="top_row_boxes">
-			  
-			  <!-- Top Boxes -->
-				<div class="top_row_boxes_inner">
-				
+        <!-- help Screen-->
+        <div class="help_screen">
+          <div class="instructions_header trb_instructions_header">
+            <span class="trb_instructions_p0">HELP</span>
+          </div>
+          <div class="instructions_p trb_instructions_p1 display_none">
+            1. Close all other similar apps that automate follows, likes and unfollows or do requests to insta.
+          </div>
+          <div class="instructions_p trb_instructions_p2">
+            2. Go to a Competitor's insta profile <br>or search for a specific tag ex. #cool
+          </div>
+          <div class="instructions_p trb_instructions_p3">
+            3. A wild button "Get the followers" <br>or "Get from Hastag" will appear. Click it !!
+          </div>
+          <div class="instructions_p trb_instructions_p4">
+            4. Return to this page
+          </div>
+          <div class="instructions_p trb_instructions_p5">
+            5. Read Terms of Service on our Website <br>and chat with us for further assistance.
+          </div>
+          <div class="instructions_p ">
+            Visit Instavibe <a target="_blank" style="color:#14f5e2" href="http://instavibe.me/app-guide/" alt=""> HOW TO HELP GUIDE</a> to get ALL the instructions and help for issues.
+          </div>
+        </div>
+        
+        
+        
+        <!-- make money Screen-->
+        <div class="make_money_screen">
+          <div class="instructions_header trb_make_money_header trb_make_money_p0">
+          </div>
+          <div class="instructions_p account_box_name">
+            Account Username: <span id="client_username"></span>
+          </div>
+          <div class="instructions_p account_box_lic_days">
+            Days Left: <span id="time_left"></span>
+          </div>
+        </div>
+        
+      
+          
+        <!-- Dashboard  Screen-->
+        <div class="top_row_boxes">
+          <!-- Top Boxes -->
+          <div class="top_row_boxes_inner">
+            <!-- Pool Box -->
+            <div class="pool_box_view three_view_boxes box_shadow_pink display_none">  <!-- TO BE REMOVED -->
+              <h2 class="box_title_pool"> <span class="trb_pool"></span></h2> 
+              <div href="#pool_jobs_modal" role="button" data-toggle="modal" class="box_config_icon box_config_icon_pool">
+              </div>
+              <p id="zero_follow_pool_count">0</p>
+              <div class="activation_text trb_activate"></div>
 
-				<!-- Pool Box -->
-				  <div class="pool_box_view three_view_boxes box_shadow_pink display_none">  <!-- TO BE REMOVED -->
-					
-						<h2 class="box_title_pool"> <span class="trb_pool"></span></h2> 
-						<div href="#pool_jobs_modal" role="button" data-toggle="modal" class="box_config_icon box_config_icon_pool">
-							
-						</div>
-						<p id="zero_follow_pool_count">0</p>
-						<div class="activation_text trb_activate"></div>
-
-						<div class="onoffswitch_g">
-							<input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="pool_collect_btn" checked>
-							<label class="onoffswitch_g-label" for="pool_collect_btn">
-							  <span class="onoffswitch_g-inner"></span>
-							  <span class="onoffswitch_g-switch"></span>
-							</label>
-						</div>
-						
-					</div>
-					<!-- END TO BE REMOVED -->
-				 
-				  
-					<!-- follow Box -->
-					<div class="follow_box_view three_view_boxes box_shadow_pink">
-						<div class="top_view_box_inner">
-						
-						
-							<div class="top_view_title_nm follow-circle-div">
-								<h2 class="box_title_follow trb_follow_status">FOLLOWS</h2> 
-								
-								<p  id="last_follow_statistics">0</p>
-								
-							</div>
-							<div class="activation_switch">
-                <label>
-                Settings
+              <div class="onoffswitch_g">
+                <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="pool_collect_btn" checked>
+                <label class="onoffswitch_g-label" for="pool_collect_btn">
+                  <span class="onoffswitch_g-inner"></span>
+                  <span class="onoffswitch_g-switch"></span>
                 </label>
-								<div class="setting-button">
-                  <a href="#follow-modal" id="follow-settings-cog" role="button" data-toggle="modal" >
-                    <div class="main_boxes_icon_config ">
-                       <img src="img/config_Btn_white.png" alt=""/>
-                    </div>
-                  </a>
-								</div>
-								
-								<div class="onoffswitch_g">
-									<input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="following_status" checked>
-									<label class="onoffswitch_g-label" for="following_status">
-									  <span class="onoffswitch_g-inner"></span>
-									  <span class="onoffswitch_g-switch"></span>
-									</label>
-								</div>
-								
-							</div>  
-						</div>
-					</div>
-				  
-				  
-				   <!-- Like Box -->
-					<div class="like_box_view box_shadow_pink ">
-						<div class="top_view_box_inner">
-						
-						<div class="top_view_title_nm like-circle-div">
-							<h2 class="box_title_likes trb_follow_likes">LIKES</h2> 
-							<p id="last_likes_statistics">0</p>
-						</div>
-						<div class="activation_switch">
-								<div class="setting-button">
-                  <a href="#likes-modal" id="likes_btn" role="button" data-toggle="modal"  >
-                    <div class="main_boxes_icon_config ">
-                      <img src="img/config_Btn_white.png" alt=""/>
-                    </div>
-                  </a>
+              </div>
+              
+            </div>
+            <!-- END TO BE REMOVED -->
+           
+            
+            <!-- follow Box -->
+            <div class="follow_box_view three_view_boxes box_shadow_pink">
+              <div class="top_view_box_inner">
+                <div class="top_view_title_nm follow-circle-div">
+                  <h2 class="box_title_follow trb_follow_status">FOLLOWS</h2> 
+                  <p id="last_follow_statistics">0</p>
                 </div>
-								<div class="onoffswitch_g">
-									<input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="like_status" checked>
-									<label class="onoffswitch_g-label" for="like_status">
-									  <span class="onoffswitch_g-inner"></span>
-									  <span class="onoffswitch_g-switch"></span>
-									</label>
-								</div>
-							</div>
-						</div>
-					</div>
-				   
-				   
-				   
-					<!-- unfollow Box -->
-					<div class="unfollow_box_view three_view_boxes box_shadow_pink">
-						<div class="top_view_box_inner">
-							<div class="top_view_title_nm unfollow-circle-div">
-								<h2  class="box_title_unfollow"> <span class="trb_unfollow_status">UNFOLLOWS</span></h2> 
-								<p id="unfollow_pool_count">0</p>
-							</div>
-							<div class="activation_switch">
-								<div class="setting-button">
-                  <a href="#unfollow-modal" id="unfollow_btn" role="button" data-toggle="modal"  >
-                    <div class="main_boxes_icon_config ">
-                      <img src="img/config_Btn_white.png" alt=""/>
-                    </div>
-                  </a>
+                <div class="activation_switch">
+                  <div class="setting-button">
+                    <a href="#follow-modal" id="follow-settings-cog" role="button" data-toggle="modal" >
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;">Settings</span>
+                      <span class="main_boxes_icon_config" style="float:left;">
+                        <img src="img/config_Btn_white.png" alt="" style="">
+                      </span>
+                    </a>
+                  </div>
+                  
+                  <div class="onoffswitch_g">
+                    <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="following_status" checked>
+                    <label class="onoffswitch_g-label" for="following_status">
+                      <span class="onoffswitch_g-inner"></span>
+                      <span class="onoffswitch_g-switch"></span>
+                    </label>
+                  </div>
+                  
+                </div>  
+              </div>
+            </div>
+            
+            
+             <!-- Like Box -->
+            <div class="like_box_view box_shadow_pink ">
+              <div class="top_view_box_inner">
+              
+              <div class="top_view_title_nm like-circle-div">
+                <h2 class="box_title_likes trb_follow_likes">LIKES</h2> 
+                <p id="last_likes_statistics">0</p>
+              </div>
+              <div class="activation_switch">
+                  <div class="setting-button">
+                    <a href="#likes-modal" id="likes_btn" role="button" data-toggle="modal"  >
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;">Settings</span>
+                      <span class="main_boxes_icon_config" style="float:left;">
+                        <img src="img/config_Btn_white.png" alt="" style="">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="onoffswitch_g">
+                    <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="like_status" checked>
+                    <label class="onoffswitch_g-label" for="like_status">
+                      <span class="onoffswitch_g-inner"></span>
+                      <span class="onoffswitch_g-switch"></span>
+                    </label>
+                  </div>
                 </div>
-								<div class="onoffswitch_g">
-								  <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="unfollowing_status_btn" checked>
-								  <label class="onoffswitch_g-label" for="unfollowing_status_btn">
-									  <span class="onoffswitch_g-inner"></span>
-									  <span class="onoffswitch_g-switch"></span>
-								  </label>
-								</div>
-							</div>	  
-							<div class="cont_foll"><span class="trb_scanned_users"></span>  <span id="zero_unfollow_scanned_users">0</span></div>
-							<div class="unfollow_commands">
-								<div class="row" ><div class="col-md-6"><button style="display:none;" id="stop_scan_btn" class="btn btn-sm btn-warning"></button></div><div class="col-md-6"><button id="remove_unfollow_job_btn" style="display:none;" class="btn btn-sm btn-danger"></button></div></div>
-							</div>
-						</div>
-					</div>
-				  
-				</div>  <!-- end Boxes -->
-				</div>	
-			
-			</div>
+              </div>
+            </div>
+             
+             
+             
+            <!-- unfollow Box -->
+            <div class="unfollow_box_view three_view_boxes box_shadow_pink">
+              <div class="top_view_box_inner">
+                <div class="top_view_title_nm unfollow-circle-div">
+                  <h2  class="box_title_unfollow"> <span class="trb_unfollow_status">UNFOLLOWS</span></h2> 
+                  <p id="unfollow_pool_count">0</p>
+                </div>
+                <div class="activation_switch">
+                  <div class="setting-button">
+                    <a href="#unfollow-modal" id="unfollow_btn" role="button" data-toggle="modal"  >
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;">Settings</span>
+                      <span class="main_boxes_icon_config" style="float:left;">
+                        <img src="img/config_Btn_white.png" alt="" style="">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="onoffswitch_g">
+                    <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="unfollowing_status_btn" checked>
+                    <label class="onoffswitch_g-label" for="unfollowing_status_btn">
+                      <span class="onoffswitch_g-inner"></span>
+                      <span class="onoffswitch_g-switch"></span>
+                    </label>
+                  </div>
+                </div>	  
+                <div class="cont_foll"><span class="trb_scanned_users"></span>  <span id="zero_unfollow_scanned_users">0</span></div>
+                <div class="unfollow_commands">
+                  <div class="row" ><div class="col-md-6"><button style="display:none;" id="stop_scan_btn" class="btn btn-sm btn-warning"></button></div><div class="col-md-6"><button id="remove_unfollow_job_btn" style="display:none;" class="btn btn-sm btn-danger"></button></div></div>
+                </div>
+              </div>
+            </div>
+            
+          </div>  <!-- end Boxes -->
+        </div>	
+        
+      </div>
 		</div>
 	</div> <!-- end container -->
 		
@@ -449,26 +477,26 @@
 	<!--Loading Page-->
 	<div class="loadingOverlay overlay" id="">
 		<div class="progress active" id="progress-bar-loading">
-  			<div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%;"></div>
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+      </div>
 		</div>
 		<div class="overlay-text">
-            <h1 class="loading lcl_loading"><span>.</span><span>.</span><span>.</span></h1>
-            <br>
+      <h1 class="loading lcl_loading"><span>.</span><span>.</span><span>.</span></h1>
+      <br>
 			<h4 class="big_text" id="lcl_keep_login"></h4>
 			<br>
 			<h6 class="lcl_email_promo"></h6>
-			
-        </div>
     </div>
+  </div>
 
 	<!--Request to Re-open Instagram.com-->
 	<div class="waitforIGcom overlay" id="request_to_reopen_IG">
 		<div class="overlay-text">
-            <h1 class="loading lcl_waiting"><span>.</span><span>.</span><span>.</span></h1>
-            <br>
-            <h4 class="big_text" id="lcl_request_reopen"></h4>
-        </div>
+      <h1 class="loading lcl_waiting"><span>.</span><span>.</span><span>.</span></h1>
+      <br>
+      <h4 class="big_text" id="lcl_request_reopen"></h4>
     </div>
+  </div>
 
 	<!--Modals-->
 
@@ -483,12 +511,12 @@
 				<div class="modal-body">
 					<div class="tabbable">
 						<ul class="nav nav-tabs">
-							<li id="from_followers_li" class="active"><a href="#likes_settings_tab" id="likes_settings_btn" data-toggle="tab" class="lcl_settings"> </a></li>
-							<li id="from_commenters_li"><a href="#like_tag_jobs_tab" id="like_tag_jobs_btn" data-toggle="tab" class="lcl_tags_to_collect_media"> </a></li>
-							<li id="sleep_like_li"><a href="#sleep_like_tab" id="sleep_like_btn" data-toggle="tab" class="lcl_sleep_times"> </a></li>
+							<!--<li id="from_followers_li" class="active"><a href="#likes_settings_tab" id="likes_settings_btn" data-toggle="tab" class="lcl_settings"> </a></li>-->
+							<li id="from_commenters_li" class="active"><a href="#like_tag_jobs_tab" id="like_tag_jobs_btn" data-toggle="tab">Scrape & Hashtags </a></li>
+							<li id="sleep_like_li"><a href="#sleep_like_tab" id="sleep_like_btn" data-toggle="tab" class=""> Like non-aktif</a></li>
 						</ul>
 						<div class="tab-content">
-							<div class="tab-pane  active" id="likes_settings_tab">
+							<div class="tab-pane" id="likes_settings_tab">
 								<form class="table-responsive" id="likeSettingsForm">
 									<table class="table table-bordered table-hover table-striped">
 										<tr class="">
@@ -535,19 +563,24 @@
 											</td>
 										</tr>
 										<tr>
-											<td class="lcl_pool"></td>
-											<td>
-												<a id="delete_likes_pool" class="btn btn-danger"><span class="lcl_delete"></span> </a>
-												<span class="number_1 pool_num" id="like_pool_count">0</span>
-											</td>
-											
 										</tr>
 									</table>
 								</form>
 							</div>
-							<div class="tab-pane" id="like_tag_jobs_tab">
+							<div class="tab-pane active" id="like_tag_jobs_tab">
 								<div class="row">
 									<div class="col-md-12">
+										<legend class="">Scrape users dari Hashtags</legend>
+										<span class="help-block ">Jumlah users yang discrape berdasarkan hashtags yang diset</span>
+                    <a id="delete_likes_pool" class="btn btn-danger"><span class="">Clean Scrape Users</span> </a>
+                    <span class="number_1 pool_num" id="like_pool_count">0</span>
+									</div>
+                </div>
+                <br><br>
+								<div class="row">
+									<div class="col-md-12">
+										<legend class="">Hashtags</legend>
+										<span class="help-block ">Tambah hashtags langsung di tab Instagram, klik pop-up yang muncul di kanan atas (lihat tutorial)</span>
 										<div class="table-responsive">
 											<table class="table table-bordered table-hover table-striped">
 												<thead>
@@ -639,39 +672,40 @@
 				<div class="modal-body">
 					<div class="tabbable">
 						<ul class="nav nav-tabs">
-							<li id="" class="active"><a href="#followSettingPool" id="" data-toggle="tab" class="lcl_pool"></a></li>
-                    		<li id="" class=""><a href="#followSettingsDiv" id="" data-toggle="tab" class="lcl_time_intervals"></a></li>
+							<li id="" class="active"><a href="#followSettingPool" id="" data-toggle="tab" class="">Scrape & Sumber</a></li>
+                    		<li id="" class=""><a href="#followSettingsDiv" id="" data-toggle="tab" class="display_none lcl_time_intervals"></a></li>
                     		<li id="" class=""><a href="#poolCollectIntervals" id="" data-toggle="tab" class="display_none lcl_pool_collect_intervals"></a></li>
-                    		<li id="" class=""><a href="#followsFilter" id="" data-toggle="tab" class="lcl_filters"></a></li>
-                    		<li id="sleep_follow_li" class=""><a href="#followSleepTimes" id="sleep_follow_btn" data-toggle="tab" class="lcl_sleep_times"></a></li>
+                    		<li id="" class=""><a href="#followsFilter" id="" data-toggle="tab" class="">Filter & Blacklist</a></li>
+                    		<li id="sleep_follow_li" class=""><a href="#followSleepTimes" id="sleep_follow_btn" data-toggle="tab" class="">Follow non-aktif</a></li>
                 		</ul><br>
 						<div class="tab-content">
 							<div class="tab-pane active" id="followSettingPool">
 								<form class="form-horizontal" id="followSettingPoolForm">
 									<fieldset>
-										<legend class="lcl_pool_size_limit"></legend>
-										<span class="help-block lcl_pool_size_limit_desc"></span>
-										<div class="form-group">
+										<legend class="">Scrape</legend>
+										<span class="help-block ">Jumlah user yang discrape berdasarkan sumber yang diset</span>
+										<!--<div class="form-group">
 											<div class="col-lg-12">
 												<input type="number" class="form-control valid" id="pool_limit" name="pool_limit">
 											</div>
-										</div>
-										<span style="float:right" class="number_1 pool_num" id="follow_pool_count">0</span>	<button class="btn btn-danger pull-right lcl_delete_pool" type="button" id="empty_pool">
-										<span class="lcl_delete_pool"></span><br>
+										</div>-->
+                    <button class="btn btn-danger " type="button" id="empty_pool" style="float:left" >
+                      <span class="">Clean Scrape User</span><br>
 										</button>
+										<span style="float:left" class="number_1 pool_num" id="follow_pool_count">0</span>	
 										<br><br><br>
-										<legend class="lcl_sources"></legend>
+										<legend class="">Sumber</legend>
 										<div class="tabbable">
 											<ul class="nav nav-tabs">
-												<li id="from_followers_li" class="active"><a href="#from_followers_tab" id="from_followers_tab_btn" data-toggle="tab" class="lcl_followers"> </a></li>
-												<li id="from_commenters_li"><a href="#from_commenters_tab" id="from_commenters_tab_btn" data-toggle="tab" class="lcl_comments_likes"> </a></li>
-												<li id="from_searches_li"><a href="#from_searches_tab" id="from_searches_tab_btn" data-toggle="tab" class="lcl_searches"> </a></li>
-												<li id="from_locations_li"><a href="#from_locations_tab" id="from_locations_tab_btn" data-toggle="tab" class="lcl_locations"> </a></li>
+												<li id="from_searches_li"><a href="#from_searches_tab" id="from_searches_tab_btn" data-toggle="tab" class="">Hashtags </a></li>
+												<li id="from_followers_li" class="active"><a href="#from_followers_tab" id="from_followers_tab_btn" data-toggle="tab" class="">Followers </a></li>
+												<li id="from_commenters_li"><a href="#from_commenters_tab" id="from_commenters_tab_btn" data-toggle="tab" class=""> Likes & Comment</a></li>
+												<li id="from_locations_li"><a href="#from_locations_tab" id="from_locations_tab_btn" data-toggle="tab" class=""> Lokasi</a></li>
 											</ul>
 											<div class="tab-content">
+												<div class="tab-pane lcl_from_searches" id="from_searches_tab"></div>
 												<div class="tab-pane  active lcl_from_followers" id="from_followers_tab"></div>
 												<div class="tab-pane lcl_from_comments_likes" id="from_commenters_tab"></div>
-												<div class="tab-pane lcl_from_searches" id="from_searches_tab"></div>
 												<div class="tab-pane lcl_from_locations" id="from_locations_tab"></div>
 
 												<div id="pool_jobs_table_genel" class="row">
@@ -781,67 +815,32 @@
 
 							<div class="tab-pane" id="followsFilter">
 								<form class="form-horizontal" id="followSettingsFilters">
-									<span class="help-block lcl_follows_filters_desc"></span>
+									<span class="help-block">Filter akun yang akan difollow</span>
 									<table class="table table-bordered table-hover table-striped">
-										<tr>
-											<th class="lcl_larger_than"></th>
-											<th class="lcl_item"></th>
-											<th class="lcl_smaller_than"></th>
-										</tr>
-										<tr>
-											<td>
-												<input type="number" min="0" step="1" placeholder="e.g: 10" class="form-control" id="filter_following_count_small">
-											</td>
-											<td><span class="lcl_following_count"></span></td>
-											<td>
-												<input type="number" min="0" step="1" placeholder="e.g: 100" class="form-control" id="filter_following_count_big">
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<input type="number" min="0" step="1" placeholder="" class="form-control" id="filter_followers_count_small">
-											</td>
-											<td><span class="lcl_followers_count"></span></td>
-											<td>
-												<input type="number" min="0" step="1" placeholder="" class="form-control" id="filter_followers_count_big">
-											</td>
-										</tr>
-
-										<tr>
-											<td>
-												<input type="number" min="0" step="1" placeholder="" class="form-control" id="filter_media_count_small">
-											</td>
-											<td><span class="lcl_medias_count"></span></td>
-											<td>
-												<input type="number" min="0" step="1" placeholder="" class="form-control" id="filter_media_count_big">
-											</td>
-										</tr>
-
 										<tr>
 											<td colspan="3">
 												<div class="checkbox">
 													<label>
-														<input name="private_public_filter" id="filter_public" value="public" type="radio"> <span class="lcl_filter_public"></span> 
+														<input name="private_public_filter" id="filter_public" value="public" type="radio"> <span class="">Jangan follow akun PRIVATE</span> 
 													</label>
 												</div>
 
-												<div class="checkbox">
+												<!--<div class="checkbox">
 													<label>
 														<input name="private_public_filter" id="filter_private" value="private" type="radio"> <span class="lcl_filter_private">J</span> 
 													</label>
-												</div>
+												</div>-->
 
 												<div class="checkbox">
 													<label>
-														<input name="private_public_filter" id="filter_private_public" value="both" type="radio"> <span class="lcl_filter_private_public"></span> 
+														<input name="private_public_filter" id="filter_private_public" value="both" type="radio"> <span class="">Follow semua jenis akun (PUBLIC & PRIVATE)</span> 
 													</label>
 												</div>
 
 											</td>
 										</tr>
 
-										<tr>
+										<!--<tr>
 											<td colspan="3">
 
 												<div class="checkbox">
@@ -851,12 +850,12 @@
 												</div>
 
 											</td>
-										</tr>
+										</tr>-->
 
 										<tr>
 											<td colspan="3">
-												<label class="lcl_filter_desciription_black"></label>
-												<textarea id="filter_black_list" class="form-control" placeholder="E.g. whatsapp, http, www, sex, porn, escord, free, money" rows="5"></textarea>
+												<label class="">Blacklist<br>(dari kata-kata yang ada di profile bio user)</label>
+												<textarea id="filter_black_list" class="form-control" placeholder="Users yang menulis kata-kata berikut ini di profilenya tidak akan di Follow contoh : judi online, sex, omzet, dsbnya (proses following akan lebih lambat apabila anda mengisi blacklist ini)" rows="5"></textarea>
 											</td>
 										</tr>
 
@@ -867,26 +866,25 @@
 							<div class="tab-pane" id="followSleepTimes">
 								<form class="form-horizontal">
 									<fieldset>
-										<legend class="lcl_declare_sleep_times_follow"></legend>
+										<label class="">Tentukan waktu aktifitas Follow di non-aktif kan dalam 1 hari (berdasarkan waktu Computer Anda)</label>
 										<div class="" id="followSleepTimesForm">
-
 											<div class="form-group">
 												<div class="col-md-4">
-													<label for="start_time" class="lcl_start_time"></label>
+													<label for="start_time" class="">Start</label>
 													<div class="input-group bootstrap-timepicker timepicker">
 														<input id="start_time_follow" type="text" class="form-control input-small start_time">
 														<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
 													</div>
 												</div>
 												<div class="col-md-4">
-													<label for="end_time" class="lcl_end_time"></label>
+													<label for="end_time" class="">Selesai</label>
 													<div class="input-group bootstrap-timepicker timepicker">
 														<input id="end_time_follow" type="text" class="form-control input-small end_time">
 														<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
 													</div>
 												</div>
 												<div class="col-md-2">
-													<button type="button" id="insert_time_follow" style="margin-top:24px;" class="btn btn-primary lcl_add insert_time"></button>
+													<button type="button" id="insert_time_follow" style="margin-top:35px;" class="btn btn-primary insert_time">+SET</button>
 												</div>
 												<div class="display_none col-md-2">
 													<a data-toggle="collapse" href="#followAdvanceSleepTime" aria-expanded="false" aria-controls="followAdvanceSleepTime" class="lcl_advanced"></a>
@@ -911,9 +909,9 @@
 														<table class="table table-bordered table-hover table-striped">
 															<thead>
 																<tr>
-																	<th class="lcl_start_time"></th>
-																	<th class="lcl_end_time"></th>
-																	<th class="lcl_delete"></th>
+																	<th class="">Waktu Start</th>
+																	<th class="">Waktu Selesai</th>
+																	<th class="">Hapus</th>
 																</tr>
 															</thead>
 															<tbody id="follow_sleep_times_table">
@@ -1094,31 +1092,39 @@
 				<div class="modal-body">
 					<div class="tabbable">
 						<ul class="nav nav-tabs">
-							<li id="" class="active"><a href="#unfollowPoolSettings" id="" data-toggle="tab" class=""><span class="lcl_pool"></span></a></li>
-							<li id="" class=""><a href="#unfollowTimeIntervalsSettings" id="" data-toggle="tab" class=""><span class="lcl_time_intervals"></span></a></li>
-							<li id="" class=""><a href="#whitelist" id="" data-toggle="tab" class=""><span class="lcl_white_list"></span></a></li>
-							<li id="sleep_unfollow_li" class=""><a href="#sleep_times_unfollow" id="sleep_unfollow_btn" data-toggle="tab" class="lcl_sleep_times"></a></li>
+							<li id="" class="active"><a href="#unfollowPoolSettings" id="" data-toggle="tab" class=""><span class="">Scrape & Settings</span></a></li>
+							<!--<li id="" class=""><a href="#unfollowTimeIntervalsSettings" id="" data-toggle="tab" class=""><span class="lcl_time_intervals"></span></a></li>-->
+							<li id="" class=""><a href="#whitelist" id="" data-toggle="tab" class=""><span class="">Whitelist</span></a></li>
+							<li id="sleep_unfollow_li" class=""><a href="#sleep_times_unfollow" id="sleep_unfollow_btn" data-toggle="tab" class="">Unfollow non-aktif</a></li>
 						</ul><br>
 						<div class="tab-content">
 							<div class="tab-pane active" id="unfollowPoolSettings">
 								<form class="form-horizontal" id="unfollowSettingsPoolForm">
 									<fieldset>
-										<legend class="lcl_restricted_unfollow"></legend>
-										<span class="lcl_restricted_unfollow_desc"></span>
+										<legend class="">Scrape Users Unfollow</legend>
+										<span class="">Jumlah users yang discrape otomatis dari following anda untuk di unfollow sesuai setting dibawah</span>
+                    <br>
+										<a type="button" class="btn btn-danger " id="zero_remove_unfollow_job_btn">Clean Scrape users</a>
+										<span class="number_1 pool_num" id="unfollow_scanned_users">0</span>
+                    
+										<legend class="">Unfollow Bot following</legend>
+										<span class="">Turn ON fitur ini apabila anda hanya ingin unfollow users yang difollow(following) oleh aplikasi bot secara otomatis</span>
+                    <br>
 										<div class="checkbox">
 											<label>
-												<input id="unfollow_only_bot_followed_checkbox" type="checkbox"/><span class="lcl_restricted_unfollow_checkbox"></span> 
+												<input id="unfollow_only_bot_followed_checkbox" type="checkbox"/><span class="">centang untuk turn on</span> 
 											</label>
 										</div>
 										<br><br>
 
-										<legend class="lcl_grace_period"></legend>
-										<span class="lcl_grace_period_desc"></span>
+										<legend class="">Days to unfollow</legend>
+										<span class="">Jumlah hari sebelum melakukan unfollow ke user yang baru saja di follow</span>
 										<select class="form-control" id="days_unfollow">
 											<option value="1" class="lcl_until_1"></option>
 											<option value="2" class="lcl_until_2"></option>
 											<option value="3" class="lcl_until_3"></option>
 										</select>
+                    
 										<div class="checkbox">
 											<label>
 												<input name="dont_unfollow_followers_truefalse" id="who_follow" type="checkbox"/> <span class="lcl_dont_unfollow_followers"></span> 
@@ -1126,7 +1132,7 @@
 										</div>
 										<br><br>
 
-										<legend class="lcl_auto_unfollow"></legend>
+										<!--<legend class="lcl_auto_unfollow"></legend>
 										<div class="checkbox">
 											<label>
 												<input id="auto_unfollow_enable" type="checkbox"/> <span class="lcl_auto_unfollow_enable"></span> 
@@ -1137,14 +1143,12 @@
 											<option value="1" class="lcl_until_1"></option>
 											<option value="2" class="lcl_until_2"></option>
 											<option value="3" class="lcl_until_3"></option>
-										</select><br><br>
+										</select><br><br>-->
 
-										<a type="button" class="btn btn-danger lcl_remove_unfollow_job" id="zero_remove_unfollow_job_btn"></a>
-										<span class="number_1 pool_num" id="unfollow_scanned_users">0</span>
 									</fieldset>
 								</form>
 							</div>
-							<div class="tab-pane" id="unfollowTimeIntervalsSettings">
+							<!--<div class="tab-pane" id="unfollowTimeIntervalsSettings">
 								<form class="form-horizontal" id="unfollowSettingsIntervalForm">
 									<fieldset>
 										<legend class="lcl_unfollow_limit_24h"></legend>
@@ -1182,14 +1186,25 @@
 									</fieldset>
 								</form>
 							</div>
-							<div class="tab-pane" id="whitelist">
+							-->
+              <div class="tab-pane" id="whitelist">
 								<div class="form-group">
-									<label class="lcl_user_names_desc"></label>
+									<legend class="">Whitelist</legend>
+                  <span class="help-block">Users dalam daftar whitelist tidak akan di unfollow oleh aplikasi (contoh: istri, pacar, boss, teman kerja dsbnya)</span>
+                
+									<legend class="">Whitelist Following Anda</legend>
+									<span class="help-block">Klik & otomatis semua users di daftar following anda akan di whitelist</span>
+									<a href="#" style="display: none;" class="pull-left btn btn-danger lcl_stop_collect_current_follows"></a>
+									<a href="#" class="pull-left btn btn-success ">Whitelist Following Anda</a>
+									<br><br><br>
+                  
+									<label class="">Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi)</label>
 									<textarea id="white_list_users" class="form-control" rows="5"></textarea>
 									<br>
 									<b><span class="lcl_total"></span></b> <span id="white_list_total">0</span>
 
-									<legend class="lcl_collect_title"></legend>
+									<legend class="">Whitelist Likers & Commenters</legend>
+                  <span class="help-block">Whitelist para likers & commenters di post anda sendiri</span>
 									<div class="row">
 										<div class="col-md-4">
 											<label class="switch">
@@ -1213,17 +1228,12 @@
 										</div>
 									</div>
 
-
-									<legend class="lcl_whitelist_current_follows"></legend>
-									<span class="help-block lcl_whitelist_current_follows_desc"></span>
-									<a href="#" style="display: none;" class="pull-left btn btn-danger lcl_stop_collect_current_follows"></a>
-									<a href="#" class="pull-left btn btn-success lcl_collect_current_follows"></a>
-									<br><br><br>
-									<legend class="lcl_removals"></legend>
+									<legend class="">Clean Whitelist</legend>
+                  <span class="help-block">Bersihkan daftar whitelist anda</span>
 									<div class="row">
 										<div class="col-md-12">
-											<a href="#" class="btn btn-warning pull-left lcl_delete_white_list_likes_comments"></a>
-											<a href="#" class="btn btn-danger pull-right lcl_clear_white_list"></a>
+											<!--<a href="#" class="btn btn-warning pull-left lcl_delete_white_list_likes_comments"></a>-->
+											<a href="#" class="btn btn-danger pull-right">Clean Whitelist</a>
 										</div>
 									</div>
 								</div>
@@ -1231,25 +1241,25 @@
 
 							<div class="tab-pane" id="sleep_times_unfollow">
 								<fieldset>
-									<legend class="lcl_declare_sleep_times_unfollow"></legend>
+                  <span class="help-block">Tentukan waktu aktifitas unfollow di non-aktif kan dalam 1 hari (berdasarkan waktu computer anda)</span>
 									<div class="" id="unfollowSleepTimesForm">
 										<div class="row">
 											<div class="col-md-4">
-												<label for="start_time" class="lcl_start_time"></label>
+												<label for="start_time" class="">Start</label>
 												<div class="input-group bootstrap-timepicker timepicker">
 													<input id="start_time_unfollow" type="text" class="form-control input-small start_time">
 													<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
 												</div>
 											</div>
 											<div class="col-md-4">
-												<label for="end_time" class="lcl_end_time"></label>
+												<label for="end_time" class="">Selesai</label>
 												<div class="input-group bootstrap-timepicker timepicker">
 													<input id="end_time_unfollow" type="text" class="form-control input-small end_time">
 													<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
 												</div>
 											</div>
 											<div class="col-md-2">
-												<button id="insert_time_unfollow" style="margin-top:24px;" class="btn btn-primary lcl_add insert_time"></button>
+												<button id="insert_time_unfollow" style="margin-top:24px;" class="btn btn-primary insert_time">+SET</button>
 											</div>
 											<div class="col-md-2 display_none">
 												<a data-toggle="collapse" href="#unfollowAdvanceSleepTime" aria-expanded="false" aria-controls="unfollowAdvanceSleepTime" class="lcl_advanced"></a>
@@ -1274,9 +1284,9 @@
 													<table class="table table-bordered table-hover table-striped">
 														<thead>
 															<tr>
-																<th class="lcl_start_time"></th>
-																<th class="lcl_end_time"></th>
-																<th class="lcl_delete"></th>
+																<th class="">Waktu Start</th>
+																<th class="">Waktu Selesai</th>
+																<th class="">Hapus</th>
 															</tr>
 														</thead>
 														<tbody id="unfollow_sleep_times_table">

@@ -279,10 +279,10 @@
       "message": "Only follow PRIVATE accounts"
    },
    "lcl_filter_private_public": {
-      "message": "Follow both private and public accounts"
+      "message": "testFollow both private and public accounts"
    },
    "lcl_filter_public": {
-      "message": "Only follow PUBLIC accounts"
+      "message": "Jangan Follow akun Private"
    },
    "lcl_filters": {
       "message": "Filters"

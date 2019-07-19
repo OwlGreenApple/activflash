@@ -153,7 +153,8 @@ $.ajax({
 				}
 			});
 			
-			$("#span-until").html(data.validUntil);
+      $("#account-username").html(data.username);
+      $("#time-left").html(data.dayLeft);
 			$("#div-setting").show();
 			$("#div-login").hide();
 		}
@@ -1231,7 +1232,8 @@ $.ajax({
 				}
 			});
 			
-			$("#span-until").html(data.validUntil);
+      $("#account-username").html(data.username);
+      $("#time-left").html(data.dayLeft);
 			$("#div-setting").show();
 			$("#div-login").hide();
 		}
@@ -1309,7 +1311,8 @@ $.ajax({
 				}
 			});
 			
-			$("#span-until").html(data.validUntil);
+      $("#account-username").html(data.username);
+      $("#time-left").html(data.dayLeft);
 			$("#div-setting").show();
 			$("#div-login").hide();
 		}
@@ -1390,7 +1393,8 @@ $.ajax({
 				}
 			});
 			
-			$("#span-until").html(data.validUntil);
+      $("#account-username").html(data.username);
+      $("#time-left").html(data.dayLeft);
 			$("#div-setting").show();
 			$("#div-login").hide();
 		}
@@ -1496,7 +1500,8 @@ $.ajax({
 				}
 			});
 			
-			$("#span-until").html(data.validUntil);
+      $("#account-username").html(data.username);
+      $("#time-left").html(data.dayLeft);
 			$("#div-setting").show();
 			$("#div-login").hide();
 		}

@@ -1,0 +1,31 @@
+Follow modal
+  from tags -> jadi hashtags
+  sources -> sumber 
+  Delete-> hapus
+  no data available -> data tidak tersedia 
+  cek disemua
+  
+Setting
+jenis font, Font nya jadi gray
+size dikecilin spy muat 4 digit
+
+like modal, unfollow modal  
+  clear scrape -> fontnya jadi white
+  
+bg color header modal diganti warna #
+WARNA ACTIVFLASH
+BIRU #1e90bf
+ORANGE #f89a29
+AMELIA
+ORANGE #f59521
+BIRU MUDA #73c6e6
+BIRU #40abe1
+
+unfollow modal 
+  centang untuk turn on -> Turn ON
+  Do not unfollow followers -> dihilangkan, dan di uncheck (default)
+  auto unfollow -> perlu di checked by default 
+  Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi) -> size jadi 10px
+button2 diganti warnanya 
+
+error element jangan dihapus, tapi ngga ditampilkan
