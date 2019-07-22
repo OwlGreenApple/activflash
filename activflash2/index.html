@@ -117,11 +117,11 @@
 				
 				<div class="menu_right_top">
 					<ul>
-						<li><a target="_blank" href="https://instagrowth.space" class="trb_prices" style="font-family: Arial,Helvetics,sans-serif;">ORDER</a></li>
+						<li><a target="_blank" href="" class="trb_prices" style="font-family: Arial,Helvetics,sans-serif;">ORDER</a></li>
 						<li>   | </li>
-						<li><a target="_blank" href="https://instagrowth.space" class="trb_tos" style="font-family: Arial,Helvetics,sans-serif;">TUTORIAL</a></li>
+						<li><a target="_blank" href="" class="trb_tos" style="font-family: Arial,Helvetics,sans-serif;">TUTORIAL</a></li>
 						<li>	| </li>
-						<li><a target="_blank" href="https://instagrowth.space/app-guide" class=""  style="font-family: Arial,Helvetics,sans-serif;">Logout</a></li>
+						<li><a target="_blank" href="" class=""  style="font-family: Arial,Helvetics,sans-serif;">Logout</a></li>
 					</ul>
 				</div>
 			
@@ -137,14 +137,14 @@
           <img src="img/48.png" alt=""/></a>
         </li>
 				<li>
-					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+					<a href="#" id="dashboard_btn">
 						<div class="top_menu_icon_tables">
 							<p>Dashboard</p>					
 						</div>
 					</a>		
 				</li>
 				<li>
-					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+					<a href="#" id="settings_btn" >
 						<div class="top_menu_icon_tables">
 							<!--<img src="img/tables_Btn.png" alt=""/>-->
 							<p>Settings</p>					
@@ -208,37 +208,13 @@
 		<!-- Container Inner Colored -->
 		<div class="app_container_colored">
 			<div class="app_container_inner_colored">
-        <!-- help Screen-->
-        <div class="help_screen">
-          <div class="instructions_header trb_instructions_header">
-            <span class="trb_instructions_p0">HELP</span>
-          </div>
-          <div class="instructions_p trb_instructions_p1 display_none">
-            1. Close all other similar apps that automate follows, likes and unfollows or do requests to insta.
-          </div>
-          <div class="instructions_p trb_instructions_p2">
-            2. Go to a Competitor's insta profile <br>or search for a specific tag ex. #cool
-          </div>
-          <div class="instructions_p trb_instructions_p3">
-            3. A wild button "Get the followers" <br>or "Get from Hastag" will appear. Click it !!
-          </div>
-          <div class="instructions_p trb_instructions_p4">
-            4. Return to this page
-          </div>
-          <div class="instructions_p trb_instructions_p5">
-            5. Read Terms of Service on our Website <br>and chat with us for further assistance.
-          </div>
-          <div class="instructions_p ">
-            Visit Instavibe <a target="_blank" style="color:#14f5e2" href="http://instavibe.me/app-guide/" alt=""> HOW TO HELP GUIDE</a> to get ALL the instructions and help for issues.
-          </div>
-        </div>
         
         
         
         <!-- make money Screen-->
         <div class="make_money_screen">
-          <div class="instructions_header trb_make_money_header trb_make_money_p0">
-          </div>
+          <!--<div class="instructions_header trb_make_money_header trb_make_money_p0 ">
+          </div>-->
           <div class="instructions_p account_box_name">
             Account Username: <span id="client_username"></span>
           </div>
@@ -252,7 +228,7 @@
         <!-- Dashboard  Screen-->
         <div class="top_row_boxes">
           <!-- Top Boxes -->
-          <div class="top_row_boxes_inner">
+          <div class="top_row_boxes_inner" id="div-setting-view">
             <!-- Pool Box -->
             <div class="pool_box_view three_view_boxes box_shadow_pink display_none">  <!-- TO BE REMOVED -->
               <h2 class="box_title_pool"> <span class="trb_pool"></span></h2> 
@@ -277,15 +253,15 @@
             <div class="follow_box_view three_view_boxes box_shadow_pink">
               <div class="top_view_box_inner">
                 <div class="top_view_title_nm follow-circle-div">
-                  <h2 class="box_title_follow trb_follow_status">FOLLOWS</h2> 
-                  <p id="last_follow_statistics">0</p>
+                  <h2 class="box_title_follow trb_follow_status" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">FOLLOWS</h2> 
+                  <p id="last_follow_statistics" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">0</p>
                 </div>
                 <div class="activation_switch">
                   <div class="setting-button">
                     <a href="#follow-modal" id="follow-settings-cog" role="button" data-toggle="modal" >
-                      <span style="float:left;margin-top: 3px;margin-right: 5px;">Settings</span>
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;color:#878787;font-family: Arial,Helvetics,sans-serif;">Settings</span>
                       <span class="main_boxes_icon_config" style="float:left;">
-                        <img src="img/config_Btn_white.png" alt="" style="">
+                        <img src="img/config_Btn.png" alt="" style="">
                       </span>
                     </a>
                   </div>
@@ -308,15 +284,15 @@
               <div class="top_view_box_inner">
               
               <div class="top_view_title_nm like-circle-div">
-                <h2 class="box_title_likes trb_follow_likes">LIKES</h2> 
-                <p id="last_likes_statistics">0</p>
+                <h2 class="box_title_likes trb_follow_likes" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">LIKES</h2> 
+                <p id="last_likes_statistics" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">0</p>
               </div>
               <div class="activation_switch">
                   <div class="setting-button">
                     <a href="#likes-modal" id="likes_btn" role="button" data-toggle="modal"  >
-                      <span style="float:left;margin-top: 3px;margin-right: 5px;">Settings</span>
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;color:#878787;font-family: Arial,Helvetics,sans-serif;">Settings</span>
                       <span class="main_boxes_icon_config" style="float:left;">
-                        <img src="img/config_Btn_white.png" alt="" style="">
+                        <img src="img/config_Btn.png" alt="" style="">
                       </span>
                     </a>
                   </div>
@@ -337,15 +313,15 @@
             <div class="unfollow_box_view three_view_boxes box_shadow_pink">
               <div class="top_view_box_inner">
                 <div class="top_view_title_nm unfollow-circle-div">
-                  <h2  class="box_title_unfollow"> <span class="trb_unfollow_status">UNFOLLOWS</span></h2> 
-                  <p id="unfollow_pool_count">0</p>
+                  <h2  class="box_title_unfollow" style="color:#878787;font-family: Arial,Helvetics,sans-serif;"> <span class="trb_unfollow_status">UNFOLLOWS</span></h2> 
+                  <p id="unfollow_pool_count" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">0</p>
                 </div>
                 <div class="activation_switch">
                   <div class="setting-button">
                     <a href="#unfollow-modal" id="unfollow_btn" role="button" data-toggle="modal"  >
-                      <span style="float:left;margin-top: 3px;margin-right: 5px;">Settings</span>
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;color:#878787;font-family: Arial,Helvetics,sans-serif;">Settings</span>
                       <span class="main_boxes_icon_config" style="float:left;">
-                        <img src="img/config_Btn_white.png" alt="" style="">
+                        <img src="img/config_Btn.png" alt="" style="">
                       </span>
                     </a>
                   </div>
@@ -365,6 +341,124 @@
             </div>
             
           </div>  <!-- end Boxes -->
+        
+          <div id="div-dashboard" style="display:none;">
+          
+          
+			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="margin-left:125px;margin-top:100px;margin-bottom:50px;">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="tab-content">
+							
+<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX active" id="home_animation_1" role="tabpanel" >
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JZ1xpsfRKDk?rel=0&amp;showinfo=0"></iframe>
+</div>								
+<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="profile_animation_1" role="tabpanel" >
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zfmwp9pXO9U?rel=0&amp;showinfo=0"></iframe>
+</div>								
+<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="messages_animation_1" role="tabpanel" >
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zMWSIbd_K24?rel=0&amp;showinfo=0"></iframe>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_1" role="tabpanel" >
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3P2C5gx3900?rel=0&amp;showinfo=0"></iframe>
+</div>								
+<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_2" role="tabpanel" >
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A7FZl7mGa5c?rel=0&amp;showinfo=0"></iframe>
+</div>								
+<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_3" role="tabpanel" >
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5C-yu4JKQNU?rel=0&amp;showinfo=0"></iframe>
+</div>								
+								
+
+
+
+								<div role="tabpanel" class="tab-pane animated flipInX" id="settings_animation_1">
+									<b>Settings Content</b>
+									<p>
+										Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit mediocritatem an. Pri ut tation electram moderatius.
+										Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+										aliquid pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+										gubergren sadipscing mel.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"></div><br/>
+					<div class="row" role="tablist" id="videoTabs">
+
+						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+							<a href="#home_animation_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+								<div class="icon">
+									<img src="img/filmIcon.png" class="filmIcon">
+								</div>
+								<div class="content">
+									<p class="text-white">Tutorial</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+							<a href="#profile_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
+								<div class="icon">
+									<img src="img/filmIcon.png" class="filmIcon">
+								</div>
+								<div class="content">
+									<p class="text-white">DM Setup</p>
+								</div>
+							</a>
+						</div>
+
+						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+							<a href="#messages_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
+								<div class="icon">
+									<img src="img/filmIcon.png" class="filmIcon">
+								</div>
+								<div class="content">
+									<p class="text-white">Digimaru</p>
+								</div>
+							</a>
+						</div>
+						
+						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+							<a href="#teknobie_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+								<div class="icon">
+									<img src="img/filmIcon.png" class="filmIcon">
+								</div>
+								<div class="content">
+									<p class="text-white">Teknobie 1</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+							<a href="#teknobie_2" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+								<div class="icon">
+									<img src="img/filmIcon.png" class="filmIcon">
+								</div>
+								<div class="content">
+									<p class="text-white">Teknobie 2</p>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+							<a href="#teknobie_3" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+								<div class="icon">
+									<img src="img/filmIcon.png" class="filmIcon">
+								</div>
+								<div class="content">
+									<p class="text-white">Teknobie 3</p>
+								</div>
+							</a>
+						</div>
+          </div>
+        </div>
+      </div>
+          
+          
+          
+          
+          </div>
         </div>	
         
       </div>
@@ -504,14 +598,14 @@
 	<div class="modal fade" id="likes-modal">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background-color:#159949;">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h4 class="modal-title">LIKE <span class="lcl_settings"></span></h4>
 				</div>
 				<div class="modal-body">
 					<div class="tabbable">
 						<ul class="nav nav-tabs">
-							<!--<li id="from_followers_li" class="active"><a href="#likes_settings_tab" id="likes_settings_btn" data-toggle="tab" class="lcl_settings"> </a></li>-->
+							<li id="from_followers_li" class="active" style="display:none;"><a href="#likes_settings_tab" id="likes_settings_btn" data-toggle="tab" class="lcl_settings"> </a></li>
 							<li id="from_commenters_li" class="active"><a href="#like_tag_jobs_tab" id="like_tag_jobs_btn" data-toggle="tab">Scrape & Hashtags </a></li>
 							<li id="sleep_like_li"><a href="#sleep_like_tab" id="sleep_like_btn" data-toggle="tab" class=""> Like non-aktif</a></li>
 						</ul>
@@ -546,7 +640,7 @@
 										<tr>
 											<td class="lcl_like_interval_time"></td>
 											<td>
-												<input type="number" class="form-control" id="like_interval" name="like_interval" required>
+												<input type="number" class="form-control" id="like_interval" name="like_interval" required value="1500">
 												<span class="help-block hide" id="likes-per-day">about <span id="lpd-number"></span> likes per 24 hours</span>
 											</td>
 										</tr>
@@ -572,7 +666,7 @@
 									<div class="col-md-12">
 										<legend class="">Scrape users dari Hashtags</legend>
 										<span class="help-block ">Jumlah users yang discrape berdasarkan hashtags yang diset</span>
-                    <a id="delete_likes_pool" class="btn btn-danger"><span class="">Clean Scrape Users</span> </a>
+                    <a id="delete_likes_pool" class="btn btn-danger"><span class="" style="color:#fff;">Clean Scrape Users</span> </a>
                     <span class="number_1 pool_num" id="like_pool_count">0</span>
 									</div>
                 </div>
@@ -665,7 +759,7 @@
 	<div class="modal fade" id="follow-modal">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background-color:#0b75b4;">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h4 class="modal-title">FOLLOW <span class="lcl_settings"></span></h4>
 				</div>
@@ -684,11 +778,11 @@
 									<fieldset>
 										<legend class="">Scrape</legend>
 										<span class="help-block ">Jumlah user yang discrape berdasarkan sumber yang diset</span>
-										<!--<div class="form-group">
+										<div class="form-group" style="display:none;">
 											<div class="col-lg-12">
 												<input type="number" class="form-control valid" id="pool_limit" name="pool_limit">
 											</div>
-										</div>-->
+										</div>
                     <button class="btn btn-danger " type="button" id="empty_pool" style="float:left" >
                       <span class="">Clean Scrape User</span><br>
 										</button>
@@ -697,16 +791,16 @@
 										<legend class="">Sumber</legend>
 										<div class="tabbable">
 											<ul class="nav nav-tabs">
-												<li id="from_searches_li"><a href="#from_searches_tab" id="from_searches_tab_btn" data-toggle="tab" class="">Hashtags </a></li>
 												<li id="from_followers_li" class="active"><a href="#from_followers_tab" id="from_followers_tab_btn" data-toggle="tab" class="">Followers </a></li>
+												<li id="from_searches_li" ><a href="#from_searches_tab" id="from_searches_tab_btn" data-toggle="tab" class="">Hashtags </a></li>
 												<li id="from_commenters_li"><a href="#from_commenters_tab" id="from_commenters_tab_btn" data-toggle="tab" class=""> Likes & Comment</a></li>
 												<li id="from_locations_li"><a href="#from_locations_tab" id="from_locations_tab_btn" data-toggle="tab" class=""> Lokasi</a></li>
 											</ul>
 											<div class="tab-content">
-												<div class="tab-pane lcl_from_searches" id="from_searches_tab"></div>
-												<div class="tab-pane  active lcl_from_followers" id="from_followers_tab"></div>
-												<div class="tab-pane lcl_from_comments_likes" id="from_commenters_tab"></div>
-												<div class="tab-pane lcl_from_locations" id="from_locations_tab"></div>
+												<div class="tab-pane active" id="from_followers_tab">Followers</div>
+												<div class="tab-pane  " id="from_searches_tab">Hashtags</div>
+												<div class="tab-pane " id="from_commenters_tab">Comments & Likes</div>
+												<div class="tab-pane " id="from_locations_tab">Locations</div>
 
 												<div id="pool_jobs_table_genel" class="row">
 													<div class="col-md-12">
@@ -714,8 +808,8 @@
 															<table class="table table-bordered table-hover table-striped">
 																<thead>
 																	<tr>
-																		<th class="lcl_sources"></th>
-																		<th class="lcl_delete"></th>
+																		<th class="">Sumber</th>
+																		<th class="">Hapus</th>
 																	</tr>
 																</thead>
 																<tbody id="pool_jobs_table">
@@ -825,11 +919,11 @@
 													</label>
 												</div>
 
-												<!--<div class="checkbox">
+												<div class="checkbox" style="display:none;">
 													<label>
 														<input name="private_public_filter" id="filter_private" value="private" type="radio"> <span class="lcl_filter_private">J</span> 
 													</label>
-												</div>-->
+												</div>
 
 												<div class="checkbox">
 													<label>
@@ -840,7 +934,7 @@
 											</td>
 										</tr>
 
-										<!--<tr>
+										<tr style="display:none;">
 											<td colspan="3">
 
 												<div class="checkbox">
@@ -850,7 +944,7 @@
 												</div>
 
 											</td>
-										</tr>-->
+										</tr>
 
 										<tr>
 											<td colspan="3">
@@ -937,10 +1031,10 @@
 	<div id="tables_modal" class="modal fade" tabindex="-1" role="dialog" >
 	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class="modal-header">
+			<div class="modal-header" style="background-color:#2793d1;">
 				
 			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-			<h4 class="modal-title"><span class="lcl_tables">Latest Data</span></h4>
+			<h4 class="modal-title"><span class="lcl_tables">Activities</span></h4>
 			</div>
 			<div class="modal-body">
 				<div class="tabbable">
@@ -1045,13 +1139,12 @@
 	
 	
 	<!--Stats Modal-->	
-	
 	<div id="statistics_modal" class="modal fade" tabindex="-1" role="dialog" >
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background-color:#2793d1;">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title"><span class="lcl_statistics">Stats</span></h4>
+					<h4 class="modal-title"><span class="lcl_statistics">Analytics</span></h4>
 				</div>
 				<div class="modal-body">
 					<div class="tabbable">
@@ -1085,7 +1178,7 @@
 	<div class="modal fade" id="unfollow-modal">
 		<div class="modal-dialog">
 			<div class="modal-content">
-				<div class="modal-header">
+				<div class="modal-header" style="background-color:#2793d1;">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h4 class="modal-title">UNFOLLOW <span class="lcl_settings"></span></h4>
 				</div>
@@ -1093,7 +1186,7 @@
 					<div class="tabbable">
 						<ul class="nav nav-tabs">
 							<li id="" class="active"><a href="#unfollowPoolSettings" id="" data-toggle="tab" class=""><span class="">Scrape & Settings</span></a></li>
-							<!--<li id="" class=""><a href="#unfollowTimeIntervalsSettings" id="" data-toggle="tab" class=""><span class="lcl_time_intervals"></span></a></li>-->
+							<li id="" class="" style="display:none;"><a href="#unfollowTimeIntervalsSettings" id="" data-toggle="tab" class=""><span class="lcl_time_intervals"></span></a></li>
 							<li id="" class=""><a href="#whitelist" id="" data-toggle="tab" class=""><span class="">Whitelist</span></a></li>
 							<li id="sleep_unfollow_li" class=""><a href="#sleep_times_unfollow" id="sleep_unfollow_btn" data-toggle="tab" class="">Unfollow non-aktif</a></li>
 						</ul><br>
@@ -1104,7 +1197,7 @@
 										<legend class="">Scrape Users Unfollow</legend>
 										<span class="">Jumlah users yang discrape otomatis dari following anda untuk di unfollow sesuai setting dibawah</span>
                     <br>
-										<a type="button" class="btn btn-danger " id="zero_remove_unfollow_job_btn">Clean Scrape users</a>
+										<a type="button" class="btn btn-danger " id="zero_remove_unfollow_job_btn" style="color:#fff;">Clean Scrape users</a>
 										<span class="number_1 pool_num" id="unfollow_scanned_users">0</span>
                     
 										<legend class="">Unfollow Bot following</legend>
@@ -1112,7 +1205,7 @@
                     <br>
 										<div class="checkbox">
 											<label>
-												<input id="unfollow_only_bot_followed_checkbox" type="checkbox"/><span class="">centang untuk turn on</span> 
+												<input id="unfollow_only_bot_followed_checkbox" type="checkbox"/><span class="">Turn ON</span> 
 											</label>
 										</div>
 										<br><br>
@@ -1125,30 +1218,30 @@
 											<option value="3" class="lcl_until_3"></option>
 										</select>
                     
-										<div class="checkbox">
+										<div class="checkbox" style="display:none;">
 											<label>
-												<input name="dont_unfollow_followers_truefalse" id="who_follow" type="checkbox"/> <span class="lcl_dont_unfollow_followers"></span> 
+												<input name="dont_unfollow_followers_truefalse" id="who_follow" type="checkbox" checked> <span class="lcl_dont_unfollow_followers"></span> 
 											</label>
 										</div>
 										<br><br>
 
-										<!--<legend class="lcl_auto_unfollow"></legend>
-										<div class="checkbox">
+										<!--<legend class="lcl_auto_unfollow"></legend>-->
+										<div class="checkbox" style="display:none;">
 											<label>
-												<input id="auto_unfollow_enable" type="checkbox"/> <span class="lcl_auto_unfollow_enable"></span> 
+												<input id="auto_unfollow_enable" type="checkbox" checked> <span class="lcl_auto_unfollow_enable"></span> 
 											</label>
 										</div>
-										<span class="lcl_auto_unfollow_day"></span>
-										<select class="form-control" id="auto_unfollow_days">
+										<span class="lcl_auto_unfollow_day" style="display:none;"></span>
+										<select class="form-control" id="auto_unfollow_days" style="display:none;">
 											<option value="1" class="lcl_until_1"></option>
 											<option value="2" class="lcl_until_2"></option>
 											<option value="3" class="lcl_until_3"></option>
-										</select><br><br>-->
+										</select><br><br>
 
 									</fieldset>
 								</form>
 							</div>
-							<!--<div class="tab-pane" id="unfollowTimeIntervalsSettings">
+							<div class="tab-pane" id="unfollowTimeIntervalsSettings" style="display:none;">
 								<form class="form-horizontal" id="unfollowSettingsIntervalForm">
 									<fieldset>
 										<legend class="lcl_unfollow_limit_24h"></legend>
@@ -1186,7 +1279,7 @@
 									</fieldset>
 								</form>
 							</div>
-							-->
+							
               <div class="tab-pane" id="whitelist">
 								<div class="form-group">
 									<legend class="">Whitelist</legend>
@@ -1198,7 +1291,7 @@
 									<a href="#" class="pull-left btn btn-success ">Whitelist Following Anda</a>
 									<br><br><br>
                   
-									<label class="">Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi)</label>
+									<label style="font-size:10px;" class="">Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi)</label>
 									<textarea id="white_list_users" class="form-control" rows="5"></textarea>
 									<br>
 									<b><span class="lcl_total"></span></b> <span id="white_list_total">0</span>
@@ -1232,7 +1325,7 @@
                   <span class="help-block">Bersihkan daftar whitelist anda</span>
 									<div class="row">
 										<div class="col-md-12">
-											<!--<a href="#" class="btn btn-warning pull-left lcl_delete_white_list_likes_comments"></a>-->
+											<a  style="display:none;" href="#" class="btn btn-warning pull-left lcl_delete_white_list_likes_comments"></a>
 											<a href="#" class="btn btn-danger pull-right">Clean Whitelist</a>
 										</div>
 									</div>

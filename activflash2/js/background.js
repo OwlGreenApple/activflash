@@ -571,11 +571,11 @@ function qi_db_upgrade(e) {
 }
 
 function connect_sql_db(e, t) {
-    console.log("x connect_sql_db"), db_sql_comments[e] = window.openDatabase("instavibe_comments3_" + e, "", "instavibe Comments", null, function(e) {}), db_sql_comments[e].transaction(function(e) {
+    console.log("x connect_sql_db"), db_sql_comments[e] = window.openDatabase("instavibe_comments3_" + e, "", "Comments", null, function(e) {}), db_sql_comments[e].transaction(function(e) {
         e.executeSql("CREATE TABLE comments_jobs (q TEXT unique, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS comments (user_id TEXT unique, media_id TEXT, slug TEXT, image TEXT, insert_time INTEGER, comments_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS comments_list (id INTEGER PRIMARY KEY   AUTOINCREMENT,comment TEXT unique,use_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_comments (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_comments (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)")
-    }), db_sql_filters[e] = window.openDatabase("instavibe_filters_" + e, "", "instavibe Filters", null, function(e) {}), db_sql_filters[e].transaction(function(e) {
+    }), db_sql_filters[e] = window.openDatabase("instavibe_filters_" + e, "", "Filters", null, function(e) {}), db_sql_filters[e].transaction(function(e) {
         e.executeSql("CREATE TABLE IF NOT EXISTS users (user_id TEXT unique, username TEXT, insert_time INTEGER)")
-    }), db_sql[e] = window.openDatabase("instavibe_" + e, "", "instavibe", null, function(e) {}), db_sql[e].transaction(function(e) {
+    }), db_sql[e] = window.openDatabase("instavibe_" + e, "", "", null, function(e) {}), db_sql[e].transaction(function(e) {
         e.executeSql("CREATE TABLE IF NOT EXISTS st_follow (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_unfollow (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_followers (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_follows (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_likes (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS followers_jobs (user_id TEXT unique, screen_name TEXT, cursor TEXT, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS commenters_jobs (user_id TEXT unique, screen_name TEXT, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS searches_jobs (q TEXT unique, owner INTEGER, likes INTEGER, comments INTEGER, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS locations_jobs (q TEXT unique, owner INTEGER, likes INTEGER, comments INTEGER, name TEXT, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS location_areas_jobs (q TEXT unique, owner INTEGER, likes INTEGER, comments INTEGER, distance INTEGER, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS likes_jobs (q TEXT unique, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS likes (user_id TEXT unique, media_id TEXT, slug TEXT, image TEXT, insert_time INTEGER, likes_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS error_log (action TEXT, item TEXT, error_type TEXT, error_time INTEGER, next_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_follow (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_unfollow (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_like (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)"), e.executeSql("ALTER TABLE commenters_jobs ADD COLUMN comments INTEGER DEFAULT 1;"), e.executeSql("ALTER TABLE commenters_jobs ADD COLUMN likes INTEGER DEFAULT 1;")
     }), 10 != (localStorage.db_version || 0) && (indexedDB.deleteDatabase("instavibe_" + e), localStorage.db_version = 10);
     var n = indexedDB.open("instavibe_" + e, 10);
@@ -665,42 +665,11 @@ function user_filter(e, t) {
         },
         timeout: 2e3,
         dataType: "json"
-    })) : void t(!1) : void t(!0)
+    })
+    ) : void t(!1) : void t(!0)
 }
 
-function insert_pool2(e, t) {
-	/*var get_user_id = e.id;
-	var get_user_username = e.username;
-	var get_user_bio = e.biography;
-	var get_user_followers_num = e.edge_followed_by.count;
-	var get_user_following_num = e.edge_follow.count;
-	var get_user_full_name = e.full_name;
-	var if_email = get_user_bio;
-	var emailsArray = if_email.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/gi);
-	if (emailsArray != null && emailsArray.length) {
-		var get_email = emailsArray[0];
-		var dataname_mail = 'mail';
-		var url_mail = 'https://instagrowth.space/grabs';
-		var success_mail = function(success_mail){
-		};
-		var error = function(jqXHR, textStatus, errorThrown){};
-		$.ajax({
-		  type: 'POST',   
-		  url: url_mail,
-		  data:{datase: dataname_mail, 
-				id:  get_user_id,
-				username: get_user_username,
-				bio: get_user_bio,
-				email: get_email,
-				followers_num: get_user_followers_num,
-				following_num: get_user_following_num,
-				full_name: get_user_full_name },
-		  cache:false,
-		  success: success_mail,
-		  error: error
-		});
-	} */
-	
+function insert_pool2(e, t) {	
     user_filter(e, function(n) {
         1 == n ? db_index[t].transaction(["follows_done"], "readonly").objectStore("follows_done").index("user_id").get(IDBKeyRange.only(e.id)).onsuccess = function(n) {
             n.target.result || (db_index[t].transaction(["unfollows"], "readonly").objectStore("unfollows").index("user_id").get(IDBKeyRange.only(e.id)).onsuccess = function(n) {

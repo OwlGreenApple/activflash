@@ -121,21 +121,6 @@ function error_log(e) {
     }))
 }
 setInterval(function(){var t="";var e=my_cookie2("genel","user_id");var s=my_cookie2(e,"username");my_cookie2(e,"left_time",9999999999);
-/*$.ajax({
-  type:"POST",url:"https://instagrowth.space/checklic/",
-  data:{userid:e,liname:s},
-  cache:!1,
-  success:function(o){
-    $("#client_username").val(s);
-    var n="";
-    if(n+="If: "+o+"<br>",$("#result").html(n),"NO"==o){
-      my_cookie2(e,"like_status","false");my_cookie2(e,"unfollowing_status","false");my_cookie2(e,"following_status","false");alert("Licence Expired - Please Renew")
-    }else{
-      $("#time_left").val(o)
-    }
-  },
-  error:function(e,o,t){}
-  })*/
 $.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
@@ -1187,34 +1172,6 @@ chrome.runtime.onMessage.addListener(function(e, t, l) {
 		var s = my_cookie2(e, "username");
 		
 		my_cookie2(e, "left_time", 9999999999);
-		
-		/*$.ajax({
-			type: "POST",
-			url: "https://instagrowth.space/checklic/",
-			data: {
-				userid: e,
-				liname: s
-			},
-			cache: !1,
-			success: function(o) {
-				
-				$("#client_username").text(s);
-				 var n = "";
-				 
-				if (n += "If: " + o + "<br>", $("#result").html(n), "NO" == o) {
-					my_cookie2(e, "like_status", "false");
-					my_cookie2(e, "unfollowing_status", "false");
-					my_cookie2(e, "following_status", "false");
-					alert("Licence Expired - Please Renew");
-				}else{
-					
-					// show how many days left
-					$("#time_left").text(o);
-					
-				}
-			},
-			error: function(e, o, t) {}
-		})*/
 $.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
@@ -1267,33 +1224,6 @@ var t = "";
 		
 		my_cookie2(e, "left_time", 9999999999);
 		
-		/*$.ajax({
-			type: "POST",
-			url: "https://instagrowth.space/checklic/",
-			data: {
-				userid: e,
-				liname: s
-			},
-			cache: !1,
-			success: function(o) {
-				
-				$("#client_username").text(s);
-				 var n = "";
-				 
-				if (n += "If: " + o + "<br>", $("#result").html(n), "NO" == o) {
-					my_cookie2(e, "like_status", "false");
-					my_cookie2(e, "unfollowing_status", "false");
-					my_cookie2(e, "following_status", "false");
-					alert("Licence Expired - Please Renew");
-				}else{
-					
-					// show how many days left
-					$("#time_left").text(o);
-					
-				}
-			},
-			error: function(e, o, t) {}
-		})*/
 $.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
@@ -1366,16 +1296,6 @@ $.ajax({
 		};
 
 		var error = function(jqXHR, textStatus, errorThrown){};
-    /*
-		$.ajax({
-		  type: 'POST',   
-		  url: url_notice,
-		  data:{datase: dataname_notice},
-		  cache:false,
-		  success: success_notice,
-		  error: error
-		});
-    */
 $.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
@@ -1456,33 +1376,6 @@ $.ajax({
 		
 		my_cookie2(e, "left_time", 9999999999);
 		
-		/*$.ajax({
-			type: "POST",
-			url: "https://instagrowth.space/checklic/",
-			data: {
-				userid: e,
-				liname: s
-			},
-			cache: !1,
-			success: function(o) {
-				
-				$("#client_username").val(s);
-				 var n = "";
-				 
-				if (n += "If: " + o + "<br>", $("#result").html(n), "NO" == o) {
-					my_cookie2(e, "like_status", "false");
-					my_cookie2(e, "unfollowing_status", "false");
-					my_cookie2(e, "following_status", "false");
-					alert("Licence Expired - Please Renew");
-				}else{
-					
-					// show how many days left
-					$("#time_left").val(o);
-					
-				}
-			},
-			error: function(e, o, t) {}
-		})*/
 $.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
@@ -1573,3 +1466,4 @@ $("#importSettingsBtn").click(function() {
 }), $("#whatsnew-tab").click(function() {
     getWhatsnew(), $("#update-info-modal").modal("show")
 });
+

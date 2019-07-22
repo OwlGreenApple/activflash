@@ -1,16 +1,12 @@
 Follow modal
-  from tags -> jadi hashtags
-  sources -> sumber 
-  Delete-> hapus
-  no data available -> data tidak tersedia 
+  from tags -> jadi hashtags v
+  sources -> sumber v
+  Delete-> hapus v
+  no data available -> data tidak tersedia v
   cek disemua
   
-Setting
-jenis font, Font nya jadi gray
-size dikecilin spy muat 4 digit
-
 like modal, unfollow modal  
-  clear scrape -> fontnya jadi white
+  clear scrape -> fontnya jadi white v
   
 bg color header modal diganti warna #
 WARNA ACTIVFLASH
@@ -22,12 +18,30 @@ BIRU MUDA #73c6e6
 BIRU #40abe1
 
 unfollow modal 
-  centang untuk turn on -> Turn ON
-  Do not unfollow followers -> dihilangkan, dan di uncheck (default)
-  auto unfollow -> perlu di checked by default 
-  Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi) -> size jadi 10px
-button2 diganti warnanya 
+  centang untuk turn on -> Turn ON V
+  Do not unfollow followers -> dihilangkan, dan di uncheck (default) v
+  auto unfollow -> perlu di checked by default v
+  Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi) -> size jadi 10px v
 
-error element jangan dihapus, tapi ngga ditampilkan
+error element jangan dihapus, tapi ngga ditampilkan vv
 
-SEARCH All coding, file & folder kata2 instagrowth, instavibe, insta, autoinsta, auto   harus diganti
+SEARCH All coding, file & folder kata2 instagrowth, instavibe, insta, autoinsta, auto   harus diganti v
+
+
+Setting
+jenis font, Font nya jadi gray v
+size dikecilin spy muat 4 digit v
+
+button2 diganti warnanya v
+ganti kata2 error message v
+
+benerin yang ga jalan v
+bug active tab 
+ganti speed activity 
+  unfollow 100-125
+  like 105
+  follow 100 - 125
+max 24 hours 
+  like 1500
+  unfollow 550
+  follow 850

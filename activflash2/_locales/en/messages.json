@@ -1,18 +1,18 @@
 {
    "hide_show": {
-      "message": "Hide/Show"
+      "message": "hide/show"
    },
    "lcl_about_accounts": {
-      "message": ""
+      "message": "tentang akun"
    },
    "lcl_about_pools": {
-      "message": "About Pools"
+      "message": "tentang scrape"
    },
    "lcl_about_settings": {
-      "message": ""
+      "message": "tentang settings"
    },
    "lcl_account_desc": {
-      "message": "Manage your account here."
+      "message": "Atur akun anda disini."
    },
    "lcl_action": {
       "message": "Action"
@@ -27,10 +27,10 @@
       "message": ""
    },
    "lcl_after_rate_limit_error": {
-      "message": "After Rate Limit Error Wait Time (seconds)"
+      "message": "Setelah Rate Limit Error (detik)"
    },
    "lcl_and": {
-      "message": "And"
+      "message": "Dan"
    },
    "lcl_auto_comments": {
       "message": "Auto Comments"
@@ -84,49 +84,49 @@
       "message": "Close"
    },
    "lcl_collect_comments": {
-      "message": "Collect Commenters"
+      "message": "Scrape Commenters"
    },
    "lcl_collect_comments_on_media": {
-      "message": "Collect post commenters"
+      "message": "Scrape Post Commenters"
    },
    "lcl_collect_current_follows": {
-      "message": "Collect Current Follows"
+      "message": "Scrape Current Follows"
    },
    "lcl_collect_followers_all": {
-      "message": "Collect all followers"
+      "message": "Scrape All Followers"
    },
    "lcl_collect_followers_new": {
-      "message": "Check & Collect latest 10 new followers"
+      "message": "Scrape Last 10 new followers"
    },
    "lcl_collect_from_comments_likes": {
-      "message": "Collect commenters & likers"
+      "message": "Scrape commenters & likers"
    },
    "lcl_collect_from_followers": {
-      "message": "Collect followers"
+      "message": "Scrape followers"
    },
    "lcl_collect_from_location": {
-      "message": "Collect from Location"
+      "message": "Scrape from Location"
    },
    "lcl_collect_from_tag": {
-      "message": "Collect from this tag"
+      "message": "Scrape from this tag"
    },
    "lcl_collect_likes": {
-      "message": "Collect Likers"
+      "message": "Scrape Likers"
    },
    "lcl_collect_media_owners": {
-      "message": "Collect media owners"
+      "message": "Scrape Posts Users"
    },
    "lcl_collect_medias_from_home_timeline_to_like": {
-      "message": "Collect posts from Home Feed to like"
+      "message": "Scrape posts from Home Feed to like"
    },
    "lcl_collect_medias_from_tags_to_like": {
-      "message": "Collect posts from Tags to like"
+      "message": "Scrape posts from Tags to like"
    },
    "lcl_collect_title": {
       "message": "Whitelist users who liked and commented on your posts"
    },
    "lcl_collect_who_likes_media": {
-      "message": "Collect who liked the media"
+      "message": "Scrape Posts Likers"
    },
    "lcl_comment_placeholder": {
       "message": "[hi,hello,hey] [how are you?,how is going?] please visit my page i have [funny,fun,interesting,good] pictures. Please follow me"
@@ -186,16 +186,16 @@
       "message": "Sleep times for UNFOLLOW"
    },
    "lcl_delete": {
-      "message": "Delete"
+      "message": "Hapus"
    },
    "lcl_delete_pool": {
-      "message": "Empty Pool"
+      "message": "Clean Scrape"
    },
    "lcl_delete_pool_history": {
-      "message": "Delete Pool History"
+      "message": "Hapus Scrape History"
    },
    "lcl_delete_white_list_likes_comments": {
-      "message": "Remove likers and commenters from whitelist"
+      "message": "Hapus likers dan commenters dari whitelist"
    },
    "lcl_desc": {
       "message": "* gender filter finds gender by name and works in 89 languges and 216286 names. if your pool not collects please do not use gender filter"
@@ -213,28 +213,28 @@
       "message": ""
    },
    "lcl_end_time": {
-      "message": "End time"
+      "message": "Waktu Selesai"
    },
    "lcl_error": {
       "message": "Error"
    },
    "lcl_error_comments_interval_time": {
-      "message": "Time interval error for Comments (seconds)"
+      "message": "Waktu interval error untuk Comments (detik)"
    },
    "lcl_error_like_interval_time": {
-      "message": "Wait time after error (seconds)"
+      "message": "Waktu setelah error (detik)"
    },
    "lcl_error_log": {
       "message": "Error Log"
    },
    "lcl_error_log_desc": {
-      "message": "Adjust the respective settings or pause when you see like/follow/unfollow errors."
+      "message": "Adjust settings anda."
    },
    "lcl_error_type": {
-      "message": "Error Type"
+      "message": "Tipe Error"
    },
    "lcl_error_waittime": {
-      "message": "Wait Time After Rate Limit (seconds)"
+      "message": "Waktu tunggu setelah Rate Limit (detik)"
    },
    "lcl_export": {
       "message": "Export"
@@ -252,7 +252,7 @@
       "message": "App"
    },
    "lcl_ext_name": {
-      "message": "Instavibe"
+      "message": ""
    },
    "lcl_filter_all_gender": {
       "message": "Follow all Genders"
@@ -291,34 +291,34 @@
       "message": "Follow"
    },
    "lcl_follow_error_waittime_desc": {
-      "message": "Set wait time to start following again after you have hit the rate limit."
+      "message": "Set waktu tunggu sebelum aktifitas Following kembali"
    },
    "lcl_follow_limit": {
-      "message": "Follow limit in 24 hours"
+      "message": "Follow limit dalam 24 jam"
    },
    "lcl_follow_limit_24h": {
-      "message": "Follow Limit Per 24 Hours"
+      "message": "Follow Limit Per 24 jam"
    },
    "lcl_follow_limit_24h_desc": {
-      "message": "Set the maximum number of users to follow in a 24-hour span. Instagram doesn't allow any account to follow more than 7500 users overall."
+      "message": "Set max users yang difollow dalam 24 jam"
    },
    "lcl_follow_sleep_times": {
-      "message": "Follow Sleep Times"
+      "message": "Waktu Follow non-aktif"
    },
    "lcl_follow_status": {
-      "message": "Follow Status"
+      "message": "Status Follow"
    },
    "lcl_follow_time": {
-      "message": "Follow Time"
+      "message": "Waktu Follow"
    },
    "lcl_follow_time_interval": {
-      "message": "Follow Time Interval (seconds)"
+      "message": "Waktu Follow Interval (detik)"
    },
    "lcl_follow_time_interval_desc": {
-      "message": "Randomize the time interval between each follow to avoid instagram account ban."
+      "message": "Random waktu interval antar aktifitas Following."
    },
    "lcl_followed": {
-      "message": "followed"
+      "message": "Followed"
    },
    "lcl_followed_time": {
       "message": "Followed Time"
@@ -420,37 +420,37 @@
       "message": ""
    },
    "lcl_item": {
-      "message": "Criteria"
+      "message": "Kriteria"
    },
    "lcl_job_interval_times": {
-      "message": "Time interval for Jobs"
+      "message": "Waktu interval untuk Aktifitas"
    },
    "lcl_jobs": {
-      "message": "Jobs"
+      "message": "Aktifitas"
    },
    "lcl_keep_login": {
-      "message": "Please login to \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> and keep it open."
+      "message": "Silahkan LOGIN ke \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> dan JANGAN DITUTUP ."
    },
    "lcl_larger_than": {
       "message": "Larger than below"
    },
    "lcl_lates_comments": {
-      "message": "Latest Comments"
+      "message": "Last Comments"
    },
    "lcl_latest_follows": {
-      "message": "Latest Follows"
+      "message": "Last Follows"
    },
    "lcl_latest_likes": {
-      "message": "Latest Likes"
+      "message": "Last Likes"
    },
    "lcl_latest_unfollows": {
-      "message": "Latest Unfollows"
+      "message": "Last Unfollows"
    },
    "lcl_licence": {
-      "message": "Licence"
+      "message": ""
    },
    "lcl_license": {
-      "message": "License"
+      "message": ""
    },
    "lcl_license_about_to_expire_msg": {
       "message": ""
@@ -459,34 +459,34 @@
       "message": ""
    },
    "lcl_license_remaining": {
-      "message": "License remaining"
+      "message": ""
    },
    "lcl_like": {
       "message": "Like"
    },
    "lcl_like_interval_time": {
-      "message": "Time interval between Likes (seconds)"
+      "message": "Waktu Interval antara Likes - detik"
    },
    "lcl_like_medias_job": {
-      "message": "Like Posts with this tag"
+      "message": "Like Posts dengan hashtag ini"
    },
    "lcl_like_sleep_times": {
-      "message": "Like Sleep Times"
+      "message": "Waktu Like non-aktif"
    },
    "lcl_like_status": {
-      "message": "Like Status"
+      "message": "Status Like"
    },
    "lcl_liked": {
-      "message": "liked"
+      "message": "Sudah di Like"
    },
    "lcl_liked_time": {
-      "message": "Liked Time"
+      "message": "Waktu di Like"
    },
    "lcl_likes": {
       "message": "Likes"
    },
    "lcl_limit24h": {
-      "message": "Limit/24h"
+      "message": "Limit/24 jam"
    },
    "lcl_limits": {
       "message": "Limits"
@@ -501,13 +501,13 @@
       "message": "Log"
    },
    "lcl_lpdt_follow": {
-      "message": "That translates to this many follows in 24 hours at most: \u003Cspan id=\"lpdt\">\u003C/span>"
+      "message": "Berapa banyak Follow dalam 24 jam: \u003Cspan id=\"lpdt\">\u003C/span>"
    },
    "lcl_max_comments_limit": {
-      "message": "Max comments limit in 24 hours"
+      "message": "Max comments limit dalam 24 jam"
    },
    "lcl_max_like_limit": {
-      "message": "Max. like limit in 24 hours"
+      "message": "Max. like limit dalam 24 jam"
    },
    "lcl_media": {
       "message": "Posts"
@@ -516,13 +516,13 @@
       "message": "Posts Count"
    },
    "lcl_next_action_time": {
-      "message": "Next Action Time"
+      "message": "Waktu Action Berikutnya"
    },
    "lcl_no_data_available": {
-      "message": "No data available"
+      "message": "Tidak ada data tersedia"
    },
    "lcl_options": {
-      "message": "Options"
+      "message": "Pilihan"
    },
    "lcl_others": {
       "message": "Others"
@@ -582,7 +582,7 @@
       "message": "Removals"
    },
    "lcl_remove_comments_likes_collect_job": {
-      "message": "Remove Commenters & Likers collect job"
+      "message": "Stop Scrape Commenters & Likers"
    },
    "lcl_remove_comments_media_job": {
       "message": "Remove media-commenting job"
@@ -657,10 +657,10 @@
       "message": "Clear Queue & Start Again"
    },
    "lcl_start_time": {
-      "message": "Start time"
+      "message": "Waktu Start"
    },
    "lcl_statistics": {
-      "message": "Statistics"
+      "message": "Analytics"
    },
    "lcl_stop_collect_current_follows": {
       "message": "Stop Collecting"
@@ -669,7 +669,7 @@
       "message": "Stop Scan"
    },
    "lcl_tables": {
-      "message": "Latest Data"
+      "message": "Activities"
    },
    "lcl_tags": {
       "message": "Tags"
@@ -678,7 +678,7 @@
       "message": "Hashtags to Like"
    },
    "lcl_time": {
-      "message": "Time"
+      "message": "waktu"
    },
    "lcl_time_intervals": {
       "message": "Time Intervals"
@@ -714,7 +714,7 @@
       "message": "Unfollow Status"
    },
    "lcl_unfollow_time": {
-      "message": "Unfollow Time"
+      "message": "Waktu Unfollow"
    },
    "lcl_unfollow_time_interval": {
       "message": "Unfollow Time Interval"

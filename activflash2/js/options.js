@@ -74,3 +74,12 @@ jQuery('#button-login').click(function(e){
     }
   });
 });
+
+jQuery('#dashboard_btn').click(function(e){
+  jQuery("#div-dashboard").show();
+  jQuery("#div-setting-view").hide();
+});
+jQuery('#settings_btn').click(function(e){
+  jQuery("#div-dashboard").hide();
+  jQuery("#div-setting-view").show();
+});
