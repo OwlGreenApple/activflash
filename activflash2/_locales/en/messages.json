@@ -78,7 +78,7 @@
       "message": "Check Licence"
    },
    "lcl_clear_white_list": {
-      "message": "Clear whitelist"
+      "message": "Clean Whitelist"
    },
    "lcl_close": {
       "message": "Close"
@@ -90,7 +90,7 @@
       "message": "Scrape Post Commenters"
    },
    "lcl_collect_current_follows": {
-      "message": "Scrape Current Follows"
+      "message": "Whitelist Following Anda"
    },
    "lcl_collect_followers_all": {
       "message": "Scrape All Followers"

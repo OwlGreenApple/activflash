@@ -75,6 +75,26 @@ jQuery('#button-login').click(function(e){
   });
 });
 
+jQuery('.button-logout').click(function(e){
+  e.preventDefault();
+  jQuery.ajax({
+    type: 'GET',
+    url: "https://activflash.com/admin-amelia/post-session-logout",
+    dataType: 'text',
+    success: function(result) {
+      // if (data.type=="success") {
+        jQuery("#div-setting").hide();
+        jQuery("#div-login").show();
+        
+      // }
+      // else if (data.type=="error") {
+        // jQuery("#div-setting").show();
+        // jQuery("#div-login").hide();
+      // }
+    }
+  });
+});
+
 jQuery('#dashboard_btn').click(function(e){
   jQuery("#div-dashboard").show();
   jQuery("#div-setting-view").hide();

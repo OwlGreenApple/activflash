@@ -2042,7 +2042,7 @@ min-height: 1013px;
     /*background: rgba(0, 0, 0, 0) url(../img/main_bg_box.png) no-repeat scroll 0 0 / cover;*/
     height: 100%;
     position: relative;
-    top: 100px;
+    /*top: 100px;*/
     width: 100%;
     left: 50%;
     max-width: 100%;
@@ -4719,7 +4719,9 @@ span.robo-warning {
     width: 70px;
 }
 
-
+.help-block{
+  font-size:14px;
+}
 
 
 

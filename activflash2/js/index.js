@@ -162,6 +162,7 @@ $.ajax({
 function license_messages() {
     var e = my_cookie2(user_id, "left_time"),
         t = moment.duration(parseInt(e)).humanize(!0);
+        console.log("time : "+e);
     e >= 2592e5 ? ($("#license-about-to-expire-msg").addClass("hide"), $("#license-expired-msg").addClass("hide")) : e > 0 && e < 2592e5 ? ($("#license-about-to-expire-msg").removeClass("hide"), $("#left-time-display").text(t), $("#license-expired-msg").addClass("hide")) : ($("#license-about-to-expire-msg").addClass("hide"), $("#license-expired-msg").removeClass("hide"))
 }
 
@@ -207,7 +208,8 @@ function connect_db() {
             set_input_default_values(), like_tags_qi_table_view_it(), update_like_numbers(user_id), qi_table_provision()
         }, 1e3), $("#nav-menu-bar").removeClass("hide"), db_sql[user_id] = window.openDatabase("instavibe_" + user_id, "", "instavibe", null, function(e) {}), db_sql_comments[user_id] = window.openDatabase("instavibe_comments3_" + user_id, "", "instavibe Comments", null, function(e) {}), db_sql_filters[user_id] = window.openDatabase("instavibe_filters_" + user_id, "", "instavibe Filters", null, function(e) {});
         indexedDB.open("instavibe_" + user_id, 10).onsuccess = function(e) {
-            db_index[user_id] = e.target.result, update_all()
+            db_index[user_id] = e.target.result, update_all();
+          console.log(my_cookie2("genel", "user_id"));
         }
     }
 }
@@ -1287,7 +1289,7 @@ $.ajax({
 
 	// Notice Fetch
 	function fetch_notice(){
-		var dataname_notice = 'notice';
+		/*var dataname_notice = 'notice';
 		var url_notice = 'https://instagrowth.space/notice';
 		var success_notice = function(data_notice){
 			if(data_notice){
@@ -1295,7 +1297,7 @@ $.ajax({
 			}
 		};
 
-		var error = function(jqXHR, textStatus, errorThrown){};
+		var error = function(jqXHR, textStatus, errorThrown){};*/
 $.ajax({
 	type: 'GET',
 	url: "https://activflash.com/admin-amelia/check-session-login",
@@ -1373,6 +1375,7 @@ $.ajax({
 		var t = "";
 		var e = my_cookie2("genel", "user_id");
 		var s = my_cookie2(e, "username");
+    console.log("D "+ e + " " + s);
 		
 		my_cookie2(e, "left_time", 9999999999);
 		

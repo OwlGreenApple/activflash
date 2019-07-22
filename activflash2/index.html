@@ -121,7 +121,7 @@
 						<li>   | </li>
 						<li><a target="_blank" href="" class="trb_tos" style="font-family: Arial,Helvetics,sans-serif;">TUTORIAL</a></li>
 						<li>	| </li>
-						<li><a target="_blank" href="" class=""  style="font-family: Arial,Helvetics,sans-serif;">Logout</a></li>
+						<li><a href="" class="button-logout"  style="font-family: Arial,Helvetics,sans-serif;">Logout</a></li>
 					</ul>
 				</div>
 			
@@ -184,7 +184,7 @@
 					</a>		
 				</li>
 				<li>
-					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+					<a href="" class="button-logout">
 						<div class="top_menu_icon_tables">
 							<!--<img src="img/tables_Btn.png" alt=""/>-->
 							<p>Logout</p>					
@@ -228,7 +228,7 @@
         <!-- Dashboard  Screen-->
         <div class="top_row_boxes">
           <!-- Top Boxes -->
-          <div class="top_row_boxes_inner" id="div-setting-view">
+          <div class="top_row_boxes_inner" id="div-setting-view" style="display:none;">
             <!-- Pool Box -->
             <div class="pool_box_view three_view_boxes box_shadow_pink display_none">  <!-- TO BE REMOVED -->
               <h2 class="box_title_pool"> <span class="trb_pool"></span></h2> 
@@ -342,118 +342,120 @@
             
           </div>  <!-- end Boxes -->
         
-          <div id="div-dashboard" style="display:none;">
+          <div id="div-dashboard" >
           
           
-			<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="margin-left:125px;margin-top:100px;margin-bottom:50px;">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="tab-content">
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="margin-left:125px;margin-top:100px;margin-bottom:50px;">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="tab-content">
 							
-<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX active" id="home_animation_1" role="tabpanel" >
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JZ1xpsfRKDk?rel=0&amp;showinfo=0"></iframe>
-</div>								
-<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="profile_animation_1" role="tabpanel" >
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zfmwp9pXO9U?rel=0&amp;showinfo=0"></iframe>
-</div>								
-<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="messages_animation_1" role="tabpanel" >
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zMWSIbd_K24?rel=0&amp;showinfo=0"></iframe>
-</div>
+                      <img class="img-responsive" src="img/video-cover.png">
+                        <!--
+                      <div class="embed-responsive embed-responsive-16by9  active" id="home_animation_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JZ1xpsfRKDk?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                        -->
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="profile_animation_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zfmwp9pXO9U?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="messages_animation_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zMWSIbd_K24?rel=0&amp;showinfo=0"></iframe>
+                      </div>
 
-<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_1" role="tabpanel" >
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3P2C5gx3900?rel=0&amp;showinfo=0"></iframe>
-</div>								
-<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_2" role="tabpanel" >
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A7FZl7mGa5c?rel=0&amp;showinfo=0"></iframe>
-</div>								
-<div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_3" role="tabpanel" >
-  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5C-yu4JKQNU?rel=0&amp;showinfo=0"></iframe>
-</div>								
-								
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3P2C5gx3900?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_2" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A7FZl7mGa5c?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_3" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5C-yu4JKQNU?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
 
 
 
-								<div role="tabpanel" class="tab-pane animated flipInX" id="settings_animation_1">
-									<b>Settings Content</b>
-									<p>
-										Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit mediocritatem an. Pri ut tation electram moderatius.
-										Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
-										aliquid pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
-										gubergren sadipscing mel.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="clearfix"></div><br/>
-					<div class="row" role="tablist" id="videoTabs">
+                      <div role="tabpanel" class="tab-pane animated flipInX" id="settings_animation_1">
+                        <b>Settings Content</b>
+                        <p>
+                          Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit mediocritatem an. Pri ut tation electram moderatius.
+                          Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+                          aliquid pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+                          gubergren sadipscing mel.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div><br/>
+                <div class="row" role="tablist" id="videoTabs">
 
-						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
-							<a href="#home_animation_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
-								<div class="icon">
-									<img src="img/filmIcon.png" class="filmIcon">
-								</div>
-								<div class="content">
-									<p class="text-white">Tutorial</p>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
-							<a href="#profile_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
-								<div class="icon">
-									<img src="img/filmIcon.png" class="filmIcon">
-								</div>
-								<div class="content">
-									<p class="text-white">DM Setup</p>
-								</div>
-							</a>
-						</div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#home_animation_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Tutorial</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#profile_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">DM Setup</p>
+                      </div>
+                    </a>
+                  </div>
 
-						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
-							<a href="#messages_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
-								<div class="icon">
-									<img src="img/filmIcon.png" class="filmIcon">
-								</div>
-								<div class="content">
-									<p class="text-white">Digimaru</p>
-								</div>
-							</a>
-						</div>
-						
-						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
-							<a href="#teknobie_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
-								<div class="icon">
-									<img src="img/filmIcon.png" class="filmIcon">
-								</div>
-								<div class="content">
-									<p class="text-white">Teknobie 1</p>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
-							<a href="#teknobie_2" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
-								<div class="icon">
-									<img src="img/filmIcon.png" class="filmIcon">
-								</div>
-								<div class="content">
-									<p class="text-white">Teknobie 2</p>
-								</div>
-							</a>
-						</div>
-						<div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
-							<a href="#teknobie_3" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
-								<div class="icon">
-									<img src="img/filmIcon.png" class="filmIcon">
-								</div>
-								<div class="content">
-									<p class="text-white">Teknobie 3</p>
-								</div>
-							</a>
-						</div>
-          </div>
-        </div>
-      </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#messages_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Digimaru</p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#teknobie_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Teknobie 1</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#teknobie_2" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Teknobie 2</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#teknobie_3" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Teknobie 3</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           
           
           
@@ -1205,7 +1207,7 @@
                     <br>
 										<div class="checkbox">
 											<label>
-												<input id="unfollow_only_bot_followed_checkbox" type="checkbox"/><span class="">Turn ON</span> 
+												<input id="unfollow_only_bot_followed_checkbox" type="checkbox"><span class="">Turn ON</span> 
 											</label>
 										</div>
 										<br><br>
@@ -1288,7 +1290,7 @@
 									<legend class="">Whitelist Following Anda</legend>
 									<span class="help-block">Klik & otomatis semua users di daftar following anda akan di whitelist</span>
 									<a href="#" style="display: none;" class="pull-left btn btn-danger lcl_stop_collect_current_follows"></a>
-									<a href="#" class="pull-left btn btn-success ">Whitelist Following Anda</a>
+									<a href="#" class="pull-left btn btn-success lcl_collect_current_follows">Whitelist Following Anda</a>
 									<br><br><br>
                   
 									<label style="font-size:10px;" class="">Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi)</label>
@@ -1307,14 +1309,14 @@
 										</div>
 										<div class="col-md-4">
 											<div class="checkbox">
-												<label>
+												<label class="help-block">
 													<input id="collect_likes_white_list" type="checkbox"> <span class="lcl_collect_likes"></span> 
 												</label>
 											</div>
 										</div>
 										<div class="col-md-4">
 											<div class="checkbox">
-												<label>
+												<label class="help-block">
 													<input id="collect_comments_white_list" type="checkbox"> <span class="lcl_collect_comments"></span> 
 												</label>
 											</div>
@@ -1326,7 +1328,7 @@
 									<div class="row">
 										<div class="col-md-12">
 											<a  style="display:none;" href="#" class="btn btn-warning pull-left lcl_delete_white_list_likes_comments"></a>
-											<a href="#" class="btn btn-danger pull-right">Clean Whitelist</a>
+											<a href="#" class="btn btn-danger pull-right lcl_clear_white_list">Clean Whitelist</a>
 										</div>
 									</div>
 								</div>
