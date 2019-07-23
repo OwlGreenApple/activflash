@@ -75,6 +75,41 @@ jQuery('#button-login').click(function(e){
   });
 });
 
+jQuery('#button-forgot-password').click(function(e){
+  jQuery.ajax({
+    type: 'GET',
+    url: "https://activflash.com/admin-amelia/post-forgot-password",
+    data: {
+      username : jQuery('#username-forgot-password').val(),
+    },
+    dataType: 'text',
+    success: function(result) {
+      var data = jQuery.parseJSON(result);
+      alert(data.message);
+      if (data.type=="success") {
+/*        jQuery("#div-setting").show();
+        jQuery("#div-login").hide();
+  */    }
+      // else if (result=="fail") {
+      else if (data.type=="error") {
+    /*    alert(data.message);
+        jQuery("#div-setting").hide();
+        jQuery("#div-login").show();
+      */}
+    }
+  });
+});
+jQuery('#button-to-forgotpassword').click(function(e){
+  e.preventDefault();
+  jQuery("#div-login").hide();
+  jQuery("#div-forgot-password").show();
+});
+jQuery('#button-backto-login').click(function(e){
+  e.preventDefault();
+  jQuery("#div-forgot-password").hide();
+  jQuery("#div-login").show();
+});
+
 jQuery('.button-logout').click(function(e){
   e.preventDefault();
   jQuery.ajax({
