@@ -123,7 +123,7 @@ function error_log(e) {
 setInterval(function(){var t="";var e=my_cookie2("genel","user_id");var s=my_cookie2(e,"username");my_cookie2(e,"left_time",9999999999);
 $.ajax({
 	type: 'GET',
-	url: "https://activflash.com/admin-amelia/check-session-login",
+	url: "https://activflash.com/admin-dashboard/check-session-login",
 	data: {
 		setting_id : 0,
 	},
@@ -924,7 +924,26 @@ chrome.runtime.onMessage.addListener(function(e, t, l) {
     }
 }), $("#follow-settings-cog").click(function() {
     setTimeout(function() {
-        $("#followSettingsForm").validate().element("#follow_limit"), $("#followSettingsForm").validate().element("#follow_interval_input_1"), $("#followSettingsForm").validate().element("#follow_interval_input_2"), $("#followSettingsForm").validate().element("#follow_error_interval_input"), $("#followSettingsFilters").validate().element("#filter_following_count_small"), $("#followSettingsFilters").validate().element("#filter_following_count_big"), $("#followSettingsFilters").validate().element("#filter_followers_count_small"), $("#followSettingsFilters").validate().element("#filter_followers_count_big"), $("#followSettingsFilters").validate().element("#filter_media_count_small"), $("#followSettingsFilters").validate().element("#filter_media_count_big"), $("#followSettingPoolForm").validate().element("#pool_limit"), $("#followSettingsPoolCollects").validate().element("#get_followers_interval_input"), $("#followSettingsPoolCollects").validate().element("#get_followers_error_interval_input"), $("#followSettingsPoolCollects").validate().element("#get_commenters_interval_input"), $("#followSettingsPoolCollects").validate().element("#get_comenters_error_interval_input"), $("#followSettingsPoolCollects").validate().element("#get_searches_interval_input"), $("#followSettingsPoolCollects").validate().element("#get_searches_error_interval_input"), $("#followSettingsPoolCollects").validate().element("#get_locations_interval_input"), $("#followSettingsPoolCollects").validate().element("#get_locations_error_interval_input")
+        $("#followSettingsForm").validate().element("#follow_limit"), 
+        $("#followSettingsForm").validate().element("#follow_interval_input_1"), 
+        $("#followSettingsForm").validate().element("#follow_interval_input_2"), 
+        $("#followSettingsForm").validate().element("#follow_error_interval_input"), 
+        /*
+        $("#followSettingsFilters").validate().element("#filter_following_count_small"), 
+        $("#followSettingsFilters").validate().element("#filter_following_count_big"), 
+        $("#followSettingsFilters").validate().element("#filter_followers_count_small"), 
+        $("#followSettingsFilters").validate().element("#filter_followers_count_big"), 
+        $("#followSettingsFilters").validate().element("#filter_media_count_small"), 
+        $("#followSettingsFilters").validate().element("#filter_media_count_big"), */
+        $("#followSettingPoolForm").validate().element("#pool_limit"), 
+        $("#followSettingsPoolCollects").validate().element("#get_followers_interval_input"), 
+        $("#followSettingsPoolCollects").validate().element("#get_followers_error_interval_input"), 
+        $("#followSettingsPoolCollects").validate().element("#get_commenters_interval_input"), 
+        $("#followSettingsPoolCollects").validate().element("#get_comenters_error_interval_input"), 
+        $("#followSettingsPoolCollects").validate().element("#get_searches_interval_input"), 
+        $("#followSettingsPoolCollects").validate().element("#get_searches_error_interval_input"), 
+        $("#followSettingsPoolCollects").validate().element("#get_locations_interval_input"), 
+        $("#followSettingsPoolCollects").validate().element("#get_locations_error_interval_input")
     }, 200)
 }), $("#followSettingsForm").validate({
     rules: {
@@ -1176,7 +1195,7 @@ chrome.runtime.onMessage.addListener(function(e, t, l) {
 		my_cookie2(e, "left_time", 9999999999);
 $.ajax({
 	type: 'GET',
-	url: "https://activflash.com/admin-amelia/check-session-login",
+	url: "https://activflash.com/admin-dashboard/check-session-login",
 	data: {
 		setting_id : 0,
 	},
@@ -1228,7 +1247,7 @@ var t = "";
 		
 $.ajax({
 	type: 'GET',
-	url: "https://activflash.com/admin-amelia/check-session-login",
+	url: "https://activflash.com/admin-dashboard/check-session-login",
 	data: {
 		setting_id : 0,
 	},
@@ -1300,7 +1319,7 @@ $.ajax({
 		var error = function(jqXHR, textStatus, errorThrown){};*/
 $.ajax({
 	type: 'GET',
-	url: "https://activflash.com/admin-amelia/check-session-login",
+	url: "https://activflash.com/admin-dashboard/check-session-login",
 	data: {
 		setting_id : 0,
 	},
@@ -1381,7 +1400,7 @@ $.ajax({
 		
 $.ajax({
 	type: 'GET',
-	url: "https://activflash.com/admin-amelia/check-session-login",
+	url: "https://activflash.com/admin-dashboard/check-session-login",
 	data: {
 		setting_id : 0,
 	},

@@ -666,7 +666,7 @@ function user_filter(e, t) {
         timeout: 2e3,
         dataType: "json"
     })*/
-      void t(!0)    
+      void t(!0)
     // console.log("clearr")
     ) : void t(!1) : void t(!0)
 }

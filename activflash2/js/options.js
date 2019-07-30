@@ -2,7 +2,7 @@ jQuery("#div-setting").hide();
 jQuery("#div-login").hide();
 jQuery.ajax({
 	type: 'GET',
-	url: "https://activflash.com/admin-amelia/check-session-login",
+	url: "https://activflash.com/admin-dashboard/check-session-login",
 	data: {
 		setting_id : 0,
 	},
@@ -38,7 +38,7 @@ jQuery.ajax({
 jQuery('#button-login').click(function(e){
   jQuery.ajax({
     type: 'GET',
-    url: "https://activflash.com/admin-amelia/post-session-login",
+    url: "https://activflash.com/admin-dashboard/post-session-login",
     data: {
       username : jQuery('#username').val(),
       password : jQuery('#password').val(),
@@ -78,7 +78,7 @@ jQuery('#button-login').click(function(e){
 jQuery('#button-forgot-password').click(function(e){
   jQuery.ajax({
     type: 'GET',
-    url: "https://activflash.com/admin-amelia/post-forgot-password",
+    url: "https://activflash.com/admin-dashboard/post-forgot-password",
     data: {
       username : jQuery('#username-forgot-password').val(),
     },
@@ -114,7 +114,7 @@ jQuery('.button-logout').click(function(e){
   e.preventDefault();
   jQuery.ajax({
     type: 'GET',
-    url: "https://activflash.com/admin-amelia/post-session-logout",
+    url: "https://activflash.com/admin-dashboard/post-session-logout",
     dataType: 'text',
     success: function(result) {
       // if (data.type=="success") {
