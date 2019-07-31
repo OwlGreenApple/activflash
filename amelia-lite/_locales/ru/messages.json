@@ -1,0 +1,353 @@
+{
+   "lcl_action": {
+      "message": "действие"
+   },
+   "lcl_add": {
+      "message": "Добавить"
+   },
+   "lcl_after_rate_limit_error": {
+      "message": "После ограничения скорости. Время ожидания (в секундах)."
+   },
+   "lcl_auto_likes": {
+      "message": "Автоматически нравится"
+   },
+   "lcl_auto_unfollow": {
+      "message": "Автоматическая отмена подписки"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "Автоматически включать unfollow после последнего времени unfollow прошло ..."
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "Включить автоматическое отмена подписки"
+   },
+   "lcl_cancel": {
+      "message": "Отмена"
+   },
+   "lcl_check_licence": {
+      "message": "Проверить лицензию"
+   },
+   "lcl_clear_white_list": {
+      "message": "Очистить белый список"
+   },
+   "lcl_close": {
+      "message": "Закрыть"
+   },
+   "lcl_collect_comments": {
+      "message": "Сборник комментариев"
+   },
+   "lcl_collect_comments_on_media": {
+      "message": "Соберите комментаторов сообщений"
+   },
+   "lcl_collect_current_follows": {
+      "message": "Следует собирать ток"
+   },
+   "lcl_collect_followers_all": {
+      "message": "Соберите всех последователей"
+   },
+   "lcl_collect_followers_new": {
+      "message": "Собирать последние 10 новых подписчиков"
+   },
+   "lcl_collect_from_comments_likes": {
+      "message": "Собирать комментаторов и подписчиков"
+   },
+   "lcl_collect_from_followers": {
+      "message": "Сбор подписчиков"
+   },
+   "lcl_collect_from_location": {
+      "message": "Собирать с места"
+   },
+   "lcl_collect_from_tag": {
+      "message": "Соберите из этого тега"
+   },
+   "lcl_collect_likes": {
+      "message": "Собирать любителей"
+   },
+   "lcl_collect_media_owners": {
+      "message": "Соберите владельцев сообщений"
+   },
+   "lcl_collect_medias_from_home_timeline_to_like": {
+      "message": "Собирайте публикаций из домашнего канала, чтобы"
+   },
+   "lcl_collect_medias_from_tags_to_like": {
+      "message": "Собирайте публикаций из тегов"
+   },
+   "lcl_collect_title": {
+      "message": "Пользователи Whitelist, которые любили и комментировали ваши Публикации"
+   },
+   "lcl_collect_who_likes_media": {
+      "message": "Собирать пользователей, которым нравились сообщения"
+   },
+   "lcl_comments_likes": {
+      "message": "Комментариватели / Любители"
+   },
+   "lcl_day_1": {
+      "message": "1 день"
+   },
+   "lcl_day_2": {
+      "message": "2 дня"
+   },
+   "lcl_day_3": {
+      "message": "3 дня"
+   },
+   "lcl_declare_sleep_times_follow": {
+      "message": "Время сна для последующих"
+   },
+   "lcl_declare_sleep_times_like": {
+      "message": "Время сна для симпатичных"
+   },
+   "lcl_declare_sleep_times_unfollow": {
+      "message": "Время сна для unfollow"
+   },
+   "lcl_delete": {
+      "message": "Удалить пул"
+   },
+   "lcl_delete_pool": {
+      "message": "Удалить пул"
+   },
+   "lcl_delete_white_list_likes_comments": {
+      "message": "Удалите подписчиков и комментаторов из белого списка"
+   },
+   "lcl_dont_unfollow_followers": {
+      "message": "Не отключайте подписчиков"
+   },
+   "lcl_dont_unfollow_that_you_follow": {
+      "message": "Избегайте непривязанных пользователей, за которыми вы следовали в последний раз ..."
+   },
+   "lcl_end_time": {
+      "message": "Время окончания"
+   },
+   "lcl_error_like_interval_time": {
+      "message": "Ошибка интервала времени (секунды)"
+   },
+   "lcl_error_log": {
+      "message": "Журнал ошибок"
+   },
+   "lcl_error_type": {
+      "message": "Тип ошибки"
+   },
+   "lcl_ext_desc": {
+      "message": ""
+   },
+   "lcl_ext_name": {
+      "message": " "
+   },
+   "lcl_filter_desciription_black": {
+      "message": "Биография слова черного списка (пишите несколько слов, разделенных запятой)"
+   },
+   "lcl_filter_external_link": {
+      "message": "Не следуйте за пользователями, у которых есть внешняя ссылка, например www.website.com."
+   },
+   "lcl_filter_private": {
+      "message": "Только следуйте за частными аккаунтами"
+   },
+   "lcl_filter_private_public": {
+      "message": "Следите за приватными и публичными аккаунтами"
+   },
+   "lcl_filter_public": {
+      "message": "Только следить за публичными аккаунтами"
+   },
+   "lcl_follow": {
+      "message": "следить"
+   },
+   "lcl_follow_limit": {
+      "message": "Следуйте лимиту за 24 часа"
+   },
+   "lcl_follow_sleep_times": {
+      "message": "Время сна для последующих"
+   },
+   "lcl_follow_status": {
+      "message": "Следить за статусом"
+   },
+   "lcl_follow_time": {
+      "message": "Следите за временем"
+   },
+   "lcl_followers": {
+      "message": "подписчиков"
+   },
+   "lcl_followers_count": {
+      "message": "Подписчики"
+   },
+   "lcl_following_count": {
+      "message": "Подписки"
+   },
+   "lcl_follows": {
+      "message": "Подписки"
+   },
+   "lcl_from_comments_likes": {
+      "message": "Из комментариев и комментариев"
+   },
+   "lcl_from_followers": {
+      "message": "От подписчиков"
+   },
+   "lcl_from_locations": {
+      "message": "Из мест"
+   },
+   "lcl_from_searches": {
+      "message": "От поисков"
+   },
+   "lcl_interval_time": {
+      "message": "Интервал времени (в секундах)"
+   },
+   "lcl_item": {
+      "message": "критерии"
+   },
+   "lcl_job_interval_times": {
+      "message": "Интервал времени для рабочих мест"
+   },
+   "lcl_larger_than": {
+      "message": "Больше, чем ниже"
+   },
+   "lcl_latest_follows": {
+      "message": "Последние новости"
+   },
+   "lcl_latest_likes": {
+      "message": "Последние нравится"
+   },
+   "lcl_latest_unfollows": {
+      "message": "Последние отменить подписку"
+   },
+   "lcl_licence": {
+      "message": "Лицензия"
+   },
+   "lcl_like_interval_time": {
+      "message": "Интервал времени (секунды)"
+   },
+   "lcl_like_medias_job": {
+      "message": "Как Сообщения с этим тегом"
+   },
+   "lcl_like_sleep_times": {
+      "message": "Время сна"
+   },
+   "lcl_like_status": {
+      "message": "Like Status"
+   },
+   "lcl_likes": {
+      "message": "Нравится"
+   },
+   "lcl_limits": {
+      "message": "рамки"
+   },
+   "lcl_locations": {
+      "message": "Места"
+   },
+   "lcl_max_like_limit": {
+      "message": "Максимальный Нравится лимит за 24 часа"
+   },
+   "lcl_media": {
+      "message": "публикаций"
+   },
+   "lcl_medias_count": {
+      "message": "публикаций"
+   },
+   "lcl_next_action_time": {
+      "message": "Следующее время действия"
+   },
+   "lcl_options": {
+      "message": "Опции"
+   },
+   "lcl_others": {
+      "message": "другие"
+   },
+   "lcl_pool_collect_commenters": {
+      "message": "Сборник комментариев"
+   },
+   "lcl_pool_collect_followers": {
+      "message": "Сбор подписчиков"
+   },
+   "lcl_pool_collect_locations": {
+      "message": "Собирайте места"
+   },
+   "lcl_pool_collect_searches": {
+      "message": "Собирают запросы"
+   },
+   "lcl_pool_limit": {
+      "message": "Пылье -слаЦ"
+   },
+   "lcl_pool_settings": {
+      "message": "Настройки пула"
+   },
+   "lcl_remove_comments_likes_collect_job": {
+      "message": "Удалить комментаторов и любителей"
+   },
+   "lcl_remove_followers_collect_job": {
+      "message": "Удалить сборщик"
+   },
+   "lcl_remove_like_media_job": {
+      "message": "Удалить постлюбивую работу"
+   },
+   "lcl_remove_location_job": {
+      "message": "Удалить задание местоположения"
+   },
+   "lcl_remove_tag_job": {
+      "message": "Удалить задание тега"
+   },
+   "lcl_remove_unfollow_job": {
+      "message": "Пустой unfollow бассейн"
+   },
+   "lcl_searches": {
+      "message": "Теги"
+   },
+   "lcl_settings": {
+      "message": "настройки"
+   },
+   "lcl_sleep_times": {
+      "message": "Время сна"
+   },
+   "lcl_smaller_than": {
+      "message": "Меньше, чем ниже"
+   },
+   "lcl_start": {
+      "message": "Начало"
+   },
+   "lcl_start_time": {
+      "message": "Время начала"
+   },
+   "lcl_statistics": {
+      "message": "Статистика"
+   },
+   "lcl_stop_collect_current_follows": {
+      "message": "Прекратить сбор"
+   },
+   "lcl_tags_to_collect_media": {
+      "message": "Хэштегам нравится"
+   },
+   "lcl_time": {
+      "message": "Время"
+   },
+   "lcl_unfollow": {
+      "message": "Отписаться"
+   },
+   "lcl_unfollow_limit": {
+      "message": "Отписаться лимит за 24 часа"
+   },
+   "lcl_unfollow_sleep_times": {
+      "message": "неследовать время сна"
+   },
+   "lcl_unfollow_time": {
+      "message": "Отменить поступление"
+   },
+   "lcl_unfollows": {
+      "message": "Отписаться"
+   },
+   "lcl_until_1": {
+      "message": "1 день"
+   },
+   "lcl_until_2": {
+      "message": "2 дня"
+   },
+   "lcl_until_3": {
+      "message": "3 дня"
+   },
+   "lcl_user_filters": {
+      "message": "Пользовательские фильтры для следующих"
+   },
+   "lcl_user_name": {
+      "message": "имя пользователя"
+   },
+   "lcl_white_list": {
+      "message": "Белый список"
+   },
+   "lcl_white_list_for": {
+      "message": "Белый список для неследовать"
+   }
+}

@@ -1,0 +1,41 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "img/48.png",
+      "default_title": "AmlLite"
+   },
+   "content_scripts": [ {
+      "css": [ "css/bootstrap.css" ],
+      "js": [ "js/content.js" ],
+      "matches": [ "https://*.instagram.com/*" ]
+   } ],
+   "default_locale": "en",
+   "description": "",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "48": "img/48.png",
+      "64": "img/64.png"
+   },
+   "manifest_version": 2,
+   "name": "AmlLite",
+   "permissions": [ 
+     "https://*.activflash.com/*", 
+     "activeTab",
+     "storage", 
+     "tabs", 
+     "cookies", 
+     "browsingData", 
+     "unlimitedStorage", 
+     "background", 
+     "identity", 
+     "*://*.instagram.com/*" 
+   ],
+   "short_name": "AmlLite",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.2",
+   "web_accessible_resources": [ "img/*", "fonts/*", "js/*", "css/*" ]
+}

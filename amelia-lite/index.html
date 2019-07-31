@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+	<meta name="description" content="Social Growth">
+	<meta name="author" content="Social Growth">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	<title>Activflash</title>
+
+  <link href="/css/app.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap-timepicker.css">
+	<link rel="stylesheet" type="text/css" href="/css/jquery.tag-editor.css">
+  
+  
+  
+	
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&amp;" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="container" id="div-login" style="display:none;">
+    <div class="container2">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <img class="mx-auto d-block" src="/img/activflash-logo.png" width="240px;" height="auto" style="margin-bottom:10px;">
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="card-custom">
+            <div class="card cardpad">
+              <div class="card-body">
+                <form method="POST" action="">
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <label for="email" class="text">
+                        Masukkan Username 
+                      </label>
+                      <input type="text" id="username" class="input-main col-md-12 col-12 form-control form-input" placeholder="username">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <label for="password" class="text">
+                        Masukkan Password
+                      </label>
+                      <input type="password" id="password" class="input-main col-md-12 col-12 form-control form-input" placeholder="password">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <input type="button" value="Login" id="button-login" class="col-md-12 col-12 btn btn-primary bsub ">
+                      <a href="" id="button-to-forgotpassword">
+                        Lupa Password?
+                      </a>
+                      <hr class="own">
+                      <h3 class="have">Belum punya akun? <a href="https://activflash.com/amelia-lite">Daftar Disini!</a></h3>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+	
+  
+	<div class="container" id="div-forgot-password" style="display:none;">
+	    <div class="container2">
+      <div class="row justify-content-center">
+        <div class="col-md-12">
+          <img class="mx-auto d-block" src="/img/activflash-logo.png" width="240px;" height="auto" style="margin-bottom:10px;">
+        </div>
+        <div class="col-md-6 col-12 ">
+          <div class="card-custom">
+            <div class="card cardpad">
+              <div class="card-body">
+                <form method="POST" action="">
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <label for="email" class="text">
+                        Masukkan Username 
+                      </label>
+                      <input type="text" id="username-forgot-password" class="input-main col-md-12 col-12 form-control form-input" placeholder="username">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <div class="col-md-12 col-12">
+                      <input type="button" value="Submit" id="button-forgot-password" class="col-md-12 col-12 btn btn-primary bsub ">
+                      <a href="" id="button-backto-login">
+                        Back to login
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+	<div class="app_container " id="div-setting" style="display:none;">
+		<div class="abs_notification"><span></span> 
+    </div> 
+  
+	<!-- Container -->
+
+  <div class="app_container_inner">
+	
+	
+		<!-- Top Links -->
+		<div class="top_links">
+				<div class="activflash_top_link_logo">
+          <a target="_blank" href="https://activflash.com/amelia-lite">
+            <img src="img/activflash.png" alt=""/>
+          </a>
+				</div>
+				<div class="status_text_top">
+          Hai <span id="account-username"></span>, sisa waktu anda <span id="time-left"></span> hari
+					<!--<div class="status_text_label_top trb_status_label">	
+						STATUS:
+					</div>	
+					<div class="status_text_circle_top">	
+
+					</div>	
+					<div class="status_text_val_container">
+						<div class="status_text_val_top trb_status_working">	
+							running
+						</div>	
+						<div class="status_text_val_top trb_status_not_working_app">	
+							App limit hit
+						</div>
+						<div class="status_text_val_top trb_status_not_licence_expired">	
+							Licence expired
+						</div>
+						<div class="status_text_val_top trb_status_not_licence_error">	
+							Connection Error
+						</div>
+					</div>-->
+				</div>
+				
+				<div class="menu_right_top">
+					<ul>
+						<li><a target="_blank" href="https://activflash.com/amelia-lite/prices/" class="trb_prices" style="font-family: Arial,Helvetics,sans-serif;">ORDER</a></li>
+						<li>   | </li>
+						<li><a target="_blank" href="https://activflash.com/amelia-lite/tutorial/" class="trb_tos" style="font-family: Arial,Helvetics,sans-serif;">TUTORIAL</a></li>
+						<li>	| </li>
+						<li><a href="" class="button-logout"  style="font-family: Arial,Helvetics,sans-serif;">Logout</a></li>
+					</ul>
+				</div>
+			
+		</div>
+	
+    <div class="top_menu_icon_back">
+      <img src="img/back_arro.png" alt=""/>
+    </div>
+		
+		<div class="top_menu_icons">
+			<ul>
+        <li class="" style="padding: 15px 40px;height: 78px;"><a target="_blank" href="https://activflash.com/amelia-lite">
+          <img src="img/48.png" alt=""/></a>
+        </li>
+				<li>
+					<a href="#" id="dashboard_btn">
+						<div class="top_menu_icon_tables">
+							<p>Dashboard</p>					
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="#" id="settings_btn" >
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Settings</p>					
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="#statistics_modal" id="statistics_modal_btn" role="button" data-toggle="modal" >
+						<div class="top_menu_icon_stats">
+							<!--<img src="img/stats_Btn.png" alt=""/>-->
+							<p>Analytics</p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="#tables_modal" id="tables_btn" role="button" data-toggle="modal"  >
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Activities</p>					
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="https://activflash.com/amelia-lite/prices/" target="_blank" >
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Buy More</p>
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="https://activflash.com/amelia-lite/tutorial/" target="_blank">
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Tutorial</p>
+						</div>
+					</a>		
+				</li>
+				<li>
+					<a href="" class="button-logout">
+						<div class="top_menu_icon_tables">
+							<!--<img src="img/tables_Btn.png" alt=""/>-->
+							<p>Logout</p>					
+						</div>
+					</a>		
+				</li>
+			</ul>
+			
+			
+			<div class="top_menu_icon_section_stats_name trb_statistics">
+				Statistics
+			</div>
+			<div class="top_menu_icon_section_config_name trb_configuration">
+				Configuration
+			</div>
+		
+		</div>
+		
+		
+		
+		<!-- Container Inner Colored -->
+		<div class="app_container_colored">
+			<div class="app_container_inner_colored">
+        
+        
+        
+        <!-- make money Screen-->
+        <div class="make_money_screen">
+          <!--<div class="instructions_header trb_make_money_header trb_make_money_p0 ">
+          </div>-->
+          <div class="instructions_p account_box_name">
+            Account Username: <span id="client_username"></span>
+          </div>
+          <div class="instructions_p account_box_lic_days">
+            Days Left: <span id="time_left"></span>
+          </div>
+        </div>
+        
+      
+          
+        <!-- Dashboard  Screen-->
+        <div class="top_row_boxes">
+          <!-- Top Boxes -->
+          <div class="top_row_boxes_inner" id="div-setting-view" style="display:none;">
+            <!-- Pool Box -->
+            <div class="pool_box_view three_view_boxes box_shadow_pink display_none">  <!-- TO BE REMOVED -->
+              <h2 class="box_title_pool"> <span class="trb_pool"></span></h2> 
+              <div href="#pool_jobs_modal" role="button" data-toggle="modal" class="box_config_icon box_config_icon_pool">
+              </div>
+              <p id="zero_follow_pool_count">0</p>
+              <div class="activation_text trb_activate"></div>
+
+              <div class="onoffswitch_g">
+                <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="pool_collect_btn" checked>
+                <label class="onoffswitch_g-label" for="pool_collect_btn">
+                  <span class="onoffswitch_g-inner"></span>
+                  <span class="onoffswitch_g-switch"></span>
+                </label>
+              </div>
+              
+            </div>
+            <!-- END TO BE REMOVED -->
+           
+            
+            <!-- follow Box -->
+            <div class="follow_box_view three_view_boxes box_shadow_pink">
+              <div class="top_view_box_inner">
+                <div class="top_view_title_nm follow-circle-div">
+                  <h2 class="box_title_follow trb_follow_status" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">FOLLOWS</h2> 
+                  <p id="last_follow_statistics" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">0</p>
+                </div>
+                <div class="activation_switch">
+                  <div class="setting-button">
+                    <a href="#follow-modal" id="follow-settings-cog" role="button" data-toggle="modal" >
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;color:#878787;font-family: Arial,Helvetics,sans-serif;">Settings</span>
+                      <span class="main_boxes_icon_config" style="float:left;">
+                        <img src="img/config_Btn.png" alt="" style="">
+                      </span>
+                    </a>
+                  </div>
+                  
+                  <div class="onoffswitch_g">
+                    <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="following_status" checked>
+                    <label class="onoffswitch_g-label" for="following_status">
+                      <span class="onoffswitch_g-inner"></span>
+                      <span class="onoffswitch_g-switch"></span>
+                    </label>
+                  </div>
+                  
+                </div>  
+              </div>
+            </div>
+            
+            
+             <!-- Like Box -->
+            <div class="like_box_view box_shadow_pink ">
+              <div class="top_view_box_inner">
+              
+              <div class="top_view_title_nm like-circle-div">
+                <h2 class="box_title_likes trb_follow_likes" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">LIKES</h2> 
+                <p id="last_likes_statistics" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">0</p>
+              </div>
+              <div class="activation_switch">
+                  <div class="setting-button">
+                    <a href="#likes-modal" id="likes_btn" role="button" data-toggle="modal"  >
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;color:#878787;font-family: Arial,Helvetics,sans-serif;">Settings</span>
+                      <span class="main_boxes_icon_config" style="float:left;">
+                        <img src="img/config_Btn.png" alt="" style="">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="onoffswitch_g">
+                    <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="like_status" checked>
+                    <label class="onoffswitch_g-label" for="like_status">
+                      <span class="onoffswitch_g-inner"></span>
+                      <span class="onoffswitch_g-switch"></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+             
+             
+             
+            <!-- unfollow Box -->
+            <div class="unfollow_box_view three_view_boxes box_shadow_pink">
+              <div class="top_view_box_inner">
+                <div class="top_view_title_nm unfollow-circle-div">
+                  <h2  class="box_title_unfollow" style="color:#878787;font-family: Arial,Helvetics,sans-serif;"> <span class="trb_unfollow_status">UNFOLLOWS</span></h2> 
+                  <p id="unfollow_pool_count" style="color:#878787;font-family: Arial,Helvetics,sans-serif;">0</p>
+                </div>
+                <div class="activation_switch">
+                  <div class="setting-button">
+                    <a href="#unfollow-modal" id="unfollow_btn" role="button" data-toggle="modal"  >
+                      <span style="float:left;margin-top: 3px;margin-right: 5px;color:#878787;font-family: Arial,Helvetics,sans-serif;">Settings</span>
+                      <span class="main_boxes_icon_config" style="float:left;">
+                        <img src="img/config_Btn.png" alt="" style="">
+                      </span>
+                    </a>
+                  </div>
+                  <div class="onoffswitch_g">
+                    <input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="unfollowing_status_btn" checked>
+                    <label class="onoffswitch_g-label" for="unfollowing_status_btn">
+                      <span class="onoffswitch_g-inner"></span>
+                      <span class="onoffswitch_g-switch"></span>
+                    </label>
+                  </div>
+                </div>	  
+                <div class="cont_foll"><span class="trb_scanned_users"></span>  <span id="zero_unfollow_scanned_users">0</span></div>
+                <div class="unfollow_commands">
+                  <div class="row" ><div class="col-md-6"><button style="display:none;" id="stop_scan_btn" class="btn btn-sm btn-warning"></button></div><div class="col-md-6"><button id="remove_unfollow_job_btn" style="display:none;" class="btn btn-sm btn-danger"></button></div></div>
+                </div>
+              </div>
+            </div>
+            
+          </div>  <!-- end Boxes -->
+        
+          <div id="div-dashboard" >
+          
+          
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12" style="margin-left:125px;margin-top:100px;margin-bottom:50px;">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="tab-content">
+							
+                      <img class="img-responsive" src="img/video-cover.png">
+                        <!--
+                      <div class="embed-responsive embed-responsive-16by9  active" id="home_animation_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JZ1xpsfRKDk?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                        -->
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="profile_animation_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Zfmwp9pXO9U?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="messages_animation_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zMWSIbd_K24?rel=0&amp;showinfo=0"></iframe>
+                      </div>
+
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_1" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3P2C5gx3900?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_2" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/A7FZl7mGa5c?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+                      <div class="embed-responsive embed-responsive-16by9 tab-pane animated flipInX" id="teknobie_3" role="tabpanel" >
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5C-yu4JKQNU?rel=0&amp;showinfo=0"></iframe>
+                      </div>								
+
+
+
+                      <div role="tabpanel" class="tab-pane animated flipInX" id="settings_animation_1">
+                        <b>Settings Content</b>
+                        <p>
+                          Lorem ipsum dolor sit amet, ut duo atqui exerci dicunt, ius impedit mediocritatem an. Pri ut tation electram moderatius.
+                          Per te suavitate democritum. Duis nemore probatus ne quo, ad liber essent
+                          aliquid pro. Et eos nusquam accumsan, vide mentitum fabellas ne est, eu munere
+                          gubergren sadipscing mel.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="clearfix"></div><br/>
+                <div class="row" role="tablist" id="videoTabs">
+
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#home_animation_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Tutorial</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#profile_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">DM Setup</p>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#messages_animation_1" data-toggle="tab" aria-expanded="false" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Digimaru</p>
+                      </div>
+                    </a>
+                  </div>
+                  
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#teknobie_1" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Teknobie 1</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#teknobie_2" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Teknobie 2</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-4 col-sm-12 col-xs-12" role="presentation">
+                    <a href="#teknobie_3" data-toggle="tab" aria-expanded="true" class="info-box waves-effect btn-video">
+                      <div class="icon">
+                        <img src="img/filmIcon.png" class="filmIcon">
+                      </div>
+                      <div class="content">
+                        <p class="text-white">Teknobie 3</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          
+          
+          
+          </div>
+        </div>	
+        
+      </div>
+		</div>
+	</div> <!-- end container -->
+		
+		
+		
+
+	<div class="container-fluid display_none">
+		<section class="main-body display_none">
+			<div class="tab-content">
+			
+				<!--UNFOLLOW TAB CONTENT-->
+						<ul class="func_head_number_section">
+							<li class="action_stats_num"><span class="number_1" id="zero_unfollow_scanned_users">0</span><span>&nbsp;</span><span class="number_1_text lcl_scanned"></span></li>
+							<li class="action_stats_num"><span class="number_1" id="zero_unfollow_pool_count">0</span><span>&nbsp;</span><span class="number_1_text lcl_in_pool"></span></li>	
+							<li class="action_stats_num"><span class="number_1" id="unfollowed_count">0</span><span>&nbsp;</span><span class="number_1_text lcl_unfollowed"></span></li>
+						</ul>
+				
+				
+				<!--LIKE TAB CONTENT-->
+						<ul class="func_head_number_section">
+							<li class="action_stats_num"><span class="number_1" id="zero_like_pool_count">0</span><span>&nbsp;</span><span class="number_1_text lcl_in_pool"></span></li>
+							<li class="action_stats_num"><span class="number_1" id="like_hashtags_count">0</span><span>&nbsp;</span><span class="number_1_text lcl_hashtags"></span></li>
+							<li class="action_stats_num"><span class="number_1" id="zero_liked_count">0</span><span>&nbsp;</span><span class="number_1_text lcl_liked"></span></li>
+						</ul>
+				
+
+				<!--FOLLOW TAB CONTENT-->
+						<ul class="func_head_number_section">
+							<li class="action_stats_num"><span class="number_1" id="zero_follow_pool_count">0</span><span>&nbsp;</span><span class="number_1_text lcl_in_pool"></span></li>	
+							<li class="action_stats_num"><span class="number_1" id="zero_follows_count">0</span><span>&nbsp;</span><span class="number_1_text lcl_following"></span></li>
+							<li class="action_stats_num"><span class="number_1" id="zero_last_follow_statistics">0</span><span>&nbsp;</span><span class="number_1_text lcl_followed"></span></li>
+						</ul>
+				
+
+				<!--ACCOUNT TAB CONTENT-->
+				<div role="tabpanel" class="tab-pane" id="account">
+					
+					<form class="form-horizontal" id="account_form">
+						<fieldset>
+							
+							<a class="pull-right hide_show" style="display: inline-block" role="button" data-toggle="collapse" href="#settings_transfer" aria-expanded="false" aria-controls=""></a>
+							<h2><span style="display: inline-block" class="lcl_settings_transfer"></span></h2>
+							<div id="settings_transfer" class="collapse">
+								<ul class="nav nav-tabs">
+									<li id="exportTab" class="active"><a href="#export" data-toggle="tab" class="lcl_export"></a></li>
+									<li id="importTab" class=""><a href="#import" data-toggle="tab" class="lcl_import"></a></li>
+								</ul>
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="export">
+										<form class="form-horizontal" id="">
+											<span class="help-block lcl_export_instruction"></span>
+											<table class="table table-bordered table-hover table-striped">			
+												<tr>
+													<td colspan="3">
+														<label class="lcl_export_caution"></label>
+														<textarea id="settingsExport" class="form-control" style="height: 200px"></textarea>
+														<br>
+														<button id="exportSettingsBtn" type="button" class="btn btn-primary lcl_copy"></button>
+													</td>
+												</tr>
+											</table>
+										</form>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="import">
+										<form class="form-horizontal" id="">
+											<span class="help-block"></span>
+											<table class="table table-bordered table-hover table-striped">			
+												<tr>
+													<td colspan="3">
+														<label class="lcl_import_instruction"></label>
+														<textarea id="settingImport" class="form-control" style="height: 200px"></textarea>
+														<br>
+														<button id="importSettingsBtn" type="button" class="btn btn-primary lcl_import"></button>
+													</td>
+												</tr>
+											</table>
+										</form>
+									</div>
+								</div>
+							</div>
+
+							
+
+							<span style="display: inline-block"><h2 class="lcl_data_management"></h2></span>
+							<a class="pull-right hide_show" style="display: inline-block" role="button" data-toggle="collapse" href="#data_management" aria-expanded="false" aria-controls=""></a>
+							<div id="data_management" class="collapse">
+								<span class="help-block lcl_backup_desc"></span>
+								<h3 class="lcl_backup lcl_backup_title"></h3>
+								<span class="help-block lcl_backup_export_desc"></span>
+								<button type="button" id="export_data_btn" class="btn btn-primary btn-lg glyphicon glyphicon-save" style="margin-bottom: 20px"></button>
+								<h3 class="lcl_recover lcl_backup_recover_title"></h3>
+								<span class="help-block lcl_backup_recover_desc"></span>
+								<span class="btn btn-default btn-lg btn-file glyphicon glyphicon-open">
+									<input id="import_data_file" type="file"></input>
+								</span>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+
+			</div>
+		</section>
+	</div>
+
+
+
+	<!--Loading Page-->
+	<div class="loadingOverlay overlay" id="">
+		<div class="progress active" id="progress-bar-loading">
+      <div class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+      </div>
+		</div>
+		<div class="overlay-text">
+      <h1 class="loading lcl_loading"><span>.</span><span>.</span><span>.</span></h1>
+      <br>
+			<h4 class="big_text" id="lcl_keep_login"></h4>
+			<br>
+			<h6 class="lcl_email_promo"></h6>
+    </div>
+  </div>
+
+	<!--Request to Re-open Instagram.com-->
+	<div class="waitforIGcom overlay" id="request_to_reopen_IG">
+		<div class="overlay-text">
+      <h1 class="loading lcl_waiting"><span>.</span><span>.</span><span>.</span></h1>
+      <br>
+      <h4 class="big_text" id="lcl_request_reopen"></h4>
+    </div>
+  </div>
+
+	<!--Modals-->
+
+	<!--LIKE Modal-->
+	<div class="modal fade" id="likes-modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header" style="background-color:#159949;">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">LIKE <span class="lcl_settings"></span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li id="from_followers_li" class="active" style="display:none;"><a href="#likes_settings_tab" id="likes_settings_btn" data-toggle="tab" class="lcl_settings"> </a></li>
+							<li id="from_commenters_li" class="active"><a href="#like_tag_jobs_tab" id="like_tag_jobs_btn" data-toggle="tab">Scrape & Hashtags </a></li>
+							<li id="sleep_like_li"><a href="#sleep_like_tab" id="sleep_like_btn" data-toggle="tab" class=""> Like non-aktif</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane" id="likes_settings_tab">
+								<form class="table-responsive" id="likeSettingsForm">
+									<table class="table table-bordered table-hover table-striped">
+										<tr class="">
+											<td class="lcl_collect_medias_from_home_timeline_to_like"></td>
+											<td>
+												<div class="onoffswitch_g">
+													<input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="home_like_status">
+													<label class="onoffswitch_g-label" for="home_like_status">
+														<span class="onoffswitch_g-inner"></span>
+														<span class="onoffswitch_g-switch"></span>
+													</label>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td class="lcl_collect_medias_from_tags_to_like"></td>
+											<td>
+												<div class="onoffswitch_g">
+													<input type="checkbox" name="onoffswitch_g" class="onoffswitch_g-checkbox" id="tag_like_status">
+													<label class="onoffswitch_g-label" for="tag_like_status">
+														<span class="onoffswitch_g-inner"></span>
+														<span class="onoffswitch_g-switch"></span>
+													</label>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td class="lcl_like_interval_time"></td>
+											<td>
+												<input type="number" class="form-control" id="like_interval" name="like_interval" required value="1500">
+												<span class="help-block hide" id="likes-per-day">about <span id="lpd-number"></span> likes per 24 hours</span>
+											</td>
+										</tr>
+										<tr class="display_none">
+											<td class="lcl_error_like_interval_time"></td>
+											<td>
+												<input type="number" class="form-control" id="like_error_interval" name="like_error_interval" required>
+											</td>
+										</tr>
+										<tr>
+											<td class="lcl_max_like_limit"></td>
+											<td>
+												<input type="number" class="form-control" id="like_limit" name="like_limit" required>
+											</td>
+										</tr>
+										<tr>
+										</tr>
+									</table>
+								</form>
+							</div>
+							<div class="tab-pane active" id="like_tag_jobs_tab">
+								<div class="row">
+									<div class="col-md-12">
+										<legend class="">Scrape users dari Hashtags</legend>
+										<span class="help-block ">Jumlah users yang discrape berdasarkan hashtags yang diset</span>
+                    <a id="delete_likes_pool" class="btn btn-danger"><span class="" style="color:#fff;">Clean Scrape Users</span> </a>
+                    <span class="number_1 pool_num" id="like_pool_count">0</span>
+									</div>
+                </div>
+                <br><br>
+								<div class="row">
+									<div class="col-md-12">
+										<legend class="">Hashtags</legend>
+										<span class="help-block ">Tambah hashtags langsung di tab Instagram, klik pop-up yang muncul di kanan atas (lihat tutorial)</span>
+										<div class="table-responsive">
+											<table class="table table-bordered table-hover table-striped">
+												<thead>
+													<tr>
+														<th class="lcl_tags"></th>
+														<th class="lcl_delete"></th>
+													</tr>
+												</thead>
+												<tbody id="like_jobs_table">
+												</tbody>
+											</table>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="sleep_like_tab">
+								<fieldset>
+									<legend class="lcl_declare_sleep_times_like"></legend>
+									<div class="" id="likeSleepTimesForm">
+										<div class="row">
+											<div class="col-md-4">
+												<label for="start_time" class="lcl_start_time"></label>
+												<div class="input-group bootstrap-timepicker timepicker">
+													<input id="start_time_like" type="text" class="form-control input-small start_time">
+													<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<label for="end_time" class="lcl_end_time"></label>
+												<div class="input-group bootstrap-timepicker timepicker">
+													<input id="end_time_like" type="text" class="form-control input-small end_time">
+													<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<button id="insert_time_like" style="margin-top:24px;" class="btn btn-primary lcl_add insert_time"></button>
+											</div>
+											<div class="col-md-2 display_none">
+												<a data-toggle="collapse" href="#likeAdvanceSleepTime" aria-expanded="false" aria-controls="likeAdvanceSleepTime" class="lcl_advanced"></a>
+											</div>
+											<br>
+										</div><br>
+										<div class="form-group collapse well" id="likeAdvanceSleepTime">
+											<span class="lcl_sleep_times_advanced_desc"></span>
+											<input type="number" class="form-control valid advanced_sleep_time" id="like_advanced_sleep_time_input" name="like_advanced_sleep_time_input">
+											<div class="form-group">
+												<div class="col-lg-offset-10">
+													<button type="button" class="btn btn-primary lcl_add" id="add_like_advanced_sleep_time"></button>
+												</div>
+											</div>
+										</div>
+
+										<hr>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="table-responsive">
+													<table class="table table-bordered table-hover table-striped">
+														<thead>
+															<tr>
+																<th class="lcl_start_time"></th>
+																<th class="lcl_end_time"></th>
+																<th class="lcl_delete"></th>
+															</tr>
+														</thead>
+														<tbody id="like_sleep_times_table">
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--FOLLOW Modal-->
+	<div class="modal fade" id="follow-modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header" style="background-color:#0b75b4;">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">FOLLOW <span class="lcl_settings"></span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li id="" class="active"><a href="#followSettingPool" id="" data-toggle="tab" class="">Scrape & Sumber</a></li>
+                    		<li id="" class=""><a href="#followSettingsDiv" id="" data-toggle="tab" class="display_none lcl_time_intervals"></a></li>
+                    		<li id="" class=""><a href="#poolCollectIntervals" id="" data-toggle="tab" class="display_none lcl_pool_collect_intervals"></a></li>
+                    		<li id="" class=""><a href="#followsFilter" id="" data-toggle="tab" class="">Filter & Blacklist</a></li>
+                    		<li id="sleep_follow_li" class=""><a href="#followSleepTimes" id="sleep_follow_btn" data-toggle="tab" class="">Follow non-aktif</a></li>
+                		</ul><br>
+						<div class="tab-content">
+							<div class="tab-pane active" id="followSettingPool">
+								<form class="form-horizontal" id="followSettingPoolForm">
+									<fieldset>
+										<legend class="">Scrape</legend>
+										<span class="help-block ">Jumlah user yang discrape berdasarkan sumber yang diset</span>
+										<div class="form-group" style="display:none;">
+											<div class="col-lg-12">
+												<input type="number" class="form-control valid" id="pool_limit" name="pool_limit">
+											</div>
+										</div>
+                    <button class="btn btn-danger " type="button" id="empty_pool" style="float:left" >
+                      <span class="">Clean Scrape User</span><br>
+										</button>
+										<span style="float:left" class="number_1 pool_num" id="follow_pool_count">0</span>	
+										<br><br><br>
+										<legend class="">Sumber</legend>
+										<div class="tabbable">
+											<ul class="nav nav-tabs">
+												<li id="from_followers_li" class="active"><a href="#from_followers_tab" id="from_followers_tab_btn" data-toggle="tab" class="">Followers </a></li>
+												<li id="from_searches_li" ><a href="#from_searches_tab" id="from_searches_tab_btn" data-toggle="tab" class="">Hashtags </a></li>
+												<li id="from_commenters_li"><a href="#from_commenters_tab" id="from_commenters_tab_btn" data-toggle="tab" class=""> Likes & Comment</a></li>
+												<li id="from_locations_li"><a href="#from_locations_tab" id="from_locations_tab_btn" data-toggle="tab" class=""> Lokasi</a></li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="from_followers_tab">Followers</div>
+												<div class="tab-pane  " id="from_searches_tab">Hashtags</div>
+												<div class="tab-pane " id="from_commenters_tab">Comments & Likes</div>
+												<div class="tab-pane " id="from_locations_tab">Locations</div>
+
+												<div id="pool_jobs_table_genel" class="row">
+													<div class="col-md-12">
+														<div class="table-responsive">
+															<table class="table table-bordered table-hover table-striped">
+																<thead>
+																	<tr>
+																		<th class="">Sumber</th>
+																		<th class="">Hapus</th>
+																	</tr>
+																</thead>
+																<tbody id="pool_jobs_table">
+																</tbody>
+															</table>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+
+							<div class="tab-pane" id="followSettingsDiv">
+								<form class="form-horizontal" id="followSettingsForm">
+									<fieldset>
+										<legend class="lcl_follow_limit_24h"></legend>
+										<span class="help-block lcl_follow_limit_24h_desc"></span>
+										<div class="form-group">
+											<label for="follow_limit" class="col-lg-2 control-label lcl_limit24h"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control valid" id="follow_limit" name="follow_limit" placeholder="e.g. 200" required>
+											</div>
+										</div>
+										<br><br>
+										<legend class="lcl_follow_time_interval"></legend>
+										<span class="help-block lcl_follow_time_interval_desc"></span>
+										<div class="form-group">
+											<label for="follow_interval_input_1" class="col-lg-2 control-label lcl_between"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control valid" id="follow_interval_input_1" name="follow_interval_input_1" placeholder="in seconds">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="follow_interval_input_2" class="col-lg-2 control-label lcl_and"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control" id="follow_interval_input_2" name="follow_interval_input_2" placeholder="in seconds">
+											</div>
+										</div>
+										<span class=" help-block hide lcl_lpdt_follow" id="lpdt_text"></span>
+										<br><br>
+										<legend class="display_none lcl_error_waittime"></legend>
+										<span class="help-block display_none  lcl_follow_error_waittime_desc"></span>
+										<div class="display_none form-group">
+											<label for="follow_error_interval_input" class="col-lg-2 control-label lcl_wait"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control valid" id="follow_error_interval_input" name="follow_error_interval_input" placeholder="in seconds">
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							
+							<div class="tab-pane" id="poolCollectIntervals">
+								<div class="row">
+									<form class="form-horizontal" id="followSettingsPoolCollects">
+										<div class="col-md-12">
+											<div class="table-responsive">
+												<table class="table table-bordered table-hover table-striped">
+													<thead>
+														<tr>
+															<th class="lcl_jobs"></th>
+															<th class="lcl_interval_time"></th>
+															<th class="lcl_after_rate_limit_error"> </th>
+														</tr>
+													</thead>
+													<tbody>
+
+														<tr>
+															<td class="lcl_pool_collect_followers"> </td>
+															<td><input id="get_followers_interval_input" name="get_followers_interval_input" class="form-control" type="number"></td>
+															<td><input id="get_followers_error_interval_input" name="get_followers_error_interval_input" class="form-control" type="number"></td>
+														</tr>
+														<tr>
+															<td class="lcl_pool_collect_commenters"> </td>
+															<td><input id="get_commenters_interval_input" name="get_commenters_interval_input" class="form-control" type="number"></td>
+															<td><input id="get_comenters_error_interval_input" name="get_comenters_error_interval_input" class="form-control" type="number"></td>
+														</tr>
+														<tr>
+															<td class="lcl_pool_collect_searches"> </td>
+															<td><input id="get_searches_interval_input" name="get_searches_interval_input" class="form-control" type="number"></td>
+															<td><input id="get_searches_error_interval_input" name="get_searches_error_interval_input" class="form-control" type="number"></td>
+														</tr>
+														<tr>
+															<td class="lcl_pool_collect_locations"> </td>
+															<td><input id="get_locations_interval_input" name="get_locations_interval_input" class="form-control" type="number"></td>
+															<td><input id="get_locations_error_interval_input" name="get_locations_error_interval_input" class="form-control" type="number"></td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+
+							<div class="tab-pane" id="followsFilter">
+								<form class="form-horizontal" id="followSettingsFilters">
+									<span class="help-block">Filter akun yang akan difollow</span>
+									<table class="table table-bordered table-hover table-striped">
+										<tr>
+											<td colspan="3">
+												<div class="checkbox">
+													<label>
+														<input name="private_public_filter" id="filter_public" value="public" type="radio"> <span class="">Jangan follow akun PRIVATE</span> 
+													</label>
+												</div>
+
+												<div class="checkbox" style="display:none;">
+													<label>
+														<input name="private_public_filter" id="filter_private" value="private" type="radio"> <span class="lcl_filter_private">J</span> 
+													</label>
+												</div>
+
+												<div class="checkbox">
+													<label>
+														<input name="private_public_filter" id="filter_private_public" value="both" type="radio"> <span class="">Follow semua jenis akun (PUBLIC & PRIVATE)</span> 
+													</label>
+												</div>
+
+											</td>
+										</tr>
+
+										<tr style="display:none;">
+											<td colspan="3">
+
+												<div class="checkbox">
+													<label>
+														<input id="filter_external_link" type="checkbox"> <span class="lcl_filter_external_link"></span> 
+													</label>
+												</div>
+
+											</td>
+										</tr>
+
+										<tr>
+											<td colspan="3">
+												<label class="">Blacklist<br>(dari kata-kata yang ada di profile bio user)</label>
+												<textarea id="filter_black_list" class="form-control" placeholder="Users yang menulis kata-kata berikut ini di profilenya tidak akan di Follow contoh : judi online, sex, omzet, dsbnya (proses following akan lebih lambat apabila anda mengisi blacklist ini)" rows="5"></textarea>
+											</td>
+										</tr>
+
+									</table>
+								</form>
+							</div>
+
+							<div class="tab-pane" id="followSleepTimes">
+								<form class="form-horizontal">
+									<fieldset>
+										<label class="">Tentukan waktu aktifitas Follow di non-aktif kan dalam 1 hari (berdasarkan waktu Computer Anda)</label>
+										<div class="" id="followSleepTimesForm">
+											<div class="form-group">
+												<div class="col-md-4">
+													<label for="start_time" class="">Start</label>
+													<div class="input-group bootstrap-timepicker timepicker">
+														<input id="start_time_follow" type="text" class="form-control input-small start_time">
+														<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+													</div>
+												</div>
+												<div class="col-md-4">
+													<label for="end_time" class="">Selesai</label>
+													<div class="input-group bootstrap-timepicker timepicker">
+														<input id="end_time_follow" type="text" class="form-control input-small end_time">
+														<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+													</div>
+												</div>
+												<div class="col-md-2">
+													<button type="button" id="insert_time_follow" style="margin-top:35px;" class="btn btn-primary insert_time">+SET</button>
+												</div>
+												<div class="display_none col-md-2">
+													<a data-toggle="collapse" href="#followAdvanceSleepTime" aria-expanded="false" aria-controls="followAdvanceSleepTime" class="lcl_advanced"></a>
+												</div>
+												<br>
+											</div><br>
+	
+											<div class="display_none form-group collapse well" id="followAdvanceSleepTime">
+												<span class="lcl_sleep_times_advanced_desc"></span>
+												<input type="number" class="form-control valid advanced_sleep_time" id="follow_advanced_sleep_time_input" name="follow_advanced_sleep_time_input">
+												<div class="form-group">
+													<div class="col-lg-offset-10">
+														<button type="button" class="btn btn-primary lcl_add" id="add_follow_advanced_sleep_time"></button>
+													</div>
+												</div>
+											</div>
+											
+											<hr>
+											<div class="form-group">
+												<div class="col-md-12">
+													<div class="table-responsive">
+														<table class="table table-bordered table-hover table-striped">
+															<thead>
+																<tr>
+																	<th class="">Waktu Start</th>
+																	<th class="">Waktu Selesai</th>
+																	<th class="">Hapus</th>
+																</tr>
+															</thead>
+															<tbody id="follow_sleep_times_table">
+															</tbody>
+														</table>
+													</div>
+												</div>
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--Data Modal-->
+	
+	<div id="tables_modal" class="modal fade" tabindex="-1" role="dialog" >
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header" style="background-color:#2793d1;">
+				
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h4 class="modal-title"><span class="lcl_tables">Activities</span></h4>
+			</div>
+			<div class="modal-body">
+				<div class="tabbable">
+					<ul class="nav nav-tabs">
+						<li  ><a href="#follow_log" data-toggle="tab" class="lcl_latest_follows"></a></li>
+						<li ><a href="#unfollow_log" data-toggle="tab" class="lcl_latest_unfollows"></a></li>
+						<li><a href="#likes_log" data-toggle="tab" class="lcl_latest_likes"></a></li>
+						
+						<li class="active"><a href="#table_tab5" id=""  data-toggle="tab" class="lcl_error_log"></a></li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane  " id="follow_log">
+							<div  class="farkli2" style="clear:both">
+								<div class="table-responsive">
+									<table class="table table-bordered table-hover table-striped">
+										<thead>
+											<tr>
+												<th class="lcl_user_name"></th>
+												 <th class="lcl_follow_time"></th>
+												 
+											</tr>
+										</thead>
+										<tbody id="en_son_takipler">
+										 </tbody>
+									</table>
+								</div>
+							  </div>
+						</div>
+						<div class="tab-pane" id="unfollow_log">
+							<div  class="farkli2" style="clear:both">
+								<div class="table-responsive">
+									<table class="table table-bordered table-hover table-striped">
+										<thead>
+											<tr>
+												<th class="lcl_user_name"></th>
+												 <th class="lcl_follow_time"></th>
+												 <th class="lcl_unfollow_time"></th>
+												 
+											</tr>
+										</thead>
+										<tbody id="en_son_takip_birakmalar">
+										 </tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane" id="likes_log">
+						  
+							<div  class="farkli2" style="clear:both">
+								<div class="table-responsive">
+									<table class="table table-bordered table-hover table-striped">
+										<thead>
+											<tr>
+												<th class="lcl_media"> </th>
+												<th class="lcl_time"></th>
+											</tr>
+										</thead>
+										<tbody id="lates_likes">
+										 </tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+						
+						<div class="tab-pane active" id="table_tab5">
+						<!-- errors ------------------------------------->
+							<div class="col-md-8"><h2 class="lcl_error_log"></h2></div> <div class="col-md-4"> <button class="btn-sm btn-danger pull-right" id="clear_error_log">Clear Error Log</button></div>
+							  <div  class="farkli2" style="clear:both">
+								<div class="table-responsive">
+									<table class="table table-bordered table-hover table-striped">
+										<thead>
+											<tr>
+												<th class="lcl_action"></th>
+												<th class="lcl_item"></th>
+												 <th class="lcl_error_type"></th>
+												 <th class="lcl_time"></th>
+												 <th class="lcl_next_action_time"></th>
+												 
+											</tr>
+										</thead>
+										<tbody id="error_log">
+										 </tbody>
+									</table>
+								</div>
+							  </div>
+						
+						
+						</div>
+					</div>
+				</div>
+
+				</div>
+				<div class="modal-footer">
+					 
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	
+	<!--Stats Modal-->	
+	<div id="statistics_modal" class="modal fade" tabindex="-1" role="dialog" >
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header" style="background-color:#2793d1;">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title"><span class="lcl_statistics">Analytics</span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li id="follow_tab_li"  class="active"><a href="#tab1" id="follow_tab_a_robo" data-toggle="tab" class="lcl_follows"></a></li>
+							<li id="unfollow_tab_li"><a href="#tab2" id="unfollow_tab_a_robo"  data-toggle="tab" class="lcl_unfollows"></a></li>
+							<li id="followers_tab_li"><a href="#tab3" id="followers_tab_a_robo"  data-toggle="tab" class="lcl_followers"></a></li>
+							<li id="likes_tab_li"><a href="#tab3" id="likes_tab_a_robo"  data-toggle="tab" class="lcl_likes"></a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1"></div>
+							<div class="tab-pane" id="tab2"></div>
+							<div class="tab-pane" id="tab3"></div>
+							<div class="tab-pane" id="tab4"></div>
+							<p><div id="qi_table_stats" style="min-width: 300px; height: 400px; margin: 0 auto"></div></p>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+				
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+
+	<!--UNFOLLOW Modal-->
+	<div class="modal fade" id="unfollow-modal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header" style="background-color:#2793d1;">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title">UNFOLLOW <span class="lcl_settings"></span></h4>
+				</div>
+				<div class="modal-body">
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li id="" class="active"><a href="#unfollowPoolSettings" id="" data-toggle="tab" class=""><span class="">Scrape & Settings</span></a></li>
+							<li id="" class="" style="display:none;"><a href="#unfollowTimeIntervalsSettings" id="" data-toggle="tab" class=""><span class="lcl_time_intervals"></span></a></li>
+							<li id="" class=""><a href="#whitelist" id="" data-toggle="tab" class=""><span class="">Whitelist</span></a></li>
+							<li id="sleep_unfollow_li" class=""><a href="#sleep_times_unfollow" id="sleep_unfollow_btn" data-toggle="tab" class="">Unfollow non-aktif</a></li>
+						</ul><br>
+						<div class="tab-content">
+							<div class="tab-pane active" id="unfollowPoolSettings">
+								<form class="form-horizontal" id="unfollowSettingsPoolForm">
+									<fieldset>
+										<legend class="">Scrape Users Unfollow</legend>
+										<span class="">Jumlah users yang discrape otomatis dari following anda untuk di unfollow sesuai setting dibawah</span>
+                    <br>
+										<a type="button" class="btn btn-danger " id="zero_remove_unfollow_job_btn" style="color:#fff;">Clean Scrape users</a>
+										<span class="number_1 pool_num" id="unfollow_scanned_users">0</span>
+                    
+										<legend class="">Unfollow Bot following</legend>
+										<span class="">Turn ON fitur ini apabila anda hanya ingin unfollow users yang difollow(following) oleh aplikasi bot secara otomatis</span>
+                    <br>
+										<div class="checkbox">
+											<label>
+												<input id="unfollow_only_bot_followed_checkbox" type="checkbox"><span class="">Turn ON</span> 
+											</label>
+										</div>
+										<br><br>
+
+										<legend class="">Days to unfollow</legend>
+										<span class="">Jumlah hari sebelum melakukan unfollow ke user yang baru saja di follow</span>
+										<select class="form-control" id="days_unfollow">
+											<option value="1" class="lcl_until_1"></option>
+											<option value="2" class="lcl_until_2"></option>
+											<option value="3" class="lcl_until_3"></option>
+										</select>
+                    
+										<div class="checkbox" style="display:none;">
+											<label>
+												<input name="dont_unfollow_followers_truefalse" id="who_follow" type="checkbox" checked> <span class="lcl_dont_unfollow_followers"></span> 
+											</label>
+										</div>
+										<br><br>
+
+										<!--<legend class="lcl_auto_unfollow"></legend>-->
+										<div class="checkbox" style="display:none;">
+											<label>
+												<input id="auto_unfollow_enable" type="checkbox" checked> <span class="lcl_auto_unfollow_enable"></span> 
+											</label>
+										</div>
+										<span class="lcl_auto_unfollow_day" style="display:none;"></span>
+										<select class="form-control" id="auto_unfollow_days" style="display:none;">
+											<option value="1" class="lcl_until_1"></option>
+											<option value="2" class="lcl_until_2"></option>
+											<option value="3" class="lcl_until_3"></option>
+										</select><br><br>
+
+									</fieldset>
+								</form>
+							</div>
+							<div class="tab-pane" id="unfollowTimeIntervalsSettings" style="display:none;">
+								<form class="form-horizontal" id="unfollowSettingsIntervalForm">
+									<fieldset>
+										<legend class="lcl_unfollow_limit_24h"></legend>
+										<span class="help-block lcl_unfollow_limit_24h_desc"></span>
+										<div class="form-group">
+											<label for="unfollow_limit" class="col-lg-2 control-label lcl_limit24h"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control valid" id="unfollow_limit" name="unfollow_limit" placeholder="Max. 2000" required>
+											</div>
+										</div><br><br>
+
+										<legend class="lcl_unfollow_time_interval"></legend>
+										<span class="help-block lcl_unfollow_time_interval_desc"></span>
+										<div class="form-group">
+											<label for="unfollow_interval_input_1" class="col-lg-2 control-label lcl_between"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control valid" id="unfollow_interval_input_1" name="unfollow_interval_input_1" placeholder="in seconds">
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="unfollow_interval_input_2" class="col-lg-2 control-label lcl_and"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control" id="unfollow_interval_input_2" name="unfollow_interval_input_2" placeholder="in seconds">
+											</div>
+										</div><br><br>
+
+										<legend class="display_none lcl_error_waittime"></legend>
+										<span class="display_none help-block lcl_unfollow_error_waittime"></span>
+										<div class="display_none form-group">
+											<label for="unfollow_error_interval_input" class="col-lg-2 control-label lcl_wait"></label>
+											<div class="col-lg-10">
+												<input type="number" class="form-control" id="unfollow_error_interval_input" name="unfollow_error_interval_input" placeholder="in seconds">
+											</div>
+										</div>
+									</fieldset>
+								</form>
+							</div>
+							
+              <div class="tab-pane" id="whitelist">
+								<div class="form-group">
+									<legend class="">Whitelist</legend>
+                  <span class="help-block">Users dalam daftar whitelist tidak akan di unfollow oleh aplikasi (contoh: istri, pacar, boss, teman kerja dsbnya)</span>
+                
+									<legend class="">Whitelist Following Anda</legend>
+									<span class="help-block">Klik & otomatis semua users di daftar following anda akan di whitelist</span>
+									<a href="#" style="display: none;" class="pull-left btn btn-danger lcl_stop_collect_current_follows"></a>
+									<a href="#" class="pull-left btn btn-success lcl_collect_current_follows">Whitelist Following Anda</a>
+									<br><br><br>
+                  
+									<label style="font-size:10px;" class="">Tulis usernames yang ingin di whitelist (tanpa @, contoh:doremi)</label>
+									<textarea id="white_list_users" class="form-control" rows="5"></textarea>
+									<br>
+									<b><span class="lcl_total"></span></b> <span id="white_list_total">0</span>
+
+									<legend class="">Whitelist Likers & Commenters</legend>
+                  <span class="help-block">Whitelist para likers & commenters di post anda sendiri</span>
+									<div class="row">
+										<div class="col-md-4">
+											<label class="switch">
+												<input type="checkbox" id="collect_white_list">
+												<div class="slider round"></div>
+											</label>
+										</div>
+										<div class="col-md-4">
+											<div class="checkbox">
+												<label class="help-block">
+													<input id="collect_likes_white_list" type="checkbox"> <span class="lcl_collect_likes"></span> 
+												</label>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="checkbox">
+												<label class="help-block">
+													<input id="collect_comments_white_list" type="checkbox"> <span class="lcl_collect_comments"></span> 
+												</label>
+											</div>
+										</div>
+									</div>
+
+									<legend class="">Clean Whitelist</legend>
+                  <span class="help-block">Bersihkan daftar whitelist anda</span>
+									<div class="row">
+										<div class="col-md-12">
+											<a  style="display:none;" href="#" class="btn btn-warning pull-left lcl_delete_white_list_likes_comments"></a>
+											<a href="#" class="btn btn-danger pull-right lcl_clear_white_list">Clean Whitelist</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane" id="sleep_times_unfollow">
+								<fieldset>
+                  <span class="help-block">Tentukan waktu aktifitas unfollow di non-aktif kan dalam 1 hari (berdasarkan waktu computer anda)</span>
+									<div class="" id="unfollowSleepTimesForm">
+										<div class="row">
+											<div class="col-md-4">
+												<label for="start_time" class="">Start</label>
+												<div class="input-group bootstrap-timepicker timepicker">
+													<input id="start_time_unfollow" type="text" class="form-control input-small start_time">
+													<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<label for="end_time" class="">Selesai</label>
+												<div class="input-group bootstrap-timepicker timepicker">
+													<input id="end_time_unfollow" type="text" class="form-control input-small end_time">
+													<span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+												</div>
+											</div>
+											<div class="col-md-2">
+												<button id="insert_time_unfollow" style="margin-top:24px;" class="btn btn-primary insert_time">+SET</button>
+											</div>
+											<div class="col-md-2 display_none">
+												<a data-toggle="collapse" href="#unfollowAdvanceSleepTime" aria-expanded="false" aria-controls="unfollowAdvanceSleepTime" class="lcl_advanced"></a>
+											</div>
+											<br>
+										</div><br>
+										<div class="form-group collapse well" id="unfollowAdvanceSleepTime">
+											<span class="lcl_sleep_times_advanced_desc"></span>
+											<input type="number" class="form-control valid advanced_sleep_time" id="unfollow_advanced_sleep_time_input" name="unfollow_advanced_sleep_time_input" placeholder="">
+											<div class="form-group">
+												<div class="col-lg-offset-10">
+													<button type="button" class="btn btn-primary lcl_add" id="add_unfollow_advanced_sleep_time"></button>
+												</div>
+											</div>
+										</div>
+
+
+										<hr>
+										<div class="row">
+											<div class="col-md-12">
+												<div class="table-responsive">
+													<table class="table table-bordered table-hover table-striped">
+														<thead>
+															<tr>
+																<th class="">Waktu Start</th>
+																<th class="">Waktu Selesai</th>
+																<th class="">Hapus</th>
+															</tr>
+														</thead>
+														<tbody id="unfollow_sleep_times_table">
+														</tbody>
+													</table>
+												</div>
+											</div>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	
+	
+	
+</div>	
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="/js/jquery.js"></script> 
+	<script src="/js/lang.js"></script> 
+	<script src="/js/highcharts.js"></script>
+	<script src="/js/bootstrap.js"></script>
+	<script src="/js/jquery.validate.js"></script>
+	<script src="/js/bootstrap-timepicker.js"></script>
+	<script src="/js/jquery.caret.js"></script>
+	<script src="/js/jquery.tag-editor.js"></script>
+	<script src="/js/moment.js"></script>
+	<script src="/js/file-saver.js"></script> 
+	<script src="/js/index.js"></script>
+  <script src="/js/options.js"></script>
+	
+	
+
+</body>
+
+</html>

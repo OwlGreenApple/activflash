@@ -1,0 +1,566 @@
+{
+   "hide_show": {
+      "message": "إخفاء/كشف"
+   },
+   "lcl_about_accounts": {
+      "message": "عن الحسابات"
+   },
+   "lcl_about_settings": {
+      "message": "عن الإعدادات"
+   },
+   "lcl_account_desc": {
+      "message": "قم بإدارة حسابك هنا."
+   },
+   "lcl_action": {
+      "message": "عمل"
+   },
+   "lcl_add": {
+      "message": "إضافة"
+   },
+   "lcl_advanced": {
+      "message": "متقدم"
+   },
+   "lcl_after_rate_limit_error": {
+      "message": "وقت الإنتظار بعد رسالة الخطأ (ثوانٍ"
+   },
+   "lcl_and": {
+      "message": "و"
+   },
+   "lcl_auto_unfollow": {
+      "message": "إلغاء المتابعة التلقائي"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "تقعيل الإلغاء التلقائي بعد مرور الوقت المعين"
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "تفعيل إلغاء المتابعة التلقائي"
+   },
+   "lcl_backup_desc": {
+      "message": "إصنح ملف إحتاطي لحسابك كله. أعد كل شيء منه لاحقاً"
+   },
+   "lcl_backup_export_desc": {
+      "message": "الضغط على هذا الزر سينزل المعلومات والإعدادات للحساب، بما فيه مصادر الإعجاب/المتابعة، الإعدادات، وسجل المتابعة/إلغاء المتابعة"
+   },
+   "lcl_backup_recover_desc": {
+      "message": "إستيراد ملف الإحتياط سيلغي المعلومات الحالية للحساب. إن لم تشأ خسارتهم، الرجاء تنزيل ملف إحتياط الحساب قبل الإستعادة من ملف آخر."
+   },
+   "lcl_backup_recover_title": {
+      "message": "إستعادة"
+   },
+   "lcl_backup_title": {
+      "message": "الإحتياط"
+   },
+   "lcl_between": {
+      "message": "بين"
+   },
+   "lcl_chart": {
+      "message": "الخريطة"
+   },
+   "lcl_clear_white_list": {
+      "message": "تفريغ اللائحة المسموحة"
+   },
+   "lcl_collect_comments": {
+      "message": "إجمع المعلّقين"
+   },
+   "lcl_collect_comments_on_media": {
+      "message": "إجمع المعلقين على المنشور"
+   },
+   "lcl_collect_current_follows": {
+      "message": "إجمع المتابعين الحاليين"
+   },
+   "lcl_collect_followers_all": {
+      "message": "إجمع جميع المتابعين"
+   },
+   "lcl_collect_followers_new": {
+      "message": "إفحص و إجمع آخر 10 متابعات"
+   },
+   "lcl_collect_from_comments_likes": {
+      "message": "إجمع المعلقين والمعجبين"
+   },
+   "lcl_collect_from_followers": {
+      "message": "إجمع المتابعين"
+   },
+   "lcl_collect_from_location": {
+      "message": "إجمع من الموقع"
+   },
+   "lcl_collect_from_tag": {
+      "message": "إجمع من الهاشتاق"
+   },
+   "lcl_collect_likes": {
+      "message": "إجمع المعجبين"
+   },
+   "lcl_collect_media_owners": {
+      "message": "إجمع أصحاب المنشورات"
+   },
+   "lcl_collect_medias_from_home_timeline_to_like": {
+      "message": "إجمع المنشورات من الصفحة الرئيسية للإعجاب"
+   },
+   "lcl_collect_medias_from_tags_to_like": {
+      "message": "إجمع المنشورات من الهاشتاق للإعجاب"
+   },
+   "lcl_collect_title": {
+      "message": "أضف المعجبين والمعلقين إلى اللائحة المسموحة"
+   },
+   "lcl_collect_who_likes_media": {
+      "message": "إجمع المستخدمين الذين أعجبوا بالمنشور"
+   },
+   "lcl_comments_likes": {
+      "message": "المعلقين/المعجبين"
+   },
+   "lcl_copy": {
+      "message": "إنسخ"
+   },
+   "lcl_data_management": {
+      "message": "إدارة المعلومات"
+   },
+   "lcl_day_1": {
+      "message": "يوم واحد"
+   },
+   "lcl_day_2": {
+      "message": "يومان"
+   },
+   "lcl_day_3": {
+      "message": "ثلاثة أيام"
+   },
+   "lcl_declare_sleep_times_follow": {
+      "message": "أوقات النوم للمتابعة"
+   },
+   "lcl_declare_sleep_times_like": {
+      "message": "أوقات النوم للإعجاب"
+   },
+   "lcl_declare_sleep_times_unfollow": {
+      "message": "أوقات النوم لإلغاء المتابعة"
+   },
+   "lcl_delete": {
+      "message": "إلغاء"
+   },
+   "lcl_delete_pool": {
+      "message": "إفراغ لائحة التجميع"
+   },
+   "lcl_delete_white_list_likes_comments": {
+      "message": "إلغاء المعجبين والمعلقين من اللائحة المسموحة"
+   },
+   "lcl_dont_unfollow_followers": {
+      "message": "لا تلغي من يرد المتابعة"
+   },
+   "lcl_email": {
+      "message": "بريد الكتروني"
+   },
+   "lcl_email_desc": {
+      "message": ""
+   },
+   "lcl_email_promo": {
+      "message": "أدخل الإيميل على صفحة الحساب للحصول على تجديد ل 7 أيام"
+   },
+   "lcl_end_time": {
+      "message": "وقت النهاية"
+   },
+   "lcl_error_like_interval_time": {
+      "message": "وقت الإنتظار بعد التحذير (بالثواني)"
+   },
+   "lcl_error_log": {
+      "message": "سجل الأخطاء"
+   },
+   "lcl_error_log_desc": {
+      "message": "عدّل الإعدادات أو توقّف عندما ترى أخطاء في الإعجاب/المتابعة/إلغاء المتابعة."
+   },
+   "lcl_error_type": {
+      "message": "نوع الخطأ"
+   },
+   "lcl_error_waittime": {
+      "message": "وقت الإنتظار بعد رسالة الخطأ (ثوانٍ)"
+   },
+   "lcl_export": {
+      "message": "تصدير"
+   },
+   "lcl_export_caution": {
+      "message": "تعديل قيم الإعدادات قد يكون خطيراً. يرجى التقدّم بحذر."
+   },
+   "lcl_export_data_btn": {
+      "message": "أنزل ملف الإحتياط"
+   },
+   "lcl_export_instruction": {
+      "message": "إنسخ إعدادات المتابعة من هذا الحساب وأدخلها في قائمة \"الإستيراد\" في حساب آخر."
+   },
+   "lcl_ext_desc": {
+      "message": "النص لخادم إنستقرام | الإعجاب الآلي، المتابعة، إلغاء المتابعة حسب الطلب. آمن وسهل الإستعمال"
+   },
+   "lcl_ext_name": {
+      "message": "  | الخادم الآلي لإنستقرام"
+   },
+   "lcl_filter_desciription_black": {
+      "message": "كلمات للتفادي في السيرة الذاتية (إستعمل أكثر من كلمة مفصولة بفاصلة)"
+   },
+   "lcl_filter_external_link": {
+      "message": "لا تتابع من لديهم رابط خارجي مثل www.website.com"
+   },
+   "lcl_filter_private": {
+      "message": "تابع الحسابات الخاصة فقط"
+   },
+   "lcl_filter_private_public": {
+      "message": "تابع الحسابات العامة والخاصة"
+   },
+   "lcl_filter_public": {
+      "message": "تابع الحسابات العامة فقط"
+   },
+   "lcl_filters": {
+      "message": "الفلاتر"
+   },
+   "lcl_follow": {
+      "message": "المتابعة"
+   },
+   "lcl_follow_error_waittime_desc": {
+      "message": "تعيين وقت الانتظار للبدء بعد مرة أخرى بعد أن كنت قد وصلت إلى حد المعدل."
+   },
+   "lcl_follow_limit_24h": {
+      "message": "حدود الملاحقة في 24 ساعة"
+   },
+   "lcl_follow_limit_24h_desc": {
+      "message": "تعيين الحد الأقصى لعدد المستخدمين المطلوب اتباعه في فترة 24 ساعة. إنستاغرام لا يسمح لأي حساب لمتابعة أكثر من 7500 المستخدمين بشكل عام."
+   },
+   "lcl_follow_time": {
+      "message": "وقت المتابعة"
+   },
+   "lcl_follow_time_interval": {
+      "message": "الفاصل الزمني للمتابعة (ثوانٍ)"
+   },
+   "lcl_follow_time_interval_desc": {
+      "message": "الإستخدام العشوائي للفواصل الزمنية لتجنب حظر الحساب من إنستقرام"
+   },
+   "lcl_followed": {
+      "message": "من يتابعك"
+   },
+   "lcl_followed_time": {
+      "message": "وقت المتابعة"
+   },
+   "lcl_followers": {
+      "message": "المتابعين"
+   },
+   "lcl_followers_count": {
+      "message": "عدد المتابعين"
+   },
+   "lcl_following": {
+      "message": "من تتابع"
+   },
+   "lcl_following_count": {
+      "message": "عدد من تتابعهم"
+   },
+   "lcl_follows": {
+      "message": "المتابعات"
+   },
+   "lcl_follows_filters_desc": {
+      "message": "اتبع المستخدمين بهذه المعايير. اتركها فارغة إذا لم تكن مطلوبة."
+   },
+   "lcl_from_comments_likes": {
+      "message": "من التعليقات و الإعجابات"
+   },
+   "lcl_from_followers": {
+      "message": "من المتابعين"
+   },
+   "lcl_from_locations": {
+      "message": "من المواقع"
+   },
+   "lcl_from_searches": {
+      "message": "من البحوث"
+   },
+   "lcl_grace_period": {
+      "message": "الوقت الماضي قبل إلغاء المتابعة"
+   },
+   "lcl_grace_period_desc": {
+      "message": "تفادي إلغاء متابعة الذين تابعتهم في الأيام المعينة الماضية"
+   },
+   "lcl_hashtags": {
+      "message": "الهاشتاق"
+   },
+   "lcl_import": {
+      "message": "إستيراد"
+   },
+   "lcl_import_instruction": {
+      "message": "ألصق الإعدادات هنا:"
+   },
+   "lcl_in_pool": {
+      "message": "في لائحة التجميع"
+   },
+   "lcl_insrct_call_to_action_follow_videos": {
+      "message": ""
+   },
+   "lcl_insrct_call_to_action_like_videos": {
+      "message": ""
+   },
+   "lcl_insrct_call_to_action_unfollow_videos": {
+      "message": ""
+   },
+   "lcl_insrct_follow_1": {
+      "message": "الخطوة الأولى، إقامة فلتر في \u003Cspan class=\"glyphicon glyphicon-cog inline\">\u003C/span> إذا يلزم"
+   },
+   "lcl_insrct_follow_2": {
+      "message": "الخطوة الثانية، تجميع المستخدمين في اللائحة من صفحة المستخدم، الهاشتاق، أو موقع معيّن \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a>."
+   },
+   "lcl_insrct_follow_3": {
+      "message": "الخطوة الثالثة، غضغط زر التشغيل وسيقوم البرنامج بمتابعتهم وفقاً لخياراتك"
+   },
+   "lcl_insrct_like_1": {
+      "message": "الخطوة الأولى، إختر الحد الأقصى للإعجاب في اليوم والفترة الزمنية في \u003Cspan class=\"glyphicon glyphicon-cog inline\">\u003C/span>."
+   },
+   "lcl_insrct_like_2": {
+      "message": "الخطوة الثانية، إجمع المنشورات من المستخدم، الهاشتاق، والموقع من \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> وضعهم في لائحة الإنتظار للإعجاب"
+   },
+   "lcl_insrct_like_3": {
+      "message": "الخطوة الثالثة، إضغط زر التشغيل"
+   },
+   "lcl_insrct_unfollow_1": {
+      "message": "الخطوة الأولى، ضع الرقم الأقصى للمتابعة في اليوم، والفترة الزمنية، واللائحة المسموحة في \u003Cspan class=\"glyphicon glyphicon-cog inline\">\u003C/span>."
+   },
+   "lcl_insrct_unfollow_2": {
+      "message": "الخطوة الثانية، إضغط زر التشغيل. سيقوم البرنامج بإلغاء متابعة من لا يتابع حسابك"
+   },
+   "lcl_instructions": {
+      "message": "التعليمات"
+   },
+   "lcl_interval_time": {
+      "message": "الفاصل الزمني (ثوانٍ"
+   },
+   "lcl_item": {
+      "message": "المعايير"
+   },
+   "lcl_jobs": {
+      "message": "الأعمال"
+   },
+   "lcl_keep_login": {
+      "message": "الرجاء الولوج إلى  \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> وإبقاؤه مفتوحاً"
+   },
+   "lcl_larger_than": {
+      "message": "أكبر من الأسفل"
+   },
+   "lcl_license": {
+      "message": "الرخصة"
+   },
+   "lcl_license_about_to_expire_msg": {
+      "message": "شكراً لإستعمال  . تذكير بسيط أن صلاحية الرخصة تنتهي قريباً. لإستخدام خاصية الملاحقة، يرجى التجديد."
+   },
+   "lcl_license_expired_msg": {
+      "message": "يا للأسف! لقد إنتهت رخصتكم. الرجاء التجديد الآن"
+   },
+   "lcl_license_remaining": {
+      "message": "الوقت المتبقي للرخصة"
+   },
+   "lcl_like": {
+      "message": "الإعجاب"
+   },
+   "lcl_like_interval_time": {
+      "message": "الفترة الزمنية بين الإعجابات (بالثواني)"
+   },
+   "lcl_like_medias_job": {
+      "message": "الإعجاب بالمنشورات من هذا الهاشتاق"
+   },
+   "lcl_liked": {
+      "message": "تم الإعجاب به"
+   },
+   "lcl_liked_time": {
+      "message": "وقت الإعجاب"
+   },
+   "lcl_likes": {
+      "message": "الإعجابات"
+   },
+   "lcl_limit24h": {
+      "message": "الحدود/24 ساعة"
+   },
+   "lcl_loading": {
+      "message": "جاري التحميل"
+   },
+   "lcl_locations": {
+      "message": "المواقع"
+   },
+   "lcl_log": {
+      "message": "سجِل"
+   },
+   "lcl_lpdt_follow": {
+      "message": "هذا يترجم إلى هذا العدد من المتابعين في 24 ساعة"
+   },
+   "lcl_max_like_limit": {
+      "message": "الحد الأقصى للإعجاب في 24 ساعة"
+   },
+   "lcl_media": {
+      "message": "المنشورات"
+   },
+   "lcl_medias_count": {
+      "message": "عدد المنشورات"
+   },
+   "lcl_next_action_time": {
+      "message": "الوقت التالي للعمل"
+   },
+   "lcl_no_data_available": {
+      "message": "لا يوجد معلومات"
+   },
+   "lcl_pool": {
+      "message": "لائحة التجميع"
+   },
+   "lcl_pool_collect_commenters": {
+      "message": "تجميع المعلقين"
+   },
+   "lcl_pool_collect_followers": {
+      "message": "تجميع المتابعين"
+   },
+   "lcl_pool_collect_intervals": {
+      "message": "فواصل وقت التجميع"
+   },
+   "lcl_pool_collect_locations": {
+      "message": "تجميع المواقع"
+   },
+   "lcl_pool_collect_searches": {
+      "message": "تجميع البحوث"
+   },
+   "lcl_pool_size_limit": {
+      "message": "حدود سعة لائحة الإنتظار"
+   },
+   "lcl_pool_size_limit_desc": {
+      "message": "تعيين الحد الأقصى لعدد المستخدمين يمكن أن يكون تجمع."
+   },
+   "lcl_profile": {
+      "message": "الملف"
+   },
+   "lcl_refresh_all": {
+      "message": "تحديث الكل"
+   },
+   "lcl_removals": {
+      "message": "إلغاءات"
+   },
+   "lcl_remove_comments_likes_collect_job": {
+      "message": "إلغاء عملية التعليق والإعجاب"
+   },
+   "lcl_remove_followers_collect_job": {
+      "message": "إلغاء تجميع المتابعين"
+   },
+   "lcl_remove_like_media_job": {
+      "message": "إلغاء العمل على الإعجاب"
+   },
+   "lcl_remove_location_job": {
+      "message": "إلغاء العمل على الموقع"
+   },
+   "lcl_remove_tag_job": {
+      "message": "إلغاء العمل على الهاشتاق"
+   },
+   "lcl_remove_unfollow_job": {
+      "message": "تقريغ لائحة الإنتظار لإلغاء المتاعة"
+   },
+   "lcl_renew": {
+      "message": "جدّد"
+   },
+   "lcl_request_reopen": {
+      "message": "الرجاء إعادة الفتح \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a>."
+   },
+   "lcl_restricted_unfollow": {
+      "message": "إلغاء متابعة محدود"
+   },
+   "lcl_restricted_unfollow_checkbox": {
+      "message": "إلغاء الذين تابعهم البرنامج فقط"
+   },
+   "lcl_restricted_unfollow_desc": {
+      "message": "إختر هذا الصندوق إن كنت لا تود إلغاء متابعة من تابعتهم يدوياً. ينبغي الذكر أن إلغاء البرنامج سيلغي سجل هذه اللائحة"
+   },
+   "lcl_save": {
+      "message": "حفظ"
+   },
+   "lcl_scanned": {
+      "message": "ممسوحة"
+   },
+   "lcl_searches": {
+      "message": "الهاشتاق"
+   },
+   "lcl_settings": {
+      "message": "الإعدادات"
+   },
+   "lcl_settings_transfer": {
+      "message": "نقل الإعدادات"
+   },
+   "lcl_sleep_times": {
+      "message": "أوقات النوم"
+   },
+   "lcl_sleep_times_advanced_desc": {
+      "message": "نام خلال الدقائق x من الساعة"
+   },
+   "lcl_smaller_than": {
+      "message": "أقل من الأسفل"
+   },
+   "lcl_sources": {
+      "message": "المصادر"
+   },
+   "lcl_start_time": {
+      "message": "وقت البداية"
+   },
+   "lcl_stop_collect_current_follows": {
+      "message": "أوقف التجميع"
+   },
+   "lcl_tags": {
+      "message": "التاق"
+   },
+   "lcl_tags_to_collect_media": {
+      "message": "الهاشتاق للإعجاب"
+   },
+   "lcl_time": {
+      "message": "الوقت"
+   },
+   "lcl_time_intervals": {
+      "message": "الفواصل الزمنية"
+   },
+   "lcl_total": {
+      "message": "المجموع:"
+   },
+   "lcl_unfollow": {
+      "message": "إلغاء المتابعة"
+   },
+   "lcl_unfollow_error_waittime": {
+      "message": "إختر وقت الإنتظار قبل إكمال عملية إلغاء المتابعة بعد تخطي الحد المسموح من إنستقرام"
+   },
+   "lcl_unfollow_limit_24h": {
+      "message": "حدود إلغاء المتابعة كل 24 ساعة"
+   },
+   "lcl_unfollow_limit_24h_desc": {
+      "message": "إختر الحد الأقصى لإلغاء المتابعة في مدة 24 ساعة"
+   },
+   "lcl_unfollow_time": {
+      "message": "وقت إلغاء المتابعة"
+   },
+   "lcl_unfollow_time_interval": {
+      "message": "الفترة الزمنية لإلغاء المتابعة"
+   },
+   "lcl_unfollow_time_interval_desc": {
+      "message": "وضع فترة زمنية عشوائية بين عمليات إلغاء المتابعة لمنع الحظر من إنستقرام"
+   },
+   "lcl_unfollowed": {
+      "message": "ملغي المتابعة"
+   },
+   "lcl_unfollows": {
+      "message": "إلغاء المتابعات"
+   },
+   "lcl_until_1": {
+      "message": "يوم واحد"
+   },
+   "lcl_until_2": {
+      "message": "يومان"
+   },
+   "lcl_until_3": {
+      "message": "ثلاثة أيام"
+   },
+   "lcl_user_name": {
+      "message": "إسم المستخدم"
+   },
+   "lcl_user_names_desc": {
+      "message": "إسم المستخدم (إكتب أكثر من إسم مفصول بفاصلة)"
+   },
+   "lcl_wait": {
+      "message": "الإنتظار"
+   },
+   "lcl_waiting": {
+      "message": "جاري الإنتظار"
+   },
+   "lcl_white_list": {
+      "message": "اللائحة المسموحة"
+   },
+   "lcl_whitelist_current_follows": {
+      "message": "أضف المتابعين الحاليين إلى اللائحة المسموحة"
+   },
+   "lcl_whitelist_current_follows_desc": {
+      "message": "أضف المتابعين الذين تتابعهم حالياً إلى اللائحة المسموحة"
+   }
+}

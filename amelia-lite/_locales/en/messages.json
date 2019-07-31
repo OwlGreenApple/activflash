@@ -1,0 +1,845 @@
+{
+   "hide_show": {
+      "message": "hide/show"
+   },
+   "lcl_about_accounts": {
+      "message": "tentang akun"
+   },
+   "lcl_about_pools": {
+      "message": "tentang scrape"
+   },
+   "lcl_about_settings": {
+      "message": "tentang settings"
+   },
+   "lcl_account_desc": {
+      "message": "Atur akun anda disini."
+   },
+   "lcl_action": {
+      "message": "Action"
+   },
+   "lcl_add": {
+      "message": "Add"
+   },
+   "lcl_advanced": {
+      "message": "Advanced"
+   },
+   "lcl_affilate": {
+      "message": ""
+   },
+   "lcl_after_rate_limit_error": {
+      "message": "Setelah Rate Limit Error (detik)"
+   },
+   "lcl_and": {
+      "message": "Dan"
+   },
+   "lcl_auto_comments": {
+      "message": "Auto Comments"
+   },
+   "lcl_auto_unfollow": {
+      "message": "Auto Unfollows"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "Turn ON Unfollow Otomatis setelah waktu unfollow terakhir"
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "Turn ON auto unfollows"
+   },
+   "lcl_backup_desc": {
+      "message": "Backup seluruh Akunmu dalam 1 file"
+   },
+   "lcl_backup_export_desc": {
+      "message": "Klik untuk download Data Konfigurasi Akun ini." 
+   },
+   "lcl_backup_recover_desc": {
+      "message": "Import & Recover Data Konfigurasi dari Backup"  
+   },
+   "lcl_backup_recover_title": {
+      "message": "Recover"
+   },
+   "lcl_backup_title": {
+      "message": "Backup"
+   },
+   "lcl_between": {
+      "message": "Between"
+   },
+   "lcl_buy_licence": {
+      "message": ""
+   },
+   "lcl_buy_now": {
+      "message": ""
+   },
+   "lcl_cancel": {
+      "message": "Cancel"
+   },
+   "lcl_chart": {
+      "message": "Chart"
+   },
+   "lcl_check_licence": {
+      "message": ""
+   },
+   "lcl_clear_white_list": {
+      "message": "Clean Whitelist"
+   },
+   "lcl_close": {
+      "message": "Close"
+   },
+   "lcl_collect_comments": {
+      "message": "Scrape Commenters"
+   },
+   "lcl_collect_comments_on_media": {
+      "message": "Scrape Post Commenters"
+   },
+   "lcl_collect_current_follows": {
+      "message": "Whitelist Following Anda"
+   },
+   "lcl_collect_followers_all": {
+      "message": "Scrape All Followers"
+   },
+   "lcl_collect_followers_new": {
+      "message": "Scrape Last 10 new followers"
+   },
+   "lcl_collect_from_comments_likes": {
+      "message": "Scrape commenters & likers"
+   },
+   "lcl_collect_from_followers": {
+      "message": "Scrape followers"
+   },
+   "lcl_collect_from_location": {
+      "message": "Scrape from Location"
+   },
+   "lcl_collect_from_tag": {
+      "message": "Scrape from this tag"
+   },
+   "lcl_collect_likes": {
+      "message": "Scrape Likers"
+   },
+   "lcl_collect_media_owners": {
+      "message": "Scrape Posts Users"
+   },
+   "lcl_collect_medias_from_home_timeline_to_like": {
+      "message": "Scrape posts from Home Feed to like"
+   },
+   "lcl_collect_medias_from_tags_to_like": {
+      "message": "Scrape posts from Tags to like"
+   },
+   "lcl_collect_title": {
+      "message": "Whitelist users yang like dan comment di post Anda"
+   },
+   "lcl_collect_who_likes_media": {
+      "message": "Scrape Posts Likers"
+   },
+   "lcl_comment_placeholder": {
+      "message": ""
+   },
+   "lcl_comments": {
+      "message": "Comments"
+   },
+   "lcl_comments_interval_time": {
+      "message": "Waktu tunggu Comment (detik)"
+   },
+   "lcl_comments_likes": {
+      "message": "Commenters/Likers"
+   },
+   "lcl_comments_medias_job": {
+      "message": ""
+   },
+   "lcl_comments_sleep_times": {
+      "message": ""
+   },
+   "lcl_comments_status": {
+      "message": ""
+   },
+   "lcl_contact": {
+      "message": "Kontak"
+   },
+   "lcl_copied": {
+      "message": "Tercopy"
+   },
+   "lcl_copy": {
+      "message": "Copy"
+   },
+   "lcl_create_unfollow_job": {
+      "message": "Buat Action Unfollow"
+   },
+   "lcl_data_management": {
+      "message": "Management Data"
+   },
+   "lcl_day_1": {
+      "message": "1 hari"
+   },
+   "lcl_day_2": {
+      "message": "2 hari"
+   },
+   "lcl_day_3": {
+      "message": "3 hari"
+   },
+   "lcl_declare_sleep_times_comments": {
+      "message": "Notifikasi Waktu non-aktif Comments"
+   },
+   "lcl_declare_sleep_times_follow": {
+      "message": "Waktu non-aktif FOLLOW"
+   },
+   "lcl_declare_sleep_times_like": {
+      "message": "Waktu non-aktif LIKE"
+   },
+   "lcl_declare_sleep_times_unfollow": {
+      "message": "Waktu non-aktif UNFOLLOW"
+   },
+   "lcl_delete": {
+      "message": "Hapus"
+   },
+   "lcl_delete_pool": {
+      "message": "Clean Scrape"
+   },
+   "lcl_delete_pool_history": {
+      "message": "Hapus Scrape History"
+   },
+   "lcl_delete_white_list_likes_comments": {
+      "message": "Hapus likers dan commenters dari whitelist"
+   },
+   "lcl_desc": {
+      "message": "filter jenis kelamin users"
+   },
+   "lcl_dont_unfollow_followers": {
+      "message": "Jangan unfollow followers"
+   },
+   "lcl_dont_unfollow_that_you_follow": {
+      "message": "Jangan UnFollow yang Anda follow :"
+   },
+   "lcl_email": {
+      "message": "Email"
+   },
+   "lcl_email_promo": {
+      "message": ""
+   },
+   "lcl_end_time": {
+      "message": "Waktu Selesai"
+   },
+   "lcl_error": {
+      "message": "Error"
+   },
+   "lcl_error_comments_interval_time": {
+      "message": "Waktu interval error untuk Comments (detik)"
+   },
+   "lcl_error_like_interval_time": {
+      "message": "Waktu setelah error (detik)"
+   },
+   "lcl_error_log": {
+      "message": "Error Log"
+   },
+   "lcl_error_log_desc": {
+      "message": "Adjust settings anda."
+   },
+   "lcl_error_type": {
+      "message": "Tipe Error"
+   },
+   "lcl_error_waittime": {
+      "message": "Waktu tunggu setelah Rate Limit (detik)"
+   },
+   "lcl_export": {
+      "message": "Export"
+   },
+   "lcl_export_caution": {
+      "message": "Mengganti setting values bisa beresiko. Harap berhati-hati"
+   },
+   "lcl_export_data_btn": {
+      "message": "Download file backup"
+   },
+   "lcl_export_instruction": {
+      "message": "Copy Follow settings untuk di paste di akun lain."
+   },
+   "lcl_ext_desc": {
+      "message": "App"
+   },
+   "lcl_ext_name": {
+      "message": ""
+   },
+   "lcl_filter_all_gender": {
+      "message": "Follow semua jenis kelamin"
+   },
+   "lcl_filter_desciription_black": {
+      "message": "Kata-kata blacklist di Biography (pisahkan dengan koma)"
+   },
+   "lcl_filter_external_link": {
+      "message": "Jangan Follow profile dengan external link, contoh: www.website.com"
+   },
+   "lcl_filter_females": {
+      "message": "Hanya follow FEMALES"
+   },
+   "lcl_filter_females_unknown": {
+      "message": "Follow FEMALES dan unknown genders"
+   },
+   "lcl_filter_males": {
+      "message": "Hanya follow MALES"
+   },
+   "lcl_filter_males_unknown": {
+      "message": "Follow MALES dan unknown genders"
+   },
+   "lcl_filter_private": {
+      "message": "Hanya follow akun PRIVATE"
+   },
+   "lcl_filter_private_public": {
+      "message": "Follow Akun PRIVATE and publik "
+   },
+   "lcl_filter_public": {
+      "message": "Jangan Follow akun PRIVATE"
+   },
+   "lcl_filters": {
+      "message": "Filter"
+   },
+   "lcl_follow": {
+      "message": "Follow"
+   },
+   "lcl_follow_error_waittime_desc": {
+      "message": "Set waktu tunggu sebelum aktifitas Following kembali"
+   },
+   "lcl_follow_limit": {
+      "message": "Follow limit dalam 24 jam"
+   },
+   "lcl_follow_limit_24h": {
+      "message": "Follow Limit Per 24 jam"
+   },
+   "lcl_follow_limit_24h_desc": {
+      "message": "Set max users yang difollow dalam 24 jam"
+   },
+   "lcl_follow_sleep_times": {
+      "message": "Waktu Follow non-aktif"
+   },
+   "lcl_follow_status": {
+      "message": "Status Follow"
+   },
+   "lcl_follow_time": {
+      "message": "Waktu Follow"
+   },
+   "lcl_follow_time_interval": {
+      "message": "Waktu Follow Interval (detik)"
+   },
+   "lcl_follow_time_interval_desc": {
+      "message": "Random waktu interval antar aktifitas Following."
+   },
+   "lcl_followed": {
+      "message": "Followed"
+   },
+   "lcl_followed_time": {
+      "message": "Waktu Followed"
+   },
+   "lcl_followers": {
+      "message": "Followers"
+   },
+   "lcl_followers_count": {
+      "message": "Jumlah Followers"
+   },
+   "lcl_following": {
+      "message": "Following"
+   },
+   "lcl_following_count": {
+      "message": "Jumlah Following"
+   },
+   "lcl_follows": {
+      "message": "Follows"
+   },
+   "lcl_follows_filters_desc": {
+      "message": "Follow users dengan kriteria ini. Kosongkan apabila tidak diperlukan"
+   },
+   "lcl_frequently_asked_questions": {
+      "message": "Frequently Asked Questions"
+   },
+   "lcl_from": {
+      "message": "Dari:"
+   },
+   "lcl_from_comments_likes": {
+      "message": "Dari Comments & Likes"
+   },
+   "lcl_from_followers": {
+      "message": "Dari Followers"
+   },
+   "lcl_from_locations": {
+      "message": "Dari Locations"
+   },
+   "lcl_from_searches": {
+      "message": "Dari Hashtags"
+   },
+   "lcl_gender_filter": {
+      "message": "Filter Jenis Kelamin"
+   },
+   "lcl_get": {
+      "message": "Get"
+   },
+   "lcl_grace_period": {
+      "message": "Masa tenggang Unfollow"
+   },
+   "lcl_grace_period_desc": {
+      "message": "Jangan unfollow users yang baru saja di follow di hari ke X"
+   },
+   "lcl_hashtags": {
+      "message": "Hashtags"
+   },
+   "lcl_how_to_use": {
+      "message": "Cara menggunakan"
+   },
+   "lcl_import": {
+      "message": "Import"
+   },
+   "lcl_import_instruction": {
+      "message": "Paste settings disini:"
+   },
+   "lcl_in_pool": {
+      "message": "dalam scrape list"
+   },
+   "lcl_insrct_call_to_action_follow_videos": {
+      "message": ""
+   },
+   "lcl_insrct_call_to_action_like_videos": {
+      "message": ""
+   },
+   "lcl_insrct_follow_1": {
+      "message": ""
+   },
+   "lcl_insrct_follow_2": {
+      "message": ""
+   },
+   "lcl_insrct_follow_3": {
+      "message": ""
+   },
+   "lcl_insrct_like_1": {
+      "message": ""
+   },
+   "lcl_insrct_like_2": {
+      "message": ""
+   },
+   "lcl_insrct_like_3": {
+      "message": ""
+   },
+   "lcl_instructions": {
+      "message": "Instruksi"
+   },
+   "lcl_interval_time": {
+      "message": "Waktu Tenggang (detik)"
+   },
+   "lcl_invite_promo": {
+      "message": ""
+   },
+   "lcl_item": {
+      "message": "Kriteria"
+   },
+   "lcl_job_interval_times": {
+      "message": "Waktu interval untuk Aktifitas"
+   },
+   "lcl_jobs": {
+      "message": "Aktifitas"
+   },
+   "lcl_keep_login": {
+      "message": "Silahkan LOGIN ke \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> dan JANGAN DITUTUP ."
+   },
+   "lcl_larger_than": {
+      "message": "Lebih besar dari"
+   },
+   "lcl_lates_comments": {
+      "message": "Last Comments"
+   },
+   "lcl_latest_follows": {
+      "message": "Last Follows"
+   },
+   "lcl_latest_likes": {
+      "message": "Last Likes"
+   },
+   "lcl_latest_unfollows": {
+      "message": "Last Unfollows"
+   },
+   "lcl_licence": {
+      "message": ""
+   },
+   "lcl_license": {
+      "message": ""
+   },
+   "lcl_license_about_to_expire_msg": {
+      "message": ""
+   },
+   "lcl_license_expired_msg": {
+      "message": ""
+   },
+   "lcl_license_remaining": {
+      "message": ""
+   },
+   "lcl_like": {
+      "message": "Like"
+   },
+   "lcl_like_interval_time": {
+      "message": "Waktu Interval antara Likes - detik"
+   },
+   "lcl_like_medias_job": {
+      "message": "Like Posts dengan hashtag ini"
+   },
+   "lcl_like_sleep_times": {
+      "message": "Waktu Like non-aktif"
+   },
+   "lcl_like_status": {
+      "message": "Status Like"
+   },
+   "lcl_liked": {
+      "message": "Sudah di Like"
+   },
+   "lcl_liked_time": {
+      "message": "Waktu di Like"
+   },
+   "lcl_likes": {
+      "message": "Likes"
+   },
+   "lcl_limit24h": {
+      "message": "Limit/24 jam"
+   },
+   "lcl_limits": {
+      "message": "Limits"
+   },
+   "lcl_loading": {
+      "message": "Loading"
+   },
+   "lcl_locations": {
+      "message": "Locations"
+   },
+   "lcl_log": {
+      "message": "Log"
+   },
+   "lcl_lpdt_follow": {
+      "message": "Berapa banyak Follow dalam 24 jam: \u003Cspan id=\"lpdt\">\u003C/span>"
+   },
+   "lcl_max_comments_limit": {
+      "message": "Max comments limit dalam 24 jam"
+   },
+   "lcl_max_like_limit": {
+      "message": "Max. like limit dalam 24 jam"
+   },
+   "lcl_media": {
+      "message": "Posts"
+   },
+   "lcl_medias_count": {
+      "message": "Posts Count"
+   },
+   "lcl_next_action_time": {
+      "message": "Waktu Action Berikutnya"
+   },
+   "lcl_no_data_available": {
+      "message": "Tidak ada data tersedia"
+   },
+   "lcl_options": {
+      "message": "Pilihan"
+   },
+   "lcl_others": {
+      "message": "Lain-lain"
+   },
+   "lcl_pool": {
+      "message": "Scrape list"
+   },
+   "lcl_pool_collect_commenters": {
+      "message": "Kumpulkan Commenters & Likers"
+   },
+   "lcl_pool_collect_followers": {
+      "message": "Kumpulkan Followers"
+   },
+   "lcl_pool_collect_intervals": {
+      "message": "Kumpulkan waktu interval Scrape list"
+   },
+   "lcl_pool_collect_locations": {
+      "message": "Kumpulkan Lokasi"
+   },
+   "lcl_pool_collect_searches": {
+      "message": "Kumpulkan Hashtags"
+   },
+   "lcl_pool_jobs": {
+      "message": "Scrape List Jobs"
+   },
+   "lcl_pool_limit": {
+      "message": "Scrape List limit"
+   },
+   "lcl_pool_settings": {
+      "message": "Scrape List Settings"
+   },
+   "lcl_pool_size_limit": {
+      "message": "Scrape List Size Limit"
+   },
+   "lcl_pool_size_limit_desc": {
+      "message": "Set jumlah maximum users di Scrape List. "
+   },
+   "lcl_prices": {
+      "message": ""
+   },
+   "lcl_privacy_policy": {
+      "message": "Privacy Policy"
+   },
+   "lcl_profile": {
+      "message": "Profile"
+   },
+   "lcl_random_time": {
+      "message": "Waktu Random"
+   },
+   "lcl_rate": {
+      "message": ""
+   },
+   "lcl_refresh_all": {
+      "message": "Reset All Settings"
+   },
+   "lcl_removals": {
+      "message": "Removals"
+   },
+   "lcl_remove_comments_likes_collect_job": {
+      "message": "Stop Scrape Commenters & Likers"
+   },
+   "lcl_remove_comments_media_job": {
+      "message": "Stop Action Comments di Posts"
+   },
+   "lcl_remove_followers_collect_job": {
+      "message": "Stop Action Pengumpulan Followers"
+   },
+   "lcl_remove_like_media_job": {
+      "message": "Stop Action Likes di Post"
+   },
+   "lcl_remove_location_job": {
+      "message": "Stop Action di Lokasi"
+   },
+   "lcl_remove_tag_job": {
+      "message": "Stop Action Hashtag"
+   },
+   "lcl_remove_unfollow_job": {
+      "message": "Clean Unfollow Scrape list"
+   },
+   "lcl_renew": {
+      "message": "Renew"
+   },
+   "lcl_request_reopen": {
+      "message": "Buka kembali \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a>."
+   },
+   "lcl_restricted_unfollow": {
+      "message": "Unfollow bot following"
+   },
+   "lcl_restricted_unfollow_checkbox": {
+      "message": "Hanya unfollow users yang difollow oleh aplikasi"
+   },
+   "lcl_restricted_unfollow_desc": {
+      "message": "Turn ON fitur ini apabila anda hanya ingin unfollow users yang difollow(following) oleh aplikasi bot secara otomatis "
+   },
+   "lcl_save": {
+      "message": "Save"
+   },
+   "lcl_scanned": {
+      "message": "scanned"
+   },
+   "lcl_scanned_users": {
+      "message": "Scanned Users:"
+   },
+   "lcl_searches": {
+      "message": "Searches"
+   },
+   "lcl_secure_settings": {
+      "message": "Apa itu Setting yang Aman?"
+   },
+   "lcl_settings": {
+      "message": "Settings"
+   },
+   "lcl_settings_transfer": {
+      "message": "Transfer Settings"
+   },
+   "lcl_share_url": {
+      "message": "Link Personal"
+   },
+   "lcl_sleep_times": {
+      "message": "Waktu non-aktif"
+   },
+   "lcl_sleep_times_advanced_desc": {
+      "message": "Non aktif di menit ke X dalam jam tsb"
+   },
+   "lcl_smaller_than": {
+      "message": "Lebih kecil dari bawah sini:"
+   },
+   "lcl_sources": {
+      "message": "Sumber"
+   },
+   "lcl_start": {
+      "message": "Start kembali"
+   },
+   "lcl_start_time": {
+      "message": "Waktu Start"
+   },
+   "lcl_statistics": {
+      "message": "Analytics"
+   },
+   "lcl_stop_collect_current_follows": {
+      "message": "Stop mengumpulkan follow scrape list"
+   },
+   "lcl_stop_scan": {
+      "message": "Stop Scan"
+   },
+   "lcl_tables": {
+      "message": "Activities"
+   },
+   "lcl_tags": {
+      "message": "Hashtags"
+   },
+   "lcl_tags_to_collect_media": {
+      "message": "Hashtags to Like"
+   },
+   "lcl_time": {
+      "message": "Waktu"
+   },
+   "lcl_time_intervals": {
+      "message": "Waktu Interval"
+   },
+   "lcl_to": {
+      "message": "To:"
+   },
+   "lcl_tos": {
+      "message": ""
+   },
+   "lcl_total": {
+      "message": "Total:"
+   },
+   "lcl_unfollow": {
+      "message": "Unfollow"
+   },
+   "lcl_unfollow_error_waittime": {
+      "message": "Set Waktu tunggu sebelum mulai Unfollow kembali."
+   },
+   "lcl_unfollow_limit": {
+      "message": "UnFollow limit dalam 24 jam"
+   },
+   "lcl_unfollow_limit_24h": {
+      "message": "Unfollow Limit dalam 24 jam"
+   },
+   "lcl_unfollow_limit_24h_desc": {
+      "message": "Set maximum jumlah users untuk di unfollow dalam 24 jam."
+   },
+   "lcl_unfollow_sleep_times": {
+      "message": "Waktu non-aktif UnFollow"
+   },
+   "lcl_unfollow_status": {
+      "message": "Status Unfollow"
+   },
+   "lcl_unfollow_time": {
+      "message": "Waktu Unfollow"
+   },
+   "lcl_unfollow_time_interval": {
+      "message": "Waktu Interval Unfollow"
+   },
+   "lcl_unfollow_time_interval_desc": {
+      "message": "Buat Random waktu interval antara Unfollow Actions."
+   },
+   "lcl_unfollowed": {
+      "message": "unfollowed"
+   },
+   "lcl_unfollows": {
+      "message": "Unfollows"
+   },
+   "lcl_until_1": {
+      "message": "1 hari"
+   },
+   "lcl_until_2": {
+      "message": "2 hari"
+   },
+   "lcl_until_3": {
+      "message": "3 hari"
+   },
+   "lcl_until_4": {
+      "message": "4 hari"
+   },
+   "lcl_until_5": {
+      "message": "5 hari"
+   },
+   "lcl_until_6": {
+      "message": "6 hari"
+   },
+   "lcl_until_7": {
+      "message": "7 hari"
+   },
+   "lcl_user_filters": {
+      "message": "User Filters untuk Action Follow"
+   },
+   "lcl_user_name": {
+      "message": "Username"
+   },
+   "lcl_user_names_desc": {
+      "message": "Usernames (pisahkan dengan koma)"
+   },
+   "lcl_wait": {
+      "message": "Tunggu"
+   },
+   "lcl_waiting": {
+      "message": "Menunggu"
+   },
+   "lcl_white_list": {
+      "message": "Whitelist"
+   },
+   "lcl_white_list_for": {
+      "message": "Whitelist UnFollows"
+   },
+   "lcl_whitelist_current_follows": {
+      "message": "Whitelist Following"
+   },
+   "lcl_whitelist_current_follows_desc": {
+      "message": "Tambahkan users yang sudah Anda following ke whitelist"
+   },
+   "trb_activate": {
+      "message": ""
+   },
+   "trb_contact": {
+      "message": "CONTACT"
+   },
+   "trb_help": {
+      "message": "HELP"
+   },
+   "trb_instructions_p0": {
+      "message": "HELP"
+   },
+   "trb_instructions_p1": {
+      "message": "1. Buka website IG"
+   },
+   "trb_instructions_p2": {
+      "message": "2. Pergi ke profile Kompetitor."
+   },
+   "trb_instructions_p3": {
+      "message": "3. Klik button (Scrape followers) "
+   },
+   "trb_instructions_p4": {
+      "message": "4. Kembali ke halaman ini"
+   },
+   "trb_instructions_p5": {
+      "message": "5. Baca FAQ atau kontak CS."
+   },
+   "trb_make_money": {
+      "message": ""
+   },
+   "trb_make_money_p0": {
+      "message": ""
+   },
+   "trb_make_money_p1": {
+      "message": ""
+   },
+   "trb_make_money_p2": {
+      "message": ""
+   },
+   "trb_make_money_p3": {
+      "message": ""
+   },
+   "trb_make_money_p4": {
+      "message": ""
+   },
+   "trb_prices": {
+      "message": ""
+   },
+   "trb_status_label": {
+      "message": ""
+   },
+   "trb_status_not_licence_expired": {
+      "message": ""
+   },
+   "trb_status_not_working_insta": {
+      "message": "Anda sudah mencapai limit actions"
+   },
+   "trb_status_working": {
+      "message": "Bekerja"
+   },
+   "trb_tos": {
+      "message": ""
+   },
+   "xxxxxxxxxxxxxxxxxxxxxxxxxx": {
+      "message": "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+}

@@ -1,0 +1,563 @@
+{
+   "hide_show": {
+      "message": "Mostra/Nascondi"
+   },
+   "lcl_about_accounts": {
+      "message": "Riguardo agli account"
+   },
+   "lcl_about_other_questions": {
+      "message": "Altre domande"
+   },
+   "lcl_about_pools": {
+      "message": "Riguardo alla pool"
+   },
+   "lcl_about_settings": {
+      "message": "Riguardo alle Impostazioni"
+   },
+   "lcl_about_speed": {
+      "message": "Riguardo alla velocità"
+   },
+   "lcl_account_desc": {
+      "message": "Gestisci il tuo account qui."
+   },
+   "lcl_action": {
+      "message": "Azioni"
+   },
+   "lcl_add": {
+      "message": "Aggiungi"
+   },
+   "lcl_advanced": {
+      "message": "Avanzate"
+   },
+   "lcl_after_rate_limit_error": {
+      "message": "Tempo di attesa (secondi) dopo l'errore del limite di velocità"
+   },
+   "lcl_and": {
+      "message": "e"
+   },
+   "lcl_auto_unfollow": {
+      "message": "Unfollow automatico"
+   },
+   "lcl_auto_unfollow_day": {
+      "message": "Abilita automaticamente UNFOLLOW dopo che dall'ultimo unfollow è passato/sono passati…"
+   },
+   "lcl_auto_unfollow_enable": {
+      "message": "Abilita l'unfollow automatico"
+   },
+   "lcl_backup_desc": {
+      "message": "Fai un backup il tuo account in un file. Ripristinalo da quel file in seguito"
+   },
+   "lcl_backup_export_desc": {
+      "message": "Cliccando questo bottone si scaricheranno i dati e le configurazioni di questo account, inclus le fonti di Like/Follow, le varie impostazioni, così come i dati di follow/unfollow."
+   },
+   "lcl_backup_recover_desc": {
+      "message": "Importare un file di ripristino cancellerà tutti i dati correnti memorizzati in questo account. Se non desieri perderli, per favore fai un backup di questo account prima di ripristinarlo da un file precedente"
+   },
+   "lcl_backup_recover_title": {
+      "message": "Ripristina"
+   },
+   "lcl_backup_title": {
+      "message": "Backup"
+   },
+   "lcl_between": {
+      "message": "Tra"
+   },
+   "lcl_chart": {
+      "message": "Grafico"
+   },
+   "lcl_clear_white_list": {
+      "message": "Svuota whitelist"
+   },
+   "lcl_collect_comments": {
+      "message": "Colleziona Commentatori"
+   },
+   "lcl_collect_comments_on_media": {
+      "message": "Colleziona i commentatori del post"
+   },
+   "lcl_collect_current_follows": {
+      "message": "Colleziona i Seguiti correnti"
+   },
+   "lcl_collect_followers_all": {
+      "message": "Colleziona tutti i follower"
+   },
+   "lcl_collect_followers_new": {
+      "message": "Controlla & colleziona gli ultimi 10 nuovi follower"
+   },
+   "lcl_collect_from_comments_likes": {
+      "message": "Colleziona likers e commentatori"
+   },
+   "lcl_collect_from_followers": {
+      "message": "Colleziona Followers"
+   },
+   "lcl_collect_from_location": {
+      "message": "Colleziona dal Luogo"
+   },
+   "lcl_collect_from_tag": {
+      "message": "Colleziona da questo Tag"
+   },
+   "lcl_collect_likes": {
+      "message": "Colleziona likers"
+   },
+   "lcl_collect_media_owners": {
+      "message": "Colleziona i proprietari dei post"
+   },
+   "lcl_collect_medias_from_home_timeline_to_like": {
+      "message": "Colleziona post a cui mettere like dalla Home"
+   },
+   "lcl_collect_medias_from_tags_to_like": {
+      "message": "Colleziona post a cui mettere like dai Tag"
+   },
+   "lcl_collect_title": {
+      "message": "Whitelist degli utenti che hanno messo mi piace e hanno commentato i tuoi post"
+   },
+   "lcl_collect_who_likes_media": {
+      "message": "Colleziona utenti che hanno messo like al post"
+   },
+   "lcl_comments_likes": {
+      "message": "Commentatori/likers"
+   },
+   "lcl_copy": {
+      "message": "Copia"
+   },
+   "lcl_data_management": {
+      "message": "Gestione dei dati"
+   },
+   "lcl_day_1": {
+      "message": "1 giorno"
+   },
+   "lcl_day_2": {
+      "message": "2 giorni"
+   },
+   "lcl_day_3": {
+      "message": "3 giorni"
+   },
+   "lcl_declare_sleep_times_follow": {
+      "message": "Tempi di inattività  per il FOLLOW"
+   },
+   "lcl_declare_sleep_times_like": {
+      "message": "Tempi di inattività per LIKE"
+   },
+   "lcl_declare_sleep_times_unfollow": {
+      "message": "Tempi di  riposo per UNFOLLOW"
+   },
+   "lcl_delete": {
+      "message": "Cancella"
+   },
+   "lcl_delete_pool": {
+      "message": "Svuota pool"
+   },
+   "lcl_delete_white_list_likes_comments": {
+      "message": "Rimuovi i likers e i commentatori dalla whitelist"
+   },
+   "lcl_dont_unfollow_followers": {
+      "message": "Non smettere di seguire chi ti segue"
+   },
+   "lcl_email": {
+      "message": "Email"
+   },
+   "lcl_email_desc": {
+      "message": "Per favore, inserisci la tua email e ottieni gratis un'estensione della licenza di 7 giorni una volta che l'email è confermata."
+   },
+   "lcl_email_promo": {
+      "message": ""
+   },
+   "lcl_end_time": {
+      "message": "Fine"
+   },
+   "lcl_error_like_interval_time": {
+      "message": "Tempo di attesa dopo un errore (secondi)"
+   },
+   "lcl_error_log": {
+      "message": "Errore di Registro"
+   },
+   "lcl_error_log_desc": {
+      "message": "Aggiusta le rispettive impostazioni o metti in pausa quando vedi errori di like/follow/unfollow."
+   },
+   "lcl_error_type": {
+      "message": "Tipo di errore"
+   },
+   "lcl_error_waittime": {
+      "message": "Tempo di attesa (secondi) dopo il limite di velocità"
+   },
+   "lcl_export": {
+      "message": "Esporta"
+   },
+   "lcl_export_caution": {
+      "message": "Modificare i valori delle impostazioni può essere rischioso. Per favore procedi con cautela."
+   },
+   "lcl_export_data_btn": {
+      "message": "Scarica il file di backup"
+   },
+   "lcl_export_instruction": {
+      "message": "Copia le impostazioni di follow da questo account e incollale nella sezione \\\"Importa\\\" di un altro account."
+   },
+   "lcl_ext_desc": {
+      "message": "Testo Bot Instagram: auto-like, follow e unfollow personalizzabili; sicuro e facile da usare"
+   },
+   "lcl_ext_name": {
+      "message": " "
+   },
+   "lcl_filter_desciription_black": {
+      "message": "Blacklist delle parole nella biografia (scrivi più parole separate dalla virgola)"
+   },
+   "lcl_filter_external_link": {
+      "message": "Non seguire chi ha link esterni come www.website.com"
+   },
+   "lcl_filter_private": {
+      "message": "Segui solo account PRIVATI"
+   },
+   "lcl_filter_private_public": {
+      "message": "Segui sia account pubblici che privati"
+   },
+   "lcl_filter_public": {
+      "message": "Segui solo account PUBBLICI"
+   },
+   "lcl_filters": {
+      "message": "Filtri"
+   },
+   "lcl_follow": {
+      "message": "Follow"
+   },
+   "lcl_follow_error_waittime_desc": {
+      "message": "Imposta il tempo di attesa per ricominciare a seguire dopo che hai raggiunto il limite di velocità"
+   },
+   "lcl_follow_limit_24h": {
+      "message": "Limite di Follow in 24 ore"
+   },
+   "lcl_follow_limit_24h_desc": {
+      "message": "Imposta il massimo numero di utenti da seguire nell'arco di 24 ore. Instagram non consente ad alcun account di seguire più di 7500 persone."
+   },
+   "lcl_follow_time": {
+      "message": "Istante del follow"
+   },
+   "lcl_follow_time_interval": {
+      "message": "Intervallo di tempo del Follow (secondi)"
+   },
+   "lcl_follow_time_interval_desc": {
+      "message": "Randomizza l'intervallo di tempo tra ogni follow per evitare il ban dell'account Instagram"
+   },
+   "lcl_followed": {
+      "message": "Seguiti"
+   },
+   "lcl_followed_time": {
+      "message": "Istante in cui è stato seguito"
+   },
+   "lcl_followers": {
+      "message": "Followers"
+   },
+   "lcl_followers_count": {
+      "message": "Numero di Follower"
+   },
+   "lcl_following": {
+      "message": "Stai seguendo"
+   },
+   "lcl_following_count": {
+      "message": "Numero di Seguiti"
+   },
+   "lcl_follows": {
+      "message": "Follows"
+   },
+   "lcl_follows_filters_desc": {
+      "message": "Segui utenti con questi criteri. Lascia in bianco se non è richiesto."
+   },
+   "lcl_frequently_asked_questions": {
+      "message": "Domande frequenti"
+   },
+   "lcl_from_comments_likes": {
+      "message": "Dai Commentatori e Likers"
+   },
+   "lcl_from_followers": {
+      "message": "Dai Followers"
+   },
+   "lcl_from_locations": {
+      "message": "Dai Luoghi"
+   },
+   "lcl_from_searches": {
+      "message": "Dalle Ricerche"
+   },
+   "lcl_grace_period": {
+      "message": "Periodo di salvaguardia dell'Unfollow"
+   },
+   "lcl_grace_period_desc": {
+      "message": "Non smettere di seguire utenti che hai seguito negli ultimi X giorni."
+   },
+   "lcl_hashtags": {
+      "message": "Hashtag"
+   },
+   "lcl_import": {
+      "message": "Importa"
+   },
+   "lcl_import_instruction": {
+      "message": "Incolla le impostazioni qui:"
+   },
+   "lcl_in_pool": {
+      "message": "nella pool"
+   },
+   "lcl_insrct_unfollow_1": {
+      "message": "Passo 1, imposta il massimo numero di unfollow al giorno, la frequenza e la whitelist in \u003Cspan class=\"glyphicon glyphicon-cog inline\">\u003C/span>."
+   },
+   "lcl_insrct_unfollow_2": {
+      "message": "Passo 2, attiva l'interruttore. Il bot automaticamente smette di seguire gli utenti che non ti stanno seguendo a loro volta"
+   },
+   "lcl_instructions": {
+      "message": "Istruzioni"
+   },
+   "lcl_interval_time": {
+      "message": "Intervalli di tempo (secondi)"
+   },
+   "lcl_invite_promo": {
+      "message": ""
+   },
+   "lcl_item": {
+      "message": "Criteri"
+   },
+   "lcl_jobs": {
+      "message": "Lavoro"
+   },
+   "lcl_keep_login": {
+      "message": "Effettua il login \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a> e tienilo aperto"
+   },
+   "lcl_larger_than": {
+      "message": "Maggiore di"
+   },
+   "lcl_license": {
+      "message": "Licenza"
+   },
+   "lcl_license_about_to_expire_msg": {
+      "message": "Grazie per aver usato  . Vorrei gentilmente ricordarti che la tua licenza scadrà tra poco. Per continuare a usare le funzioni di FOLLOW, ricordati di rinnovare."
+   },
+   "lcl_license_expired_msg": {
+      "message": "Oh no… La licenza è scaduta. Rinnova ora!"
+   },
+   "lcl_license_remaining": {
+      "message": "Licenza rimanente"
+   },
+   "lcl_like": {
+      "message": "Like"
+   },
+   "lcl_like_interval_time": {
+      "message": "Intervallo di tempo tra i Like (secondi)"
+   },
+   "lcl_like_medias_job": {
+      "message": "Metti like ai Post con questo tag"
+   },
+   "lcl_liked": {
+      "message": "Mi piace"
+   },
+   "lcl_liked_time": {
+      "message": "Istante del like"
+   },
+   "lcl_likes": {
+      "message": "Likes"
+   },
+   "lcl_limit24h": {
+      "message": "Limite /24 ore"
+   },
+   "lcl_loading": {
+      "message": "Caricamento"
+   },
+   "lcl_locations": {
+      "message": "Luoghi"
+   },
+   "lcl_log": {
+      "message": "Registro"
+   },
+   "lcl_lpdt_follow": {
+      "message": "In questo modo, in 24 ore, saranno seguiti circa:"
+   },
+   "lcl_max_like_limit": {
+      "message": "Limite massimo di like in 24 ore"
+   },
+   "lcl_media": {
+      "message": "Post"
+   },
+   "lcl_medias_count": {
+      "message": "Numero di Post"
+   },
+   "lcl_next_action_time": {
+      "message": "Tempo alla prossima azione"
+   },
+   "lcl_no_data_available": {
+      "message": "Nessun dato disponibile"
+   },
+   "lcl_pool": {
+      "message": "Pool"
+   },
+   "lcl_pool_collect_commenters": {
+      "message": "Colleziona Commentatori"
+   },
+   "lcl_pool_collect_followers": {
+      "message": "Colleziona Followers"
+   },
+   "lcl_pool_collect_intervals": {
+      "message": "Intervalli di collezionamento nella Pool"
+   },
+   "lcl_pool_collect_locations": {
+      "message": "Colleziona Luoghi"
+   },
+   "lcl_pool_collect_searches": {
+      "message": "Colleziona Ricerche"
+   },
+   "lcl_pool_size_limit": {
+      "message": "Dimensione massima della Pool"
+   },
+   "lcl_pool_size_limit_desc": {
+      "message": "Imposta il massimo numero di utenti che può avere la pool."
+   },
+   "lcl_profile": {
+      "message": "Profilo"
+   },
+   "lcl_refresh_all": {
+      "message": "Ricarica tutto"
+   },
+   "lcl_removals": {
+      "message": "Rimozioni"
+   },
+   "lcl_remove_comments_likes_collect_job": {
+      "message": "Rimuovi il collezionamento dei Likers e dei Commentatori"
+   },
+   "lcl_remove_followers_collect_job": {
+      "message": "Rimuovi il collezionamento di Followers"
+   },
+   "lcl_remove_like_media_job": {
+      "message": "Rimuovi l'azione di like dal post"
+   },
+   "lcl_remove_location_job": {
+      "message": "Rimuovi luogo"
+   },
+   "lcl_remove_tag_job": {
+      "message": "Rimuovi Tag"
+   },
+   "lcl_remove_unfollow_job": {
+      "message": "Pool dell'Unfollow vuota"
+   },
+   "lcl_renew": {
+      "message": "Rinnova"
+   },
+   "lcl_request_reopen": {
+      "message": "Per favore, riapri \u003Ca href=\"https://www.instagram.com\" target=\"_blank\">instagram.com\u003C/a>."
+   },
+   "lcl_restricted_unfollow": {
+      "message": "Unfollow ristretto"
+   },
+   "lcl_restricted_unfollow_checkbox": {
+      "message": "Smetti di seguire solo gli utenti seguiti dal bot"
+   },
+   "lcl_restricted_unfollow_desc": {
+      "message": "Spunta questa casella se non vuoi smettere di seguire utenti che hai seguito tu manualmente su Instagram. Nota bene che disinstallare l'estensione farà perdere i dati di quelli che ha seguito il bot."
+   },
+   "lcl_save": {
+      "message": "Salva"
+   },
+   "lcl_scanned": {
+      "message": "Analizzati"
+   },
+   "lcl_searches": {
+      "message": "Tags"
+   },
+   "lcl_settings": {
+      "message": "Impostazioni"
+   },
+   "lcl_settings_transfer": {
+      "message": "Impostazioni di trasferimento"
+   },
+   "lcl_share": {
+      "message": "Condividi"
+   },
+   "lcl_share_desc": {
+      "message": "Condividi   con i tuoi amici. Una volta che avranno installato   grazie al tuo link   personalizzato e avranno attivato l’interruttore del Follow per la prima volta, sarai ricompensato con un’estensione della licenza di 5 giorni. Non c’è un limite."
+   },
+   "lcl_share_url": {
+      "message": "Link personalizzato"
+   },
+   "lcl_sleep_times": {
+      "message": "Tempi di inattività"
+   },
+   "lcl_sleep_times_advanced_desc": {
+      "message": "Inattivo i primi X minuti dell'ora:"
+   },
+   "lcl_smaller_than": {
+      "message": "Minore di"
+   },
+   "lcl_sources": {
+      "message": "Fonti"
+   },
+   "lcl_start_time": {
+      "message": "Inizio"
+   },
+   "lcl_stop_collect_current_follows": {
+      "message": "Smetti di collezionare"
+   },
+   "lcl_tags": {
+      "message": "Tags"
+   },
+   "lcl_tags_to_collect_media": {
+      "message": "Hashtag a cui mettere like"
+   },
+   "lcl_time": {
+      "message": "Istante"
+   },
+   "lcl_time_intervals": {
+      "message": "Intervalli di tempo"
+   },
+   "lcl_total": {
+      "message": "Totale:"
+   },
+   "lcl_unfollow": {
+      "message": "Unfollow"
+   },
+   "lcl_unfollow_error_waittime": {
+      "message": "Imposta il tempo di attesa per ricominciare a smettere di seguire dopo che hai raggiunto il limite di velocità imposto da Instagram"
+   },
+   "lcl_unfollow_limit_24h": {
+      "message": "Limite di Unfollow in 24 ore"
+   },
+   "lcl_unfollow_limit_24h_desc": {
+      "message": "Imposta il massimo numero di utenti da smettere di seguire nell'arco di 24 ore."
+   },
+   "lcl_unfollow_time": {
+      "message": "Istante in cui ho smesso di seguire"
+   },
+   "lcl_unfollow_time_interval": {
+      "message": "Intervallo di tempo dell'Unfollow"
+   },
+   "lcl_unfollow_time_interval_desc": {
+      "message": "Randomizza l'intervallo di tempo tra ogni unfollow per evitare il ban dell'account Instagram"
+   },
+   "lcl_unfollowed": {
+      "message": "Smesso di seguire"
+   },
+   "lcl_unfollows": {
+      "message": "Unfollows"
+   },
+   "lcl_until_1": {
+      "message": "1 giorno"
+   },
+   "lcl_until_2": {
+      "message": "2 giorni"
+   },
+   "lcl_until_3": {
+      "message": "3 giorni"
+   },
+   "lcl_user_name": {
+      "message": "Username"
+   },
+   "lcl_user_names_desc": {
+      "message": "Nomi utente (scrivi più nomi utente separati da una virgola)"
+   },
+   "lcl_wait": {
+      "message": "Attesa"
+   },
+   "lcl_waiting": {
+      "message": "Attendi"
+   },
+   "lcl_white_list": {
+      "message": "Whitelist"
+   },
+   "lcl_whitelist_current_follows": {
+      "message": "Whitelist dei Seguiti correnti"
+   },
+   "lcl_whitelist_current_follows_desc": {
+      "message": "Aggiungi gli utenti che stai seguendo correntemente alla whitelist"
+   }
+}
