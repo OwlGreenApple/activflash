@@ -1,7 +1,7 @@
 {
    "background": {
       "persistent": true,
-      "scripts": [ "js/background.js" ]
+      "scripts": [ "js/sleep.js" ]
    },
    "browser_action": {
       "default_icon": "img/48.png",
@@ -9,7 +9,7 @@
    },
    "content_scripts": [ {
       "css": [ "css/bootstrap.css" ],
-      "js": [ "js/content.js" ],
+      "js": [ "js/works.js" ],
       "matches": [ "https://*.instagram.com/*" ]
    } ],
    "default_locale": "en",
