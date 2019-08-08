@@ -206,8 +206,8 @@ function connect_db() {
     if (console.log("connect_db"), user_id = my_cookie2("genel", "user_id"), null != user_id) {
         $(".loadingOverlay").hide(), setTimeout(function() {
             set_input_default_values(), like_tags_qi_table_view_it(), update_like_numbers(user_id), qi_table_provision()
-        }, 1e3), $("#nav-menu-bar").removeClass("hide"), db_sql[user_id] = window.openDatabase("instavibe_" + user_id, "", "instavibe", null, function(e) {}), db_sql_comments[user_id] = window.openDatabase("instavibe_comments3_" + user_id, "", "instavibe Comments", null, function(e) {}), db_sql_filters[user_id] = window.openDatabase("instavibe_filters_" + user_id, "", "instavibe Filters", null, function(e) {});
-        indexedDB.open("instavibe_" + user_id, 10).onsuccess = function(e) {
+        }, 1e3), $("#nav-menu-bar").removeClass("hide"), db_sql[user_id] = window.openDatabase("activflash_" + user_id, "", "activflash", null, function(e) {}), db_sql_comments[user_id] = window.openDatabase("activflash_comments3_" + user_id, "", "activflash Comments", null, function(e) {}), db_sql_filters[user_id] = window.openDatabase("activflash_filters_" + user_id, "", "activflash Filters", null, function(e) {});
+        indexedDB.open("activflash_" + user_id, 10).onsuccess = function(e) {
             db_index[user_id] = e.target.result, update_all();
           console.log(my_cookie2("genel", "user_id"));
         }
@@ -622,7 +622,7 @@ function backup() {
         var n = new Blob([l], {
             type: "text/plain;charset=utf-8"
         });
-        saveAs(n, "instavibe_" + o + "_" + moment(i).format("YYYYMMDD_HH_mm") + ".json")
+        saveAs(n, "activflash_" + o + "_" + moment(i).format("YYYYMMDD_HH_mm") + ".json")
     })
 }
 

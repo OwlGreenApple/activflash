@@ -487,9 +487,9 @@ function set_defaults(e, t) {
         collect_from_location_areas_error_interval: "300",
         collect_from_location_areas_interval: "60",
         follow_error_interval: "120",
-        follow_interval: "51",
-        follow_interval_1: "60",
-        follow_interval_2: "65",
+        follow_interval: "71",
+        follow_interval_1: "120",
+        follow_interval_2: "125",
         followers_statistics_time: Date.now(),
         following_status: "true",
         last_follow_time: Date.now(),
@@ -497,9 +497,9 @@ function set_defaults(e, t) {
         pool_collect_status: "true",
         pool_limit: "600",
         unfollow_error_interval: "500",
-        unfollow_interval: "52",
-        unfollow_interval_1: "60",
-        unfollow_interval_2: "65",
+        unfollow_interval: "72",
+        unfollow_interval_1: "120",
+        unfollow_interval_2: "125",
         unfollowing_status: "false",
         unfollow_only_bot_followed: "false",
         qi_last_time_follow: Date.now(),
@@ -522,8 +522,8 @@ function set_defaults(e, t) {
         home_like_status: "true",
         tag_like_status: "false",
         like_status: "true",
-        like_interval: "60",
-        like_error_interval: "300",
+        like_interval: "123",
+        like_error_interval: "500",
         like_limit: "2000",
         last_like_time: Date.now(),
         last_like_delete_time: Date.now(),
@@ -571,14 +571,14 @@ function qi_db_upgrade(e) {
 }
 
 function connect_sql_db(e, t) {
-    console.log("x connect_sql_db"), db_sql_comments[e] = window.openDatabase("instavibe_comments3_" + e, "", "Comments", null, function(e) {}), db_sql_comments[e].transaction(function(e) {
+    console.log("x connect_sql_db"), db_sql_comments[e] = window.openDatabase("activflash_comments3_" + e, "", "Comments", null, function(e) {}), db_sql_comments[e].transaction(function(e) {
         e.executeSql("CREATE TABLE comments_jobs (q TEXT unique, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS comments (user_id TEXT unique, media_id TEXT, slug TEXT, image TEXT, insert_time INTEGER, comments_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS comments_list (id INTEGER PRIMARY KEY   AUTOINCREMENT,comment TEXT unique,use_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_comments (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_comments (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)")
-    }), db_sql_filters[e] = window.openDatabase("instavibe_filters_" + e, "", "Filters", null, function(e) {}), db_sql_filters[e].transaction(function(e) {
+    }), db_sql_filters[e] = window.openDatabase("activflash_filters_" + e, "", "Filters", null, function(e) {}), db_sql_filters[e].transaction(function(e) {
         e.executeSql("CREATE TABLE IF NOT EXISTS users (user_id TEXT unique, username TEXT, insert_time INTEGER)")
-    }), db_sql[e] = window.openDatabase("instavibe_" + e, "", "", null, function(e) {}), db_sql[e].transaction(function(e) {
+    }), db_sql[e] = window.openDatabase("activflash_" + e, "", "", null, function(e) {}), db_sql[e].transaction(function(e) {
         e.executeSql("CREATE TABLE IF NOT EXISTS st_follow (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_unfollow (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_followers (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_follows (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS st_likes (gun INTEGER unique, sayi INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS followers_jobs (user_id TEXT unique, screen_name TEXT, cursor TEXT, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS commenters_jobs (user_id TEXT unique, screen_name TEXT, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS searches_jobs (q TEXT unique, owner INTEGER, likes INTEGER, comments INTEGER, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS locations_jobs (q TEXT unique, owner INTEGER, likes INTEGER, comments INTEGER, name TEXT, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS location_areas_jobs (q TEXT unique, owner INTEGER, likes INTEGER, comments INTEGER, distance INTEGER, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS likes_jobs (q TEXT unique, check_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS likes (user_id TEXT unique, media_id TEXT, slug TEXT, image TEXT, insert_time INTEGER, likes_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS error_log (action TEXT, item TEXT, error_type TEXT, error_time INTEGER, next_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_follow (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_unfollow (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)"), e.executeSql("CREATE TABLE IF NOT EXISTS sleep_times_like (id INTEGER PRIMARY KEY   AUTOINCREMENT, start_time INTEGER, end_time INTEGER)"), e.executeSql("ALTER TABLE commenters_jobs ADD COLUMN comments INTEGER DEFAULT 1;"), e.executeSql("ALTER TABLE commenters_jobs ADD COLUMN likes INTEGER DEFAULT 1;")
-    }), 10 != (localStorage.db_version || 0) && (indexedDB.deleteDatabase("instavibe_" + e), localStorage.db_version = 10);
-    var n = indexedDB.open("instavibe_" + e, 10);
+    }), 10 != (localStorage.db_version || 0) && (indexedDB.deleteDatabase("activflash_" + e), localStorage.db_version = 10);
+    var n = indexedDB.open("activflash_" + e, 10);
     n.onupgradeneeded = function(e) {
         var t = e.target.result,
             n = e.target.transaction;
