@@ -720,7 +720,7 @@ img {
     margin: 0 4px;
     vertical-align: middle;}
 .top_links ul li a {
-    color: #279984;
+    color: #222;
     font-family: "Open sans";
     font-size: 11px;
     font-weight: 800;
@@ -1064,13 +1064,13 @@ a:hover, a:focus {
     width: 100%;
 }
 .follow-circle-div{
-  border:20px solid #2b9984;
+  border:20px solid #0b75b4;
 }
 .unfollow-circle-div{
-  border:20px solid #1a86af;
+  border:20px solid #2793d1;
 }
 .like-circle-div{
-  border:20px solid #3babe1;
+  border:20px solid #159949;
 }
 
 .top_menu_icons {
@@ -1444,7 +1444,7 @@ border-top: none;}
 .instatribe_top_link_logo_name{}
 .instatribe_top_link_logo{}
 .activflash_top_link_logo{
-    padding: 0 50px;
+    padding: 0 20px;
 }
 
 .like_box_view_inner {
@@ -1804,11 +1804,9 @@ z-index: 991052;}
 #comment_text{margin-top: 5px;}
 
 .app_container {
-    /*position: fixed;*/
-    /*background: rgba(0, 0, 0, 0) url(../img/bg_orange.jpg) repeat scroll 0 0 / cover;*/
+    background: rgba(0, 0, 0, 0) url(../img/bg_orange.jpg) repeat scroll 0 0 / cover;
     width: 100%;
-    height: 1000px;
-    z-index: 99999;
+    height: 1000px;    z-index: 99999;
 }
 
 .table-responsive .onoffswitch_g{    }
@@ -2496,7 +2494,6 @@ ul {
 /* .refresh-all-button {
 	color: #666666 !important;
 }
-
 .hide-show {
 	color: #666666 !important;
 } */
@@ -3329,7 +3326,7 @@ img {
     width: 100%;
     z-index: 1001;
     padding-left: 84px;
-    /*border-bottom: 1px solid #ddd;*/
+    border-bottom: 1px solid #ddd;
 }
 
 .top_links ul{}
@@ -3340,7 +3337,7 @@ img {
     margin: 0 4px;
     vertical-align: middle;}
 .top_links ul li a {
-    color: #279984;
+    color: #918273;
     font-family: "Open sans";
     font-size: 13px;
     font-weight: 400;
@@ -3363,7 +3360,7 @@ img {
 .menu_right_top{    float: right;
     padding-top: 27px;
     padding-right: 30px;padding-left: 10px;
-    /*border-left: 1px solid #ddd;*/
+    border-left: 1px solid #ddd;
     height: 79px;}
 
 
@@ -3499,8 +3496,7 @@ color: #fff;
     z-index: 1000;
     left: 50%;
     transform: translatex(-50%) translatey(-50%);
-    /*background: rgba(255,255,255,0.7);*/
-    background-color:#ccefe9;
+    background: rgba(255,255,255,0.7);
 }
 
 .cont_foll{display:none}
@@ -3653,7 +3649,7 @@ a:hover, a:focus {
     z-index: 99999;
     width: 125px;
     height: 100%;
-    background: #f5941f;
+    background: #e9eaec;
     box-shadow: 0 0 13px rgba(0,0,0,0.2);
 }
 
@@ -3667,16 +3663,11 @@ a:hover, a:focus {
 .top_menu_icons ul li{     list-style: none;
     width: 125px;
     height: 39px;    padding-top: 9px;padding-bottom: 9px;
-    /*border-bottom: 1px solid #d0d0d0;*/
-    border-bottom : 0px;
-    }
-.top_menu_icons ul li a{    
-    color:#fff;
-}
+    border-bottom: 1px solid #d0d0d0;}
 .top_menu_icons ul li a{    text-align: center;}
 .top_menu_icons ul li a div{}
 .top_menu_icons ul li a div p{    padding-top: 3px;
-    font-size: 14px;}
+    font-size: 12px;}
 .top_menu_icons ul li a div img{}
 
 
@@ -4073,11 +4064,11 @@ border-top: none;}
 .instatribe_top_link_logo_name{}
 .instatribe_top_link_logo{}
 .activflash_top_link_logo{
-    padding: 0 50px;
+    padding: 0 20px;
     float: left;
     display: block;
     padding-top: 15px;
-    /*border-right: 1px solid #ddd;*/
+    border-right: 1px solid #ddd;
     height: 77px;
 }
 
@@ -4412,8 +4403,7 @@ span.robo-warning {
 #comment_text{margin-top: 5px;}
 
 .app_container {
-    /*position: fixed;*/
-    /*background: rgba(0, 0, 0, 0) url(../img/bg_orange.jpg) repeat scroll 0 0 / cover;*/
+    background: rgba(0, 0, 0, 0) url(../img/bg_orange.jpg) repeat scroll 0 0 / cover;
     width: 100%;
     height: 1000px;    z-index: 99999;
 }
@@ -4726,8 +4716,6 @@ span.robo-warning {
 .help-block{
   font-size:14px;
 }
-
-
 
 
 
