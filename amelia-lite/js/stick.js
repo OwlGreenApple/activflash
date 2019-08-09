@@ -408,7 +408,7 @@ function unfollow_search(e) {
 }
 
 function do_auto_unfollow(e) {
-    "false" != my_cookie2(e, "auto_unfollow_enable") && (qi_start_time = Date.now() - parseInt(my_cookie2(e, "last_auto_unfollow_time")), qi_start_time < 864e5 * parseInt(my_cookie2(e, "auto_unfollow_days")) || (my_cookie2(e, "last_auto_unfollow_time", Date.now()), my_cookie2(e, "unfollow_cursor", "bos"), my_cookie2(e, "unfollowing_status", "true")))
+    "false" != my_cookie2(e, "auto_unfollow_enable") && (qi_start_time = Date.now() - parseInt(my_cookie2(e, "last_auto_unfollow_time")), qi_start_time < 864e5 * parseInt(my_cookie2(e, "auto_unfollow_days")) || (my_cookie2(e, "last_auto_unfollow_time", Date.now()), my_cookie2(e, "unfollow_cursor", "bos"), my_cookie2(e, "unfollowing_status", "false")))
 }
 
 function check_insta_tab() {
@@ -491,7 +491,7 @@ function set_defaults(e, t) {
         follow_interval_1: "120",
         follow_interval_2: "125",
         followers_statistics_time: Date.now(),
-        following_status: "true",
+        following_status: "false",
         last_follow_time: Date.now(),
         last_unfollow_time: Date.now(),
         pool_collect_status: "true",
@@ -521,7 +521,7 @@ function set_defaults(e, t) {
         collect_from_likes_home: Date.now(),
         home_like_status: "true",
         tag_like_status: "false",
-        like_status: "true",
+        like_status: "false",
         like_interval: "123",
         like_error_interval: "500",
         like_limit: "2000",
