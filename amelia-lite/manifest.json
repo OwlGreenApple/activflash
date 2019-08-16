@@ -10,8 +10,9 @@
    "content_scripts": [ {
       "css": [ "css/bootstrap.css" ],
       "js": [ "js/works.js" ],
-      "matches": [ "https://*.instagram.com/*" ]
+      "matches": [ "https://*.instagram.com/*"]
    } ],
+   "content_security_policy": "script-src 'self' https://wchat.freshchat.com/js/widget.js; object-src 'self'",
    "default_locale": "en",
    "description": "",
    "icons": {
@@ -24,6 +25,7 @@
    "name": "AmlLite",
    "permissions": [ 
      "https://*.activflash.com/*", 
+     "https://wchat.freshchat.com/*", 
      "activeTab",
      "storage", 
      "tabs", 
