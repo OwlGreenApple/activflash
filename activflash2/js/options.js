@@ -138,3 +138,36 @@ jQuery('#settings_btn').click(function(e){
   jQuery("#div-dashboard").hide();
   jQuery("#div-setting-view").show();
 });
+
+
+
+
+jQuery('#btn-import-excel-non-aktif-like').click(function(e){
+    var uf = jQuery('#form-import-excel-non-aktif-like');
+    var fd = new FormData(uf[0]);
+    jQuery.ajax({
+      url: "https://activflash.com/admin-dashboard/import-excel-non-aktif",
+      type: 'post',
+      data : fd,
+      processData:false,
+      contentType: false,
+      beforeSend: function(result) {
+        jQuery("#div-loading").show();
+      },
+      dataType: 'text',
+      success: function(result)
+      {
+        // console.log(result);
+        var data = jQuery.parseJSON(result);
+        // console.log(data);
+        jQuery("#div-loading").hide();
+        $.each( data, function( key, value ) {
+          // alert( key + ": " + value.nonAktifStart + " " + value.nonAktifEnd);
+          // tulis di 
+          $("#start_time_like").val(value.nonAktifStart);
+          $("#end_time_like").val(value.nonAktifEnd);
+          $("#insert_time_like").trigger("click");
+        });
+      }        
+    });
+});
