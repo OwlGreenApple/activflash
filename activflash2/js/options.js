@@ -171,3 +171,63 @@ jQuery('#btn-import-excel-non-aktif-like').click(function(e){
       }        
     });
 });
+
+jQuery('#btn-import-excel-non-aktif-unfollow').click(function(e){
+    var uf = jQuery('#form-import-excel-non-aktif-unfollow');
+    var fd = new FormData(uf[0]);
+    jQuery.ajax({
+      url: "https://activflash.com/admin-dashboard/import-excel-non-aktif",
+      type: 'post',
+      data : fd,
+      processData:false,
+      contentType: false,
+      beforeSend: function(result) {
+        jQuery("#div-loading").show();
+      },
+      dataType: 'text',
+      success: function(result)
+      {
+        // console.log(result);
+        var data = jQuery.parseJSON(result);
+        // console.log(data);
+        jQuery("#div-loading").hide();
+        $.each( data, function( key, value ) {
+          // alert( key + ": " + value.nonAktifStart + " " + value.nonAktifEnd);
+          // tulis di 
+          $("#start_time_unfollow").val(value.nonAktifStart);
+          $("#end_time_unfollow").val(value.nonAktifEnd);
+          $("#insert_time_unfollow").trigger("click");
+        });
+      }        
+    });
+});
+
+jQuery('#btn-import-excel-non-aktif-follow').click(function(e){
+    var uf = jQuery('#form-import-excel-non-aktif-follow');
+    var fd = new FormData(uf[0]);
+    jQuery.ajax({
+      url: "https://activflash.com/admin-dashboard/import-excel-non-aktif",
+      type: 'post',
+      data : fd,
+      processData:false,
+      contentType: false,
+      beforeSend: function(result) {
+        jQuery("#div-loading").show();
+      },
+      dataType: 'text',
+      success: function(result)
+      {
+        // console.log(result);
+        var data = jQuery.parseJSON(result);
+        // console.log(data);
+        jQuery("#div-loading").hide();
+        $.each( data, function( key, value ) {
+          // alert( key + ": " + value.nonAktifStart + " " + value.nonAktifEnd);
+          // tulis di 
+          $("#start_time_follow").val(value.nonAktifStart);
+          $("#end_time_follow").val(value.nonAktifEnd);
+          $("#insert_time_follow").trigger("click");
+        });
+      }        
+    });
+});
