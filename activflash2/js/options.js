@@ -164,9 +164,12 @@ jQuery('#btn-import-excel-non-aktif-like').click(function(e){
         $.each( data, function( key, value ) {
           // alert( key + ": " + value.nonAktifStart + " " + value.nonAktifEnd);
           // tulis di 
-          $("#start_time_like").val(value.nonAktifStart);
-          $("#end_time_like").val(value.nonAktifEnd);
-          $("#insert_time_like").trigger("click");
+          var $this = this;
+          setTimeout(function(){
+            $("#start_time_like").val(value.nonAktifStart);
+            $("#end_time_like").val(value.nonAktifEnd);
+            $("#insert_time_like").trigger("click");
+          }, (key + 1) * 200);          
         });
       }        
     });
@@ -194,9 +197,12 @@ jQuery('#btn-import-excel-non-aktif-unfollow').click(function(e){
         $.each( data, function( key, value ) {
           // alert( key + ": " + value.nonAktifStart + " " + value.nonAktifEnd);
           // tulis di 
-          $("#start_time_unfollow").val(value.nonAktifStart);
-          $("#end_time_unfollow").val(value.nonAktifEnd);
-          $("#insert_time_unfollow").trigger("click");
+          var $this = this;
+          setTimeout(function(){
+            $("#start_time_unfollow").val(value.nonAktifStart);
+            $("#end_time_unfollow").val(value.nonAktifEnd);
+            $("#insert_time_unfollow").trigger("click");
+          }, (key + 1) * 200);          
         });
       }        
     });
@@ -222,11 +228,14 @@ jQuery('#btn-import-excel-non-aktif-follow').click(function(e){
         // console.log(data);
         jQuery("#div-loading").hide();
         $.each( data, function( key, value ) {
-          // alert( key + ": " + value.nonAktifStart + " " + value.nonAktifEnd);
           // tulis di 
-          $("#start_time_follow").val(value.nonAktifStart);
-          $("#end_time_follow").val(value.nonAktifEnd);
-          $("#insert_time_follow").trigger("click");
+          // alert( key + ": " + value.nonAktifStart + " " + value.nonAktifEnd);
+          var $this = this;
+          setTimeout(function(){
+            $("#start_time_follow").val(value.nonAktifStart);
+            $("#end_time_follow").val(value.nonAktifEnd);
+            $("#insert_time_follow").trigger("click");
+          }, (key + 1) * 200);          
         });
       }        
     });
