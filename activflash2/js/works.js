@@ -137,8 +137,17 @@ function check_tag_page() {
     }) : 0 == $("#likes_button").is(":visible") && $("#likes_button").show("slow")
 }
 
-function check_profil_page() {
+/*function check_profil_page() {
+    console.log(page_info);
     return profil = $('a[href$="/followers/"]'), 0 == profil.length ? void $("#user_buttons").hide("slow") : (page_info = retrieveWindowVariables(["window._sharedData"]), page_info.entry_data.hasOwnProperty("ProfilePage") ? (qi_exact_screen_name = profil.attr("href").split("/")[1], page_info.entry_data.ProfilePage[0].graphql.user.username != qi_exact_screen_name ? void(window.location = window.location) : (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.entry_data.ProfilePage[0].graphql.user.id + '"}', void($("#commenters_btn").attr("data-user") != qi_exact ? chrome.runtime.sendMessage({
+        option: "get_user_buttons",
+        user: user,
+        qi_exact: qi_exact
+    }) : 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow")))) : void(window.location = window.location))
+}*/
+
+function check_profil_page() {
+    return profil = $('a[href$="/followers/"]'), 0 == profil.length ? void $("#user_buttons").hide("slow") : (page_info = retrieveWindowVariables(["window._sharedData"]), page_info.entry_data.hasOwnProperty("ProfilePage") ? (qi_exact_screen_name = profil.attr("href").split("/")[1], page_info.config.viewer.username != qi_exact_screen_name ? void(window.location = window.location) : (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.config.viewer.id + '"}', void($("#commenters_btn").attr("data-user") != qi_exact ? chrome.runtime.sendMessage({
         option: "get_user_buttons",
         user: user,
         qi_exact: qi_exact
