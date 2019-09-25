@@ -146,18 +146,36 @@ function check_tag_page() {
 }*/
 
 function check_profil_page() {
+    //console.log(page_info);
     return profil = $('a[href$="/followers/"]'), 0 == profil.length ? void $("#user_buttons").hide("slow") : (page_info = retrieveWindowVariables(["window._sharedData"]), page_info.entry_data.hasOwnProperty("ProfilePage") ? (qi_exact_screen_name = profil.attr("href").split("/")[1], 
-    page_info.entry_data.ProfilePage[0].graphql.user.id.length ? (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.config.viewer.id + '"}', 
+    /*
+    page_info.entry_data.ProfilePage[0].graphql.user.id.length ? (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.config.viewer.id + '"}', */
     
-    void($("#commenters_btn").attr("data-user") != qi_exact ? chrome.runtime.sendMessage({
-        option: "get_user_buttons",
-        user: user,
-        qi_exact: qi_exact
-    }) : 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow"))):void( console.log('asd1')) ) : void( console.log('asd2') ))
+    //page_info.entry_data.ProfilePage[0].graphql.user.length ? void(
+      page_info.entry_data.ProfilePage[0].graphql.user.username != qi_exact_screen_name ? void(window.location = window.location) : (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.entry_data.ProfilePage[0].graphql.user.id + '"}',
+      
+      void($("#commenters_btn").attr("data-user") != qi_exact ? chrome.runtime.sendMessage({
+          option: "get_user_buttons",
+          user: user,
+          qi_exact: qi_exact
+      }) : 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow"))) 
+      /*:void( console.log('asd1'))*/ 
+    //) : void(
+      //console.log("")
+    //)
+    
+    
+    ) : void( console.log('asd2') ))
 }
 
+/*
 function do_jobs() {
     page_info = retrieveWindowVariables(["window._sharedData"]), null != page_info.config.viewer && (user = page_info.config, check_profil_page(), check_tag_page(), check_location_page())
+}*/
+
+function do_jobs(){
+    page_info=retrieveWindowVariables(["window._sharedData"]);
+    null==page_info.config.viewer||(user=page_info.config,check_profil_page(),check_tag_page(),check_location_page())
 }
 
 function extract(t, e, n) {

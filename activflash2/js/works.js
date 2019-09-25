@@ -147,14 +147,26 @@ function check_tag_page() {
 }*/
 
 function check_profil_page() {
+    //console.log(page_info);
     return profil = $('a[href$="/followers/"]'), 0 == profil.length ? void $("#user_buttons").hide("slow") : (page_info = retrieveWindowVariables(["window._sharedData"]), page_info.entry_data.hasOwnProperty("ProfilePage") ? (qi_exact_screen_name = profil.attr("href").split("/")[1], 
-    page_info.entry_data.ProfilePage[0].graphql.user.id.length ? (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.config.viewer.id + '"}', 
+    /*
+    page_info.entry_data.ProfilePage[0].graphql.user.id.length ? (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.config.viewer.id + '"}', */
     
-    void($("#commenters_btn").attr("data-user") != qi_exact ? chrome.runtime.sendMessage({
-        option: "get_user_buttons",
-        user: user,
-        qi_exact: qi_exact
-    }) : 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow"))):void( console.log('asd1')) ) : void( console.log('asd2') ))
+    //page_info.entry_data.ProfilePage[0].graphql.user.length ? void(
+      page_info.entry_data.ProfilePage[0].graphql.user.username != qi_exact_screen_name ? void(window.location = window.location) : (qi_exact = '{"screen_name":"' + qi_exact_screen_name + '","user_id":"' + page_info.entry_data.ProfilePage[0].graphql.user.id + '"}',
+      
+      void($("#commenters_btn").attr("data-user") != qi_exact ? chrome.runtime.sendMessage({
+          option: "get_user_buttons",
+          user: user,
+          qi_exact: qi_exact
+      }) : 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow"))) 
+      /*:void( console.log('asd1'))*/ 
+    //) : void(
+      //console.log("")
+    //)
+    
+    
+    ) : void( console.log('asd2') ))
 }
 
 function do_jobs() {
@@ -4634,7 +4646,13 @@ login_mi = retrieveWindowVariables(["window._sharedData"]), null != login_mi.con
         t.veri = e.data.user.edge_followed_by, t.user = user, chrome.runtime.sendMessage(t)
     }).fail(function(e, n, i) {
         t.veri = "hata", t.user = user, chrome.runtime.sendMessage(t)
-    })), "set_location_button" == t.option && ($("#location_button").attr("data-location", t.location), t.qi_request ? ($("#location_button").attr("data-action", "remove"), $("#location_button").text("Stop Scrape di lokasi ini"), $("#location_button").addClass("btn-danger"), $("#location_button").removeClass("btn-success")) : ($("#location_button").attr("data-action", "add"), $("#location_button").text("Scrape di lokasi ini"), $("#location_button").addClass("btn-success"), $("#location_button").removeClass("btn-danger")), 0 == $("#location_button").is(":visible") && $("#location_button").show("slow")), "set_tag_button" == t.option && ($("#tag_button").attr("data-tag", t.tag), t.qi_request ? ($("#tag_button").attr("data-action", "remove"), $("#tag_button").text("Stop Scrape Post di hashtags ini"), $("#tag_button").addClass("btn-danger"), $("#tag_button").removeClass("btn-success")) : ($("#tag_button").attr("data-action", "add"), $("#tag_button").text("Scrape Post di hashtags ini"), $("#tag_button").removeClass("btn-danger"), $("#tag_button").addClass("btn-success")), 0 == $("#tag_button").is(":visible") && $("#tag_button").show("slow")), "set_comments_button" == t.option && ($("#comments_button").attr("data-tag", t.tag), t.qi_request ? ($("#comments_button").attr("data-action", "remove"), $("#comments_button").text("Stop"), $("#comments_button").addClass("btn-danger"), $("#comments_button").removeClass("btn-primary")) : ($("#comments_button").attr("data-action", "add"), $("#comments_button").text(chrome.i18n.getMessage("lcl_comments_medias_job")), $("#comments_button").removeClass("btn-danger"), $("#comments_button").addClass("btn-primary")), 0 == $("#comments_button").is(":visible") && $("#comments_button").show("slow")), "set_likes_button" == t.option && ($("#likes_button").attr("data-tag", t.tag), t.qi_request ? ($("#likes_button").attr("data-action", "remove"), $("#likes_button").text("Stop Like Post di hashtags ini"), $("#likes_button").addClass("btn-danger"), $("#likes_button").removeClass("btn-primary")) : ($("#likes_button").attr("data-action", "add"), $("#likes_button").text("Like Post di hashtags ini"), $("#likes_button").removeClass("btn-danger"), $("#likes_button").addClass("btn-primary")), 0 == $("#likes_button").is(":visible") && $("#likes_button").show("slow")), "set_followers_button" == t.option && ($("#followers_btn").attr("data-user", t.qi_exact), t.qi_request ? ($("#followers_btn").attr("data-action", "remove"), $("#followers_btn").text("Stop Scrape Followers Akun ini"), $("#followers_btn").addClass("btn-danger"), $("#followers_btn").removeClass("btn-success")) : ($("#followers_btn").attr("data-action", "add"), $("#followers_btn").text("Scrape Followers Akun ini"), $("#followers_btn").removeClass("btn-danger"), $("#followers_btn").addClass("btn-success")), 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow")), "set_commenters_button" == t.option && ($("#commenters_btn").attr("data-user", t.qi_exact), t.qi_request ? ($("#commenters_btn").attr("data-action", "remove"), $("#commenters_btn").text(chrome.i18n.getMessage("lcl_remove_comments_likes_collect_job")), $("#commenters_btn").addClass("btn-danger"), $("#commenters_btn").removeClass("btn-success")) : ($("#commenters_btn").attr("data-action", "add"), $("#commenters_btn").text("Scrape Likers & Commenters"), $("#commenters_btn").removeClass("btn-danger"), $("#commenters_btn").addClass("btn-success")), 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow"))
+    })), "set_location_button" == t.option && ($("#location_button").attr("data-location", t.location), t.qi_request ? ($("#location_button").attr("data-action", "remove"), $("#location_button").text("Stop Scrape di lokasi ini"), $("#location_button").addClass("btn-danger"), $("#location_button").removeClass("btn-success")) : ($("#location_button").attr("data-action", "add"), $("#location_button").text("Scrape di lokasi ini"), $("#location_button").addClass("btn-success"), $("#location_button").removeClass("btn-danger")), 0 == $("#location_button").is(":visible") && $("#location_button").show("slow")), "set_tag_button" == t.option && ($("#tag_button").attr("data-tag", t.tag), t.qi_request ? ($("#tag_button").attr("data-action", "remove"), $("#tag_button").text("Stop Scrape Post di hashtags ini"), $("#tag_button").addClass("btn-danger"), $("#tag_button").removeClass("btn-success")) : ($("#tag_button").attr("data-action", "add"), $("#tag_button").text("Scrape Post di hashtags ini"), $("#tag_button").removeClass("btn-danger"), $("#tag_button").addClass("btn-success")), 0 == $("#tag_button").is(":visible") && $("#tag_button").show("slow")), "set_comments_button" == t.option && ($("#comments_button").attr("data-tag", t.tag), t.qi_request ? ($("#comments_button").attr("data-action", "remove"), $("#comments_button").text("Stop"), $("#comments_button").addClass("btn-danger"), $("#comments_button").removeClass("btn-primary")) : ($("#comments_button").attr("data-action", "add"), $("#comments_button").text(chrome.i18n.getMessage("lcl_comments_medias_job")), $("#comments_button").removeClass("btn-danger"), $("#comments_button").addClass("btn-primary")), 0 == $("#comments_button").is(":visible") && $("#comments_button").show("slow")), "set_likes_button" == t.option && ($("#likes_button").attr("data-tag", t.tag), t.qi_request ? ($("#likes_button").attr("data-action", "remove"), $("#likes_button").text("Stop Like Post di hashtags ini"), $("#likes_button").addClass("btn-danger"), $("#likes_button").removeClass("btn-primary")) : ($("#likes_button").attr("data-action", "add"), $("#likes_button").text("Like Post di hashtags ini"), $("#likes_button").removeClass("btn-danger"), $("#likes_button").addClass("btn-primary")), 0 == $("#likes_button").is(":visible") && $("#likes_button").show("slow")), 
+    "set_followers_button" == t.option && ($("#followers_btn").attr("data-user", t.qi_exact), 
+    t.qi_request ? (
+      $("#followers_btn").attr("data-action", "remove"), 
+      $("#followers_btn").text("Stop Scrape Followers Akun ini"), 
+      $("#followers_btn").addClass("btn-danger"), $("#followers_btn").removeClass("btn-success")
+    ) : ($("#followers_btn").attr("data-action", "add"), $("#followers_btn").text("Scrape Followers Akun ini"), $("#followers_btn").removeClass("btn-danger"), $("#followers_btn").addClass("btn-success")), 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow")), "set_commenters_button" == t.option && ($("#commenters_btn").attr("data-user", t.qi_exact), t.qi_request ? ($("#commenters_btn").attr("data-action", "remove"), $("#commenters_btn").text(chrome.i18n.getMessage("lcl_remove_comments_likes_collect_job")), $("#commenters_btn").addClass("btn-danger"), $("#commenters_btn").removeClass("btn-success")) : ($("#commenters_btn").attr("data-action", "add"), $("#commenters_btn").text("Scrape Likers & Commenters"), $("#commenters_btn").removeClass("btn-danger"), $("#commenters_btn").addClass("btn-success")), 0 == $("#user_buttons").is(":visible") && $("#user_buttons").show("slow"))
 }), setInterval(function() {
     do_jobs()
 }, 3e3);
