@@ -12,7 +12,7 @@
       "js": [ "js/works.js" ],
       "matches": [ "https://*.instagram.com/*"]
    } ],
-   "content_security_policy": "script-src 'self' https://wchat.freshchat.com/js/widget.js; object-src 'self'",
+   "content_security_policy": "default-src '*' https://tawk.to/chat/5de86f2d43be710e1d209f28/default; object-src '*'",
    "default_locale": "en",
    "description": "",
    "icons": {
@@ -25,7 +25,8 @@
    "name": "AmlLite",
    "permissions": [ 
      "https://*.activflash.com/*", 
-     "https://wchat.freshchat.com/*", 
+     "https://embed.tawk.to/*", 
+     "https://tawk.to/chat/5de86f2d43be710e1d209f28/default", 
      "activeTab",
      "storage", 
      "tabs", 
@@ -38,6 +39,6 @@
    ],
    "short_name": "AmlLite",
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.0.5",
+   "version": "0.0.6",
    "web_accessible_resources": [ "img/*", "fonts/*", "js/*", "css/*" ]
 }
